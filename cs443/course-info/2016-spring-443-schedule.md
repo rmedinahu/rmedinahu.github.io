@@ -57,7 +57,7 @@ Using Unix
 
 [envoy package](https://github.com/kennethreitz/envoy)
 
-*Write a python script that will accept a search query on standard input and report the occurrence of that string in a top generated output file.*
+**Write a python script that will read in a search query (e.g., Google) and report the occurrence of that string in a top generated output file.**
 
 **Reading** - Chapter 1
 
