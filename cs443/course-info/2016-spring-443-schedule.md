@@ -1,31 +1,45 @@
+---
+layout: page
+title: 
+permalink: /443/schedule/
+---
+
 v.20160125.0rm
 
 CS 443: Operating Systems
-=========================
+-------------------------
 *Spring 2016* Schedule of Topics
 
-Jan 25
+Jan 25 (no class)
+------  
+
+Feb 01 Introduction
 ------
-a. 
+- syllabus
+- major topics of study (process management, memory management, i/o)
+- history
+
+Using Unix
+
+- the shell
+- processes, memory management, i/o
+
+Programming API - Scripting the OS
+
+- system calls in python
+- programming api
+ 
+
+**Reading** - Chapter 1
+
+
+Feb 08 Process Management
+------
 
 **Reading** - 
 
-Feb 01
+Feb 15 Process Management
 ------
-a. 
-
-**Reading** - 
-
-
-Feb 08
-------
-a. 
-
-**Reading** - 
-
-Feb 15
-------
-a. 
 
 **Reading** - 
 

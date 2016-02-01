@@ -6,3 +6,6 @@ permalink: /443/
 
 CS 443
 -----
+
+[syllabus](/443/syllabus/)
+[schedule](/443/schedule/)
