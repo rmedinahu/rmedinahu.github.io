@@ -17,12 +17,21 @@ Feb 01 Introduction
 ------
 - syllabus
 - major topics of study (process management, memory management, i/o)
+- architecture overview
+- abstractions - the OS hides the hardware
+- control - the OS manages and controls the hw resources
+- multiplexing - time (slicing) and space (concurrent allocation)
+- study is not about UI
 - history
+- multiprogramming --> timesharing
+- MULTICS - timesharing computing server - 60's
+- Device control - cpu, mem, i/o - interrupts
 
 Using Unix
 
 - the shell
-- processes, memory management, i/o
+- commands: processes, memory management, i/o
+- system
 
 Programming API - Scripting the OS
 
