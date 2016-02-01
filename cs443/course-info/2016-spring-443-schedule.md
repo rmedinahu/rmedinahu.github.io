@@ -60,12 +60,14 @@ Using Unix
 **Write a python script that will read in a search query (e.g., Google) and report the occurrence of that string in a top generated output file.**
 
 **Reading** - Chapter 1
+
 **powerpoint slides: 
+
+**Homework** - Chapter 2 Questions (due feb 8): 10, 12, 17, 18, 28
 
 Feb 08 Process Management
 ------
 
-**Homework** - Chapter 2 Questions: 10, 12, 17, 18, 28
 **Reading** - Chapter 2.1, 2.2
 
 Feb 15 Process Management
