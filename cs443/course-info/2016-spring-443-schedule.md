@@ -48,9 +48,13 @@ Using Unix
 - learn how to read the status codes returned from system calls.
 
 [python os module](https://docs.python.org/2/library/os.html)
+
 [python subprocess module](https://docs.python.org/2/library/subprocess.html)
+
 [subprocess for sys admins](http://www.pythonforbeginners.com/os/subprocess-for-system-administrators) 
+
 [envoy wrapper for subprocess](http://www.pythonforbeginners.com/envoy/how-to-use-the-envoy-wrapper)
+
 [envoy package](https://github.com/kennethreitz/envoy)
 
 *Write a python script that will accept a search query on standard input and report the occurrence of that string in a top generated output file.*
