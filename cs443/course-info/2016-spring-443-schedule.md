@@ -33,14 +33,29 @@ Using Unix
 - commands: processes, memory management, i/o
 - system
 
-Programming API - Scripting the OS
+**Exercises**
 
-- system calls in python
-- programming api
- 
+*Process Data - top command*
+	
+	mac : $ top -stats pid,ppid,command,cpu,th,pstate,time -l 1
+	linux: $ top -stats pid,ppid,command,cpu,th,pstate,time -b
+
+- Analyze top command to find out the process tree for the bash process. Another running application?
+
+*Programming API - Scripting the OS*
+
+- system calls in python using **subprocess** and **envoy**
+- learn how to read the status codes returned from system calls.
+
+[python os module](https://docs.python.org/2/library/os.html)
+[python subprocess module](https://docs.python.org/2/library/subprocess.html)
+[subprocess for sys admins](http://www.pythonforbeginners.com/os/subprocess-for-system-administrators) 
+[envoy wrapper for subprocess](http://www.pythonforbeginners.com/envoy/how-to-use-the-envoy-wrapper)
+[envoy package](https://github.com/kennethreitz/envoy)
+
+*Write a python script that will accept a search query on standard input and report the occurrence of that string in a top generated output file.*
 
 **Reading** - Chapter 1
-
 
 Feb 08 Process Management
 ------
