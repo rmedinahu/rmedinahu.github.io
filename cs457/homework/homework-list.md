@@ -39,7 +39,7 @@ HW 02
 R16. Consider sending a packet from a source host to a destination host over a fixed route. List the delay components in the end-to-end delay. Which of these delays are constant and which are variable?
 R17. Visit the Transmission Versus Propagation Delay applet at the companion Web site. Among the rates, propagation delay, and packet sizes available, find a combination for which the sender finishes transmitting before the first bit of the packet reaches the receiver. Find another combination for which the first bit of the packet reaches the receiver before the sender finishes transmitting.
 
-	http://wps.aw.com/aw_kurose_network_4/63/16303/4173752.cw/index.html
+	[http://wps.aw.com/aw_kurose_network_4/63/16303/4173752.cw/index.html](http://wps.aw.com/aw_kurose_network_4/63/16303/4173752.cw/index.html)
 
 R20. Suppose end system A wants to send a large file to end system B. At a very high level, describe how end system A creates packets from the file. When one of these packets arrives to a packet switch, what information in the packet does the switch use to determine the link onto which the packet is forwarded? Why is packet switching in the Internet analogous to driving from one city to another and asking directions along the way?
 R23. What are the five layers in the Internet protocol stack? What are the principal responsibilities of each of these layers?
@@ -103,17 +103,23 @@ Write a simple client server application using python socket (networking) api. T
 
 The server side of the application maintains a list of "data" keyed by an index. You can use this:
 
-server_data = ['oranges': 'yummy', 'grapes': 'wine is fine', 'apples': 'too tart', 'peaches': 'just peachee!', 'plums': 'great but no prunes']
+	server_data = {'oranges': 'yummy', 'grapes': 'wine is fine', 'apples': 'too tart', 'peaches': 'just peachee!', 'plums': 'great but no prunes'}
 
-Our protocol is:
+To access a value by key:
+	
+	server_data['plums']  # should return 'great but no prunes'
 
-1. Send request to send.
-2. If server responds.
-	- Send message using request format
+Our *application protocol* is:
+
+1. Send request containing a key (e.g., oranges).
+2. If server finds value associated with key:
+	- Send message containing value to client.
 3. Else
-	- Exit
+	- Send message about key not found to client.
+4. Client displays the message from server.
 
-REQUEST MESAGE FORMAT simply send a key
+
+REQUEST MESAGE FORMAT ==> simply send a key
 
 
 Example Client sends message:
