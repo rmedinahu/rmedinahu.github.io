@@ -57,19 +57,29 @@ Feb 09 application layer protocols/socket programming
 ------
 - chapter 2.6-7
 - slides: Chapter_2_V6.3.ppt
+- peer to peer apps
+- socket programming with python
 
 Feb 11 socket programming
 ------
 - chapter 2.7
 - slides: Chapter_2_V6.3.ppt
+- socket programming
+- node.js, gevent, red5? 
 
-Feb 16
+Feb 16 application programming
 ------
-Feb 18
+- chat server/client
+- media streaming server/client
+- interaction server/client
+
+Feb 18 transport layer
 ------
-Feb 23
+
+Feb 23 transport layer
 ------
-Feb 25
+
+Feb 25 transport layer
 ------
 Mar 01
 ------
