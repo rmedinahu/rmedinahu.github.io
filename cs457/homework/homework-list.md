@@ -1,13 +1,8 @@
-cs 457
-
-HW 01 DUE Jan 26 10am
-DATE
 ---
-HW 
-
-**DUE:**
-
-
+layout: page
+title: 
+permalink: /457/hw/
+---
 
 jan 21
 ---
@@ -91,11 +86,50 @@ TCP provides a reliable byte-stream between client and server but UDP does not.
 b) A guarantee that a certain value for throughput will be maintained Neither
 
 c) A guarantee that data will be delivered within a specified amount of time Neither
+
 d) Confidentiality (via encryption) Neither
 
 **DUE: Feb 02 before 10am**
 
 feb 02
 ---
+HW 04
+
+**DUE: Feb 05 before 5pm**
+
+**Reading** [https://docs.python.org/2/library/socket.html](https://docs.python.org/2/library/socket.html)
+
+Write a simple client server application using python socket (networking) api. The client server application should simulate something like the HTTP protocol. 
+
+The server side of the application maintains a list of "data" keyed by an index. You can use this:
+
+server_data = ['oranges': 'yummy', 'grapes': 'wine is fine', 'apples': 'too tart', 'peaches': 'just peachee!', 'plums': 'great but no prunes']
+
+Our protocol is:
+
+1. Send request to send.
+2. If server responds.
+	- Send message using request format
+3. Else
+	- Exit
+
+REQUEST MESAGE FORMAT simply send a key
+
+
+Example Client sends message:
+
+	'oranges'
+
+Example Server sends response:
+
+	'yummy'
+
+Example Client sends message:
+
+	'bananas'
+
+Example Server sends response:
+
+	'Resource not found.'
 
 

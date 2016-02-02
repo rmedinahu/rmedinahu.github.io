@@ -1,3 +1,9 @@
+---
+layout: page
+title:
+permalink: /457/syllabus/
+---
+
 v.20160119
 
 # CS 457: Computer Networks

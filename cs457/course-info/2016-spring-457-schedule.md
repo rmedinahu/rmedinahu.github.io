@@ -1,3 +1,11 @@
+---
+layout: page
+title:
+permalink: /457/schedule/
+---
+
+cs 457 schedule of topics
+------
 
 Jan 19 introduction
 ------
