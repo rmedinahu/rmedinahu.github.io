@@ -6,7 +6,7 @@ permalink: /457/syllabus-grad/
 
 v.20160119
 
-# CS 557: Computer Networks
+## CS 557: Computer Networks
 
 Department of Computer and Mathematical Sciences
 

@@ -6,7 +6,7 @@ permalink: /457/syllabus/
 
 v.20160119
 
-# CS 457: Computer Networks
+## CS 457: Computer Networks
 
 Department of Computer and Mathematical Sciences
 

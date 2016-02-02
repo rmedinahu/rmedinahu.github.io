@@ -4,26 +4,26 @@ title:
 permalink: /457/schedule/
 ---
 
-cs 457 schedule of topics
+cs 457 *schedule of topics*
 ------
 
-Jan 19 introduction
+Jan 19 *introduction*
 ------
 
-Jan 21 overview internet architecture
+Jan 21 *overview internet architecture*
 ------
-- chapter 1
-- slides: Chapter_1_V6.1.ppt
+**chapter** 1, **slides**: Chapter_1_V6.1.ppt
+
 - network edge
 - communication link types
 - 'last mile' technology
 - access isp's
 - HW01 assigned
 
-Jan 26 overview internet architecture
+Jan 26 *overview internet architecture*
 ------
-- chapter 1
-- slides: Chapter_1_V6.1.ppt
+**chapter** 1, **slides**: Chapter_1_V6.1.ppt
+
 - network core
 - packet switching - circuit switching
 - delays (queue, nodal, transmission, propogation)
@@ -31,10 +31,10 @@ Jan 26 overview internet architecture
 - queues
 - HW02 assigned
 
-Jan 28 application layer overview
+Jan 28 *application layer overview*
 ------
-- chapter 1.5, 1.6, 2.1
-- slides: Chapter_1_V6.1.ppt, Chapter_2_V6.3.ppt
+**chapter** 1.5, 1.6, 2.1, **slides**: Chapter_1_V6.1.ppt, Chapter_2_V6.3.ppt
+
 - demo traceroute - illustrate delay
 - internet protocol stack review (ch1)
 - overview application layer
@@ -45,49 +45,50 @@ Jan 28 application layer overview
 - transport services: reliable, throughput, timing,security
 - HW03 assigned
 
-Feb 02 application layer protocols
+Feb 02 *application layer protocols*
 ------
-- chapter 2.2, 2.3
-- slides: Chapter_2_V6.3.ppt
+**chapter** 2.2, 2.3, **slides**: Chapter_2_V6.3.ppt
+
 - application layer protocol
 - web protocol: http, html
-- ftp
-- wireshark
+- [HW04 assigned](/457/hw/) - client/server application in python
 
-Feb 04 application layer protocols
+Feb 04 *application layer protocols*
 ------
-- chapter 2.4, 2.5
-- slides: Chapter_2_V6.3.ppt
+**chapter** 2.4, 2.5, **slides**: Chapter_2_V6.3.ppt
+
+- ftp
 - smtp
 - dns
+- wireshark
 
-Feb 09 application layer protocols/socket programming
+Feb 09 *application layer protocols/socket programming*
 ------
-- chapter 2.6-7
-- slides: Chapter_2_V6.3.ppt
+**chapter** 2.6-7, **slides**: Chapter_2_V6.3.ppt
+
 - peer to peer apps
-- socket programming with python
+- more socket programming with python
 
-Feb 11 socket programming
+Feb 11 *socket programming*
 ------
-- chapter 2.7
-- slides: Chapter_2_V6.3.ppt
+**chapter** 2.7, **slides**: Chapter_2_V6.3.ppt
+
 - socket programming
 - node.js, gevent, red5? 
 
-Feb 16 application programming
+Feb 16 *application programming*
 ------
 - chat server/client
 - media streaming server/client
 - interaction server/client
 
-Feb 18 transport layer
+Feb 18 *transport layer*
 ------
 
-Feb 23 transport layer
+Feb 23 *transport layer*
 ------
 
-Feb 25 transport layer
+Feb 25 *transport layer*
 ------
 Mar 01
 ------

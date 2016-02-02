@@ -3,13 +3,27 @@ layout: page
 title: 
 permalink: /457/hw/
 ---
+[hw-01 due jan 26](#hw-01)
 
-jan 21
----
+[hw-02 due jan 28](#hw-02)
+
+[hw-03 due feb 02](#hw-03)
+
+[hw-04 due feb 05](#hw-04)
+
 HW 01
- 
+---
+
+----
+
+Jan 21
+
 * Read chapter 1 sections 1.1 -> 1.5
 * Answer questions: r1, r4, r11, r13b, r14, r15
+
+**DUE: Jan 26 before 10am**
+
+**Solutions**
 
 1. There is no difference. Throughout this text, the words “host” and “end system” are used interchangeably. End systems include PCs, workstations, Web servers, mail servers, PDAs, Internet-connected game consoles, etc.
 4. 1. Dial-up modem over telephone line: home; 2. DSL over telephone line: home or small office; 3. Cable to HFC: home; 4. 100 Mbps switched Ethernet: enterprise; 5. Wifi (802.11): home and enterprise: 6. 3G and 4G: wide-area wireless.
@@ -27,25 +41,31 @@ HW 01
 15. Google's private network connects together all its data centers, big and small. Traffic between the Google data centers passes over its private network rather than over the public Internet. Many of these data centers are located in, or close to, lower tier ISPs. Therefore, when Google delivers content to a user, it often can bypass higher tier ISPs. What motivates content providers to create these networks? First, the content provider has more control over the user experience, since it has to use few intermediary ISPs. Second, it can save money by sending less traffic into provider
 networks. Third, if ISPs decide to charge more money to highly profitable content providers (in countries where net neutrality doesn't apply), the content providers can avoid these extra payments.
 
-**DUE: Jan 26 before 10am**
 
-
-jan 26
----
 HW 02
+---
+
+----
+
+Jan 26
+
 * Finish reading sections 1.4 -> 1.6
 * Answer questions (r16, r17, r20, r23, r24)
+
+**DUE: Jan 28 before 10am**
+
 
 R16. Consider sending a packet from a source host to a destination host over a fixed route. List the delay components in the end-to-end delay. Which of these delays are constant and which are variable?
 R17. Visit the Transmission Versus Propagation Delay applet at the companion Web site. Among the rates, propagation delay, and packet sizes available, find a combination for which the sender finishes transmitting before the first bit of the packet reaches the receiver. Find another combination for which the first bit of the packet reaches the receiver before the sender finishes transmitting.
 
-	[http://wps.aw.com/aw_kurose_network_4/63/16303/4173752.cw/index.html](http://wps.aw.com/aw_kurose_network_4/63/16303/4173752.cw/index.html)
+
+[http://wps.aw.com/aw_kurose_network_4/63/16303/4173752.cw/index.html](http://wps.aw.com/aw_kurose_network_4/63/16303/4173752.cw/index.html)
 
 R20. Suppose end system A wants to send a large file to end system B. At a very high level, describe how end system A creates packets from the file. When one of these packets arrives to a packet switch, what information in the packet does the switch use to determine the link onto which the packet is forwarded? Why is packet switching in the Internet analogous to driving from one city to another and asking directions along the way?
 R23. What are the five layers in the Internet protocol stack? What are the principal responsibilities of each of these layers?
 R24. What is an application-layer message? A transport-layer segment? A network- layer datagram? A link-layer frame?
 
-Solutions
+**Solutions**
 
 16. The delay components are processing delays, transmission delays, propagation delays, and queuing delays. All of these delays are fixed, except for the queuing delays, which are variable.
 
@@ -58,14 +78,17 @@ Solutions
 
 
 
-**DUE: Jan 28 before 10am**
-
-
-jan 28
----
 HW 03
+---
+
+----
+
+Jan 28
+
 * **Reading** Kurose & Ross - Chapter 2.1
 * Answer questions (r2, r5, r6, r7, r8)
+
+**DUE: Feb 02 before 10am**
 
 R2. What is the difference between network architecture and application architecture?
 R5. What information is used by a process running on one host to identify a process running on another host?
@@ -73,7 +96,7 @@ R6. Suppose you wanted to do a transaction from a remote client to a server as f
 R7. Referring to Figure 2.4, we see that none of the applications listed in Figure 2.4 requires both no data loss and timing. Can you conceive of an application that requires no data loss and that is also highly time-sensitive?
 R8. List the four broad classes of services that a transport protocol can provide. For each of the service classes, indicate if either UDP or TCP (or both) pro- vides such a service.
 
-Solutions
+**Solutions**
 
 2. Network architecture refers to the organization of the communication process into layers (e.g., the five-layer Internet architecture). Application architecture, on the other hand, is designed by an application developer and dictates the broad structure of the application (e.g., client-server or P2P).
 5. The IP address of the destination host and the port number of the socket in the destination process.
@@ -89,15 +112,19 @@ c) A guarantee that data will be delivered within a specified amount of time Nei
 
 d) Confidentiality (via encryption) Neither
 
-**DUE: Feb 02 before 10am**
 
-feb 02
----
 HW 04
+---
+
+----
+
+Feb 02
 
 **DUE: Feb 05 before 5pm**
 
 **Reading** [https://docs.python.org/2/library/socket.html](https://docs.python.org/2/library/socket.html)
+
+**Source code** [server.py](/457/hw/server/) [client.py](/457/hw/client/)
 
 Write a simple client server application using python socket (networking) api. The client server application should simulate something like the HTTP protocol. 
 
