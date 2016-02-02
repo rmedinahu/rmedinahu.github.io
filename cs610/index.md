@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Sp2016 cs610
+title: 
 permalink: /610/
 ---
 

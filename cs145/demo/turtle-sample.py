@@ -1,6 +1,6 @@
 ---
 layout: code
-title: turtle-sample.py
+title: 
 permalink: /145/demo/turtle-sample/
 ---
 
