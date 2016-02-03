@@ -65,7 +65,6 @@ Jan 29 (lab) Expressions and statements
 - chars (ascii) and strings
 - ? string building, uses of modulo operator, i/o (casting)
 
- 
 Week 3
 -------
 
@@ -76,62 +75,79 @@ Feb 01 Expressions and statements
 - simple lists
 - hw03 assigned
 
-Feb 03 Functions
+Feb 03 Strings, Lists, Functions
 ======
-- chapter 3
+- lists
+- strings
+- slices
+- functions
 
 Feb 05 (lab) Simple functions
 ======
+- chapter 3
+- functions
+- python modules and python functions
+- ?palindromes
+- ?egg problem using functions
+- hw04 assigned
 
 Week 4
 -------
 
-Feb 08 Fruitful functions
+Feb 08 Fruitful and void functions
 ======
+- chapter 3
+- functions that return values
+- void functions
 
-Feb 10 Fruitful functions
+Feb 10 Repetition -- loops
 ======
+- chapter 4
+- Turtle graphics
 
-Feb 12 (lab) Functions and composition
+Feb 12 (lab) Python turtle & loops
 ======
 
 
 Week 5
 -------
 
-Feb 15 Python turtle & loops
+Feb 15 Conditionals
+======
+- chapter 5
+
+
+Feb 17 Conditionals
 ======
 
-Feb 17 Loops
+Feb 19 (lab) Conditionals and loops
 ======
 
-Feb 19 (lab) Loops
-======
 
 
 Week 6
 -------
 
-Feb 22 Python turtle & conditionals
+Feb 22 
 ======
 
-Feb 24 Conditionals
+Feb 24 
 ======
 
-Feb 26 (lab) Conditionals, loops & functions
+Feb 26 (lab) 
 ======
 
 
 Week 7
 -------
 
-Feb 29 Java introduction
+Feb 29 
 ======
 
-Mar 02 Basic Java program
+Mar 02 
 ======
 
-Mar 04 (lab) Java programming expressions
+Mar 04 (lab) 
 ======
 
 
@@ -144,7 +160,7 @@ Mar 07 Review
 Mar 09 (midterm exam)
 ======
 
-Mar 11 (lab) Java programming functions
+Mar 11 (lab) 
 ======
 
 
@@ -158,10 +174,10 @@ Mar 14 - 18 (spring break)
 Week 10
 -------
 
-Mar 21 Object oriented programming
+Mar 21 
 ======
 
-Mar 23 Java classes (objects)
+Mar 23 J
 ======
 
 Mar 25 (spring recess)
