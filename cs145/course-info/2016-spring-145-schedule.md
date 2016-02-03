@@ -68,6 +68,8 @@ Jan 29 (lab) Expressions and statements
 Week 3
 -------
 
+slides: [deck-03](/145/deck-03/)
+
 Feb 01 Expressions and statements
 ======
 - variables, types, and values

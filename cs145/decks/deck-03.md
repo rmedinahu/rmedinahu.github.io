@@ -14,7 +14,7 @@ Deck 3
 </section>
 
 <section data-markdown>
-Feb 3 Lists, strings, & functions
+Lists, strings, & functions (Feb 3 )
 ----
 - lists
 - strings
