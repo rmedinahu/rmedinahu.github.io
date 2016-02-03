@@ -1,4 +1,4 @@
-# scratch-02-03.py
+# scratch-lab03-feb-05.py
 
 # This is an inline comment. Python ignores everything after the HASH 
 # during execution.

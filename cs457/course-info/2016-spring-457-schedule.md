@@ -57,6 +57,10 @@ Feb 04 *application layer protocols*
 ------
 **chapter** 2.4, 2.5, **slides**: Chapter_2_V6.3.ppt
 
+No data loss AND time sensitive? Where would we need this?
+
+stock market ticker, breaking a car remotely over the network, remote surgery, security alarms, no such application exists, remote rescue, navigating museum, UAV control, drone aircraft, multiplayer video game app that forces you to attack each other with words, search and rescue drone
+
 - ftp
 - smtp
 - dns
