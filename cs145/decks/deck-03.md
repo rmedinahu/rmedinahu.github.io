@@ -10,11 +10,31 @@ Introduction to Object Oriented Programming
 ----
 CS 145
 
-Deck 3
+Deck 3 (Feb 3)
 </section>
 
 <section data-markdown>
-Lists, strings, & functions (Feb 3 )
+Programming is Information Science
+----
+- programs **store** information (numbers, letters, strings)
+- programs **process** information (calculations)
+- programs solve specific problems and produce new information (algorithms)
+- programs are highly structured problem solutions (step 1, step 2, step 3, ...)
+
+</section>
+
+<section data-markdown>
+----
+
+Programs are an EXPRESSION of your DEVISED solution to a problem.
+
+Don't lose sight of the fact that the programmer must first have the solution in hand before it can become *computational* solution.
+
+</section>
+
+
+<section data-markdown>
+Lists, strings, & functions 
 ----
 - lists
 - strings
@@ -153,24 +173,49 @@ Strings are really lists (of characters)
 <section data-markdown>
 List (pizza) slices
 ----
-A slice is a sublist of a list. 
-	>>> phrase = ['s', 'n', 'o', 'w']
-	>>> phrase[0:2]
-	['s', 'n']
-	>>> phrase[:2]
-	['s', 'n']
-	>>> phrase[:]
-	['s', 'n', 'o', 'w']
-	>>> phrase[1:]
-	['n', 'o', 'w']
-	>>> phrase[3:]
-	['w']
-	>>> phrase[4:]
-	[]
-	>>> phrase[3:]
-	['w']
+A slice is a SUBSET of a list. 
+
 
 </section>
+
+<section data-markdown>
+Specifying which SUBSET you want in python
+----
+
+**some_list**[ *start* : *end* ]
+
+Get subset of **some_list** BEGINNING at INDEX *start* UP TO but NOT INCLUDING INDEX *end*
+</section>
+
+<section data-markdown>
+Example
+----
+
+phrase = ['s', 'n', 'o', 'w']
+
+phrase[0:2]
+
+['s', 'n']
+
+phrase[:2]
+	
+['s', 'n']
+
+phrase[:]
+
+['s', 'n', 'o', 'w']
+
+phrase[1:]
+
+['n', 'o', 'w']
+
+phrase[3:]
+
+['w']
+
+phrase[4:]
+
+[] #  SUBSET DOESN'T EXIST!
 
 <section data-markdown>
 ----
