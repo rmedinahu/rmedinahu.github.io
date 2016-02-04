@@ -3,13 +3,17 @@ layout: page
 title: 
 permalink: /457/hw/
 ---
-[hw-01 due jan 26](#hw-01)
 
-[hw-02 due jan 28](#hw-02)
-
-[hw-03 due feb 02](#hw-03)
+hw-05 due feb 10 #hw-05
 
 [hw-04 due feb 05](#hw-04)
+
+- [x] [hw-03 due feb 02](#hw-03)
+
+- [x] [hw-02 due jan 28](#hw-02)
+
+- [x] [hw-01 due jan 26](#hw-01)
+
 
 HW 01
 ---
@@ -166,3 +170,19 @@ Example Server sends response:
 	'Resource not found.'
 
 
+HW 05
+---
+
+----
+
+Feb 04
+
+**DUE: Feb 09 before 5pm**
+
+**Reading** 
+
+[python socket module](https://docs.python.org/2/library/socket.html)
+
+[python SimpleHttpServer module](https://docs.python.org/2/library/simplehttpserver.html)
+
+**Source code** httpserver-example.py
