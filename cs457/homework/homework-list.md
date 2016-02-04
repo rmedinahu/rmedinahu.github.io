@@ -4,7 +4,7 @@ title:
 permalink: /457/hw/
 ---
 
-> [hw-05 due feb 10] (#hw-05)
+> [hw-05 due feb 10](#hw-05)
 
 > [hw-04 due feb 05](#hw-04)
 
