@@ -1,3 +1,9 @@
+---
+layout: page
+title: 
+permalink: /145/lab02/
+---
+
 cs145 Jan 29 2016 
 
 Lab 02: Programming Expressions & Statements

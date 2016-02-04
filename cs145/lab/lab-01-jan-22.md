@@ -1,3 +1,9 @@
+---
+layout: page
+title: 
+permalink: /145/lab01/
+---
+
 cs145 Jan 22 2016 
 
 Lab 01: Programmer Toolbox & Your First Program
