@@ -6,13 +6,15 @@ permalink: /457/hw/
 
 hw-05 due feb 10 #hw-05
 
-[hw-04 due feb 05](#hw-04)
+> [hw-04 due feb 05](#hw-04)
 
-- [x] [hw-03 due feb 02](#hw-03)
+\* [hw-03 due feb 02](#hw-03)
 
-- [x] [hw-02 due jan 28](#hw-02)
+\* [hw-02 due jan 28](#hw-02)
 
-- [x] [hw-01 due jan 26](#hw-01)
+\*[hw-01 due jan 26](#hw-01)
+
+\* graded
 
 
 HW 01
