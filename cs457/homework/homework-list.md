@@ -12,9 +12,9 @@ hw-05 due feb 10 #hw-05
 
 \* [hw-02 due jan 28](#hw-02)
 
-\*[hw-01 due jan 26](#hw-01)
+\* [hw-01 due jan 26](#hw-01)
 
-\* graded
+\* **graded**
 
 
 HW 01
@@ -179,12 +179,24 @@ HW 05
 
 Feb 04
 
-**DUE: Feb 09 before 5pm**
+**DUE: Feb 10 before 5pm**
 
 **Reading** 
 
-[python socket module](https://docs.python.org/2/library/socket.html)
 
-[python SimpleHttpServer module](https://docs.python.org/2/library/simplehttpserver.html)
+[python BaseHTTPServer (you need this to utilize existing code for a server)](https://docs.python.org/2/library/basehttpserver.html)
 
-**Source code** httpserver-example.py
+[python HTTPRequestHandler (you need this handle http request from client)](https://docs.python.org/2/library/basehttpserver.html#BaseHTTPServer.BaseHTTPRequestHandler)
+
+
+**Source code** [fruit-basket.py](/457/hw/fruit-basket/) [fruit-chooser.html](/457/hw/fruit-chooser/)
+
+Write another client/server application. This time you will implement ```HTTP 1.1``` on the server side and use a regular ol' browser for the client. To implement the server you will use the **SimpleHttpServer** python module (examples of how to use this are linked above). Your simple http server will perform the same function as the one specified in [HW 4](#hw-04), that is, it will receive a *key* from the client, do a look up of the key in a dictionary (known to the server of course) and return the associated value to the client. You can use the same fruit dictionary used in hw 4 or make up your own. The point is that you get experience handling an HTTP request as delivered by a modern web browser such as Google Chrome or others (the client). Further specifications:
+
+> the browser (client) will send a requested **key** input via a form in a simple html page. The form will send the key with the ```GET``` command (or method as the form knows it). The resulting key request will be attached to the url to your server - also known as a **query parameter**. You can use the example html file above if you like but you need to provide the correct METHOD and ACTION. What are these for? 
+
+
+
+
+
+
