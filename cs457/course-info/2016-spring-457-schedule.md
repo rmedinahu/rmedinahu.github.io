@@ -55,16 +55,15 @@ Feb 02 *application layer protocols*
 
 Feb 04 *application layer protocols*
 ------
-**chapter** 2.4, 2.5, **slides**: Chapter_2_V6.3.ppt
+**chapter** 2.2, 2.3, **slides**: Chapter_2_V6.3.ppt
 
 No data loss AND time sensitive? Where would we need this?
 
 stock market ticker, breaking a car remotely over the network, remote surgery, security alarms, no such application exists, remote rescue, navigating museum, UAV control, drone aircraft, multiplayer video game app that forces you to attack each other with words, search and rescue drone
 
-- ftp
-- smtp
-- dns
-- wireshark
+- Basic client server application review
+- Simple web server for handling fruit
+- [HW05 assigned](/457/hw/) - client/server web application in python
 
 Feb 09 *application layer protocols/socket programming*
 ------
