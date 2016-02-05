@@ -24,7 +24,7 @@ Lab Sheets
 
 ----
 
-[lab-03](/145/lab03)[solutions](/145/lab03-sols/)
+[lab-03](/145/lab03) [solutions](/145/lab03-sols/)
 
 [lab-02](/145/lab02)
 
