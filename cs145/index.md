@@ -11,7 +11,7 @@ Homework
 
 ----
 
-> [hw-03](/145/hw03)
+> [hw-03](/145/hw03) 
 
 \* [hw-02](/145/hw02)
 
@@ -24,7 +24,7 @@ Lab Sheets
 
 ----
 
-[lab-03](/145/lab03)
+[lab-03](/145/lab03)[solutions](/145/lab03-sols/)
 
 [lab-02](/145/lab02)
 
