@@ -3,7 +3,8 @@ layout: page
 title: 
 permalink: /145/lab03-sols/
 ---
-	# scratch-lab-03.py
+
+>	# scratch-lab-03.py
 
 	"""
 	This source code file contains solutions 
