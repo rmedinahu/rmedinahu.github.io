@@ -24,6 +24,7 @@ Lab Sheets
 
 ----
 
+[lab-03](/145/lab03)
 
 [lab-02](/145/lab02)
 
