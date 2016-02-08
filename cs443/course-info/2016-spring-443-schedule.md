@@ -88,6 +88,8 @@ Simulating a kernel scheduler (using threads), [tutorial](http://www.tutorialspo
 
 **Reading** - Chapter 2.1, 2.2
 
+**Homework** - _Chapter *1*_ Questions (due feb 15): 10, 12, 17, 18, 28
+
 Feb 15 Process Management
 ------
 
