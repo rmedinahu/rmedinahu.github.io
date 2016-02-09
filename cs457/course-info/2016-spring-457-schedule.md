@@ -67,14 +67,14 @@ stock market ticker, breaking a car remotely over the network, remote surgery, s
 
 Feb 09 *application layer protocols continued*
 ------
-**chapter** 2.3, 2.4, 2.5, 7, **slides**: Chapter_2_V6.3.ppt
+**chapter** 2.3, 2.4, 2.5, 2.7 **slides**: Chapter_2_V6.3.ppt
 
 - FTP, SMTP Application layer protocol
 - DNS overview (as application)
 
 Feb 11 *socket and application programming*
 ------
-**chapter** 2.6, 2.7, **slides**: Chapter_2_V6.3.ppt
+**chapter** 2.6, 2.7 **slides**: Chapter_2_V6.3.ppt
 
 - peer to peer apps
 - socket programming
@@ -85,6 +85,7 @@ Feb 11 *socket and application programming*
 Feb 16 *socket and application programming*
 ------
 **chapter** 2.7
+
 - web sockets
 - chat server/client
 - media streaming server/client
