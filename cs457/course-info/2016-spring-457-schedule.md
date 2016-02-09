@@ -65,28 +65,35 @@ stock market ticker, breaking a car remotely over the network, remote surgery, s
 - Simple web server for handling fruit
 - [HW05 assigned](/457/hw/) - client/server web application in python
 
-Feb 09 *application layer protocols/socket programming*
+Feb 09 *application layer protocols continued*
 ------
-**chapter** 2.6-7, **slides**: Chapter_2_V6.3.ppt
+**chapter** 2.3, 2.4, 2.5, 7, **slides**: Chapter_2_V6.3.ppt
+
+- FTP, SMTP Application layer protocol
+- DNS overview (as application)
+
+Feb 11 *socket and application programming*
+------
+**chapter** 2.6, 2.7, **slides**: Chapter_2_V6.3.ppt
 
 - peer to peer apps
-- more socket programming with python
-
-Feb 11 *socket programming*
-------
-**chapter** 2.7, **slides**: Chapter_2_V6.3.ppt
-
 - socket programming
-- node.js, gevent, red5? 
+- web sockets
+- more socket programming with python
+- node.js, gevent
 
-Feb 16 *application programming*
+Feb 16 *socket and application programming*
 ------
+**chapter** 2.7
+- web sockets
 - chat server/client
 - media streaming server/client
 - interaction server/client
 
-Feb 18 *transport layer*
+Feb 18 *socket and application programming*
 ------
+- web sockets
+- overview of other application protocols
 
 Feb 23 *transport layer*
 ------
