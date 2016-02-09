@@ -69,6 +69,8 @@ Feb 09 *application layer protocols continued*
 ------
 **chapter** 2.3, 2.4, 2.5, 2.7 **slides**: Chapter_2_V6.3.ppt
 
+**files**: [wireshark-lab-intro.pdf]({{ site.baseurl }}assets/wireshark-lab-intro.pdf)
+
 - FTP, SMTP Application layer protocol
 - DNS overview (as application)
 

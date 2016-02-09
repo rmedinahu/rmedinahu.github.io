@@ -179,7 +179,7 @@ HW 05
 
 Feb 04
 
-**DUE: Feb 10 before 5pm**
+**DUE: Feb 10 before 5pm** [Submit to D2L](https://nmhu.desire2learn.com/d2l/home/28405)
 
 **Reading** 
 
