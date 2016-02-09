@@ -73,6 +73,7 @@ Feb 09 *application layer protocols continued*
 
 - FTP, SMTP Application layer protocol
 - DNS overview (as application)
+- complete wireshark introductory lab at home before next class
 
 Feb 11 *socket and application programming*
 ------
