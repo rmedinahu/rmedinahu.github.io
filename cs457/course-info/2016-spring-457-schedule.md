@@ -98,6 +98,8 @@ Feb 16 *socket and application programming*
 
 Feb 18 *socket and application programming*
 ------
+**chapter** 2.7
+
 - web sockets
 - overview of other application protocols
 

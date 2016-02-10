@@ -95,6 +95,7 @@ permalink: /145/lab03-sols/
 	randoms.append(random.randint(1, 10))
 
 	print randoms
-	print 'average is', (randoms[0]+randoms[1]+randoms[2]+randoms[3]+randoms[4]) / 5.0
+	print 'average is', 
+		(randoms[0]+randoms[1]+randoms[2]+randoms[3]+randoms[4]) / 5.0
 
 
