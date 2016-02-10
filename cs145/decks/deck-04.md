@@ -83,11 +83,11 @@ The addition function (fruitful) ...
 <section data-markdown>
 The area of a circle function (fruitful) ...
 ----
->	pi*radius^2
->	πr2
+
+>	πr^2
 
 	def circle_area(r):
 		area = 3.141592653589793 * r ** 2
-
+		return area
 
 </section>

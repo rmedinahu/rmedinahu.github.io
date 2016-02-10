@@ -91,10 +91,11 @@ Feb 05 (lab) Simple functions
 - python modules and python functions
 - ?palindromes
 - ?egg problem using functions
-- hw04 assigned
 
 Week 4
 -------
+
+slides: [deck-04](/145/deck-04/)
 
 Feb 08 Fruitful and void functions
 ======
@@ -102,27 +103,28 @@ Feb 08 Fruitful and void functions
 - functions that return values
 - void functions
 
-Feb 10 Repetition -- loops
+Feb 10 Fruitful and void functions
 ======
-- chapter 4
-- Turtle graphics
+- chapter 3
+- functions that return values
+- void functions
+- [hw04](/145/hw04/) assigned
 
-Feb 12 (lab) Python turtle & loops
+Feb 12 (lab) Fruitful and void functions
 ======
 
 
-Week 5
+Week 5 
 -------
 
-Feb 15 Conditionals
-======
-- chapter 5
-
-
-Feb 17 Conditionals
+Feb 15 Repetition -- loops
 ======
 
-Feb 19 (lab) Conditionals and loops
+
+Feb 17 Repetition -- loops
+======
+
+Feb 19 (lab) Repetition -- loops
 ======
 
 
