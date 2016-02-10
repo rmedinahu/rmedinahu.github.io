@@ -6,6 +6,10 @@ permalink: /145/
 
 [Desire 2 Learn Site (login required)](https://nmhu.desire2learn.com/d2l/home/28410)
 
+
+[schedule](/145/schedule/)
+
+
 Homework
 ---
 
@@ -13,7 +17,7 @@ Homework
 
 > [hw-04](/145/hw04) Due Feb 12 @ 10am
 
-> [hw-03](/145/hw03) Due Feb 5 @ 10am
+\* [hw-03](/145/hw03) Due Feb 5 @ 10am
 
 \* [hw-02](/145/hw02)
 
@@ -37,8 +41,6 @@ Course Information
 ---
 
 ----
-
-[schedule](/145/schedule/)
 
 [syllabus](/145/syllabus/)
 
