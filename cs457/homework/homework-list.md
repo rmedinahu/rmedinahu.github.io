@@ -3,6 +3,7 @@ layout: page
 title: 
 permalink: /457/hw/
 ---
+> [hw-06 due feb 16 @ 5pm](#hw-06)
 
 > [hw-05 due feb 10](#hw-05)
 
@@ -196,7 +197,79 @@ Write another client/server application. This time you will implement ```HTTP 1.
 > the browser (client) will send a requested **key** input via a form in a simple html page. The form will send the key with the ```GET``` command (or method as the form knows it). The resulting key request will be attached to the url to your server - also known as a **query parameter**. You can use the example html file above if you like but you need to provide the correct METHOD and ACTION. What are these for? 
 
 
+HW 06
+---
+
+Feb 11
+
+**Reading:** Kurose & Ross - 2.7
+
+**Source code** see below for the server code and more details on the client specification (the part you are writing)
+
+**DUE: Feb 16 before 5pm** [Submit only your ```client``` source code to D2L HW06 dropbox](https://nmhu.desire2learn.com/d2l/home/28405){:target="_blank"}
+
+
+**How to handle time in python?**
+
+> import time
+> t1 = time.time()  # yields current time.
+> t2 = time.time()  # yields current time.
+> # you can find the delta between two times simply by taking t2-t1
+
+
+**Specification** Assignment 2: UDP Pinger (from textbook pg 179)
+
+In this programming assignment, you will write a client ping program in Python. Your client will send a simple ping message to a server, receive a corresponding pong message back from the server, and determine the delay between when the client sent the ping message and received the pong message. This delay is called the Round Trip Time (RTT). The functionality provided by the client and server is
+similar to the functionality provided by standard ping program available in modern operating systems. However, standard ping programs use the Internet Control Message Protocol (ICMP) (which we will study in Chapter 4). Here we will create a nonstandard (but simple!) UDP-based ping program.
+
+Your ping program is to send 10 ping messages to the target server over UDP. For each message, your client is to determine and print the RTT when the corresponding pong message is returned. Because UDP is an unreliable protocol, a packet sent by the client or server may be lost. For this reason, the client cannot wait indefinitely for a reply to a ping message. You should have the client wait up to one second for a reply from the server; if no reply is received, the client should assume that the packet was lost and print a message accordingly.
+In this assignment, you will be given the complete code for the server (available in the companion Web site). Your job is to write the client code, which will be very similar to the server code. It is recommended that you first study carefully the server code. You can then write your client code, liberally cutting and pasting lines from the server code.
+
+The following code fully implements a ping server. You need to compile and run this code before running your client program. You do not need to modify this code. In this server code, 30% of the client’s packets are simulated to be lost. You should study this code carefully, as it will help you write your ping client. 
+
+
+	# UDPPingerServer.py
+
+	# We will need the following module to generate randomized lost packets
+	import random
+
+	from socket import *
+
+	# Create a UDP socket
+	# Notice the use of SOCK_DGRAM for UDP packets
+	serverSocket = socket(AF_INET, SOCK_DGRAM)
+
+	# Assign IP address and port number to socket
+	serverSocket.bind(('', 12000))
+	while True:
+	 # Generate random number in the range of 0 to 10
+	rand = random.randint(0, 10)
+
+	# Receive the client packet along with the address it is coming from
+	message, address = serverSocket.recvfrom(1024)
+
+	# Capitalize the message from the client
+	 message = message.upper()
+
+	# If rand is less is than 4, we consider the packet lost and do not respond
+	if rand < 4:
+	continue
+
+	# Otherwise, the server responds
+	serverSocket.sendto(message, address)
 
 
 
+**Client Code (more info)** 
 
+You need to implement the following client program. The client should send 10 pings to the server. Because UDP is an unreliable protocol, a packet sent from the client to the server may be lost in the network, or vice versa. For this reason, the client cannot wait indefinitely for a reply to a ping message. You should get the client to wait up to one second for a reply; if no reply is received within one second, your client program should assume that the packet was lost during transmission across the network. You will need to look up the Python documentation to find out how to set the timeout value on a datagram socket. Specifically, your client program should 
+
+(1) send the ping message using UDP (Note: Unlike TCP, you do not need to establish a connection first, since UDP is a connectionless protocol.)
+
+(2) print the response message from server, if any 
+
+(3) calculate and print the round trip time (RTT), in seconds, of each packet, if server responses 
+
+(4) otherwise, print “Request timed out” 
+
+During development, you should run the UDPPingerServer.py on your machine, and test your client by sending packets to localhost (or, 127.0.0.1). After you have fully debugged your code, you should see how your application communicates across the network with the ping server and ping client running on different machines. Message Format The ping messages in this lab are formatted in a simple way. The client message is one line, consisting of ASCII characters in the following format: Ping ```sequence_number``` time where sequence_number starts at 1 and progresses to 10 for each successive ping message sent by the client, and ```time``` is the time when the client sends the message.

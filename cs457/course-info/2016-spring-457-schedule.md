@@ -83,9 +83,8 @@ Feb 11 *socket and application programming*
 
 - peer to peer apps
 - socket programming
-- web sockets
-- more socket programming with python
-- node.js, gevent
+- UDP client-server
+- [HW06 assigned](/457/hw/) - client/server UDP ping program
 
 Feb 16 *socket and application programming*
 ------
@@ -100,6 +99,7 @@ Feb 18 *socket and application programming*
 ------
 **chapter** 2.7
 
+- node.js, gevent
 - web sockets
 - overview of other application protocols
 
