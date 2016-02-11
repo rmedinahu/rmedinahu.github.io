@@ -204,7 +204,7 @@ Feb 11
 
 **Reading:** Kurose & Ross - 2.7
 
-**Source code** [download udp-pinger-server.py]({{ site.baseurl }}assets/udp-pinger-server.py) and see below for the server code and more details on the client specification (the part you are writing)
+**Source code** [download udp-pinger-server.py]({{ site.baseurl }}assets/udp-pinger-server.py) and see below for more details on the client specification (the part you are writing)
 
 **DUE: Feb 17 before 5pm** [Submit only your ```client``` source code to D2L HW06 dropbox](https://nmhu.desire2learn.com/d2l/home/28405){:target="_blank"}
 
@@ -242,45 +242,8 @@ similar to the functionality provided by standard ping program available in mode
 Your ping program is to send 10 ping messages to the target server over UDP. For each message, your client is to determine and print the RTT when the corresponding pong message is returned. Because UDP is an unreliable protocol, a packet sent by the client or server may be lost. For this reason, the client cannot wait indefinitely for a reply to a ping message. You should have the client wait up to one second for a reply from the server; if no reply is received, the client should assume that the packet was lost and print a message accordingly.
 In this assignment, you will be given the complete code for the server (available in the companion Web site). Your job is to write the client code, which will be very similar to the server code. It is recommended that you first study carefully the server code. You can then write your client code, liberally cutting and pasting lines from the server code.
 
-The following code fully implements a ping server. You need to compile and run this code before running your client program. You do not need to modify this code. In this server code, 30% of the client’s packets are simulated to be lost. You should study this code carefully, as it will help you write your ping client. 
+The [```udp-pinger-server.py```]({{ site.baseurl }}assets/udp-pinger-server.py) code fully implements a ping server. You need to compile and run this code before running your client program. You do not need to modify this code. In this server code, 30% of the client’s packets are simulated to be **lost**. You should study this code carefully, as it will help you write your ping client. 
 
-{% highlight python %}
-# UDPPingerServer.py
-
-# We will need the following module 
-# to generate randomized lost packets
-import random
-
-from socket import *
-
-# Create a UDP socket
-# Notice the use of SOCK_DGRAM for UDP packets
-serverSocket = socket(AF_INET, SOCK_DGRAM)
-
-# Assign IP address and port number to socket
-serverSocket.bind(('', 12000))
-while True:
-	# Generate random number 
-	# in the range of 0 to 10
-	rand = random.randint(0, 10)
-
-	# Receive the client packet along 
-	# with the address it is coming from
-	message, address = serverSocket.recvfrom(1024)
-
-	# Capitalize the message from the client
-	message = message.upper()
-
-	# If rand is less is than 4, 
-	# we consider the packet lost 
-	# and do not respond
-	if rand < 4:
-		continue
-
-	# Otherwise, the server responds
-	serverSocket.sendto(message, address)
-
-{% endhighlight%}
 
 **Client Code (more info)** 
 
