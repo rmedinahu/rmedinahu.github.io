@@ -204,17 +204,34 @@ Feb 11
 
 **Reading:** Kurose & Ross - 2.7
 
-**Source code** see below for the server code and more details on the client specification (the part you are writing)
+**Source code** [download udp-pinger-server.py]({{ site.baseurl }}assets/udp-pinger-server.py) and see below for the server code and more details on the client specification (the part you are writing)
 
-**DUE: Feb 16 before 5pm** [Submit only your ```client``` source code to D2L HW06 dropbox](https://nmhu.desire2learn.com/d2l/home/28405){:target="_blank"}
+**DUE: Feb 17 before 5pm** [Submit only your ```client``` source code to D2L HW06 dropbox](https://nmhu.desire2learn.com/d2l/home/28405){:target="_blank"}
 
 
 **How to handle time in python?**
 
-> import time
-> t1 = time.time()  # yields current time.
-> t2 = time.time()  # yields current time.
-> # you can find the delta between two times simply by taking t2-t1
+> 	import time
+> 	t1 = time.time()  # yields current time.
+> 	t2 = time.time()  # yields current time.
+> 	# you can find the delta between two times simply by taking t2-t1
+
+**How to set a timeout on a socket (i.e., make the socket throw an exception when/if the timeout is exceeded)?**
+
+[read about setting a timeout on a socket](https://docs.python.org/2/library/socket.html#socket.socket.settimeout){:target="_blank"}
+
+**Note that the ```settimeout``` method throws an exception. So your code for receiving a response from the UDP server needs to be in a try / exception block like this:**
+
+
+>	try:
+>		# something in here may throw an exception
+>		...
+>		# there may be many statements in here!
+>
+>	except:
+>		# what do to in case of exception
+>		...
+>
 
 
 **Specification** Assignment 2: UDP Pinger (from textbook pg 179)
@@ -227,38 +244,43 @@ In this assignment, you will be given the complete code for the server (availabl
 
 The following code fully implements a ping server. You need to compile and run this code before running your client program. You do not need to modify this code. In this server code, 30% of the client’s packets are simulated to be lost. You should study this code carefully, as it will help you write your ping client. 
 
+{% highlight python %}
+# UDPPingerServer.py
 
-	# UDPPingerServer.py
+# We will need the following module 
+# to generate randomized lost packets
+import random
 
-	# We will need the following module to generate randomized lost packets
-	import random
+from socket import *
 
-	from socket import *
+# Create a UDP socket
+# Notice the use of SOCK_DGRAM for UDP packets
+serverSocket = socket(AF_INET, SOCK_DGRAM)
 
-	# Create a UDP socket
-	# Notice the use of SOCK_DGRAM for UDP packets
-	serverSocket = socket(AF_INET, SOCK_DGRAM)
-
-	# Assign IP address and port number to socket
-	serverSocket.bind(('', 12000))
-	while True:
-	 # Generate random number in the range of 0 to 10
+# Assign IP address and port number to socket
+serverSocket.bind(('', 12000))
+while True:
+	# Generate random number 
+	# in the range of 0 to 10
 	rand = random.randint(0, 10)
 
-	# Receive the client packet along with the address it is coming from
+	# Receive the client packet along 
+	# with the address it is coming from
 	message, address = serverSocket.recvfrom(1024)
 
 	# Capitalize the message from the client
-	 message = message.upper()
+	message = message.upper()
 
-	# If rand is less is than 4, we consider the packet lost and do not respond
+	# If rand is less is than 4, 
+	# we consider the packet lost 
+	# and do not respond
 	if rand < 4:
-	continue
+		continue
 
 	# Otherwise, the server responds
 	serverSocket.sendto(message, address)
 
-
+{% endhighlight%}
 
 **Client Code (more info)** 
 
@@ -272,4 +294,33 @@ You need to implement the following client program. The client should send 10 pi
 
 (4) otherwise, print “Request timed out” 
 
-During development, you should run the UDPPingerServer.py on your machine, and test your client by sending packets to localhost (or, 127.0.0.1). After you have fully debugged your code, you should see how your application communicates across the network with the ping server and ping client running on different machines. Message Format The ping messages in this lab are formatted in a simple way. The client message is one line, consisting of ASCII characters in the following format: Ping ```sequence_number``` time where sequence_number starts at 1 and progresses to 10 for each successive ping message sent by the client, and ```time``` is the time when the client sends the message.
+During development, you should run the [```udp-pinger-server.py```]({{ site.baseurl }}assets/udp-pinger-server.py) on your machine, and test your client by sending packets to localhost (or, 127.0.0.1). After you have fully debugged your code, you should see how your application communicates across the network with the ping server and ping client running on different machines. 
+
+**Message Format (what to send to server):** 
+
+Ping ```sequence number``` ```time```
+
+Ping ```sequence number``` where sequence number starts at 1 and progresses to 10 for each successive ping message sent by the client, and ```time``` is the time when the client sends the message (use ```time.asctime()```).
+
+**Example message to send to ```udp-pinger-server```:**
+
+>	Ping 1 Thu Feb 11 12:54:55 2016
+
+
+**Example output from running the client:**
+
+>	Request timed out.
+>	Reply from 127.0.0.1: PING 2 THU FEB 11 12:54:56 2016
+>	RTT: 0.0010359287262
+>	Reply from 127.0.0.1: PING 3 THU FEB 11 12:54:56 2016
+>	RTT: 0.000565052032471
+>	Reply from 127.0.0.1: PING 4 THU FEB 11 12:54:56 2016
+>	RTT: 0.000596046447754
+>	Request timed out.
+>	Request timed out.
+>	Request timed out.
+>	Request timed out.
+>	Reply from 127.0.0.1: PING 9 THU FEB 11 12:55:00 2016
+>	RTT: 0.00111699104309
+>	Reply from 127.0.0.1: PING 10 THU FEB 11 12:55:00 2016
+>	RTT: 0.000634908676147
