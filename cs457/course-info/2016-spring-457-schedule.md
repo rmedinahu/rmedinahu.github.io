@@ -90,6 +90,7 @@ Feb 16 *socket and application programming*
 ------
 **chapter** 2.7
 
+- UDP pinger program
 - web sockets
 - chat server/client
 - media streaming server/client
