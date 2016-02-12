@@ -3,7 +3,7 @@ layout: page
 title: 
 permalink: /457/hw/
 ---
-> [hw-06 due feb 16 @ 5pm](#hw-06)
+> [hw-06 due feb 17 @ 5pm](#hw-06)
 
 > [hw-05 due feb 10](#hw-05)
 
