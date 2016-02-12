@@ -25,10 +25,13 @@ Homework
 
 \* *graded*
 
+
 Lab Sheets 
 ---
 
 ----
+
+[lab-04](/145/lab04) (solutions)
 
 [lab-03](/145/lab03) [(solutions)](/145/lab03-sols/)
 
