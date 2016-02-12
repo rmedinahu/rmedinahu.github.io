@@ -49,7 +49,7 @@ Add or assign items to a list using the list ```append``` function like so:
 
 *Demo your code to instructor*
 
-**[3]**: Using the list you created above, print all the values EXCEPT for the first and last items.
+**[3]**: Using the list you created above, print all the values EXCEPT for the first and last items. **USE A LIST SLICE**
 
 *Demo your code to instructor*
 
@@ -93,15 +93,17 @@ The overall flow of the program should be:
 
 **This program requires the following functions as specified below**:
 
-```generate_rect()```: should RETURN a new list containing 4 random integers corresponding to ```[x, y, width, height]```
+```generate_rect```(): should RETURN a new list containing 4 random integers corresponding to ```[x, y, width, height]```
 
-```print_rect(*a_rectangle*)```: should PRINT information about the rectangle given a rectangle variable (list) as its parameter.
+```print_rect```(*a_rectangle*): should PRINT information about the rectangle given a rectangle variable (list) as its parameter.
 
-```resize_rect(*a_rectangle*, *scale*)```: should RETURN a new rectangle (list) given a variable (list) and a scale value as its parameters. Scale means to increase the width and height by the same value. For any x and y ==> x*scale, y*scale
+```resize_rect```(*a_rectangle*, *scale*): should RETURN a new rectangle (list) given a variable (list) and a scale value as its parameters. Scale means to increase the width and height by the same value. 
 
-```translate_rect(*a_rectangle*, *new_x*, *new_y*)```: should RETURN a new rectangle (list) given a variable (list) and new horizontal and vertical locations as its parameters.
+>	For any x and y ==> x * scale, y * scale
 
-```display_rect(*a_rectangle*)```: should PRINT the rectangle given as a parameter on the console using ascii art as described above. **Note**: for this function we will ignore the horizontal and vertical position of the rectangle.
+```translate_rect```(*a_rectangle*, *new_x*, *new_y*): should RETURN a new rectangle (list) given a variable (list) and new horizontal and vertical locations as its parameters.
+
+```display_rect```(*a_rectangle*)```: should PRINT the rectangle given as a parameter on the console using ascii art as described above. **Note**: for this function we will ignore the horizontal and vertical position of the rectangle.
 
 
 
