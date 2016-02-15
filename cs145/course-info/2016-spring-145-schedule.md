@@ -112,46 +112,62 @@ Feb 10 Fruitful and void functions
 
 Feb 12 (lab) Fruitful and void functions
 ======
-
+- lists
+- functions
 
 Week 5 
 -------
 
-Feb 15 Repetition -- loops
+Feb 15 Review functions and lists
 ======
+- chapter 3
+- void functions
+- fruitful functions
+- list basics (accessing, slicing, initializing, populating)
+- program design
+- [hw05](/145/hw05/) assigned (was a lab problem but now a homework assignment)
 
-
-Feb 17 Repetition -- loops
+Feb 17 Conditional statements
 ======
+- branching 
+- the ``if`` statement
+- multiway branching
+- the ```if else statement```
+- characteristics of all conditional statements
 
-Feb 19 (lab) Repetition -- loops
+Feb 19 (lab) Conditional statements
 ======
+- branching
+- multiway branching
+- let turtle decide
 
-
-
-Week 6
+Week 6 
 -------
 
-Feb 22 
+Feb 22 Repetition -- loops
+======
+- chapter 4
+- characteristics common to all loops
+- the ```while``` loop
+- the ```for``` loop
+
+Feb 24 Repetition -- loops
 ======
 
-Feb 24 
-======
-
-Feb 26 (lab) 
+Feb 26 (lab) Repetition -- loops
 ======
 
 
-Week 7
+Week 7 
 -------
 
-Feb 29 
+Feb 29 Python programming review
 ======
 
-Mar 02 
+Mar 02 Python programming review
 ======
 
-Mar 04 (lab) 
+Mar 04 (lab) Final Python program
 ======
 
 
