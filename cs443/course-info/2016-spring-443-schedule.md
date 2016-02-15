@@ -75,8 +75,6 @@ Feb 08 Process Management
 
 A shell script is a sequence of shell commands written in an executable script file. Executing this file instructs the shell to execute all commands in the order of their appearance in the script file. There are several shell scripting tutorials available on the web, e.g. search by entering the keywords Linux shell script tutorials. Go through one of these tutorials and then write a shell script that displays various system parameters by using shell commands like who, whoami, date, hostname, etc.
 
-
-
 **Reading** - Chapter 2.1, 2.2
 
 **Homework** - _Chapter *1*_ Questions (due feb 15): 10, 12, 17, 18, 28
@@ -92,36 +90,29 @@ Feb 15 Process Management
 **Reading** - Chapter 2.1, 2.2
 
 
-*Working Lab Problem 1*
+[Lab Exercises](/145/2016-feb-15-ex/)
 
 ----
 
-ps is a command that displays information about all processes currently running in your system. Read man page of ps command. Enter the following commands: (1) ```ps –ef | more``` and (2) ```ps –aux | more```. Both of these will result in displaying a long list of processes. Identify what processes are started when the system is booted, and what processes are started later on. For each process, find out who owns it, what code it is running, and how much CPU/memory it has used.
 
-Now, store the details of all processes owned by root in a file called root- processes-1, and all processes owned by you in a file called my-processes-1. Next, restart your system, and create similar files, root-processes-2 and my-processes-2. Compare root-processes-1 with root-processes-2, and my-processes-1 with my-processes-2. Explain the differences between the two.
-
-*Working Lab Problem 2*
-
-----
-
-Simulate kernel scheduler using python threads, [tutorial](http://www.tutorialspoint.com/python/python_multithreading.htm)
-
-
-
-Feb 22 
+Feb 22 Interprocess communication & scheduling
 ------ 
+- IPC 
+- Scheduling
+- Classic problems in IPC
 
-**Reading** - Chapter 2.3, 2.4
+**Reading** - Chapter 2.3, 2.4, 2.5, 2.6
 
-Feb 29
+Feb 29 Memory Management
 ------
 
-**Reading** - 
+**Reading** - Chapter 3.1
 
-Mar 07
+
+Mar 07 Memory Management & midterm exam
 ------
-
-Midterm
+- memory management
+- midterm exam
  
 
 Mar 14 (Spring Recess)
