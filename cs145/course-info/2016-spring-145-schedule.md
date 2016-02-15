@@ -118,6 +118,8 @@ Feb 12 (lab) Fruitful and void functions
 Week 5 
 -------
 
+[Code discussed in class Feb 15](/145/demo/scratch-feb-15/)
+
 Feb 15 Review functions and lists
 ======
 - chapter 3
