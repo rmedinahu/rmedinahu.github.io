@@ -75,15 +75,6 @@ Feb 08 Process Management
 
 A shell script is a sequence of shell commands written in an executable script file. Executing this file instructs the shell to execute all commands in the order of their appearance in the script file. There are several shell scripting tutorials available on the web, e.g. search by entering the keywords Linux shell script tutorials. Go through one of these tutorials and then write a shell script that displays various system parameters by using shell commands like who, whoami, date, hostname, etc.
 
-----
-
-ps is a command that displays information about all processes currently running in your system. Read man page of ps command. Enter the following commands: (1) ```ps –ef | more``` and (2) ```ps –aux | more```. Both of these will result in displaying a long list of processes. Identify what processes are started when the system is booted, and what processes are started later on. For each process, find out who owns it, what code it is running, and how much CPU/memory it has used.
-
-Now, store the details of all processes owned by root in a file called root- processes-1, and all processes owned by you in a file called my-processes-1. Next, restart your system, and create similar files, root-processes-2 and my-processes-2. Compare root-processes-1 with root-processes-2, and my-processes-1 with my-processes-2. Explain the differences between the two.
-
-----
-
-Simulating a kernel scheduler (using threads), [tutorial](http://www.tutorialspoint.com/python/python_multithreading.htm)
 
 
 **Reading** - Chapter 2.1, 2.2
@@ -92,24 +83,43 @@ Simulating a kernel scheduler (using threads), [tutorial](http://www.tutorialspo
 
 Feb 15 Process Management
 ------
+- Process Review: multiprogramming, process creation (fork), process states, process table, interrupt handlers
+- Thread Review: threads, resource management vs. execution
+- ```thread_create```, ```thread_exit```, ```thread_join```, ```thread_yield```
+- user-level threads, kernel-level threads
+- Operating systems embody multiple **linked data structure**?
 
-**Reading** - 
+**Reading** - Chapter 2.1, 2.2
 
-Feb 22
-------
-a. 
 
-**Reading** - 
+*Working Lab Problem 1*
+
+----
+
+ps is a command that displays information about all processes currently running in your system. Read man page of ps command. Enter the following commands: (1) ```ps –ef | more``` and (2) ```ps –aux | more```. Both of these will result in displaying a long list of processes. Identify what processes are started when the system is booted, and what processes are started later on. For each process, find out who owns it, what code it is running, and how much CPU/memory it has used.
+
+Now, store the details of all processes owned by root in a file called root- processes-1, and all processes owned by you in a file called my-processes-1. Next, restart your system, and create similar files, root-processes-2 and my-processes-2. Compare root-processes-1 with root-processes-2, and my-processes-1 with my-processes-2. Explain the differences between the two.
+
+*Working Lab Problem 2*
+
+----
+
+Simulate kernel scheduler using python threads, [tutorial](http://www.tutorialspoint.com/python/python_multithreading.htm)
+
+
+
+Feb 22 
+------ 
+
+**Reading** - Chapter 2.3, 2.4
 
 Feb 29
 ------
-a. 
 
 **Reading** - 
 
 Mar 07
 ------
-a. 
 
 Midterm
  
@@ -119,37 +129,31 @@ Mar 14 (Spring Recess)
 
 Mar 21
 ------
-a. 
 
 **Reading** - 
 
 Mar 28
 ------
-a. 
 
 **Reading** - 
 
 Apr 04
 ------
-a. 
 
 **Reading** - 
 
 Apr 11
 ------
-a. 
 
 **Reading** - 
 
 Apr 18
 ------
-a. 
 
 **Reading** - 
 
 Apr 25
 ------
-a. 
 
 **Reading** - 
 
