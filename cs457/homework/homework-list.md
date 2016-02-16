@@ -300,11 +300,11 @@ Python programming exercises
 Feb 16
 
 **Reading:**
-[python list tutorial](https://docs.python.org/2/tutorial/datastructures.html),
-[python dictionary docs](https://docs.python.org/2/library/stdtypes.html#mapping-types-dict),
-[dictionary tutorial](http://learnpythonthehardway.org/book/ex39.html,)
-[python pickle](https://docs.python.org/3/library/pickle.html), 
-[python json](https://docs.python.org/3/library/json.html)
+[[python list tutorial]](https://docs.python.org/2/tutorial/datastructures.html),
+[[python dictionary docs]](https://docs.python.org/2/library/stdtypes.html#mapping-types-dict),
+[[dictionary tutorial]](http://learnpythonthehardway.org/book/ex39.html),
+[[python pickle]](https://docs.python.org/3/library/pickle.html), 
+[[python json]](https://docs.python.org/3/library/json.html)
 
 **DUE: Feb 18 before 5pm** [Submit your source code file to HW07 dropbox](https://nmhu.desire2learn.com/d2l/home/28405){:target="_blank"}
 
@@ -337,7 +337,7 @@ Create one python source file for the following exercises:
 >	except KeyError:
 >		'Not found!'
 
-[7] **serialization**: First, ```import json``` then serialize the dictionary created in ex 5 using ```json.dumps``` (Store the output to variable ```jsonified```). Note the transformation of the key and note that ```loads``` gives you a new dictionary ... for free!
+[7] **serialization**: First, ```import json``` then serialize the dictionary created in ex 5 using ```json.dumps``` (Store the output to variable ```jsonified```). Note the transformation of the key and note that ```json.loads(jsonified)``` gives you a new dictionary ... for free!
 
 [8] **deserialization** deserialize ```jsonified``` using ```json.loads```. Note the transformation of the key. Is it still an ```int```?
 
