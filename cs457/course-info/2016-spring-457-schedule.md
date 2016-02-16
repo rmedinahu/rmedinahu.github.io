@@ -7,6 +7,14 @@ permalink: /457/schedule/
 cs 457 *schedule of topics*
 ------
 
+Jump to week[n] ==> [5](#week-5), [4](#week-4), [3](#week-3), [2](#week-2), [1](#week-1)
+
+
+Week 1
+------
+
+---
+
 Jan 19 *introduction*
 ------
 
@@ -19,6 +27,11 @@ Jan 21 *overview internet architecture*
 - 'last mile' technology
 - access isp's
 - HW01 assigned
+
+Week 2
+------
+
+---
 
 Jan 26 *overview internet architecture*
 ------
@@ -45,6 +58,12 @@ Jan 28 *application layer overview*
 - transport services: reliable, throughput, timing,security
 - HW03 assigned
 
+
+Week 3
+------
+
+---
+
 Feb 02 *application layer protocols*
 ------
 **chapter** 2.2, 2.3, **slides**: Chapter_2_V6.3.ppt
@@ -67,6 +86,13 @@ stock market ticker, breaking a car remotely over the network, remote surgery, s
 - Simple web server for handling fruit
 - [HW05 assigned](/457/hw/) - client/server web application in python
 
+
+Week 4
+------
+
+---
+
+
 Feb 09 *application layer protocols continued*
 ------
 **chapter** 2.3, 2.4, 2.5, 2.7 **slides**: Chapter_2_V6.3.ppt
@@ -81,31 +107,55 @@ Feb 11 *socket and application programming*
 ------
 **chapter** 2.6, 2.7 **slides**: Chapter_2_V6.3.ppt
 
-- peer to peer apps
+- peer to peer apps ( BitTorrent, DHA)
 - socket programming
 - UDP client-server
 - [HW06 assigned](/457/hw/) - client/server UDP ping program
+
+
+Week 5
+------
+
+---
 
 Feb 16 *socket and application programming*
 ------
 **chapter** 2.7
 
-- UDP pinger program
-- web sockets
-- chat server/client
-- media streaming server/client
-- interaction server/client
+**online** 
+[python list tutorial](https://docs.python.org/2/tutorial/datastructures.html),
+[python dictionary docs](https://docs.python.org/2/library/stdtypes.html#mapping-types-dict),
+[dictionary tutorial](http://learnpythonthehardway.org/book/ex39.html,)
+[python pickle](https://docs.python.org/3/library/pickle.html), 
+[python json](https://docs.python.org/3/library/json.html), 
+
+- Networked data formats
+- Python list programming tutorial (lists, tuples, dictionaries, serialization, ```range```)
+- python json and pickle
+
 
 Feb 18 *socket and application programming*
 ------
 **chapter** 2.7
 
-- node.js, gevent
+- UDP pinger program review
+- A DHA-like p2p application requirements
 - web sockets
+- node.js, gevent
 - overview of other application protocols
 
-Feb 23 *transport layer*
+
+Week 6
 ------
+
+---
+
+
+Feb 23 *socket and application programming*
+------
+- chat server/client
+- media streaming server/client
+- interaction server/client
 
 Feb 25 *transport layer*
 ------

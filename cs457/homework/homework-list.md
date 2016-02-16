@@ -3,6 +3,9 @@ layout: page
 title: 
 permalink: /457/hw/
 ---
+
+> [hw-07 due feb 18 @ 5pm](#hw-07)
+
 > [hw-06 due feb 17 @ 5pm](#hw-06)
 
 > [hw-05 due feb 10](#hw-05)
@@ -287,3 +290,68 @@ Ping ```sequence number``` where sequence number starts at 1 and progresses to 1
 >	RTT: 0.00111699104309
 >	Reply from 127.0.0.1: PING 10 THU FEB 11 12:55:00 2016
 >	RTT: 0.000634908676147
+
+
+HW 07 
+---
+
+Python programming exercises
+
+Feb 16
+
+**Reading:**
+[python list tutorial](https://docs.python.org/2/tutorial/datastructures.html),
+[python dictionary docs](https://docs.python.org/2/library/stdtypes.html#mapping-types-dict),
+[dictionary tutorial](http://learnpythonthehardway.org/book/ex39.html,)
+[python pickle](https://docs.python.org/3/library/pickle.html), 
+[python json](https://docs.python.org/3/library/json.html)
+
+**DUE: Feb 18 before 5pm** [Submit your source code file to HW07 dropbox](https://nmhu.desire2learn.com/d2l/home/28405){:target="_blank"}
+
+**Specification**: Python programming exercises
+
+Create one python source file for the following exercises:
+
+[0] Use the ```range``` function to generate and store a LIST of values (0 through 10) in a variable named ```primero```. Then loop through the list updating each value by squaring it. Print ```primero``` to the console verifying that the values were updated.
+
+[1] Create a list (c/p the following.)
+
+>	raw_data = ['Roses', 'are', 'red', 'violets', 'are', 'blue', 'if', 'you', 'can', 'read', 'this', 'so', 'are', 'you.']
+
+[2] Print the length of ```raw_data```.
+
+[3] Print the index of the word ```violets``` then print the index of ```you``` (*which* index was returned?). 
+
+[4] Loop through ```raw_data```, printing each of its items on a line.
+
+[5] Create an empty dictionary e.g., ```db = {}``` then populate it with data from ```raw_data```. Use an index for the key. For example, the first two key value pairs would look like ==> ```{0 : 'Roses', 1 : 'are', ...}```. **HINT: use ```range``` to loop ```len(raw_data)``` times.** After building the dictionary, loop through it printing each key and value together on a line.
+
+>	for key, value in somedictionary:
+>		# do something with the key
+>		# do something with the value
+
+[6] **lookups**: With the dictionary created in ex 5, query for the following values ==> 0, 6, 20 printing the result of each query. Make sure you handle ```KeyErrors``` e.g,
+
+>	try:
+>		dictionary lookup
+>	except KeyError:
+>		'Not found!'
+
+[7] **serialization**: First, ```import json``` then serialize the dictionary created in ex 5 using ```json.dumps``` (Store the output to variable ```jsonified```). Note the transformation of the key and note that ```loads``` gives you a new dictionary ... for free!
+
+[8] **deserialization** deserialize ```jsonified``` using ```json.loads```. Note the transformation of the key. Is it still an ```int```?
+
+[9] Now repeat steps [7] and [8] this time using ```pickle.dumps``` (store output in variable ```pickonme```) and ```pickle.loads``` (```import pickle``` first!). Note the output of both steps. Does ```pickle``` preserve the data type of the key and the value?
+
+[10] 1. Create an empty dictionary named ```deserious```. Create another variable ```source``` that stores the output of ```json.loads(jsonified)```. ```source``` should be a dictionary. Loop through the ```source``` dictionary, each time **coercing** the ```key``` to an integer and adding the new integer key to the ```deserious``` dictionary along with the value.  Your are essentially building a new dictionary with ```int``` keys rather than string keys.
+
+One can loop through a dictionary (reading each KEY and VALUE) again like this:
+
+>	for key, value in somedictionary:
+>		# do something with the key
+>		# do something with the value
+
+
+
+
+
