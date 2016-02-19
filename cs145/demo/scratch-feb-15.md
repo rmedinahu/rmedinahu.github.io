@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: code
 title: 
 permalink: /145/demo/scratch-feb-15/
 ---

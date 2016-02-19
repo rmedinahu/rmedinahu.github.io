@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: course
 title: cs145
 permalink: /145/
+description: Introduction to Object Oriented Programming
 ---
 
 [Desire 2 Learn Site (login required)](https://nmhu.desire2learn.com/d2l/home/28410)
@@ -31,8 +32,6 @@ Lab Sheets
 ---
 
 ----
-
-[lab-05](/145/lab05) (solutions)
 
 [lab-04](/145/lab04) (solutions)
 

@@ -1,7 +1,8 @@
 ---
-layout: page
-title: 
+layout: course_page
+title: schedule
 permalink: /443/schedule/
+parent_course: 443
 ---
 
 v.20160125.0rm

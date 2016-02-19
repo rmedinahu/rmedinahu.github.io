@@ -1,10 +1,11 @@
 ---
-layout: page
-title: 
+layout: course_page
+title: schedule
 permalink: /145/schedule/
+parent_course: 145
 ---
 
-CS 145 Introduction to Object Oriented Programming
+CS 145 Introduction to Object Oriented Programming w/Python
 -------
 
 **Spring 2016 Schedule of Topics**
@@ -22,7 +23,6 @@ Jan 20: Introduction
 Jan 22 (lab)
 ======
 
-[turtle-sample.py](/145/turtle-sample.py/)
 
 - first python program
 - tools: (command line, sublime IDE, python documentation)

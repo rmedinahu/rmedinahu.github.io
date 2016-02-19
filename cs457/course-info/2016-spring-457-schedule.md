@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: course_page
 title:
 permalink: /457/schedule/
+parent_course: 457
 ---
 
 cs 457 *schedule of topics*
@@ -138,17 +139,11 @@ Feb 18 *socket and application programming*
 ------
 **chapter** 2.7
 
-- Basic components of network applications (review)
-- Python list demo
-- DHA simulation (tcp client-server)
-
-**A scrambled sequence**
-
->	[(4, 'e'), (1, 'b'), (2, 'c'), (5, 'f'), (0, 'a'), (3, 'd')]
-
-**Demonstration of reassembling sequence in correct order.
-
-
+- UDP pinger program review
+- A DHA-like p2p application requirements
+- web sockets
+- node.js, gevent
+- overview of other application protocols
 
 
 Week 6
@@ -159,10 +154,6 @@ Week 6
 
 Feb 23 *socket and application programming*
 ------
-- A DHA-like p2p application requirements
-- web sockets
-- node.js, gevent
-- overview of other application protocols
 - chat server/client
 - media streaming server/client
 - interaction server/client

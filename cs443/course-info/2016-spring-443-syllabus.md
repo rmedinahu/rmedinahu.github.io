@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: course_page
 title: 
 permalink: /443/syllabus/
+parent_course: 443
 ---
 
 v.20160125.0rm

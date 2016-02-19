@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: course
 title: cs443
 permalink: /443/
 ---

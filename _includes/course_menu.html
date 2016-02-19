@@ -1,0 +1,15 @@
+<!-- <div class="navbar navbar-default"> -->
+    <ul class="nav navbar-nav">
+        
+        {% if page.title != "schedule" %}
+        <li><a href="/{{ page.parent_course }}/schedule/">schedule</a></li>
+        {% endif %}
+        {% if page.title != "homework" %}
+        <li><a href="/{{ page.parent_course }}/hw/">homework</a></li>
+        {% endif %}
+        {% if page.title != "syllabus" %}
+        <li><a href="/{{ page.parent_course }}/syllabus/">syllabus</a></li>
+        {% endif %}
+
+    </ul>
+<!-- </div> -->

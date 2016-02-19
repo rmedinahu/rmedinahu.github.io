@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: course_page
 title: 
 permalink: /457/hw/fruit-chooser/
+parent_course: 457
 ---
 
 	<!doctype html>
