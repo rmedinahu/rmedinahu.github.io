@@ -17,8 +17,8 @@ Feb 19 2016
 * Practice with functions.
 * create, access, and process lists of numbers
 * using random module
-* using ```range``` function [docs](https://docs.python.org/2/tutorial/controlflow.html#the-range-function){:target="_blank"}
-* Basic ```for``` loops with lists [docs](https://docs.python.org/2/tutorial/controlflow.html#for-statements){:target="_blank"}
+* using ```range``` function [[docs]](https://docs.python.org/2/tutorial/controlflow.html#the-range-function){:target="_blank"}
+* Basic ```for``` loops with lists [[docs]](https://docs.python.org/2/tutorial/controlflow.html#for-statements){:target="_blank"}
 
 Lab Exercises
 ---
