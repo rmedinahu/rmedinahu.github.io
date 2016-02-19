@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: course_page
 title: 
 permalink: /457/hw/
+parent_course: 457
 ---
 
 > [hw-07 due feb 18 @ 5pm](#hw-07)

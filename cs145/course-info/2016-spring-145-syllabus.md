@@ -1,7 +1,8 @@
 ---
-layout: page
-title: 
+layout: course_page
+title: syllabus
 permalink: /145/syllabus/
+parent_course: 145
 ---
 
 v.20160119

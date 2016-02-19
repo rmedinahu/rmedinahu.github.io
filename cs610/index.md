@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: course
 title: 
 permalink: /610/
 ---

@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: course_page
 title:
 permalink: /457/schedule/
+parent_course: 457
 ---
 
 cs 457 *schedule of topics*

@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: course_page
 title: 
 permalink: /457/hw/client/
+parent_course: 457
 ---
 
 	#!/usr/bin/env python

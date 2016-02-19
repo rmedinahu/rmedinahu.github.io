@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: course
 title: cs457
 permalink: /457/
 ---

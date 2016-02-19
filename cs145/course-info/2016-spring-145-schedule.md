@@ -1,7 +1,8 @@
 ---
-layout: page
-title: 
+layout: course_page
+title: schedule
 permalink: /145/schedule/
+parent_course: 145
 ---
 
 CS 145 Introduction to Object Oriented Programming

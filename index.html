@@ -1,37 +1,45 @@
 ---
-layout: default
+layout: master
 title: Home
+description: Home Page for Jekyll Metro Theme
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+<div class="container-fluid">
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+	<header class="row">
+	  <div class="col-sm-6 col-md-12" style="margin-top:25px;margin-bottom:25px">
+	    <h1 id="pin">{{site.title}}</h1>
+	  </div>
+	</header>
+	<nav>
+		<div class="row">
+ 			<div class="col-md-4 col-sm-6 col-xs-12">
+				<a href="about/" title="Office">
+					<div class="tile orange profile">
+						<h2 class="title text-default">Office</h2>
+						<p></p>
+					</div>
+				</a>
+		    </div>
+		</div>
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
+		<div class="row">
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				{% for course in site.pages %}
+					{% if course.layout == "course" %}
+					<a href="{{course.url}}" title="">
+						<div class="tile green">
+							<h3 class="title">{{ course.title }}</h3>
+							<h4 class="title">{{ course.description }}</h4>
+						</div>
+					</a>
+					{% endif %}
+				{% endfor %}
+			</div>
+		</div>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
+		<div class="row" style="margin-bottom:25px">
+		<div class="col-md-4 col-sm-6 col-xs-12"><p></p></div>
+		</div>
+	</nav>
 </div>
