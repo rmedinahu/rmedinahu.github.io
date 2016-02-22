@@ -130,19 +130,13 @@ Feb 15 Review functions and lists
 - program design
 - [hw05](/145/hw05/) assigned (was a lab problem but now a homework assignment)
 
-Feb 17 Conditional statements
+Feb 17 Functions
 ======
-- branching 
-- the ``if`` statement
-- multiway branching
-- the ```if else statement```
-- characteristics of all conditional statements
 
-Feb 19 (lab) Conditional statements
+
+Feb 19 (lab) Loop statements
 ======
-- branching
-- multiway branching
-- let turtle decide
+- functions, lists & loops
 
 Week 6 
 -------
@@ -154,12 +148,21 @@ Feb 22 Repetition -- loops
 - the ```while``` loop
 - the ```for``` loop
 
-Feb 24 Repetition -- loops
+Feb 24 Conditional statements
 ======
+- branching 
+- the ``if`` statement
+- multiway branching
+- the ```if else statement```
+- characteristics of all conditional statements
 
-Feb 26 (lab) Repetition -- loops
+Feb 26 (lab) Conditionals
 ======
-
+- branching 
+- the ``if`` statement
+- multiway branching
+- the ```if else statement```
+- characteristics of all conditional statements
 
 Week 7 
 -------
