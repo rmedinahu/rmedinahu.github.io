@@ -101,7 +101,7 @@ Feb 22 Interprocess communication
 - race conditions, producer consumer problems
 - semaphores and mutexes
 
-**Lab Exercises**: producer/consumer simulation with python and Threading class
+**Lab Exercises**: producer/consumer simulation with python and Threading class [let's start here](http://www.tutorialspoint.com/python/python_multithreading.htm)
 
 **Reading** - Chapter 2.3  
 
