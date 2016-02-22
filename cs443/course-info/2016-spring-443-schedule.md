@@ -95,21 +95,25 @@ Feb 15 Process Management
 ----
 
 
-Feb 22 Interprocess communication & scheduling
+Feb 22 Interprocess communication
 ------ 
 - IPC 
-- Scheduling
-- Classic problems in IPC
+- race conditions, producer consumer problems
+- semaphores and mutexes
 
-**Reading** - Chapter 2.3, 2.4, 2.5, 2.6
+**Lab Exercises**: producer/consumer simulation with python and Threading class
 
-Feb 29 Memory Management
+**Reading** - Chapter 2.3  
+
+Feb 29 Scheduling & Memory Management
 ------
+- scheduling
+- classic problems in IPC
 
-**Reading** - Chapter 3.1
+**Reading** - Chapter 2.4, 2.5, 2.6
 
 
-Mar 07 Memory Management & midterm exam
+Mar 07 Memory Management & Midterm exam
 ------
 - memory management
 - midterm exam
@@ -118,32 +122,32 @@ Mar 07 Memory Management & midterm exam
 Mar 14 (Spring Recess)
 ------
 
-Mar 21
+Mar 21 Memory management
 ------
 
 **Reading** - 
 
-Mar 28
+Mar 28 File Systems
 ------
 
 **Reading** - 
 
-Apr 04
+Apr 04 File & I/O
 ------
 
 **Reading** - 
 
-Apr 11
+Apr 11 File & I/O
 ------
 
 **Reading** - 
 
-Apr 18
+Apr 18 Virtualization & The Cloud
 ------
 
 **Reading** - 
 
-Apr 25
+Apr 25 Multiple Processor Systems
 ------
 
 **Reading** - 
