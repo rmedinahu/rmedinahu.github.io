@@ -15,6 +15,8 @@ Homework
 ---
 
 ----
+> [hw-06](/145/hw06) Due Feb 24 @ 12pm
+
 > [hw-05](/145/hw05) Due Feb 17 @ 12pm
 
 \* [hw-04](/145/hw04) Due Feb 12 @ 10am
