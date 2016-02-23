@@ -371,6 +371,8 @@ Feb 23
 
 **Code**: [download tracker-p1.py](/assets/tracker-p1.py) this code is also displayed below.
 
+**READ!!!! the protocol ==>**[protocol part 1](/457/hw/cs457p2p-protocol-part1/)
+
 **DUE: Feb 25 before 5pm** [Submit your source code file to HW08 dropbox](https://nmhu.desire2learn.com/d2l/home/28405){:target="_blank"}
 
 **Specification**: A peer-to-peer client
