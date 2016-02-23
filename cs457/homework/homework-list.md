@@ -467,36 +467,40 @@ Below is pseudocode to help you get started:
 
 {% endhighlight %}
 
-#!/usr/bin/env python
+**starter client file**
 
-"""Simple p2p client starter file for cs457p2p application PART 1"""
+{% highlight python %}
 
-import socket
-import pickle
-import time
+	#!/usr/bin/env python
 
-#  server host (local machine)
-host = 'localhost' 
+	"""Simple p2p client starter file for cs457p2p application PART 1"""
 
-#  machine port
-port = 7777
+	import socket
+	import pickle
+	import time
 
-#  number of requests before need to thread...
-backlog = 5
+	#  server host (local machine)
+	host = 'localhost' 
 
-#  max length of data buffer (bytes) 
-size = 1024
+	#  machine port
+	port = 7777
 
+	#  number of requests before need to thread...
+	backlog = 5
 
-#  create a socket
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
-s.connect((host, port))
-
-# SEND/PROCESS  REGISTRATION REQUEST
-
-# SEND/PROCESS ITEM REQUESTS
+	#  max length of data buffer (bytes) 
+	size = 1024
 
 
+	#  create a socket
+	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
+	s.connect((host, port))
+
+	# SEND/PROCESS  REGISTRATION REQUEST
+
+	# SEND/PROCESS ITEM REQUESTS
+
+{% endhighlight %}
 	
 
 
