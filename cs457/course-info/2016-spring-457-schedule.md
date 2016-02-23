@@ -8,7 +8,7 @@ parent_course: 457
 cs 457 *schedule of topics*
 ------
 
-Jump to week[n] ==> [5](#week-5), [4](#week-4), [3](#week-3), [2](#week-2), [1](#week-1)
+Jump to week[n] ==> [6](#week-6), [5](#week-5), [4](#week-4), [3](#week-3), [2](#week-2), [1](#week-1)
 
 
 Week 1
@@ -160,30 +160,44 @@ Week 6
 
 Feb 23 *socket and application programming*
 ------
-- A DHA-like p2p application requirements
+
+- Review of networks application homework
+- A DHA-like p2p application requirements (Part 1)
+- [HW08 assigned](/457/hw/#hw-08) - P2P client application
+
+Feb 25 *torrent-like distributed hash table*
+------
+- A DHA-like p2p application requirements (Part 2)
 - web sockets
+
+Mar 01 
+------
+
+- **In-class** simulation of peer to peer distributed hash table app
 - node.js, gevent
 - overview of other application protocols
 - chat server/client
 - media streaming server/client
 - interaction server/client
 
-Feb 25 *transport layer*
+Mar 03 *transport layer*
 ------
-Mar 01
+
+Mar 08 *transport layer*
 ------
-Mar 03
+
+Mar 10 *Midterm exam*
 ------
-Mar 08
-------
-Mar 10
-------
+
 Mar 15 - 17 (spring recess)
 ------
+
 Mar 22
 ------
+
 Mar 24
 ------
+
 Mar 29
 ------
 Mar 31

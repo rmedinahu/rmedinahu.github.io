@@ -5,6 +5,8 @@ permalink: /457/hw/
 parent_course: 457
 ---
 
+> [hw-08 due feb 25 @ 5pm](#hw-08)
+
 > [hw-07 due feb 18 @ 5pm](#hw-07)
 
 > [hw-06 due feb 17 @ 5pm](#hw-06)
@@ -351,6 +353,156 @@ One can loop through a dictionary (reading each KEY and VALUE) again like this:
 >	for key, value in somedictionary:
 >		# do something with the key
 >		# do something with the value
+
+
+HW 08 
+---
+
+cs457p2p application: Part 1
+
+Feb 23
+
+**Reading:**
+[[python list tutorial]](https://docs.python.org/2/tutorial/datastructures.html),
+[[python dictionary docs]](https://docs.python.org/2/library/stdtypes.html#mapping-types-dict),
+[[dictionary tutorial]](http://learnpythonthehardway.org/book/ex39.html),
+[[python pickle]](https://docs.python.org/3/library/pickle.html), 
+[[python json]](https://docs.python.org/3/library/json.html)
+
+**Code**: [download tracker-p1.py](/assets/tracker-p1.py) this code is also displayed below.
+
+**DUE: Feb 25 before 5pm** [Submit your source code file to HW08 dropbox](https://nmhu.desire2learn.com/d2l/home/28405){:target="_blank"}
+
+**Specification**: A peer-to-peer client
+
+You are going to write a simple p2p client that connects to central server in order to collect db items. The client must follow the protocol listed [here](/457/hw/cs457p2p-protocol-part1/) to successfully participate in this network application. The client's work is done when it has assembled all of the db items. It must print the db items in their logical order before exiting.
+
+The protocol lays out the sequence of steps needed to register and then request db items. Your client will need to connect to a TRACKER server. That code is listed above and you can use it without modification to test your client code. 
+
+1. The client should use the TCP protocol (not UDP)
+2. The client should pause (use timer) for 2-3 seconds between db item requests. This simulates network lag.
+3. All db item requests MUST be ```serialized``` before sending to ```TRACKER```. Use pickle for this.
+
+Below is pseudocode to help you get started:
+
+>	1. connect to TRACKER to request REGISTRATION
+> 
+>	2. deserialize TRACKER's response and store in variable N where N is the size of the db.
+> 
+>	3. create an empty dict to store the db items as you collect them
+> 
+>	4. loop 0 -> N-1 times, each time making connection to TRACKER and requesting an item indicated by the loop's iteration seq. All requests must be serialized before sending to TRACKER
+> 
+>		4a. process each response from the TRACKER by deserializing the packet and storing in local dict created above. Note that the packet contains a seq number and a value. Use the seq number as a key into the dict and associated it with the value.
+> 
+>	5. after loop ends, reassemble the db items stored in local dict to print the db in logical order.
+> 
+> 	6. You should see an important message for the next phase of this p2p application
+
+
+**tracker-p1.py** [download tracker-p1.py](/assets/tracker-p1.py)
+
+{% highlight python %}
+	#!/usr/bin/env python
+
+	"""Simple TRACKER server application for use in cs457p2p Part 1"""
+
+	import socket
+	import pickle
+
+	#  server host (local machine)
+	host = 'localhost' 
+
+	#  machine port
+	port = 7777
+
+	#  number of requests before need to thread...
+	backlog = 5
+
+	#  max length of data buffer (bytes) 
+	size = 1024
+
+	#  create a socket
+	#    AF_INET = ipv4 addressing 
+	#    SOCK_STREAM = transport protocol (tcp)
+	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
+
+	#  bind the socket to machine and port
+	s.bind((host,port)) 
+
+	#  listen on socket
+	s.listen(backlog)
+
+	db = [(12, 'of'), (3, 'time'), (9, 'review'), (6, 'good'), (2, 'the'), (5, 'all'), (11, 'use'), (8, 'to'), (1, 'is'), (7, 'coders'), (14, 'in'), (15, 'python.'), (10, 'the'), (0, 'Now'), (4, 'for'), (13, 'threads')]
+
+
+	#  poll for connections
+	try:
+
+	    while 1:
+	        try:
+	            client, address = s.accept() # returns a tuple representing connection
+	            print 'Message from', address
+	            data = client.recv(size) # reads in the payload
+	            
+	            if data == 'REGISTER':
+	                serialized_data = pickle.dumps(len(db))
+	                client.send(serialized_data)
+	                client.close()
+	            else:
+	                try:
+	                    deserialized_data = pickle.loads(data)
+	                    serialized_data = pickle.dumps(db[deserialized_data])
+	                    client.send(serialized_data) # sends it back
+	                except:
+	                    client.send(pickle.dumps('Bad request'))
+
+	            client.close() # close the connection
+
+	        except:
+	            s.close()
+
+	except KeyboardInterrupt:
+	    s.close()
+
+{% endhighlight %}
+
+#!/usr/bin/env python
+
+"""Simple p2p client starter file for cs457p2p application PART 1"""
+
+import socket
+import pickle
+import time
+
+#  server host (local machine)
+host = 'localhost' 
+
+#  machine port
+port = 7777
+
+#  number of requests before need to thread...
+backlog = 5
+
+#  max length of data buffer (bytes) 
+size = 1024
+
+
+#  create a socket
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
+s.connect((host, port))
+
+# SEND/PROCESS  REGISTRATION REQUEST
+
+# SEND/PROCESS ITEM REQUESTS
+
+
+	
+
+
+
+
+
 
 
 
