@@ -10,7 +10,7 @@ import random
 def calc_area():
 	i = 0
 	while i < 1000:
-		time.sleep(30)
+		time.sleep(2)
 		r = random.randint(1, 100)
 		area = 3.14 * r ** 2
 		print '************************************', area
