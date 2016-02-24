@@ -7,11 +7,11 @@ parent_course: 457
 
 > [hw-08 due feb 25 @ 5pm](#hw-08)
 
-> [hw-07 due feb 18 @ 5pm](#hw-07)
+\* [hw-07 due feb 18 @ 5pm](#hw-07)
 
-> [hw-06 due feb 17 @ 5pm](#hw-06)
+\* [hw-06 due feb 17 @ 5pm](#hw-06) (has solution)
 
-> [hw-05 due feb 10](#hw-05)
+\* [hw-05 due feb 10](#hw-05) (has solution)
 
 \* [hw-04 due feb 05](#hw-04)
 
@@ -202,6 +202,50 @@ Write another client/server application. This time you will implement ```HTTP 1.
 
 > the browser (client) will send a requested **key** input via a form in a simple html page. The form will send the key with the ```GET``` command (or method as the form knows it). The resulting key request will be attached to the url to your server - also known as a **query parameter**. You can use the example html file above if you like but you need to provide the correct METHOD and ACTION. What are these for? 
 
+**Solution: fruit-basket-server.py**
+
+{% highlight python %}
+	#!/usr/bin/python
+	from BaseHTTPServer import BaseHTTPRequestHandler,HTTPServer
+
+	from urlparse import urlparse, parse_qs
+
+	PORT_NUMBER = 8080
+
+	#This class will handle any incoming request from the browser 
+	class myHandler(BaseHTTPRequestHandler):
+		fruit_basket = {'oranges': 'yummy', 'grapes': 'wine is fine', 'apples': 'too tart', 'peaches': 'just peachee!', 'plums': 'great but no prunes'}
+		
+		#Handler for the GET requests
+		def do_GET(self):
+
+			fruit_query = parse_qs(urlparse(self.path).query)
+			f = fruit_query["fruitykey"] # Matches 'name' attribute in form
+			self.send_response(200)
+			self.send_header('Content-type','text/html')
+			self.end_headers()
+			# Send the html message
+			try:
+				self.wfile.write(self.fruit_basket[f[0]])
+			
+			except Exception as e:
+				self.wfile.write('Resource not found')
+			
+			return
+
+	try:
+		#Create a web server and define the handler to manage the
+		#incoming request
+		server = HTTPServer(('', PORT_NUMBER), myHandler)
+		print 'Started httpserver on port ' , PORT_NUMBER
+		
+		#Wait forever for incoming htto requests
+		server.serve_forever()
+
+	except KeyboardInterrupt:
+		print '^C received, shutting down the web server'
+		server.socket.close()
+{% endhighlight %}
 
 HW 06
 ---
@@ -294,6 +338,55 @@ Ping ```sequence number``` where sequence number starts at 1 and progresses to 1
 >	Reply from 127.0.0.1: PING 10 THU FEB 11 12:55:00 2016
 >	RTT: 0.000634908676147
 
+**Solution: udp-pinger-client.py**
+
+{% highlight python %}
+	import time
+	from socket import *
+
+	host = 'localhost'
+	port = 12000
+	timeout = 1 # in seconds
+	 
+	# Create UDP client socket
+	# Note the use of SOCK_DGRAM for UDP datagram packet
+	clientsocket = socket(AF_INET, SOCK_DGRAM)
+	# Set socket timeout as 1 second
+	clientsocket.settimeout(timeout)
+	# Command line argument is a string, change the port into integer
+	port = int(port)  
+	# Sequence number of the ping message
+	ptime = 0  
+
+	# Ping for 10 times
+	while ptime < 10: 
+	    ptime += 1
+	    # Format the message to be sent
+	    data = "Ping " + str(ptime) + " " + time.asctime()
+	    
+	    try:
+		# Sent time
+	        RTTb = time.time()
+		# Send the UDP packet with the ping message
+	        clientsocket.sendto(data,(host, port))
+		# Receive the server response
+	        message, address = clientsocket.recvfrom(1024)  
+		# Received time
+	        RTTa = time.time()
+		# Display the server response as an output
+	        print "Reply from " + address[0] + ": " + message       
+		# Round trip time is the difference between sent and received time
+	        print "RTT: " + str(RTTa - RTTb)
+	    except:
+	        # Server does not respond
+	        # Assume the packet is lost
+	        print "Request timed out."
+	        continue
+
+	# Close the client socket
+	clientsocket.close()
+
+{% endhighlight %}
 
 HW 07 
 ---
