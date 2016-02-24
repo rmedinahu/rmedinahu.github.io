@@ -145,16 +145,18 @@ Feb 22 Repetition -- loops
 ======
 - chapter 4
 - characteristics common to all loops
-- the ```while``` loop
 - the ```for``` loop
 
 Feb 24 Conditional statements
 ======
+- [booleans in python](https://docs.python.org/2/library/stdtypes.html#truth-value-testing)
+- ```Boolean``` data type
 - branching 
 - the ``if`` statement
 - multiway branching
 - the ```if else statement```
 - characteristics of all conditional statements
+- the ```while``` loop
 
 Feb 26 (lab) Conditionals
 ======
