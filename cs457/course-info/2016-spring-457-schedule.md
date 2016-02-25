@@ -169,8 +169,11 @@ Feb 25 *torrent-like distributed hash table*
 ------
 - A DHA-like p2p application requirements (Part 2)
 
+
+**A sample threaded application:**
+
 {% highlight python %}
-	A sample threaded application:
+	
 
 	""" python thread example """
 
