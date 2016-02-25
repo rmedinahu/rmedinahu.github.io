@@ -172,7 +172,7 @@ Feb 25 *torrent-like distributed hash table*
 
 **A sample threaded application:**
 
-
+{% highlight python %}
 	
 
 	""" python thread example """
@@ -272,7 +272,7 @@ Feb 25 *torrent-like distributed hash table*
 
 	print "Exiting Main Thread"
 
-
+{% endhighlight %}
 
 Mar 01 
 ------
