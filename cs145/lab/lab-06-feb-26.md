@@ -71,7 +71,7 @@ Lab Problem
 ---
 **You are beginning a new program so create a new empty .py file for the following problem.**
 
-Extend the function in exercise [5] above so that allows the user to quit if they are tired of guessing. The range for the correct number will now be 1 through 20. Note: the while loop condition will now require a slightly more complicated ```condition```.
+Extend the function in exercise [6] above so that allows the user to quit if they are tired of guessing. The range for the correct number will now be 1 through 20. Note: the while loop condition will now require a slightly more complicated ```condition```.
 
 
 **Demo your program to the lab instructor, THEN upload this short program to Desire2Learn for full credit**
