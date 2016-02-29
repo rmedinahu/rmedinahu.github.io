@@ -2,13 +2,21 @@
     <ul class="nav navbar-nav">
         
         {% if page.title != "schedule" %}
-        <li><a href="/{{ page.parent_course }}/schedule/">schedule</a></li>
+            <li><a href="/{{ page.parent_course }}/schedule/">schedule</a></li>
         {% endif %}
         {% if page.title != "homework" %}
-        <li><a href="/{{ page.parent_course }}/hw/">homework</a></li>
+            <li><a href="/{{ page.parent_course }}/hw/">homework</a></li>
+        {% endif %}
+        
+        {% if page.parent_course == 145 %}
+            
+            {% if page.title != "lab sheets" %}
+                <li><a href="/{{ page.parent_course }}/labs/">labs</a></li>
+            {% endif %}
+
         {% endif %}
         {% if page.title != "syllabus" %}
-        <li><a href="/{{ page.parent_course }}/syllabus/">syllabus</a></li>
+            <li><a href="/{{ page.parent_course }}/syllabus/">syllabus</a></li>
         {% endif %}
 
     </ul>

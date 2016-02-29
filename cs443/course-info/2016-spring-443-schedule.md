@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 
+title: schedule
 permalink: /443/schedule/
 ---
 
@@ -9,6 +9,14 @@ v.20160125.0rm
 CS 443: Operating Systems
 -------------------------
 *Spring 2016* Schedule of Topics
+
+Jump to week[n] ==> 
+[feb 29](#feb-29-scheduling--memory-management), 
+[feb 22](#feb-22-interprocess-communication), 
+[feb 15](#feb-15-process-management), 
+[feb 08](#feb-08-process-management), 
+[feb 01](#feb-01-introduction)
+
 
 Jan 25 (no class)
 ------  
@@ -108,7 +116,16 @@ Feb 22 Interprocess communication
 Feb 29 Scheduling & Memory Management
 ------
 - scheduling
-- classic problems in IPC
+- batch, interactive, real-time
+- preemptive, nonpreemptive
+- classic problems in IPC ==> dining philosopher's problem
+
+**Lab Exercises**:
+
+* simulating race conditions and implementing solutions
+* implementing scheduling algorithms with threads
+* analysis of thoroughput and turn-around time with different scheduling algorithms
+
 
 **Reading** - Chapter 2.4, 2.5, 2.6
 

@@ -1,6 +1,6 @@
 ---
 layout: course_page
-title:
+title: schedule
 permalink: /457/schedule/
 parent_course: 457
 ---
