@@ -115,19 +115,25 @@ Feb 22 Interprocess communication
 
 Feb 29 Scheduling & Memory Management
 ------
-- scheduling
+- scheduling processes and process types
 - batch, interactive, real-time
-- preemptive, nonpreemptive
 - classic problems in IPC ==> dining philosopher's problem
 
-**Lab Exercises**:
+**Lab Experiments**:
 
-* simulating race conditions and implementing solutions
-* implementing scheduling algorithms with threads
-* analysis of thoroughput and turn-around time with different scheduling algorithms
+**[1]  (a) Simulating and observing race conditions and (b) implementing critical regions using python threads: See problem 57 on page 178 of text.**
 
+**[2] I/O Bound threads in python. See problem 65 on page 180 of text.** Complete threaded version then write a sequential version. Capture and compare the turn around times from both.
 
-**Reading** - Chapter 2.4, 2.5, 2.6
+**[3] Comparing CPU-bound and I/O-bound threads**. Write a multithreaded application that contains both types of processes. Compare turn around times between the multithreaded and a sequential versions.
+
+**Reading** - Chapter 2.4, 2.5, 2.6 
+
+*GIL -- Global Interpreter Lock* This worth knowing!!!
+
+[GIL Contention](http://www.dabeaz.com/GIL/gilvis/)
+
+[GIL Talk](http://www.dabeaz.com/python/UnderstandingGIL.pdf)
 
 
 Mar 07 Memory Management & Midterm exam
