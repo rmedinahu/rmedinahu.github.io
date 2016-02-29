@@ -171,6 +171,10 @@ Week 7
 
 Feb 29 Python programming review
 ======
+- while loops
+- min/max patterns
+- if and if/else
+- [hw07](/145/hw07/) assigned (dice rolling simulation)
 
 Mar 02 Python programming review
 ======
