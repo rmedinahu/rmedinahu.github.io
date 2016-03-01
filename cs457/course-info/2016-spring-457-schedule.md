@@ -277,12 +277,8 @@ Feb 25 *torrent-like distributed hash table*
 Mar 01 
 ------
 
-- **In-class** simulation of peer to peer distributed hash table app
-- node.js, gevent
-- overview of other application protocols
-- chat server/client
-- media streaming server/client
-- interaction server/client
+- **In-class** demonstration/lab threaded client server
+- [p2p-threaded-client-server-demo.py](/assets/p2p-threaded-client-server-demo.py)
 
 Mar 03 *transport layer*
 ------
