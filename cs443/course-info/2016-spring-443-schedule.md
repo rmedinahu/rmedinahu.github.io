@@ -129,7 +129,7 @@ Feb 29 Scheduling & Memory Management
 
 **Reading** - Chapter 2.4, 2.5, 2.6 
 
-*GIL -- Global Interpreter Lock* This worth knowing!!!
+*GIL -- Global Interpreter Lock* This is worth knowing!!!
 
 [GIL Contention](http://www.dabeaz.com/GIL/gilvis/)
 
