@@ -38,7 +38,7 @@ def server_proc(runtime):
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
     server_socket.bind(MYSERVER_CONNECTION) 
     server_socket.listen(BACKLOG)
-
+    
     while runtime.is_set():
         try:
             client, address = server_socket.accept()  # blocks waiting for a tuple representing connection
@@ -50,14 +50,10 @@ def server_proc(runtime):
                 client.send('Echo Server ==> No data sent!')
             
             client.close() # close the connection
-        
-        except KeyboardInterrupt:
-            print "\nAttempting to close server."
-            runtime.clear()
 
         except Exception as e:
             print 'Server Error ==> ' + str(e)
-    
+            server_socket.close()
     
     server_socket.close()
     
@@ -74,7 +70,7 @@ def client_proc(runtime):
             response = client_socket.recv(BUFFER_SIZE)
             print response
             client_socket.close()
-            time.sleep(2)
+            time.sleep(0.5)
             counter += 1        
 
         runtime.clear()
@@ -82,7 +78,8 @@ def client_proc(runtime):
         client_socket.connect(MYSERVER_CONNECTION)
         client_socket.send('Bye!')
         response = client_socket.recv(BUFFER_SIZE)
-        print response
+        print '\n==>Sent exit message to Server. CTRL-C to exit application.'
+        
 
     except Exception as e: 
         print 'Client Error ==> ' + str(e)
@@ -91,11 +88,13 @@ def client_proc(runtime):
 
 
 
-
 """ SETUP """
 
-port = int(raw_input("ENTER THE PORT TO LISTEN ON:"))
+port = raw_input("ENTER THE PORT TO LISTEN ON:")
 host = raw_input("ENTER THE HOST TO LISTEN ON:")
+if not host: host='localhost'
+if not port: port=9000
+else: port=int(port)
 MYSERVER_CONNECTION = (host, port)
 
 threadLock = threading.Lock()
@@ -121,14 +120,17 @@ threads.append(client)
 # allow the threads to exit cleanly, then end the program.
 try:
     while 1:
-        pass
+        time.sleep(0.1)
 
 except KeyboardInterrupt:
-    print "\nAttempting to close threads."
+    print "\n==>Attempting to close threads."
     runtime_e.clear()
-    # Wait for all threads to complete
-    for t in threads:
-        t.join()
-    print "\n All threads closed."
+    
 
-print "Exiting Main Thread"
+
+print "\n==>Waiting for threads to complete..."
+for t in threads:
+    t.join()
+
+print "\n==>Main thread closed all threads."
+print "\n==>Exiting Main Thread"

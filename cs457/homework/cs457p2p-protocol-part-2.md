@@ -30,7 +30,7 @@ NEW NEIGHBOR UPDATE:
 
 **Client receives message from the ```TRACKER``` to update the ip address of nearest neighbor:**
 
->	(UPDATE_NBR, ip_str, port_num, handle_str)
+>	(UPDATE_NBR, handle_str, ip_str, port_num, )
 
 
 QUERY HANDLING

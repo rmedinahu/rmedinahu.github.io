@@ -178,6 +178,9 @@ Feb 29 Python programming review
 
 Mar 02 Python programming review
 ======
+- review of void and fruitful functions and how they are called.
+- if and if/else or multiway branching
+- hw 7 pointers
 
 Mar 04 (lab) Final Python program
 ======
