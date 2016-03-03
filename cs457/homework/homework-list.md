@@ -635,6 +635,15 @@ The protocol lays out the sequence of steps needed to register and then request 
 Below is pseudocode to help you get started:
 
 >	1. connect to TRACKER to request REGISTRATION
+
+NOTE: In the starter file, you need to send your port number in REGISTRATION request. It may not be clear but you can use: 
+----
+
+>	message = ('REGISTER', MYHANDLE, MYSERVER_CONNECTION[1])
+
+
+
+
 > 
 >	2. deserialize TRACKER's response and store neighbor's handle, ip address, and port number as a tuple in NEIGHBOR_CONNECTION. Also initialize DB_LEN and the add the db item the tracker sent to your DB (see next step).
 > 
