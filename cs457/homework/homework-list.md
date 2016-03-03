@@ -624,7 +624,7 @@ Mar 3
 
 **Specification**: A peer-to-peer client
 
-You are going to write a simple p2p client that connects to others peers to collect db items. The client must follow the protocol listed [here](/457/hw/cs457p2p-protocol-part2/) to successfully participate in this network application. The client's work is done when it has assembled all of the db items. It must print the db items in their logical order before exiting. The server must remain running to provide services to other peers.
+You are going to write a simple p2p client that connects to other peers to collect db items. The client must follow the protocol listed [here](/457/hw/cs457p2p-protocol-part2/) to successfully participate in this network application. The client's work is done when it has assembled all of the db items. It must print the db items in their logical order before exiting. The server must remain running to provide services to other peers.
 
 The protocol lays out the sequence of steps needed to register and then request db items. Your client will need to connect to a TRACKER server. That code is listed above and you can use it without modification to test your client code. 
 
@@ -640,7 +640,7 @@ Below is pseudocode to help you get started:
 > 
 >	3. your local db is a dictionary named DB. Add the db item sent to you by the tracker during REGISTRATION to this dictionary. It is your seed item.
 > 
->	4. loop until you have collected all items from NEIGHBOR_CONNECTION. Each iteration should make a connection to NEIGHBOR_CONNECTION requesting an item indicated by the first item you do not have. All requests must be serialized before sending to NEIGHBOR. See QUERY request format in protocol.
+>	4. loop until you have collected all items from NEIGHBOR_CONNECTION. Each iteration should make a connection to NEIGHBOR_CONNECTION requesting an item indicated by the first item you do not have. All requests must be serialized before sending to NEIGHBOR_CONNECTION. See QUERY request format in protocol.
 > 
 >		4a. Each QUERY request should get a response. Unpack this response accordingly. If it has data (e.g. not None) then you can place the item in your DB, else keep querying the neighbor for the item. If you get a successful response, begin querying the next item you don't have. HINT: Inspect function get_next_item() to help determine which you need next.
 > 

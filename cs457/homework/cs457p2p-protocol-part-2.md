@@ -7,7 +7,7 @@ parent_course: 457
 
 cs457 P2P PART 2 Application Protocol
 
-**Overview**: This p2p application replicates a very simple distributed hash table (e.g., the database items are collected and assembled by connected clients). This protocol is similar to the previous [protocol part 1](/457/hw/cs457p2p-protocol-part1/). We implment a two-step protocol in which the client first *registers* with a db server called a ```TRACKER```. Once registered with the ```TRACKER```, the client then iteratively requests single database items from their nearest neighbor (their predecessor). When the client has collected all of the items it must then **assemble** the items in their correct **logical** order.
+**Overview**: This p2p application replicates a very simple distributed hash table (e.g., the database items are collected and assembled by connected clients). This protocol is similar to the previous [protocol part 1](/457/hw/cs457p2p-protocol-part1/). We implement a two-step protocol in which the client first *registers* with a db server called a ```TRACKER```. Once registered with the ```TRACKER```, the client then iteratively requests single database items from their nearest neighbor (their predecessor). When the client has collected all of the items it must then **assemble** the items in their correct **logical** order.
 
 Messages are sent in packets defined as tuples e.g., ```(COMMAND, msg)```
 
@@ -43,7 +43,7 @@ PING REQUESTS:
 
 >	(PING, time)
 
-**Server should respond as follows:
+**Server should respond as follows:**
 
 >	(PING, MYHANDLE) # MYHANDLE is your server's handle set up at application startup.
 
