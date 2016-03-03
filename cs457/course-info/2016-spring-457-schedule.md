@@ -8,7 +8,7 @@ parent_course: 457
 cs 457 *schedule of topics*
 ------
 
-Jump to week[n] ==> [6](#week-6), [5](#week-5), [4](#week-4), [3](#week-3), [2](#week-2), [1](#week-1)
+Jump to week[n] ==> [7](#week-7), [6](#week-6), [5](#week-5), [4](#week-4), [3](#week-3), [2](#week-2), [1](#week-1)
 
 
 Week 1
@@ -274,14 +274,20 @@ Feb 25 *torrent-like distributed hash table*
 
 {% endhighlight %}
 
-Mar 01 
+Week 7
 ------
 
+---
+
+Mar 01 
+------
 - **In-class** demonstration/lab threaded client server
 - [p2p-threaded-client-server-demo.py](/assets/p2p-threaded-client-server-demo.py)
 
 Mar 03 *transport layer*
 ------
+- **In-class** discussion of p2p application requirements
+
 
 Mar 08 *transport layer*
 ------
