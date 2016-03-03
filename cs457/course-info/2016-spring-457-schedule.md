@@ -284,10 +284,10 @@ Mar 01
 - **In-class** demonstration/lab threaded client server
 - [p2p-threaded-client-server-demo.py](/assets/p2p-threaded-client-server-demo.py)
 
-Mar 03 *transport layer*
+Mar 03 *Final network application*
 ------
-- **In-class** discussion of p2p application requirements
-
+- **In-class** discussion of p2p application requirements. [HW 9 assigned](/457/hw/)
+- **critical** understanding of packet serializaton and deserialization
 
 Mar 08 *transport layer*
 ------
