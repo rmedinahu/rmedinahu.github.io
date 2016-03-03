@@ -598,6 +598,64 @@ Below is pseudocode to help you get started:
 {% endhighlight %}
 	
 
+HW 09
+---
+
+cs457p2p application: Part 2
+
+Mar 3
+
+**Reading:**
+[[python pickle]](https://docs.python.org/3/library/pickle.html)
+
+
+**Code**: 
+
+[download p2p-tracker.py](/assets/p2p-tracker.py) 
+
+[download p2p-threaded-client-server-starter.py](/assets/p2p-threaded-client-server-starter.py) 
+
+
+**READ!!!! the protocol ==>**[protocol part 2](/457/hw/cs457p2p-protocol-part2/)
+
+**DUE: Mar 11 before 5pm** [Submit your source code file to HW09 dropbox](https://nmhu.desire2learn.com/d2l/home/28405){:target="_blank"}
+
+**Specification**: A peer-to-peer client
+
+You are going to write a simple p2p client that connects to others peers to collect db items. The client must follow the protocol listed [here](/457/hw/cs457p2p-protocol-part2/) to successfully participate in this network application. The client's work is done when it has assembled all of the db items. It must print the db items in their logical order before exiting. The server must remain running to provide services to other peers.
+
+The protocol lays out the sequence of steps needed to register and then request db items. Your client will need to connect to a TRACKER server. That code is listed above and you can use it without modification to test your client code. 
+
+1. The client should use the TCP protocol (not UDP)
+2. The client should pause (use timer) for 2-3 seconds between db item requests. This simulates network lag.
+3. All db item requests MUST be ```serialized``` before sending to ```NEIGHBOR_CONNECTION```. Use pickle for this.
+
+Below is pseudocode to help you get started:
+
+>	1. connect to TRACKER to request REGISTRATION
+> 
+>	2. deserialize TRACKER's response and store neighbor's handle, ip address, and port number as a tuple in NEIGHBOR_CONNECTION. Also initialize DB_LEN and the add the db item the tracker sent to your DB (see next step).
+> 
+>	3. your local db is a dictionary named DB. Add the db item sent to you by the tracker during REGISTRATION to this dictionary. It is your seed item.
+> 
+>	4. loop until you have collected all items from NEIGHBOR_CONNECTION. Each iteration should make a connection to NEIGHBOR_CONNECTION requesting an item indicated by the first item you do not have. All requests must be serialized before sending to NEIGHBOR. See QUERY request format in protocol.
+> 
+>		4a. Each QUERY request should get a response. Unpack this response accordingly. If it has data (e.g. not None) then you can place the item in your DB, else keep querying the neighbor for the item. If you get a successful response, begin querying the next item you don't have. HINT: Inspect function get_next_item() to help determine which you need next.
+> 
+>	5. after loop ends, reassemble the db items stored in local dict to print the db in logical order.
+> 
+> 	6. You should see a complete, grammatically correct message.
+
+
+**Specification**: A peer-to-peer server
+
+1. The server thread should handle requests as follows:
+
+>	QUERY -- should unpack query message and lookup requested item in DB. If the item is found, the server should send using response format QUERY_RESULT. If the item is not found in DB, then return (None, None) as a database item.
+
+>	PING  (message from Tracker) -- should unpack PING requests and simply return ('ACK', MYHANDLE)
+
+>	UPDATE_NBR (message from Tracker) -- should unpack request and overwrite NEIGHBOR_CONNECTION with the tuple sent by the TRACKER.
 
 
 
