@@ -29,7 +29,7 @@ Lab Exercises
 
 __BASIC TURTLE__
 
-**[1]**: Use the following code to initialize a turtle window. Then, define a function that accepts a width and height and uses turtle to draw a rectangle. You will use ```lt(degrees)```, ```fd(integer)```, and ```color(color string)```. Call the function with width and height values of your choice.  
+**[1]**: Use the following code to initialize a turtle window. Then, define a function that accepts a width and height and uses turtle to draw a rectangle. You will use ```lt(degrees)```, ```fd(integer)```, and ```color(color string)```. Call the function with width and height values of your choice. **This exercise inspired by M. Aguilar. :)**
 
 >	from turtle import *
 >	screen = Screen()
