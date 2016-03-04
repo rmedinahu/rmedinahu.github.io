@@ -44,7 +44,7 @@ __BASIC TURTLE__
 
 __WHILE LOOPS__
 
-**[2]**: Define a function that accepts one integer argument name ```n```. The function should loop ```n``` times. Each time it loops it advances the turtle forward 10 units then draws a dot in any color you choose. Call the function with different values for ```n```
+**[2]**: Define a function that accepts one integer argument ```n```. The function should loop ```n``` times. Each time it loops it advances the turtle forward 10 units then draws a dot in any color you choose. Call the function with different values for ```n```
 
 USE: ```dot(size optional)``` and ```fd()```
 
