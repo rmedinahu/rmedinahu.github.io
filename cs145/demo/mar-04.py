@@ -39,9 +39,11 @@ def plot_list(list_to_plot):
 		else:
 			dot_color = 'red'
 
+		# draws line in gray
 		color('gray')
 		setpos(tick, item)
-		dot(10, dot_color)
+		color(dot_color)
+		dot(10)
 
 		tick += scale
 

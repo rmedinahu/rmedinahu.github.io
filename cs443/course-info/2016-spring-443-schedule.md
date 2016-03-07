@@ -11,6 +11,7 @@ CS 443: Operating Systems
 *Spring 2016* Schedule of Topics
 
 Jump to week[n] ==> 
+[mar 07](#mar-07-midterm-exam), 
 [feb 29](#feb-29-scheduling--memory-management), 
 [feb 22](#feb-22-interprocess-communication), 
 [feb 15](#feb-15-process-management), 
@@ -136,10 +137,10 @@ Feb 29 Scheduling & Memory Management
 [GIL Talk](http://www.dabeaz.com/python/UnderstandingGIL.pdf)
 
 
-Mar 07 Memory Management & Midterm exam
+Mar 07 Midterm exam
 ------
-- memory management
-- midterm exam
+
+[midterm exam questions](/443/midterm-questions/)
  
 
 Mar 14 (Spring Recess)
