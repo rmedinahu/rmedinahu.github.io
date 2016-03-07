@@ -8,7 +8,7 @@ parent_course: 457
 cs 457 *schedule of topics*
 ------
 
-Jump to week[n] ==> [7](#week-7), [6](#week-6), [5](#week-5), [4](#week-4), [3](#week-3), [2](#week-2), [1](#week-1)
+Jump to week[n] ==> [8](#week-8), [7](#week-7), [6](#week-6), [5](#week-5), [4](#week-4), [3](#week-3), [2](#week-2), [1](#week-1)
 
 
 Week 1
@@ -289,8 +289,12 @@ Mar 03 *Final network application*
 - **In-class** discussion of p2p application requirements. [HW 9 assigned](/457/hw/)
 - **critical** understanding of packet serializaton and deserialization
 
+Week 8
+------
+
 Mar 08 *Application Layer review*
 ------
+- See [midterm-study-guides](/457/midterm-review/)
 - Other protocols
 - Midterm review
 - p2p app questions
