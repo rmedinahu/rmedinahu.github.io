@@ -295,7 +295,6 @@ Week 8
 Mar 08 *Application Layer review*
 ------
 - See [midterm-study-guides](/457/midterm-review/)
-- Other protocols
 - Midterm review
 - p2p app questions
 
