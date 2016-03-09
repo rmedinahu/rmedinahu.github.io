@@ -10,6 +10,9 @@ CS 145 Introduction to Object Oriented Programming
 
 **Spring 2016 Schedule of Topics**
 
+
+Jump to week[n] ==> [8](#week-8), [7](#week-7), [6](#week-6), [5](#week-5), [4](#week-4), [3](#week-3), [2](#week-2), [1](#week-1)
+
 Week 1
 -------
 
@@ -184,20 +187,30 @@ Mar 02 Python programming review
 
 Mar 04 (lab) Final Python program
 ======
-
+- turtle graphics
+- lists
+- list processing with while loops and conditionals
 
 Week 8
 -------
 
 Mar 07 Review
 ======
+- review hw 7 and lab 7 programs
+- while loops
+- if and if/else
+- [hw08](/145/hw08/) assigned
 
-Mar 09 (midterm exam)
+Mar 09 Review
 ======
+- programming fundamentals
+- variable types, operators, conditionals, loops, functions
+- Solution for [hw07](/145/hw07/) posted.
 
-Mar 11 (lab) 
+Mar 11 (lab) Midterm & HW 08
 ======
-
+- midterm exam
+- workon on homework 8
 
 Week 9
 -------

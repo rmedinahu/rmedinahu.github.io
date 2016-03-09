@@ -4,8 +4,9 @@ title:
 permalink: /145/lab07/
 ---
 
-Lab 07: The Turtle Returns
+Lab 07: The Turtle Returns [(solutions)](/145/lab07-sols/)
 ---
+
 Mar 04 2016
 
 >	NO QUIZ TODAY!
