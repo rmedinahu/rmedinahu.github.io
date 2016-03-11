@@ -5,9 +5,9 @@ permalink: /457/hw/
 parent_course: 457
 ---
 
-> [hw-09 due mar 11 @ 5pm](#hw-09)
+> [hw-09 due mar 14 @ 5pm](#hw-09)
 
-> [hw-08 due feb 25 @ 5pm](#hw-08)
+\* [hw-08 due feb 25 @ 5pm](#hw-08)
 
 \* [hw-07 due feb 18 @ 5pm](#hw-07)
 
@@ -620,7 +620,7 @@ Mar 3
 
 **READ!!!! the protocol ==>**[protocol part 2](/457/hw/cs457p2p-protocol-part2/)
 
-**DUE: Mar 11 before 5pm** [Submit your source code file to HW09 dropbox](https://nmhu.desire2learn.com/d2l/home/28405){:target="_blank"}
+**DUE: Mar 14 before 5pm** [Submit your source code file to HW09 dropbox](https://nmhu.desire2learn.com/d2l/home/28405){:target="_blank"}
 
 **Specification**: A peer-to-peer client
 

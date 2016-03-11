@@ -45,6 +45,17 @@ Chapter 02
 
 12. Describe the general sequence of events that make up a process switch?
 
+**See page 95-96 in textbook**
+
+>	1. Hardware stacks program counter, etc.
+>	2. Hardware loads new program counter from interrupt vector. 
+>	3. Assembly-language procedure saves registers.
+>	4. Assembly-language procedure sets up new stack.
+>	5. C interrupt service runs (typically reads and buffers input).
+>	6. Scheduler decides which process is to run next.
+>	7. C procedure returns to the assembly code.
+>	8. Assembly-language procedure starts up new current process.
+
 13. What is a race condition? Briefly describe a scenario where this condition could be met and how it could be prevented.
 
 14. If you mentioned *critical region* in your previous answer, briefly explain how we implement such regions. If you didn't mention *critical region*, then please revisit your previous answer.
