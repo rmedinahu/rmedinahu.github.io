@@ -154,6 +154,9 @@ Mar 21 Memory Management
 - address spaces
 - swapping
 - **in class**: develop simulation of memory allocation/deallocation techniques
+- [hw01](/443/hw01/) assigned (yes, homework!)
+
+**LAB**: [/443/mar-21-lab/](/443/mar-21-lab/)
 
 **Reading** - Chapter 3.1, 3.2
 
@@ -162,9 +165,6 @@ Mar 28 Memory Management
 - virtual memory
 - paging
 - segmentation
-- [hw01](/443/hw01/) assigned (yes, homework!)
-
-**LAB**: [/443/mar-21-lab/](/443/mar-21-lab/)
 
 **Reading** - Chapter 3.3, 3.4, 3.5., 3.6, 3.7
 
