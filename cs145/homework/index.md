@@ -9,7 +9,7 @@ parent_course: 145
 
 >  [hw-09](/145/hw09) Due Mar 28 @ 5pm
 
-\* [hw-08](/145/hw08) Due Mar 11 @ 5pm
+\* [hw-08](/145/hw08) Due Mar 11 @ 5pm (**has solution**)
 
 \* [hw-07](/145/hw07) Due Mar 4 @ 10am (**has solution**)
 
