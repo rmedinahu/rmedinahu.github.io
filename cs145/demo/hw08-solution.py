@@ -56,7 +56,6 @@ def plot_list(list_to_plot):
 		dot(10)
 
 		color('black')
-		# write(item)
 
 		tick += scale
 
