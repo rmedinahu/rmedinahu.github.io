@@ -11,6 +11,7 @@ CS 443: Operating Systems
 *Spring 2016* Schedule of Topics
 
 Jump to week[n] ==> 
+[mar 21](#mar-21-memory-management),
 [mar 07](#mar-07-midterm-exam), 
 [feb 29](#feb-29-scheduling--memory-management), 
 [feb 22](#feb-22-interprocess-communication), 
@@ -146,22 +147,33 @@ Mar 07 Midterm exam
 Mar 14 (Spring Recess)
 ------
 
-Mar 21 Memory management
+Mar 21 Memory Management
+------
+- overview
+- memory management problems
+- address spaces
+- swapping
+- **in class**: develop simulation of memory allocation/deallocation techniques
+
+**Reading** - Chapter 3.1, 3.2
+
+Mar 28 Memory Management
+------
+- virtual memory
+- paging
+- segmentation
+- [hw01](/443/hw01/) assigned (yes, homework!)
+
+**LAB**: [/443/mar-21-lab/](/443/mar-21-lab/)
+
+**Reading** - Chapter 3.3, 3.4, 3.5., 3.6, 3.7
+
+Apr 04 File Systems
 ------
 
 **Reading** - 
 
-Mar 28 File Systems
-------
-
-**Reading** - 
-
-Apr 04 File & I/O
-------
-
-**Reading** - 
-
-Apr 11 File & I/O
+Apr 11 I/O & Deadlocks
 ------
 
 **Reading** - 
@@ -171,7 +183,7 @@ Apr 18 Virtualization & The Cloud
 
 **Reading** - 
 
-Apr 25 Multiple Processor Systems
+Apr 25 Multiple Processor Systems / Security
 ------
 
 **Reading** - 
