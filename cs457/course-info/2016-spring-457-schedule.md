@@ -11,10 +11,11 @@ cs 457 *schedule of topics*
 Jump to week[n] ==> [10](#week-10), [8](#week-8), [7](#week-7), [6](#week-6), [5](#week-5), [4](#week-4), [3](#week-3), [2](#week-2), [1](#week-1)
 
 
+---
+
+
 Week 1
 ------
-
----
 
 Jan 19 *introduction*
 ------
@@ -29,10 +30,11 @@ Jan 21 *overview internet architecture*
 - access isp's
 - HW01 assigned
 
-Week 2
-------
 
 ---
+
+Week 2
+------
 
 Jan 26 *overview internet architecture*
 ------
@@ -60,10 +62,11 @@ Jan 28 *application layer overview*
 - HW03 assigned
 
 
+---
+
+
 Week 3
 ------
-
----
 
 Feb 02 *application layer protocols*
 ------
@@ -88,11 +91,11 @@ stock market ticker, breaking a car remotely over the network, remote surgery, s
 - [HW05 assigned](/457/hw/) - client/server web application in python
 
 
-Week 4
-------
-
 ---
 
+
+Week 4
+------
 
 Feb 09 *application layer protocols continued*
 ------
@@ -114,10 +117,12 @@ Feb 11 *socket and application programming*
 - [HW06 assigned](/457/hw/) - client/server UDP ping program
 
 
-Week 5
-------
 
 ---
+
+
+Week 5
+------
 
 Feb 16 *socket and application programming*
 ------
@@ -151,12 +156,11 @@ Feb 18 *socket and application programming*
 
 
 
+---
+
 
 Week 6
 ------
-
----
-
 
 Feb 23 *socket and application programming*
 ------
@@ -274,10 +278,13 @@ Feb 25 *torrent-like distributed hash table*
 
 {% endhighlight %}
 
-Week 7
-------
+
 
 ---
+
+
+Week 7
+------
 
 Mar 01 
 ------
@@ -288,6 +295,10 @@ Mar 03 *Final network application*
 ------
 - **In-class** discussion of p2p application requirements. [HW 9 assigned](/457/hw/)
 - **critical** understanding of packet serializaton and deserialization
+
+
+---
+
 
 Week 8
 ------
@@ -301,11 +312,22 @@ Mar 08 *Application Layer review*
 Mar 10 *Midterm exam*
 ------
 
+
+---
+
+
+Week 9
+------
+
 Mar 15 - 17 (spring recess)
 ------
 
-Week 8
-------
+
+---
+
+
+*Week 10*
+-------
 
 Mar 22 *Transport Layer*
 ------
@@ -314,17 +336,30 @@ Mar 22 *Transport Layer*
 
 - role of the transport layer
 - services provided to the (upper) application layer
-- udp
+- udp ==> connectionless
 
 
 Mar 24 *Transport Layer*
 ------
+- Connection-oriented protocols
+- TCP
 
 
-Mar 29
+---
+
+Week 11
+-------
+
+Mar 29 *Network Layer*
 ------
-Mar 31
+
+Mar 31 *Network Layer*
 ------
+
+
+---
+
+
 Apr 05
 ------
 Apr 07
