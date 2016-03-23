@@ -232,6 +232,14 @@ Mar 21 Programming Fundamentals Review
 
 Mar 23 Java Introduction
 ======
+- compiling
+- bytecode
+- execution
+- the syntax of Java
+- Hello World in Java
+- variables in Java
+- conditionals
+- loops
 
 Mar 25 (spring recess)
 ======
