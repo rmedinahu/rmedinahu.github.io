@@ -341,8 +341,16 @@ Mar 22 *Transport Layer*
 
 Mar 24 *Transport Layer*
 ------
+- multiplexing ==> "downward" sending of outgoing segments for routing at receiver
+- demultiplexing ==> route "upward", the incoming segments to proper process (a socket with an assigned port)
 - Connection-oriented protocols
-- TCP
+- reliable data transmission
+	* data integrity errors ==> checksums
+	* data loss ==> ACKs and NAKs
+- stop and wait or alternating bit protocol
+- Go Back N (GBN) - pipelining
+- Selective Repeat - pipelining
+- TCP Overview
 
 
 ---
@@ -350,8 +358,9 @@ Mar 24 *Transport Layer*
 Week 11
 -------
 
-Mar 29 *Network Layer*
+Mar 29 *Transport Layer: TCP*
 ------
+- TCP
 
 Mar 31 *Network Layer*
 ------
@@ -359,23 +368,51 @@ Mar 31 *Network Layer*
 
 ---
 
+Week 12
+-------
 
-Apr 05
+Apr 05 *Network Layer*
 ------
-Apr 07
+Apr 07 *Link Layer*
 ------
+
+
+
+---
+
+Week 13
+-------
+
 Apr 12
 ------
 Apr 14
 ------
+
+
+---
+
+Week 14
+-------
 Apr 19
 ------
 Apr 21
 ------
+
+
+---
+
+Week 15
+-------
 Apr 26
 ------
 Apr 28
 ------
+
+
+---
+
+Week 16
+-------
 May 03
 ------
 May 05
