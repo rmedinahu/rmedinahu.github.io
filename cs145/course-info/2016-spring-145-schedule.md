@@ -11,7 +11,7 @@ CS 145 Introduction to Object Oriented Programming
 **Spring 2016 Schedule of Topics**
 
 
-Jump to week[n] ==> [10](#week-10), [8](#week-8), [7](#week-7), [6](#week-6), [5](#week-5), [4](#week-4), [3](#week-3), [2](#week-2), [1](#week-1)
+Jump to week[n] ==> [11](#week-11), [10](#week-10), [8](#week-8), [7](#week-7), [6](#week-6), [5](#week-5), [4](#week-4), [3](#week-3), [2](#week-2), [1](#week-1)
 
 Week 1
 -------
@@ -248,11 +248,18 @@ Mar 25 (spring recess)
 Week 11 
 -------
 
-Mar 28 Java Introduction
+Mar 28 Java Variables
 ======
+- blocks
+- variables
+- operators
+- hello world
 
-Mar 30 Java Variables
+Mar 30 Java Conditionals
 ======
+- if and if/else statements
+- booleans
+- relational operators
 
 Apr 01 (lab) Basic Java Program
 ======
