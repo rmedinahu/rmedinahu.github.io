@@ -163,9 +163,12 @@ Mar 21 Memory Management
 
 Mar 28 Memory Management
 ------
-- virtual memory
-- paging
-- segmentation
+- virtual memory - dealing with bloatware
+- paging - big buckets
+- segmentation - isolating processes and memory
+- [hw02](/443/hw02/) assigned 
+
+**LAB**: (continued from last week) [/443/mar-21-lab/](/443/mar-21-lab/)
 
 **Reading** - Chapter 3.3, 3.4, 3.5., 3.6, 3.7
 
