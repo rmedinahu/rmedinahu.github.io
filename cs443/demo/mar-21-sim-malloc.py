@@ -2,7 +2,7 @@
 
 import random
 
-hole = ['HOLE', 0, 128]
+hole = ['HOLE', 0, 64]
 first_fit_node_checks = 0
 mem = [hole]
 
@@ -39,14 +39,24 @@ def deallocate_mem(pid):
 	for i in range(len(mem)):
 		if mem[i][0] == pid:
 			mem[i][0] = 'HOLE'
+			print '> ', print_debug()
 			return 1
 
 	return -1
 
 def print_debug():
 	global mem
-	print mem
+	printstr = ''
+	for i in mem:
+		if i[0] == 'HOLE':
+			charprnt = '_'
+		else:
+			charprnt = '*'
 
+		for j in range(i[2]):
+			printstr += charprnt 
+
+	print printstr
 
 def fragment_count():
 	global mem
@@ -59,13 +69,15 @@ def fragment_count():
 
 """***************************************************************"""
 run = 1
-while run <= 5000:
-	print 'alloc==>', allocate_mem_first_fit(run, random.randint(3, 10))
-	if run % 50 == 0:
+while run <= 1000:
+	allocate_mem_first_fit(run, random.randint(3, 10))
+	# print 'alloc==>', allocate_mem_first_fit(run, random.randint(3, 10))
+	if run % 30 == 0:
 		debug = deallocate_mem(random.randint(1, run))
-		if debug < 0:
-			print "no deallocate!==>", mem
+		# if debug < 0:
+		# 	print "no deallocate!==>",
 	
+	print_debug()
 	run += 1
 
 print_debug()

@@ -59,9 +59,9 @@ def fragment_count():
 
 """***************************************************************"""
 run = 1
-while run <= 5000:
+while run <= 100:
 	print 'alloc==>', allocate_mem_first_fit(run, random.randint(3, 10))
-	if run % 50 == 0:
+	if run % 3 == 0:
 		debug = deallocate_mem(random.randint(1, run))
 		if debug < 0:
 			print "no deallocate!==>", mem
