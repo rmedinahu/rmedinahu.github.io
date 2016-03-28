@@ -168,6 +168,8 @@ Mar 28 Memory Management
 - segmentation - isolating processes and memory
 - [hw02](/443/hw02/) assigned 
 
+[basic-first-fit.py](/assets/basic-first-fit.py)
+
 **LAB**: (continued from last week) [/443/mar-21-lab/](/443/mar-21-lab/)
 
 **Reading** - Chapter 3.3, 3.4, 3.5., 3.6, 3.7
