@@ -11,6 +11,7 @@ CS 443: Operating Systems
 *Spring 2016* Schedule of Topics
 
 Jump to week[n] ==> 
+[mar 28](#mar-28-memory-management),
 [mar 21](#mar-21-memory-management),
 [mar 07](#mar-07-midterm-exam), 
 [feb 29](#feb-29-scheduling--memory-management), 

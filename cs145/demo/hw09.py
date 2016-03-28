@@ -12,6 +12,7 @@ shape('circle')
 penup()
 color('green')
 v = 1
+
 while True:
 	if position()[0] < -300:
 	  v = 1
