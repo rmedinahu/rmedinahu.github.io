@@ -360,7 +360,10 @@ Week 11
 
 Mar 29 *Transport Layer: TCP*
 ------
-- TCP
+- TCP segments
+- TCP flow control
+- TCP congestion control
+- [HW10 assigned](/457/hw/#hw-10) - Chapter 3 questions
 
 Mar 31 *Network Layer*
 ------

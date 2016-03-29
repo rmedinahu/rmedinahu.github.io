@@ -4,6 +4,7 @@ title:
 permalink: /457/hw/
 parent_course: 457
 ---
+> [hw-10 due apr 1 @ 5pm](#hw-10)
 
 > [hw-09 due mar 14 @ 5pm](#hw-09)
 
@@ -669,9 +670,14 @@ NOTE: In the starter file, you need to send your port number in REGISTRATION req
 >	UPDATE_NBR (message from Tracker) -- should unpack request and overwrite NEIGHBOR_CONNECTION with the tuple sent by the TRACKER.
 
 
+HW 10
+---
 
+Answer the following question from Chapter 3 of the textbook. Submit responses in a text file to D2L.
 
+**DUE Apr 1 at 5pm**
 
+Questions ==> ```R3, R4, R6, R12, R13, R15, R18```
 
 
 
