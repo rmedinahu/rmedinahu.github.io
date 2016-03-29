@@ -677,7 +677,9 @@ Answer the following question from Chapter 3 of the textbook. Submit responses i
 
 **DUE Apr 1 at 5pm**
 
-Questions ==> ```R3, R4, R6, R12, R13, R15, R18```
+Questions (please note that the questions listed in the text are grouped by section number. This should help you locate the appropriate info.) ==> 
+
+```R3, R4, R6, R12, R13, R15, R18```
 
 
 
