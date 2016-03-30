@@ -261,6 +261,8 @@ Mar 30 Java Conditionals
 - booleans
 - relational operators
 
+**Reading:** Chapter 2 and 3 in [Introduction to Programming Using Java by Daniel Eck](http://math.hws.edu/javanotes/)
+
 Apr 01 (lab) Basic Java Program
 ======
 
