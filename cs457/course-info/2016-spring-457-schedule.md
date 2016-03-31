@@ -8,7 +8,7 @@ parent_course: 457
 cs 457 *schedule of topics*
 ------
 
-Jump to week[n] ==> [10](#week-10), [8](#week-8), [7](#week-7), [6](#week-6), [5](#week-5), [4](#week-4), [3](#week-3), [2](#week-2), [1](#week-1)
+Jump to week[n] ==> [11](#week-11), [10](#week-10), [8](#week-8), [7](#week-7), [6](#week-6), [5](#week-5), [4](#week-4), [3](#week-3), [2](#week-2), [1](#week-1)
 
 
 ---
@@ -360,14 +360,40 @@ Week 11
 
 Mar 29 *Transport Layer: TCP*
 ------
-- TCP segments
-- TCP flow control
-- TCP congestion control
+- class not held due to illness
 - [HW10 assigned](/457/hw/#hw-10) - Chapter 3 questions
 
-Mar 31 *Network Layer*
+Mar 31 *Transport Layer: TCP*
 ------
+- Review==> Reliable Data Transfer:
+	* checksum
+	* timer
+	* sequence number
+	* acknowledgement (ACK)
+	* negative acknowledgement (NAK)
+	* window and pipelining
 
+- Review==> Pipelining:
+	* why ```stop and wait``` leads to under utilization
+	* go-back-n (GBN) and cumulative acks
+	* Demo: GBN applet
+	* selective repeat (SR)
+	* Demo: SR applet
+
+**How does TCP achieve reliable data transfer?**
+
+- TCP uses ```buffers```, ```variables```, and ```sockets```
+- TCP uses pipelining with ```cumulative acks``` ~ receiver can buffer out of order segments yet this is implementation specific.
+- TCP segment header
+	* ACKS, seq number, receive buffer size, data
+
+- TCP flow control
+	* manage send and receive buffers
+	* controlling what the receiver can **consume**
+	* Demo: flow control applet
+
+- TCP congestion control
+	* not flow control but adjusts MSS in response to packet loss
 
 ---
 
@@ -376,16 +402,16 @@ Week 12
 
 Apr 05 *Network Layer*
 ------
+
+
 Apr 07 *Link Layer*
 ------
-
 
 
 ---
 
 Week 13
 -------
-
 Apr 12
 ------
 Apr 14

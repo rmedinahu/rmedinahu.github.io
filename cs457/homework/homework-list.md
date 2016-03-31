@@ -673,7 +673,7 @@ NOTE: In the starter file, you need to send your port number in REGISTRATION req
 HW 10
 ---
 
-Answer the following question from Chapter 3 of the textbook. Submit responses in a text file to D2L.
+Answer the following questions from Chapter 3 of the textbook. Submit responses in a text file to D2L.
 
 **DUE Apr 1 at 5pm**
 

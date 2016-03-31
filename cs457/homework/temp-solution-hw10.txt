@@ -1,0 +1,46 @@
+
+R3. Consider a TCP connection between Host A and Host B. Suppose that the TCP segments traveling from Host A to Host B have source port number x and destination port number y. What are the source and destination port numbers for the segments traveling from Host B to Host A?
+
+R4. Describe why an application developer might choose to run an application over UDP rather than TCP.
+
+
+R6. Is it possible for an application to enjoy reliable data transfer even when the application runs over UDP? If so, how?
+
+R12. Visit the Go-Back-N Java applet at the companion Web site.
+a. Have the source send five packets, and then pause the animation before any of the five packets reach the destination. Then kill the first packet and resume the animation. Describe what happens.
+
+b. Repeat the experiment,but now let the first packet reach the destination and kill the first acknowledgment. Describe again what happens.
+
+c. Finally,try sending six packets. What happens?
+
+R13. Repeat R12, but now with the Selective Repeat Java applet. How are Selective Repeat and Go-Back-N different?
+
+R15. Suppose Host A sends two TCP segments back to back to Host B over a TCP connection. The first segment has sequence number 90; the second has sequence number 110.
+a. Howmuchdataisinthefirstsegment?
+b. SupposethatthefirstsegmentislostbutthesecondsegmentarrivesatB. In the acknowledgment that Host B sends to Host A, what will be the acknowledgment number?
+
+R18. True or false? Consider congestion control in TCP. When the timer expires at the sender, the value of ssthresh is set to one half of its previous value.
+
+=====
+
+3. Source port number y and destination port number x.
+
+4. An application developer may not want its application to use TCP’s congestion control, which can throttle the application’s sending rate at times of congestion. Often, designers of IP telephony and IP videoconference applications choose to run their applications over UDP because they want to avoid TCP’s congestion control. Also, some applications do not need the reliable data transfer provided by TCP.
+
+6. Yes. The application developer can put reliable data transfer into the application layer protocol. This would require a significant amount of work and debugging, however.
+
+12.
+a) The packet loss caused a time out after which all the five packets were retransmitted.
+b) Loss of an ACK didn’t trigger any retransmission as Go-Back-N uses cumulative acknowledgements.
+c) The sender was unable to send sixth packet as the send window size is fixed to 5.
+
+13.
+a) When the packet was lost, the received four packets were buffered the receiver. After
+the timeout, sender retransmitted the lost packet and receiver delivered the buffered packets to application in correct order.
+b) Duplicate ACK was sent by the receiver for the lost ACK.
+c) The sender was unable to send sixth packet as the send window size is fixed to 5
+When a packet was lost, GO-Back-N retransmitted all the packets whereas Selective Repeat retransmitted the lost packet only. In case of lost acknowledgement, selective repeat sent a duplicate ACK and as GO-Back-N used cumulative acknowledgment, so that duplicate ACK was unnecessary.
+
+15. a) 20 bytes b) ack number = 90
+
+18. False, it is set to half of the current value of the congestion window.
