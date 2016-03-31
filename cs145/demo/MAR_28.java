@@ -18,9 +18,6 @@ class MAR_28 {
 		double float_div = winner / loser;
 		double mods = winner % loser;
 
-		boolean in_range = 13 < winner;
-		System.out.println(in_range);
-
 		System.out.println(mods);
 	} 
 	
