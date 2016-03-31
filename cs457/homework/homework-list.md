@@ -681,7 +681,7 @@ Questions (please note that the questions listed in the text are grouped by sect
 
 ```R3, R4, R6, R12, R13, R14, R15, R18```
 
-**See this to access applets** ==> [http://wps.aw.com/aw_kurose_network_4/63/16303/4173752.cw/index.html](applets)
+**See this to access applets** ==> [http://wps.aw.com/aw_kurose_network_4/63/16303/4173752.cw/index.html](http://wps.aw.com/aw_kurose_network_4/63/16303/4173752.cw/index.html)
 
 
 
