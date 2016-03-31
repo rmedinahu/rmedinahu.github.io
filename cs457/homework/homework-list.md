@@ -679,7 +679,7 @@ Answer the following questions from Chapter 3 of the textbook. Submit responses 
 
 Questions (please note that the questions listed in the text are grouped by section number. This should help you locate the appropriate info.) ==> 
 
-```R3, R4, R6, R12, R13, R15, R18```
+```R3, R4, R6, R12, R13, R14, R15, R18```
 
 
 
