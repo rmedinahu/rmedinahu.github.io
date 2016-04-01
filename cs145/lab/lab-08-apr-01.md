@@ -73,7 +73,7 @@ Lab Problem/HW 11
 
 How many times do you have to roll a pair of dice before they come up snake eyes? You could do the experiment by rolling the dice by hand. Write a computer program that simulates the experiment. The program should report the number of rolls that it makes before the dice come up snake eyes. (Note: "Snake eyes" means that both dice show a value of 1.) 
 
-HINTS: use the random function as noted above, requires a ```summation```, requires a ```while``` loop and an ```if statement```.
+HINTS: use the random function as noted below, requires a ```summation```, requires a ```while``` loop and possibly an ```if statement```.
 
 Random roll of the die:
 
