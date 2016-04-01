@@ -75,6 +75,10 @@ How many times do you have to roll a pair of dice before they come up snake eyes
 
 HINTS: use the random function as noted above, requires a ```summation```, requires a ```while``` loop and an ```if statement```.
 
+Random roll of the die:
+
+>	int roll_1 = (int)(Math.random()*6) + 1;
+
 
 **This program is Due on Monday April 4 by 5pm**
 
