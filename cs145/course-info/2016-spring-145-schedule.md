@@ -11,7 +11,7 @@ CS 145 Introduction to Object Oriented Programming
 **Spring 2016 Schedule of Topics**
 
 
-Jump to week[n] ==> [11](#week-11), [10](#week-10), [8](#week-8), [7](#week-7), [6](#week-6), [5](#week-5), [4](#week-4), [3](#week-3), [2](#week-2), [1](#week-1)
+Jump to week[n] ==> [12](#week-12), [11](#week-11), [10](#week-10), [8](#week-8), [7](#week-7), [6](#week-6), [5](#week-5), [4](#week-4), [3](#week-3), [2](#week-2), [1](#week-1)
 
 Week 1
 -------
@@ -270,28 +270,35 @@ Apr 01 (lab) Basic Java Program
 Week 12
 -------
 
-
-Apr 04
+Apr 04 Java Loops and Conditionals
 ======
+- conditionals reviewed
+- arrays (or lists)
+- while loops
+- for loops
 
-Apr 06
+Apr 06 Java methods
 ======
+- different name same purpose ==> methods, functions, subroutines
+- variable scope
+- methods in java
+- objects
 
-
-Apr 08 (lab)
+Apr 08 (lab) Using Java objects
 ======
+- Using objects to build programs
 
 
-Week 13
+Week 13 
 -------
 
-Apr 11
+Apr 11 Object Oriented Programming
 ======
 
-Apr 13
+Apr 13 Object Oriented Programming
 ======
 
-Apr 15 (lab)
+Apr 15 (lab) Object Oriented Programming
 ======
 
 
