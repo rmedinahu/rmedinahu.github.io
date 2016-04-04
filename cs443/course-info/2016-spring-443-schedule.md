@@ -11,6 +11,7 @@ CS 443: Operating Systems
 *Spring 2016* Schedule of Topics
 
 Jump to week[n] ==> 
+[apr 04](#apr-04-file-systems),
 [mar 28](#mar-28-memory-management),
 [mar 21](#mar-21-memory-management),
 [mar 07](#mar-07-midterm-exam), 
@@ -176,8 +177,58 @@ Mar 28 Memory Management
 
 Apr 04 File Systems
 ------
+- user-view of files
+- os-view of files (how the user-view is facilitated)
+- i-nodes on the terminal
+- hard/soft linking
+- file system information with ```ls``` and ```df```
 
-**Reading** - 
+**LAB**: file system stats(systems programming)
+
+>	Write a program that starts at a given directory and descends the file tree from that point recording the sizes of all the files it finds. When it is all done, it should print a histogram of the file sizes using a bin width specified as a parameter (e.g., with 1024, file sizes of 0 to 1023 go in one bin, 1024 to 2047 go in the next bin, etc.).
+
+
+{% highlight python %}
+import os, sys
+from stat import *
+
+def walktree(top, callback):
+    '''recursively descend the directory tree rooted at top,
+       calling the callback function for each regular file'''
+
+    for f in os.listdir(top):
+        pathname = os.path.join(top, f)
+        mode = os.stat(pathname).st_mode
+        if S_ISDIR(mode):
+            # It's a directory, recurse into it
+            walktree(pathname, callback)
+        elif S_ISREG(mode):
+            # It's a file, call the callback function
+            callback(pathname)
+
+        else:
+            # Unknown file type, print a message
+            print 'Skipping %s' % pathname
+
+def visitfile(file):
+    print 'visiting', file, 'size', os.stat(file).st_size
+
+if __name__ == '__main__':
+    walktree(sys.argv[1], visitfile)
+{% endhighlight %}
+
+OR 
+
+>	Write a program that scans all directories in a UNIX file system and finds and locates all i-nodes with a hard link count of two or more. For each such file, it lists together all file names that point to the file.
+
+Example: ```find . -inum 1448239```
+
+**Reading** - Chapter ```4.1-4```
+
+python lib ==> [https://docs.python.org/2/library/stat.html](https://docs.python.org/2/library/stat.html)
+
+
+
 
 Apr 11 I/O & Deadlocks
 ------
