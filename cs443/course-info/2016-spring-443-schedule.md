@@ -228,8 +228,6 @@ Example: ```find . -inum 1448239```
 python lib ==> [https://docs.python.org/2/library/stat.html](https://docs.python.org/2/library/stat.html)
 
 
-
-
 Apr 11 I/O & Deadlocks
 ------
 
@@ -245,8 +243,8 @@ Apr 25 Multiple Processor Systems / Security
 
 **Reading** - 
 
-May 02
+May 02 Final Exam 
 ------
-Final Exam 
 
+**Monday, May 2 @ 3-5:50pm in HSCI 282**
 

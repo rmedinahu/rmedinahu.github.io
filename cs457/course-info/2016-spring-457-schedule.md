@@ -405,20 +405,27 @@ Apr 05 *Network Layer*
 - process to process communication (application and transport layers)
 - host to host communication (network and link layers)
 - forwarding and routing distinction
-- forwarding table
+- forwarding tables
+- virtual circuit network (connection-based network model)
 - [HW11 assigned](/457/hw/#hw-11) - Wireshark Lab ==> IP Questions 1-9
 
 Apr 07 *Network Layer*
 ------
+- datagram network (connectionless network model)
+- IP Datagrams
+- IP fragments
+- Routing algorithms
 
 
 ---
 
 Week 13
 -------
-Apr 12
+
+Apr 12 *Link Layer*
 ------
-Apr 14
+
+Apr 14 *Link Layer*
 ------
 
 
@@ -426,9 +433,11 @@ Apr 14
 
 Week 14
 -------
-Apr 19
+
+Apr 19 *Wireless Networks*
 ------
-Apr 21
+
+Apr 21 *Network Security*
 ------
 
 
@@ -436,9 +445,11 @@ Apr 21
 
 Week 15
 -------
-Apr 26
+
+Apr 26 *Network Security*
 ------
-Apr 28
+
+Apr 28 *Network Management*
 ------
 
 
@@ -446,7 +457,14 @@ Apr 28
 
 Week 16
 -------
-May 03
+
+May 03 *Multimedia Networking*
 ------
-May 05
+
+May 05 *Final Review*
 ------
+
+Final Exam
+-------
+
+**Thursday May 12 @ 2:30 - 5:30p

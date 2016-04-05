@@ -344,6 +344,7 @@ May 06 (lab)
 Week 17
 -------
 
-May 11 (final exam)
+May 11 Final Exam
 ======
 
+**Wednesday, May 11 @ 2:30pm - 5:30pm in HSCI 114**
