@@ -467,4 +467,4 @@ May 05 *Final Review*
 Final Exam
 -------
 
-**Thursday May 12 @ 2:30 - 5:30p
+**Thursday May 12 @ 2:30 - 5:30p**
