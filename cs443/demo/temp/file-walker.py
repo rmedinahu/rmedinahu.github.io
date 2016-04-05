@@ -1,26 +1,33 @@
 import os, sys
 from stat import *
 
-def walktree(top, callback):
+ERROR_COUNT = 0
+def walktree(top):
+    global ERROR_COUNT
     '''recursively descend the directory tree rooted at top,
        calling the callback function for each regular file'''
 
     for f in os.listdir(top):
-        pathname = os.path.join(top, f)
-        mode = os.stat(pathname).st_mode
-        if S_ISDIR(mode):
-            # It's a directory, recurse into it
-            walktree(pathname, callback)
-        elif S_ISREG(mode):
-            # It's a file, call the callback function
-            callback(pathname)
+        try:
+            pathname = os.path.join(top, f)
+            mode = os.stat(pathname).st_mode
+            if S_ISDIR(mode):
+                # It's a directory, recurse into it
+                walktree(pathname)
+            elif S_ISREG(mode):
+                # It's a file, call the callback function
+                byte_size = os.stat(pathname).st_size
+                link_count = os.stat(pathname).st_nlink
+                print pathname, 'has bytes==>', byte_size
+                if link_count > 1:
+                    print 'Found', link_count, 'hard links for', pathname
+            else:
+                # Unknown file type, print a message
+                print 'Skipping %s' % pathname
+        except Exception as e:
+            pass
 
-        else:
-            # Unknown file type, print a message
-            print 'Skipping %s' % pathname
-
-def visitfile(file):
-    print 'visiting', file, 'size', os.stat(file).st_size
 
 if __name__ == '__main__':
-    walktree(sys.argv[1], visitfile)
+    walktree(sys.argv[1])
+    print ERROR_COUNT

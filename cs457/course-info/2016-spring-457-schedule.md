@@ -8,7 +8,7 @@ parent_course: 457
 cs 457 *schedule of topics*
 ------
 
-Jump to week[n] ==> [11](#week-11), [10](#week-10), [8](#week-8), [7](#week-7), [6](#week-6), [5](#week-5), [4](#week-4), [3](#week-3), [2](#week-2), [1](#week-1)
+Jump to week[n] ==> [12](#week-12), [11](#week-11), [10](#week-10), [8](#week-8), [7](#week-7), [6](#week-6), [5](#week-5), [4](#week-4), [3](#week-3), [2](#week-2), [1](#week-1)
 
 
 ---
@@ -402,9 +402,13 @@ Week 12
 
 Apr 05 *Network Layer*
 ------
+- process to process communication (application and transport layers)
+- host to host communication (network and link layers)
+- forwarding and routing distinction
+- forwarding table
+- [HW11 assigned](/457/hw/#hw-11) - Wireshark Lab ==> IP Questions 1-9
 
-
-Apr 07 *Link Layer*
+Apr 07 *Network Layer*
 ------
 
 

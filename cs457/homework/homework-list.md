@@ -4,6 +4,8 @@ title:
 permalink: /457/hw/
 parent_course: 457
 ---
+> [hw-11 due apr 8 @ 5pm](#hw-11)
+
 > [hw-10 due apr 1 @ 5pm](#hw-10)
 
 > [hw-09 due mar 14 @ 5pm](#hw-09)
@@ -682,6 +684,21 @@ Questions (please note that the questions listed in the text are grouped by sect
 ```R3, R4, R6, R12, R13, R14, R15, R18```
 
 **See this to access applets** ==> [http://wps.aw.com/aw_kurose_network_4/63/16303/4173752.cw/index.html](http://wps.aw.com/aw_kurose_network_4/63/16303/4173752.cw/index.html)
+
+
+HW 11
+---
+
+This assignment has two parts:
+
+a) Answer questions ```R2, R3, R9, R17``` from Chapter 4 of the text.
+
+b) Answer questions ```1-9``` from the wireshark lab. Submit responses in a text file to D2L.
+
+The wireshark lab sheet is here ==> [wireshark-lab-ip.pdf](/assets/wireshark-lab-ip.pdf)
+
+**DUE Apr 8 at 5pm**
+
 
 
 
