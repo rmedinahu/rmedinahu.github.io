@@ -407,7 +407,7 @@ Apr 05 *Network Layer*
 - forwarding and routing distinction
 - forwarding tables
 - virtual circuit network (connection-based network model)
-- [HW11 assigned](/457/hw/#hw-11) - Wireshark Lab ==> IP Questions 1-9
+- [HW11 assigned](/457/hw/#hw-11) - Chapter 4 questions AND Wireshark Lab ==> IP Questions 1-9
 
 Apr 07 *Network Layer*
 ------
