@@ -412,9 +412,10 @@ Apr 05 *Network Layer*
 Apr 07 *Network Layer*
 ------
 - datagram network (connectionless network model)
-- IP Datagrams
+- forwarding in datagram nets
+- router architecture overview: input, switching fabric, output
+- IP datagrams
 - IP fragments
-- Routing algorithms
 
 
 ---
@@ -422,8 +423,11 @@ Apr 07 *Network Layer*
 Week 13
 -------
 
-Apr 12 *Link Layer*
+Apr 12 *Network Layer*
 ------
+- Routing algorithms -- link state
+- Routing algorithms -- distance vectors
+- Routing protocols
 
 Apr 14 *Link Layer*
 ------
