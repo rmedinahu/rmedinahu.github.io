@@ -60,6 +60,6 @@ Lab Problem / HW 13
 
 **Please view [homework 13](/145/hw13/) to continue today's lab.**
 
-**Homework 12 is due on Monday April 11 by 5pm**
+**Homework 13 is due on Monday April 11 by 5pm**
 
 ---

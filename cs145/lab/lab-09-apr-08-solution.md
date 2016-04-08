@@ -1,3 +1,14 @@
+---
+layout: course_page
+title: 
+permalink: /145/lab09-sols/
+parent_course: 145
+---
+
+Lab 09 - apr 08 2016 - Solutions
+---
+
+{% highlight java %}
 // Solutions to lab 09 (Apr 8) exercises.
 import java.util.Scanner;  // Make the Scanner class available.
 
@@ -68,7 +79,7 @@ Exercise 3:
 			System.out.print("\n\nPlease enter a single letter or enter an asterisk to stop. ==> ");
 			users_char = user_input_scanner.next(); // Read in the entered character.			
 			
-			// User .equals to compare strings. It will return a boolean value.
+			// Use user_char.equals to compare strings. It will return a boolean value.
 			continue_looping = !users_char.equals("*");
 		}
 
@@ -78,3 +89,4 @@ Exercise 3:
 
 }
 
+{% endhighlight %}
