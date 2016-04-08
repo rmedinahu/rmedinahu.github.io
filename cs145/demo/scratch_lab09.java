@@ -1,32 +1,56 @@
 import java.util.Scanner;  // Make the Scanner class available.
 
+/*
+1. Ask the user for an integer.
+2. Print the integer entered by the user to verify it.
+*/
+
 
 class scratch_lab09 {
+	
 	public static void main(String[] args) {
+		// Hook up Scanner to console input.
 		Scanner user_input = new Scanner( System.in );
+		int my_num = 0;
+		boolean prompt_flag = true;
 
-		try {
-			System.out.print("Enter a number:");
-			int var_1 = user_input.nextInt();
-		
-		} catch (Exception e) {
-			System.out.println("bad input");
+		while(prompt_flag) {
+			try {
+				// Prompt for information:
+				System.out.println("Enter a number please:");
+				my_num = user_input.nextInt();
+				prompt_flag = false;
+			
+			} catch (Exception e) {
+				user_input.next(); //CLEAR the SCANNER!!!
+				System.out.println("BAD INPUT!!!!");
+			}
 		}
 
-		int[] list_1 = new int[10];
+		//Print the user's input...
+		System.out.println(my_num);
 
-		for (int i = 0; i < list_1.length; i++) {
-			list_1[i] = (int)(Math.random()*20) + 1;
+		// Make an array of size MY_NUM:
+		double[] nums = new double[my_num];
+
+		for(int index = 0; index < nums.length; index++) {
+			// add random double to each element.
+			nums[index] = (Math.random()*100) + 1;
+			System.out.print(nums[index] + " ");
 		}
 
-		System.out.println(Math.random()*100);
+		String str = "";
+		String user_char = "a";
 
-		String row_1 = "";
+		if(user_char == "a") {
+			System.out.println("matched");
+		}
 
-		row_1 += "a";
-		row_1 += "b";
+		// while (user_char != "*") {
 
-		System.out.println(row_1);
 
+		// }
 	}
+
 }
+
