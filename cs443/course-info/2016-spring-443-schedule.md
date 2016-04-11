@@ -11,6 +11,7 @@ CS 443: Operating Systems
 *Spring 2016* Schedule of Topics
 
 Jump to week[n] ==> 
+[apr 11](#apr-11-io--deadlocks),
 [apr 04](#apr-04-file-systems),
 [mar 28](#mar-28-memory-management),
 [mar 21](#mar-21-memory-management),
@@ -230,8 +231,18 @@ python lib ==> [https://docs.python.org/2/library/stat.html](https://docs.python
 
 Apr 11 I/O & Deadlocks
 ------
+- DMA -- Direct Memory Access
+- interrupts
+- device drivers
+- Disks
+- [hw04](/443/hw04/) assigned 
 
-**Reading** - 
+
+**LAB**
+
+Write a program to implement the three disk-arm scheduling algorithms. Write a driver program that generates a sequence of cylinder numbers (0–999) at random, runs the three algorithms for this sequence and prints out the total distance (number of cylinders) the arm needs to traverse in the three algorithms.
+
+**Reading** - 5.1-5.4
 
 Apr 18 Virtualization & The Cloud
 ------
