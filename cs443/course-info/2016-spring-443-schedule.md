@@ -229,7 +229,7 @@ Example: ```find . -inum 1448239```
 python lib ==> [https://docs.python.org/2/library/stat.html](https://docs.python.org/2/library/stat.html)
 
 
-Apr 11 I/O & Deadlocks
+Apr 11 I/O
 ------
 - DMA -- Direct Memory Access
 - interrupts
@@ -244,7 +244,7 @@ Write a program to implement the three disk-arm scheduling algorithms. Write a d
 
 **Reading** - 5.1-5.4
 
-Apr 18 Virtualization & The Cloud
+Apr 18 Deadlocks / Virtualization & The Cloud
 ------
 
 **Reading** - 
