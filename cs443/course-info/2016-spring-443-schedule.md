@@ -11,7 +11,7 @@ CS 443: Operating Systems
 *Spring 2016* Schedule of Topics
 
 Jump to week[n] ==> 
-[apr 11](#apr-11-io--deadlocks),
+[apr 11](#apr-11-io),
 [apr 04](#apr-04-file-systems),
 [mar 28](#mar-28-memory-management),
 [mar 21](#mar-21-memory-management),
