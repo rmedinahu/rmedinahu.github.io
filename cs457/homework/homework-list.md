@@ -4,6 +4,8 @@ title:
 permalink: /457/hw/
 parent_course: 457
 ---
+> [hw-12 due apr 18 @ 5pm](#hw-11)
+
 > [hw-11 due apr 8 @ 5pm](#hw-11)
 
 > [hw-10 due apr 1 @ 5pm](#hw-10)
@@ -919,6 +921,15 @@ The wireshark lab sheet is here ==> [wireshark-lab-ip.pdf](/assets/wireshark-lab
 **DUE Apr 8 at 5pm**
 
 
+HW 12
+---
 
+Answer questions ```R19, R20, R21, R22``` and ```P1 and P26``` from Chapter 4 of the text.
 
+The following animated slides may help with P26:
 
+[dijkstra-shortest-path-demo.pptx](/assets/dijkstra-shortest-path-demo.pptx)
+
+[dijkstra-shortest-path-demo-2.pptx](/assets/dijkstra-shortest-path-demo-2.pptx)
+
+**DUE Apr 18 at 5pm**

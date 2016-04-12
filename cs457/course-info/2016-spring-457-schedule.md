@@ -8,7 +8,7 @@ parent_course: 457
 cs 457 *schedule of topics*
 ------
 
-Jump to week[n] ==> [12](#week-12), [11](#week-11), [10](#week-10), [8](#week-8), [7](#week-7), [6](#week-6), [5](#week-5), [4](#week-4), [3](#week-3), [2](#week-2), [1](#week-1)
+Jump to week[n] ==> [13](#week-13), [12](#week-12), [11](#week-11), [10](#week-10), [8](#week-8), [7](#week-7), [6](#week-6), [5](#week-5), [4](#week-4), [3](#week-3), [2](#week-2), [1](#week-1)
 
 
 ---
@@ -416,7 +416,7 @@ Apr 07 *Network Layer*
 - router architecture overview: input, switching fabric, output
 - IP datagrams
 - IP fragments
-
+- dhcp
 
 ---
 
@@ -425,13 +425,19 @@ Week 13
 
 Apr 12 *Network Layer*
 ------
-- Routing algorithms -- link state
+- ipv6 overview
+- network address translation
+- Routing algorithms -- link state -- djikstra's shortest path
 - Routing algorithms -- distance vectors
-- Routing protocols
+
+[dijkstra-shortest-path-demo.pptx](/assets/dijkstra-shortest-path-demo.pptx)
+
+[dijkstra-shortest-path-demo-2.pptx](/assets/dijkstra-shortest-path-demo-2.pptx)
 
 Apr 14 *Link Layer*
 ------
-
+- comparison of routing algorithms
+- routing protocols
 
 ---
 
