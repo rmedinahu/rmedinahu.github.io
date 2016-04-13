@@ -11,7 +11,7 @@ CS 145 Introduction to Object Oriented Programming
 **Spring 2016 Schedule of Topics**
 
 
-Jump to week[n] ==> [12](#week-12), [11](#week-11), [10](#week-10), [8](#week-8), [7](#week-7), [6](#week-6), [5](#week-5), [4](#week-4), [3](#week-3), [2](#week-2), [1](#week-1)
+Jump to week[n] ==> [13](#week-13), [12](#week-12), [11](#week-11), [10](#week-10), [8](#week-8), [7](#week-7), [6](#week-6), [5](#week-5), [4](#week-4), [3](#week-3), [2](#week-2), [1](#week-1)
 
 Week 1
 -------
@@ -277,41 +277,59 @@ Apr 04 Java Loops and Conditionals
 - while loops
 - for loops
 
-Apr 06 Java methods
+Apr 06 More Java fundamentals
 ======
-- different name same purpose ==> methods, functions, subroutines
 - variable scope
-- methods in java
-- objects
 
-Apr 08 (lab) Using Java objects
+
+Apr 08 (lab) Java Basics: Arrays, Loops, & Conditionals
 ======
-- Using objects to build programs
-
+- using the Scanner class
+- using ```try / catch``` blocks
+- ```String``` processing
+- arrays and loops
+- multiway conditional branching
 
 Week 13 
 -------
 
-Apr 11 Object Oriented Programming
+Apr 11 Arrays, Loops, & Conditionals
 ======
+- review arrays and loops
+- review conditionals: ```if\else``` statements
 
-Apr 13 Object Oriented Programming
+Apr 13 Methods or Subroutines or Functions
 ======
+- different name same purpose ==> methods, functions, subroutines
+- methods in java
+- *Using the Java API* to learn about the Java ```String``` class [docs](https://docs.oracle.com/javase/8/docs/api/index.html?java/lang/String.html)
+- *Using the Java API* to learn about the ```String.charAt(int index)``` method
+- *in class* textbook problems ==> [7, 8, 9](http://math.hws.edu/javanotes/c4/quiz.html)
+- [Homework 14 assigned](/145/hw14/)
 
-Apr 15 (lab) Object Oriented Programming
+**Reading:** Chapter 4 in [Introduction to Programming Using Java by Daniel Eck](http://math.hws.edu/javanotes/)
+
+Apr 15 (lab) Methods and Object Oriented Programming
 ======
-
+- writing Java methods
+- classes and objects
+- building custom classes and objects
 
 Week 14
 -------
 
-Apr 18
+Apr 18 Object Oriented Programming
 ======
+- classes and objects
 
-Apr 20
+**Reading:** Chapter 5 in [Introduction to Programming Using Java by Daniel Eck](http://math.hws.edu/javanotes/)
+
+Apr 20 Object Oriented Programming
 ======
+- building custom classes and objects
 
-Apr 22 (lab)
+
+Apr 22 (lab) Building Java Classes and Using Objects
 ======
 
 
