@@ -452,22 +452,23 @@ Apr 14 *Network Layer*
 Week 14
 -------
 
-Apr 19 *Wireless Networks*
+Apr 19 *Link Layer*
 ------
 
-Apr 21 *Network Security*
+Apr 21 *Field Trip!*
 ------
-
+- career fair
+- bring: walking shoes, lunchbox, a little $, and swimming trunks
 
 ---
 
 Week 15
 -------
 
-Apr 26 *Network Security*
+Apr 26 *Wireless Networks*
 ------
 
-Apr 28 *Network Management*
+Apr 28 *Network Security*
 ------
 
 
@@ -476,7 +477,7 @@ Apr 28 *Network Management*
 Week 16
 -------
 
-May 03 *Multimedia Networking*
+May 03 *Network Management*
 ------
 
 May 05 *Final Review*
