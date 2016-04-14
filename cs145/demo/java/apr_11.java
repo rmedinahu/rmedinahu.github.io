@@ -19,7 +19,7 @@ class apr_11 {
 		if(val > -1 && val < 2) {
 			r1++; //r = r + 1
 		
-		} else if(val < 4){
+ 		} else if(val < 4) {
 			r2++;
 		
 		} else {
@@ -28,7 +28,7 @@ class apr_11 {
 
 		str += users_char;
 
-		str = str + users_char
+		str = str + users_char;
 
 		
 

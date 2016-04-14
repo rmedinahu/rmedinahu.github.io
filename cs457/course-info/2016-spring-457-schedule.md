@@ -427,17 +427,25 @@ Apr 12 *Network Layer*
 ------
 - ipv6 overview
 - network address translation
-- Routing algorithms -- link state -- djikstra's shortest path
-- Routing algorithms -- distance vectors
+- Routing algorithms -- link state -- djikstra's shortest path (global, centralized)
 
 [dijkstra-shortest-path-demo.pptx](/assets/dijkstra-shortest-path-demo.pptx)
 
 [dijkstra-shortest-path-demo-2.pptx](/assets/dijkstra-shortest-path-demo-2.pptx)
 
-Apr 14 *Link Layer*
+Apr 14 *Network Layer*
 ------
+- Routing algorithms -- distance vector (distributed, decentralized)
 - comparison of routing algorithms
-- routing protocols
+- hierarchical routing of the routers ==>  Autonomous Systems (**AS's**)
+- intra-autonomous (IntraAS) and inter-autonomous (InterAS)
+- IntraAS ==> RIP Routing information protocol, uses DV, implemented at application layer (routed) using UDP!, used in lower tier ISPs
+- IntraAS ==> OSPF Open shortest path first, uses LS, weights configurable, used in higher tier ISPs (mainly because of further restructuration of areas within AS)
+- InterAS ==> BGP Border Gateway Protocol
+
+**Reading** [Real world example](http://arstechnica.com/security/2014/08/internet-routers-hitting-512k-limit-some-become-unreliable/) of how routers (and their setup) are a critical point of failure on the Internet. What does the 512K number indicate with regard to the number of routers on the Internet?
+
+**Watching** [A Video for Chapter 4](http://mediaplayer.pearsoncmg.com/_ph_cc_ecs_set.title.Gluing_the_Internet_Together:_BGP_(Chapter_4)__/aw/streaming/ecs_kurose_compnetw_6/BGP.m4v)
 
 ---
 
