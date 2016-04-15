@@ -6,6 +6,8 @@ parent_course: 145
 ---
 
 ----
+[lab-10](/145/lab10)
+
 [lab-09](/145/lab09) ([solutions](/145/lab09-sols/))
 
 [lab-08](/145/lab08)
