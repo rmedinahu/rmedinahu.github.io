@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: course_page
 title: 
 permalink: /145/lab08/
+parent_course: 145
 ---
 
 Lab 08: First Java Programs

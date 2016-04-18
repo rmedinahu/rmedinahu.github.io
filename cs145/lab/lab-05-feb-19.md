@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: course_page
+parent_course: 145
 title: 
 permalink: /145/lab05/
 ---

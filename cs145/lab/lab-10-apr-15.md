@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: course_page
 title: 
 permalink: /145/lab10/
+parent_course: 145
 ---
 
 Lab 10: Loops, Conditionals, Methods, and First Objects ([solutions](/145/lab10-sols/))

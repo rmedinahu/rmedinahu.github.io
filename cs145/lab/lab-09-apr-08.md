@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: course_page
 title: 
 permalink: /145/lab09/
+parent_course: 145
 ---
 
 Lab 09: Programming Basics and Java ([solutions](/145/lab09-sols/))

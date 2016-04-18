@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: course_page
 title: 
 permalink: /145/lab07/
+parent_course: 145
 ---
 
 Lab 07: The Turtle Returns [(solutions)](/145/lab07-sols/)
