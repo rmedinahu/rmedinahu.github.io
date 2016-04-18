@@ -7,7 +7,7 @@ permalink: /145/lab08/
 Lab 08: First Java Programs
 ---
 
-Apr 01 2016
+Apr 01 2016 
 
 >	NO QUIZ TODAY!
 

@@ -4,10 +4,10 @@ title:
 permalink: /145/lab09/
 ---
 
-Lab 09: Programming Basics and Java
+Lab 09: Programming Basics and Java ([solutions](/145/lab09-sols/))
 ---
 
-Apr 08 2016
+Apr 08 2016 
 
 >	NO QUIZ TODAY!
 

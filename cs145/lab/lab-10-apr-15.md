@@ -4,10 +4,10 @@ title:
 permalink: /145/lab10/
 ---
 
-Lab 10: Loops, Conditionals, Methods, and First Objects
+Lab 10: Loops, Conditionals, Methods, and First Objects ([solutions](/145/lab10-sols/))
 ---
 
-Apr 15 2016
+Apr 15 2016 
 
 >	NO QUIZ TODAY!
 

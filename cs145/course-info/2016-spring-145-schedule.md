@@ -11,7 +11,7 @@ CS 145 Introduction to Object Oriented Programming
 **Spring 2016 Schedule of Topics**
 
 
-Jump to week[n] ==> [13](#week-13), [12](#week-12), [11](#week-11), [10](#week-10), [8](#week-8), [7](#week-7), [6](#week-6), [5](#week-5), [4](#week-4), [3](#week-3), [2](#week-2), [1](#week-1)
+Jump to week[n] ==> [14](#week-14), [13](#week-13), [12](#week-12), [11](#week-11), [10](#week-10), [8](#week-8), [7](#week-7), [6](#week-6), [5](#week-5), [4](#week-4), [3](#week-3), [2](#week-2), [1](#week-1)
 
 Week 1
 -------
@@ -304,7 +304,6 @@ Apr 13 Methods or Subroutines or Functions
 - methods in java
 - *Using the Java API* to learn about the Java ```String``` class [docs](https://docs.oracle.com/javase/8/docs/api/index.html?java/lang/String.html)
 - *Using the Java API* to learn about the ```String.charAt(int index)``` method
-- *in class* textbook problems ==> [7, 8, 9](http://math.hws.edu/javanotes/c4/quiz.html)
 - [Homework 14 assigned](/145/hw14/)
 
 **Reading:** Chapter 4 in [Introduction to Programming Using Java by Daniel Eck](http://math.hws.edu/javanotes/)
@@ -312,17 +311,19 @@ Apr 13 Methods or Subroutines or Functions
 Apr 15 (lab) Methods and Object Oriented Programming
 ======
 - writing Java methods
-- classes and objects
-- building custom classes and objects
+- *in lab* textbook problems ==> [7, 8, 9](http://math.hws.edu/javanotes/c4/quiz.html)
 
 Week 14
 -------
 
 Apr 18 Object Oriented Programming
 ======
+- review [Lab 10](/145/lab10/)
+- organization of an object oriented program
 - classes and objects
+- [Homework 16 - RandomMosaicWalk](/145/hw16) assigned
 
-**Reading:** Chapter 5 in [Introduction to Programming Using Java by Daniel Eck](http://math.hws.edu/javanotes/)
+**Reading:** Chapter 4 in [Introduction to Programming Using Java by Daniel Eck](http://math.hws.edu/javanotes/)
 
 Apr 20 Object Oriented Programming
 ======
@@ -338,6 +339,8 @@ Week 15
 
 Apr 25
 ======
+
+**Reading:** Chapter 5 in [Introduction to Programming Using Java by Daniel Eck](http://math.hws.edu/javanotes/)
 
 Apr 27
 ======
