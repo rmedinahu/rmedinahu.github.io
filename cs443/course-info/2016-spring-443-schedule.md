@@ -11,6 +11,7 @@ CS 443: Operating Systems
 *Spring 2016* Schedule of Topics
 
 Jump to week[n] ==> 
+[apr 18](#apr-18-virtualization),
 [apr 11](#apr-11-io),
 [apr 04](#apr-04-file-systems),
 [mar 28](#mar-28-memory-management),
@@ -244,18 +245,36 @@ Write a program to implement the three disk-arm scheduling algorithms. Write a d
 
 **Reading** - 5.1-5.4
 
-Apr 18 Deadlocks / Virtualization & The Cloud
+Apr 18 Virtualization
+------
+- python virtualenv -- the basic idea, the ```JVM``` is another
+- (Virtual Machine Monitor) hypervisor 1 & 2
+- virtualization and the cloud
+- Demo: Amazon EC2 
+- [hw05](/443/hw05/) assigned
+
+Links:
+[ec2 info](https://aws.amazon.com/ec2/)
+
+[british ec2](https://youtu.be/TsRBftzZsQo)
+
+**LAB & Homework**
+
+see [hw05](/443/hw05/)
+
+**Reading** - 7, online texts
+
+Apr 25 Multiple Processor Systems 
 ------
 
 **Reading** - 
 
-Apr 25 Multiple Processor Systems / Security
+May 02 Security 
 ------
 
 **Reading** - 
 
-May 02 Final Exam 
+Final Exam
 ------
-
-**Monday, May 2 @ 3-5:50pm in HSCI 282**
+**Online during finals week.**
 

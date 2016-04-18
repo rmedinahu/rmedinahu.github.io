@@ -1,0 +1,26 @@
+hw 4 ch. 5
+13. UNIX does it as follows. There is a table indexed by device number, with each table entry being a C struct containing pointers to the functions for opening, closing, reading, and writing and a few other things from the device. To install a new device, a new entry has to be made in this table and the pointers filled in, often to the newly loaded device driver.
+
+14. (a) Device driver.
+(b) Device driver.
+(c) Device-independent software. (d) User-level software.
+
+hw 5 ch. 7
+----
+1. There are numerous reasons, among them consolidating servers to save hard- ware investment cost, rack space, and electrical power, and make management of thousands of servers easier.
+
+3. There are various reasons. A key one is to have many platforms such as Win- dows 7, Windows 8, Linux, FreeBSD, OS X, etc. available on a single desktop machine to test the software being developed. Also, rebooting a virtual ma- chine after a crash induced by a software bug is much faster.
+
+6. Any instruction changing the page tables or memory map is certainly sensitive, as well as anything involving I/O. Any instruction capable of reading the true state of the machine is also sensitive.
+
+12. Type 1 hypervisors generally require changing the boot procedure of the com- puter to load the hypervisor first, then create virtual machines, and then install operating systems in them. At data centers run by expert system administra- tors, this is not a problem, but for most ordinary users, doing this is far too complicated. Type 2 hypervisors were invented to make installing a hypervisor no more difficult than installing an application program, something that users frequently do. Also, by using a host operating system to service local peripher- als, it was not necessary for the hypervisor to have drivers for all of them since it could use the ones inside the host OS.
+
+29. Obviously there are many, but a provider offering empty virtual x86 machines would be offering IAAS. A provider offering Windows 8 or Linux machines would be offering PAAS. A provider offering a word-processing program, such as Microsoft Word, running in the cloud would be offering software as a service.
+
+30. Suppose many virtual machines were started up on a single server. Initially, all of them did about the same amount of work and required the same resources and the situation was fine. Then all of a sudden, one of them began using mas- sive resources (CPU, memory, etc.) disturbing all the other virtual machines. This might be a good time to migrate it to a dedicated server of its own.
+
+31. Physical I/O devices still present problems because they do not migrate with the virtual machine, yet their registers may hold state that is critical to the proper functioning of the system. Think of read or write operations to devices (e.g., the disk) that have been issued but have not yet completed. Network I/O is particularly difficult because other machines will continue to send packets to the hypervisor, unaware that the virtual machine has moved. Even if packets can be redirected to the new hypervisor, the virtual machine will be unrespon- sive during the migration period, which can be long because the entire virtual machine, including the guest operating system and all processes executing on it, must be moved to the new machine. As a result packets can experience large delays or even packet loss if the device/hypervisor buffers overflow.
+
+32. In order to migrate a specific process, process state information has to be stor- ed and then transferred, including open files, alarms, signal handlers, etc. Er- rors may creep in during the state capture task leading to potentially incorrect, incomplete or inconsistent state information. In the case of VM migration, the entire memory and disk images are moved to the new system, which is easier.
+
+33. Standard (dead) migration consists of stopping the virtual machine and saving its memory image as a file. The file is then transported to the destination, in- stalled in a virtual machine, and restarted. Doing so causes the application to stop for a little while during transport. In many circumstances having the application stop is undesirable. With live migration, the pages of the virtual ma- chine are moved while it is running. After they all arrive at the destination, a check is made to see if any of them have changed since being migrated. If so, they are copied again. This process is repeated until all the pages at the desti- nation are up to date. Working this way (live migration) means applications can be moved with no downtime.
