@@ -117,7 +117,13 @@ def elevator(seq):
 	left = scan_lt(sim_disk, read_head)
 	right = scan_rt(sim_disk, read_head)
 
-	going_up = True
+	d_lt = abs(left - read_head)
+	d_rt = abs(right - read_head)
+	
+	if d_rt > d_lt:
+		going_up = False
+	else:
+		going_up = True
 
 	while (left + right) != -2:
 		if going_up:
@@ -149,7 +155,7 @@ read_sequence = populate_sequence(10, DISK_SIZE)
 	Expected output is as follows:
 		FCFS = 111, SDF = 61, ELEVATOR = 60
 """
-read_sequence = [11, 1, 36, 16, 34, 9, 12] 
+# read_sequence = [11, 1, 36, 16, 34, 9, 12] 
 
 print '\nRead sequence ==> ', read_sequence
 print 'Initial read_head position ==>', read_sequence[0]
