@@ -33,4 +33,4 @@ b) In order for a router to maintain an available fixed amount of capacity on th
 c) In this scenario, datagram architecture has more control traffic overhead. This is due to the various packet headers needed to route the datagrams through the network. But in VC architecture, once all circuits are set up, they will never change. Thus, the signaling overhead is negligible over the long run.
 
 P26.
-See image...
+[see table](/assets/images/link-state-p26-table-sol.png)

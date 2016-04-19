@@ -8,7 +8,7 @@ parent_course: 457
 cs 457 *schedule of topics*
 ------
 
-Jump to week[n] ==> [13](#week-13), [12](#week-12), [11](#week-11), [10](#week-10), [8](#week-8), [7](#week-7), [6](#week-6), [5](#week-5), [4](#week-4), [3](#week-3), [2](#week-2), [1](#week-1)
+Jump to week[n] ==> [14](#week-14), [13](#week-13), [12](#week-12), [11](#week-11), [10](#week-10), [8](#week-8), [7](#week-7), [6](#week-6), [5](#week-5), [4](#week-4), [3](#week-3), [2](#week-2), [1](#week-1)
 
 
 ---
@@ -454,11 +454,18 @@ Week 14
 
 Apr 19 *Link Layer*
 ------
+- error detection (parity bit, checksum, and cyclic redundancy codes --CRC)
+- Multiple Access Protocols -- channel, random access, taking turns
+- CSMA and CSMA/CD (with collision detection WHILE transmitting)
+- MAC addressing and address space
+- A Day in the Life of an HTTP request...
 
 Apr 21 *Field Trip!*
 ------
 - career fair
 - bring: walking shoes, lunchbox, a little $, and swimming trunks
+- EC for attending is subsumption of the Wireshark component in [homework 11](/457/hw/#hw-11)
+
 
 ---
 
@@ -467,6 +474,9 @@ Week 15
 
 Apr 26 *Wireless Networks*
 ------
+- review CSMA concepts
+- ALOHAnet
+- Wireless nets
 
 Apr 28 *Network Security*
 ------
