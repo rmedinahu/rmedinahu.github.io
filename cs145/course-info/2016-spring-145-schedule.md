@@ -327,8 +327,10 @@ Apr 18 Object Oriented Programming
 
 Apr 20 Object Oriented Programming
 ======
+- classes and objects
+- the anatomy of an object oriented program
 - building custom classes and objects
-
+- homework 16 questions and discussions
 
 Apr 22 (lab) Building Java Classes and Using Objects
 ======
