@@ -327,10 +327,15 @@ Apr 18 Object Oriented Programming
 
 Apr 20 Object Oriented Programming
 ======
+- software classification (enterprise, systems, graphics, entertainment)
+- objects help us MODEL problems and EXPRESS solutions (in software)
 - classes and objects
 - the anatomy of an object oriented program
-- building custom classes and objects
-- homework 16 questions and discussions
+- AsciiRectangle -- building custom classes and objects
+- homework 16 questions and concerns
+
+**Reading:** Chapter 5 in [Introduction to Programming Using Java by Daniel Eck](http://math.hws.edu/javanotes/)
+
 
 Apr 22 (lab) Building Java Classes and Using Objects
 ======
