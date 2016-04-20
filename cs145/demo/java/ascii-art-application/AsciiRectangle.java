@@ -1,10 +1,16 @@
+// AsciiRectangle.java
+
+/* Simple example of a CLASS definition. An AsciiRectangle object
+	MODELS a simple rectangle that can be drawn using ascii characters.
+ 	Make sure you can find the PROPERTIES and BEHAVIORS.
+*/
 class AsciiRectangle {
 	double width;
 	double height;
 	double xcoord;
 	double ycoord;
 
-	// Construct a rectangle object
+	// Constructor: A special method that creates an AsciiRectangle OBJECT by setting its properties.
 	public AsciiRectangle(double w, double h, double x, double y) {
 		width = w;
 		height = h;
@@ -12,6 +18,8 @@ class AsciiRectangle {
 		ycoord = y;
 	}
 
+	// Method (behavior) designed to print the rectangle on the screen using ascii characters.
+	
 	public void displayRectangle() {
 		String top_bottom = "";
 		String sides = "";

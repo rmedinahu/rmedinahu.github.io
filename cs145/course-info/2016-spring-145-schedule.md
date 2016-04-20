@@ -334,6 +334,12 @@ Apr 20 Object Oriented Programming
 - AsciiRectangle -- building custom classes and objects
 - homework 16 questions and concerns
 
+**Files used during class for your review:**
+
+*(You should try to download both files below into their own folder or directory, then try:* ```javac AsciiArtGenerator.java``` THEN ```java AsciiArtGenerator```. Make sure you can follow what is happening and how the two files are used together.)
+
+[AsciiArtGenerator.java](/cs145/demo/java/ascii-art-application/AsciiArtGenerator.java) and [AsciiRectangle.java](/cs145/demo/java/ascii-art-application/AsciiRectangle.java)
+
 **Reading:** Chapter 5 in [Introduction to Programming Using Java by Daniel Eck](http://math.hws.edu/javanotes/)
 
 

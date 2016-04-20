@@ -42,6 +42,11 @@ class apr_20 {
 
 	public static void main(String[] args) {
 		double[] rect_1 = constructRectangle(20, 5, 10, 10);
+		double[] rect_2 = constructRectangle(10, 5, 10, 10);
+		double[] rect_3 = constructRectangle(20, 5, 10, 10);
+		double[] rect_4 = constructRectangle(20, 5, 10, 10);
+		double[] rect_5 = constructRectangle(20, 5, 10, 10);
+
 		System.out.println();
 		displayRectangle(rect_1);
 		System.out.println();
