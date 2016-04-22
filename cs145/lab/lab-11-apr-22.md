@@ -34,11 +34,13 @@ Lab Exercises
 Creating a Java class file (without a main)
 ----
 
-**[1]**: Copy and paste the code in [AsciiRectangle.java](/cs145/demo/java/ascii-art-application/AsciiRectangle.java) into a file of the same name in your application folder.
+**[1]**: Copy and paste the code in [AsciiRectangle.java](/cs145/demo/java/ascii-art-application/AsciiRectangle.java) into a file of the same name in your application folder. Do the same for [AsciiArtGenerator.java](/cs145/demo/java/ascii-art-application/AsciiArtGenerator.java)
 
-	a. **Remove** the properties ```xcoord``` and ```ycoord```.
-	b. Update the ```CONSTRUCTOR``` to reflect the fact that the rectangle class does not have xcoord and ycoord properties.
-	c. Copy and paste the code in [AsciiArtGenerator.java](/cs145/demo/java/ascii-art-application/AsciiArtGenerator.java) to the same folder as the above file. Use this class to test that your changes don't cause the program to crash.
+a. **Remove** the properties ```xcoord``` and ```ycoord```.
+
+b. Update the ```CONSTRUCTOR``` to reflect the fact that the rectangle class does not have xcoord and ycoord properties.
+
+c. Use the ```AsciiArtGenerator``` class to test your changes.
 
 *Demo your code to instructor*
 
