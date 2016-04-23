@@ -6,7 +6,7 @@ parent_course: 145
 ---
 
 ----
->  [hw-17](/145/hw17) Due Apr 25 @ 10am
+>  [hw-17](/145/hw17) Due Apr 25 @ 5pm
 
 >  [hw-16](/145/hw16) Due Apr 22 @ 10am
 
