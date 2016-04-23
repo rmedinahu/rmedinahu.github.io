@@ -8,11 +8,11 @@ parent_course: 145
 ----
 >  [hw-17](/145/hw17) Due Apr 25 @ 5pm
 
->  [hw-16](/145/hw16) Due Apr 22 @ 10am
+>  [hw-16](/145/hw16) Due Apr 25 @ 5pm
 
->  [hw-15](/145/hw15) Due Apr 18 @ 10am
+\* [hw-15](/145/hw15) Due Apr 18 @ 10am (**has solution**)
 
->  [hw-14](/145/hw14) Due Apr 15 @ 10am
+\* [hw-14](/145/hw14) Due Apr 15 @ 10am (**solutions in textbook**)
 
 \* [hw-13](/145/hw13) Due Apr 11 @ 5pm (**has solution**)
 
