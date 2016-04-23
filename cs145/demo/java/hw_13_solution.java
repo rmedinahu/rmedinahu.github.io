@@ -1,29 +1,3 @@
----
-layout: course_page
-title: 
-permalink: /145/hw13/
-parent_course: 145
----
-
-Homework 13
-----
-
-Due: Apr 11 before 5pm. Submit to D2L dropbox.
-----
-
-Write a Java program that continues the code from lab 09 in which you populate an array with N random values (N is determined from user input). The random values should be between 1 and 100 inclusive. Each value in the array should be a type double. After the array has been populated, your program should print a histogram to the screen (use asterisks printed horizontally across the screen). The histogram should indicate the number of values in the array that fall into the following ranges:
-
-> 	0-40
-> 	41-60
-> 	61-80
-> 	81-100
-
-
-**Please name your program with ```your_name_hw13.java```**
-
-**Solution**
-
-{% highlight java %}
 // hw_13_solution
 
 import java.util.Scanner;
@@ -89,5 +63,3 @@ class hw_13_solution {
 		System.out.println("81-100 ==> " + range4.length() + " =\t" + range4);
 	}
 }
-
-{% endhighlight %}
