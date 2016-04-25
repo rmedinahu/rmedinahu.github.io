@@ -9,17 +9,14 @@ class AsciiArtGenerator {
 
 	public static void main(String[] args) {
 
+		// CONSTRUCTOR gives us an OBJECT called rect_1
 		AsciiRectangle rect_1 = new AsciiRectangle(10, 5);
-		double w = rect_1.getWidth();
-		double h = rect_1.getHeight();
-		double area = w * h;
-		System.out.println(area);
-		rect_1.displayRectangle();
+		AsciiRectangle rect_0 = new AsciiRectangle(5, 10);
 
-		rect_1.setWidth(30.0);
-		rect_1.setHeight(10.0);
+		rect_0.displayRectangleFilled();
+		rect_0.getWidth();
 
-		rect_1.displayRectangle();
+
 	
 	}
 }

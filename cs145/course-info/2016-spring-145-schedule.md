@@ -11,7 +11,7 @@ CS 145 Introduction to Object Oriented Programming
 **Spring 2016 Schedule of Topics**
 
 
-Jump to week[n] ==> [14](#week-14), [13](#week-13), [12](#week-12), [11](#week-11), [10](#week-10), [8](#week-8), [7](#week-7), [6](#week-6), [5](#week-5), [4](#week-4), [3](#week-3), [2](#week-2), [1](#week-1)
+Jump to week[n] ==> [15](#week-15), [14](#week-14), [13](#week-13), [12](#week-12), [11](#week-11), [10](#week-10), [8](#week-8), [7](#week-7), [6](#week-6), [5](#week-5), [4](#week-4), [3](#week-3), [2](#week-2), [1](#week-1)
 
 Week 1
 -------
@@ -350,17 +350,26 @@ Apr 22 (lab) Building Java Classes and Using Objects
 Week 15
 -------
 
-Apr 25
+Apr 25 Object oriented concepts
 ======
+- encapsulation -- information hiding
+- object construction
+- object deferencers ==> ```.```
+- class instance == object
 
 **Reading:** Chapter 5 in [Introduction to Programming Using Java by Daniel Eck](http://math.hws.edu/javanotes/)
 
 Apr 27
 ======
+- static methods ==> object not required
+- non-static methods ==> object required
+- using ```git``` and ```github``` - demo
+- portfolio project explained
 
-Apr 29 (lab)
+Apr 29 (lab) Portfolio development and final Object oriented application
 ======
-
+- coding "sprints" and your portfolio
+- final programming assignment
 
 Week 16
 -------
