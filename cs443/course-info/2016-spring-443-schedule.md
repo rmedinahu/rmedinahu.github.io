@@ -11,6 +11,7 @@ CS 443: Operating Systems
 *Spring 2016* Schedule of Topics
 
 Jump to week[n] ==> 
+[apr 25](#apr-25-multiple-processor-systems),
 [apr 18](#apr-18-virtualization),
 [apr 11](#apr-11-io),
 [apr 04](#apr-04-file-systems),
@@ -266,6 +267,12 @@ see [hw05](/443/hw05/)
 
 Apr 25 Multiple Processor Systems 
 ------
+- muliple cpu models ==> shared memory, message passing, distributed nets
+- multiprocessor, multicomputer, multicomputers
+- spinning vs. switching
+- multicomputer -- interconnects!
+
+
 
 **Reading** - 
 

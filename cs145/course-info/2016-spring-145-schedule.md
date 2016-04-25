@@ -352,6 +352,7 @@ Week 15
 
 Apr 25 Object oriented concepts
 ======
+- create your github account!
 - encapsulation -- information hiding
 - object construction
 - object deferencers ==> ```.```
@@ -370,6 +371,7 @@ Apr 29 (lab) Portfolio development and final Object oriented application
 ======
 - coding "sprints" and your portfolio
 - final programming assignment
+- your first "commit"
 
 Week 16
 -------

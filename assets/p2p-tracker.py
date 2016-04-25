@@ -9,7 +9,7 @@ from collections import OrderedDict
 
 
 #  server host (local machine)
-host = '10.7.210.108' 
+host = '127.0.0.1' 
 
 #  machine port
 port = 7777
