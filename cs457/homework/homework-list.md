@@ -613,7 +613,7 @@ cs457p2p application: Part 2
 **Solution:**
 
 {% highlight python %}
-""" python p2p dha example """
+""" python p2p dht example """
 
 import threading
 import time

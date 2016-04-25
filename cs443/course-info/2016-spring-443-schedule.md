@@ -272,9 +272,7 @@ Apr 25 Multiple Processor Systems
 - spinning vs. switching
 - multicomputer -- interconnects!
 
-
-
-**Reading** - 
+**Reading** - Chapter 8
 
 May 02 Security 
 ------
