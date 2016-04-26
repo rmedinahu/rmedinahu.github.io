@@ -938,6 +938,6 @@ The following animated slides may help with P26:
 
 hw 13
 ---
-Answer questions ``` ``` from Chapter 5 of the text.
+Answer questions ```R1, R5, R9, R11``` from Chapter 5 of the text.
 
 **DUE Apr 28 at 11am**

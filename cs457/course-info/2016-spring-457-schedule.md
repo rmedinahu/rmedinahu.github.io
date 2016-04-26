@@ -480,23 +480,23 @@ Apr 26 *Wireless Networks*
 - wireless nets
 - bit errors are the norm?
 
-Apr 28 *Network Security*
+Apr 28 *Wireless Networks*
 ------
 - wireless nets continued
-- security in the layers
+
 
 ---
 
 Week 16
 -------
 
-May 03 *Network Management*
+May 03 *Network Security*
 ------
-- graduate student presentations
-- net management concepts
+- security in the layers
 
 May 05 *Final Review*
 ------
+- graduate student presentations
 
 Final Exam
 -------
