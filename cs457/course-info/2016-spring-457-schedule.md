@@ -8,7 +8,7 @@ parent_course: 457
 cs 457 *schedule of topics*
 ------
 
-Jump to week[n] ==> [14](#week-14), [13](#week-13), [12](#week-12), [11](#week-11), [10](#week-10), [8](#week-8), [7](#week-7), [6](#week-6), [5](#week-5), [4](#week-4), [3](#week-3), [2](#week-2), [1](#week-1)
+Jump to week[n] ==> [15](#week-15), [14](#week-14), [13](#week-13), [12](#week-12), [11](#week-11), [10](#week-10), [8](#week-8), [7](#week-7), [6](#week-6), [5](#week-5), [4](#week-4), [3](#week-3), [2](#week-2), [1](#week-1)
 
 
 ---
@@ -474,13 +474,16 @@ Week 15
 
 Apr 26 *Wireless Networks*
 ------
-- review CSMA concepts
-- ALOHAnet
-- Wireless nets
+- review CSMA protocol concepts, including ALOHANET
+- hubs, switches but not routers
+- networking the floor of a cluster. 
+- wireless nets
+- bit errors are the norm?
 
 Apr 28 *Network Security*
 ------
-
+- wireless nets continued
+- security in the layers
 
 ---
 
@@ -489,6 +492,8 @@ Week 16
 
 May 03 *Network Management*
 ------
+- graduate student presentations
+- net management concepts
 
 May 05 *Final Review*
 ------

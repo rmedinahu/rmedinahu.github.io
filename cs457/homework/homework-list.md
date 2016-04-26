@@ -4,6 +4,8 @@ title:
 permalink: /457/hw/
 parent_course: 457
 ---
+> [hw-13 due apr 28 @ 11am](#hw-13)
+
 > [hw-12 due apr 18 @ 5pm](#hw-12)
 
 > [hw-11 due apr 8 @ 5pm](#hw-11)
@@ -933,3 +935,9 @@ The following animated slides may help with P26:
 [dijkstra-shortest-path-demo-2.pptx](/assets/dijkstra-shortest-path-demo-2.pptx)
 
 **DUE Apr 18 at 5pm**
+
+hw 13
+---
+Answer questions ``` ``` from Chapter 5 of the text.
+
+**DUE Apr 28 at 11am**
