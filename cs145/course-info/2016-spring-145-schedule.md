@@ -364,6 +364,7 @@ Apr 27
 ======
 - static methods ==> object not required
 - non-static methods ==> object required
+- lists backwards and forwards
 - using ```git``` and ```github``` - demo
 - portfolio project explained
 
