@@ -482,8 +482,14 @@ Apr 26 *Wireless Networks*
 
 Apr 28 *Wireless Networks*
 ------
+- review: why do switches reduce (or eliminate) frame collisions
 - wireless nets continued
 
+*demos*
+
+[http://www.ccs-labs.org/teaching/rn/animations/](http://www.ccs-labs.org/teaching/rn/animations/)
+
+[http://www.ccs-labs.org/teaching/rn/animations/csma/](http://www.ccs-labs.org/teaching/rn/animations/csma/)
 
 ---
 

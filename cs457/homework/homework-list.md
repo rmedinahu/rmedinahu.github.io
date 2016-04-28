@@ -4,6 +4,8 @@ title:
 permalink: /457/hw/
 parent_course: 457
 ---
+> [hw-14 due may 2 @ 11am](#hw-14)
+
 > [hw-13 due apr 28 @ 11am](#hw-13)
 
 > [hw-12 due apr 18 @ 5pm](#hw-12)
@@ -941,3 +943,30 @@ hw 13
 Answer questions ```R1, R5, R9, R11``` from Chapter 5 of the text.
 
 **DUE Apr 28 at 11am**
+
+
+hw 14
+---
+**DUE May 2 at 11am**
+
+a) Answer questions ```R1, R2, R5, R6, R7, R8``` from Chapter 6 of the text.
+
+b) Write a short python script containing two functions --```encipher(cleartext)``` and ```decipher(cleartext)```.
+
+A simple substitution cipher is one that uses a specific mechanism to replace cleartext characters with other characters following a substitution algorithm. The simplest is to use a rotating offset. For example, using an offset of 10, one could substitute all letter a's in the cleartext with the letter k (k is the character at offset 10 from a). For the ```encipher``` function, build and return the cipher for the cleartext argument. The ```decipher``` does the reverse -- accepts a cipher as an argument and returns the original cleartext. You python program should call your two functions in the logical order printing both the cipher and the deciphered text to verify success.
+
+Your cipher should handle a subset of ascii characters (32-127) for a total of 95 characters.
+
+**Hints**
+
+You can use the following to generate your alphabet for the cipher. Remember the offset needs to rotate!
+
+>	cipher_alphabet = [chr(i) for i in range(32, 127)]
+
+>	you may find chr() and ord() useful for mapping between ascii and ordinal values.
+
+I will test your program with the following cleartext:
+
+>	blue skies and sn0wee peaks ~ means no surfing today.
+
+
