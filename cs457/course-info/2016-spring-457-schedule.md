@@ -428,6 +428,7 @@ Apr 12 *Network Layer*
 - ipv6 overview
 - network address translation
 - Routing algorithms -- link state -- djikstra's shortest path (global, centralized)
+- [hw-12 assigned](/457/hw/#hw-12)
 
 [dijkstra-shortest-path-demo.pptx](/assets/dijkstra-shortest-path-demo.pptx)
 
@@ -479,11 +480,13 @@ Apr 26 *Wireless Networks*
 - networking the floor of a cluster. 
 - wireless nets
 - bit errors are the norm?
+- [HW13 assigned](/457/hw/#hw-13)
 
 Apr 28 *Wireless Networks*
 ------
 - review: why do switches reduce (or eliminate) frame collisions
 - wireless nets continued
+- [HW14 assigned](/457/hw/#hw-14)
 
 *demos*
 
