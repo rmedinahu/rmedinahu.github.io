@@ -951,9 +951,9 @@ hw 14
 
 a) Answer questions ```R1, R2, R5, R6, R7, R8``` from Chapter 6 of the text.
 
-b) Write a short python script containing two functions --```encipher(cleartext)``` and ```decipher(cleartext)```.
+b) Write a short python script containing two functions --```encipher(cleartext)``` and ```decipher(ciphertext)```.
 
-A simple substitution cipher is one that uses a specific mechanism to replace cleartext characters with other characters following a substitution algorithm. The simplest is to use a rotating offset. For example, using an offset of 10, one could substitute all letter a's in the cleartext with the letter k (k is the character at offset 10 from a). For the ```encipher``` function, build and return the cipher for the cleartext argument. The ```decipher``` does the reverse -- accepts a cipher as an argument and returns the original cleartext. You python program should call your two functions in the logical order printing both the cipher and the deciphered text to verify success.
+A simple substitution cipher is one that uses a specific mechanism to replace cleartext characters with other characters following a substitution algorithm. The simplest is to use a rotating offset. For example, using an offset of 10, one could substitute all letter a's in the cleartext with the letter k (k is the character at offset 10 from a). For the ```encipher``` function, build and return the cipher for the cleartext argument. The ```decipher``` does the reverse -- accepts a cipher as an argument and returns the original cleartext. Your python program should call your two functions in the logical order printing both the cipher and the deciphered text to verify success.
 
 Your cipher should handle a subset of ascii characters (32-127) for a total of 95 characters.
 
