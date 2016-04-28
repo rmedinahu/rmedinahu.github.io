@@ -3,6 +3,12 @@ class Worm {
 	int length;
 	String color;
 
+
+	public Worm(String n, int l, String c) {
+		name = n;
+		length = l;
+		color = c;
+	}
 /* Getter and Setters */
 	public int getLength() {
 		return length;
@@ -36,3 +42,9 @@ class Worm {
 		return description;
 	}
 }
+
+
+
+
+
+

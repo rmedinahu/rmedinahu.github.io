@@ -21,7 +21,7 @@ public class RandomMosaicWalk_hw_solution {
         while (Mosaic.isOpen()) {
             changeColor(currentRow, currentColumn, 80, 80, 80);
             randomMove();
-            changeColor(currentRow, currentColumn, 0, 0, 255);
+            // changeColor(currentRow, currentColumn, 0, 0, 255);
             Mosaic.delay(250);
             
             
