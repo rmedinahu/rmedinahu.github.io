@@ -1,22 +1,22 @@
 class may_2 {
 	
-	static int[] nums = {1, 2, 3, 4};
+	static int[] nums = {5, 10, 15, 20};
 
 	public static void main(String[] args) {
-		Gradebook g = new Gradebook();
-		g.flipEnds(nums);
+		DemoClass demo_object = new DemoClass();
+		demo_object.flipEnds(nums);
 		System.out.println(nums);
 		for(int i = 0; i < nums.length; i++) {
 			System.out.print(nums[i] + ", ");
 		}
 
 		int x = 4;
-		g.passByValue(x);
+		demo_object.passByValueSquared(x);
 		System.out.println(x);
 	}
 }
 
-class Gradebook {
+class DemoClass {
 
 	public void flipEnds(int[] values) {
 		System.out.println(values);
@@ -28,7 +28,7 @@ class Gradebook {
 
 	}
 
-	public void passByValue(int x) {
+	public void passByValueSquared(int x) {
 		x = x * x;
 		System.out.println(x);
 	}
