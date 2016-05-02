@@ -11,6 +11,7 @@ CS 443: Operating Systems
 *Spring 2016* Schedule of Topics
 
 Jump to week[n] ==> 
+[may 02](#may-02-security),
 [apr 25](#apr-25-multiple-processor-systems),
 [apr 18](#apr-18-virtualization),
 [apr 11](#apr-11-io),
@@ -271,13 +272,20 @@ Apr 25 Multiple Processor Systems
 - multiprocessor, multicomputer, multicomputers
 - spinning vs. switching
 - multicomputer -- interconnects!
+- [hw06](/443/hw06/) assigned
 
 **Reading** - Chapter 8
 
 May 02 Security 
 ------
+- networked systems introduced new problems.
+- cryptography vs. hardening (obfuscation vs. obliqueness)
+- complexity == vulnerability
+- smaller the tcb the more manageable the security layer
+- basic cryptography
+- [hw07](/443/hw07/) assigned
 
-**Reading** - 
+**Reading** - Chapter 9
 
 Final Exam
 ------
