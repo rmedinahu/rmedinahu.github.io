@@ -6,6 +6,10 @@ parent_course: 145
 ---
 
 ----
+>  [hw-19](/145/hw19) Due May 11 @ 5pm
+
+>  [hw-18](/145/hw18) Due May 6 @ 5pm
+
 >  [hw-17](/145/hw17) Due Apr 25 @ 5pm
 
 >  [hw-16](/145/hw16) Due Apr 25 @ 5pm
