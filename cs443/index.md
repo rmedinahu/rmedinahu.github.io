@@ -8,3 +8,5 @@ description: Operating Systems
 [syllabus](/443/syllabus/)
 
 [schedule](/443/schedule/)
+
+[homework](/443/hw/)
