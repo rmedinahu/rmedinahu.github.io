@@ -506,6 +506,7 @@ May 03 *Network Security*
 May 05 *Final Review*
 ------
 - graduate student presentations
+- [Final Review Sheet](/457/final-review/)
 
 Final Exam
 -------

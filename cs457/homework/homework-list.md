@@ -4,15 +4,15 @@ title:
 permalink: /457/hw/
 parent_course: 457
 ---
-> [hw-14 due may 2 @ 11am](#hw-14)
+> [hw-14 due may 2 @ 11am](#hw-14)(has solution)
 
-> [hw-13 due apr 28 @ 11am](#hw-13)
+> [hw-13 due apr 28 @ 11am](#hw-13)(has solution)
 
-> [hw-12 due apr 18 @ 5pm](#hw-12)
+> [hw-12 due apr 18 @ 5pm](#hw-12)(has solution)
 
-> [hw-11 due apr 8 @ 5pm](#hw-11)
+> [hw-11 due apr 8 @ 5pm](#hw-11)(has solution)
 
-> [hw-10 due apr 1 @ 5pm](#hw-10)
+> [hw-10 due apr 1 @ 5pm](#hw-10)(has solution)
 
 \* [hw-09 due mar 14 @ 5pm](#hw-09) (has solution)
 
@@ -910,6 +910,49 @@ Questions (please note that the questions listed in the text are grouped by sect
 
 **See this to access applets** ==> [http://wps.aw.com/aw_kurose_network_4/63/16303/4173752.cw/index.html](http://wps.aw.com/aw_kurose_network_4/63/16303/4173752.cw/index.html)
 
+**Solution**
+
+R3. Consider a TCP connection between Host A and Host B. Suppose that the TCP segments traveling from Host A to Host B have source port number x and destination port number y. What are the source and destination port numbers for the segments traveling from Host B to Host A?
+
+**Source port number y and destination port number x.**
+
+R4. Describe why an application developer might choose to run an application over UDP rather than TCP.
+
+**An application developer may not want its application to use TCP’s congestion control, which can throttle the application’s sending rate at times of congestion. Often, designers of IP telephony and IP videoconference applications choose to run their applications over UDP because they want to avoid TCP’s congestion control. Also, some applications do not need the reliable data transfer provided by TCP.**
+
+R6. Is it possible for an application to enjoy reliable data transfer even when the application runs over UDP? If so, how?
+
+**Yes. The application developer can put reliable data transfer into the application layer protocol. This would require a significant amount of work and debugging, however.**
+
+R12. Visit the Go-Back-N Java applet at the companion Web site.
+a. Have the source send five packets, and then pause the animation before any of the five packets reach the destination. Then kill the first packet and resume the animation. Describe what happens.
+
+b. Repeat the experiment,but now let the first packet reach the destination and kill the first acknowledgment. Describe again what happens.
+
+c. Finally,try sending six packets. What happens?
+
+	a) The packet loss caused a time out after which all the five packets were retransmitted.
+	b) Loss of an ACK didn’t trigger any retransmission as Go-Back-N uses cumulative acknowledgements.
+	c) The sender was unable to send sixth packet as the send window size is fixed to 5.
+
+R13. Repeat R12, but now with the Selective Repeat Java applet. How are Selective Repeat and Go-Back-N different?
+
+	a) When the packet was lost, the received four packets were buffered the receiver. After
+	the timeout, sender retransmitted the lost packet and receiver delivered the buffered packets to application in correct order.
+	b) Duplicate ACK was sent by the receiver for the lost ACK.
+	c) The sender was unable to send sixth packet as the send window size is fixed to 5
+	When a packet was lost, GO-Back-N retransmitted all the packets whereas Selective Repeat retransmitted the lost packet only. In case of lost acknowledgement, selective repeat sent a duplicate ACK and as GO-Back-N used cumulative acknowledgment, so that duplicate ACK was unnecessary.
+
+R15. Suppose Host A sends two TCP segments back to back to Host B over a TCP connection. The first segment has sequence number 90; the second has sequence number 110.
+a. Howmuchdataisinthefirstsegment?
+b. SupposethatthefirstsegmentislostbutthesecondsegmentarrivesatB. In the acknowledgment that Host B sends to Host A, what will be the acknowledgment number?
+
+**a) 20 bytes b) ack number = 90**
+
+R18. True or false? Consider congestion control in TCP. When the timer expires at the sender, the value of ssthresh is set to one half of its previous value.
+
+**False, it is set to half of the current value of the congestion window.**
+
 
 HW 11
 ---
@@ -923,6 +966,24 @@ b) Answer questions ```1-9``` from the wireshark lab. Submit responses in a text
 The wireshark lab sheet is here ==> [wireshark-lab-ip.pdf](/assets/wireshark-lab-ip.pdf)
 
 **DUE Apr 8 at 5pm**
+
+**Solutions**
+
+R2. What are the two most important network-layer functions in a datagram net- work? What are the three most important network-layer functions in a virtual- circuit network?
+
+**Datagram-based network layer: forwarding; routing. Additional function of VC-based network layer: call setup.**
+
+R3. What is the difference between routing and forwarding?
+
+**Forwarding is about moving a packet from a router’s input port to the appropriate output port. Routing is about determining the end-to-routes between sources and destinations.**
+
+R9. Describe how packet loss can occur at input ports. Describe how packet loss at input ports can be eliminated (without using infinite buffers).
+
+**If the rate at which packets arrive to the fabric exceeds switching fabric rate, then packets will need to queue at the input ports. If this rate mismatch persists, the queues will get larger and larger and eventually overflow the input port buffers, causing packet loss. Packet loss can be eliminated if the switching fabric speed is at least n times as fast as the input line speed, where n is the number of input ports.**
+
+R17. Suppose Host A sends Host B a TCP segment encapsulated in an IP datagram. When Host B receives the datagram, how does the network layer in Host B know it should pass the segment (that is, the payload of the datagram) to TCP rather than to UDP or to something else?
+
+**The 8-bit protocol field in the IP datagram contains information about which transport layer protocol the destination host should pass the segment to.**
 
 
 HW 12
@@ -938,18 +999,105 @@ The following animated slides may help with P26:
 
 **DUE Apr 18 at 5pm**
 
+**Solutions**
+
+R19. Compare and contrast the IPv4 and the IPv6 header fields. Do they have any fields in common?
+
+**IPv6 has a fixed length header, which does not include most of the options an IPv4 header can include. Even though the IPv6 header contains two 128 bit addresses (source and destination IP address) the whole header has a fixed length of 40 bytes only. Several of the fields are similar in spirit. Traffic class, payload length, next header and hop limit in IPv6 are respectively similar to type of service, datagram
+length, upper-layer protocol and time to live in IPv4.**
+
+R20. It has been said that when IPv6 tunnels through IPv4 routers, IPv6 treats the IPv4 tunnels as link-layer protocols. Do you agree with this statement? Why or why not?
+
+**Yes, because the entire IPv6 datagram (including header fields) is encapsulated in an IPv4 datagram.**
+
+R21. Compare and contrast link-state and distance-vector routing algorithms.
+
+**Link state algorithms: Computes the least-cost path between source and destination using complete, global knowledge about the network. Distance-vector routing: The calculation of the least-cost path is carried out in an iterative, distributed manner. A node only knows the neighbor to which it should forward a packet in order to reach given destination along the least-cost path, and the cost of that path from itself to the destination.**
+
+R22. Discuss how a hierarchical organization of the Internet has made it possible to scale to millions of users.
+
+**Routers are organized into autonomous systems (ASs). Within an AS, all routers run the same intra-AS routing protocol. The problem of scale is solved since an router in an AS need only know about routers within its AS and the subnets that attach to the AS. To route across ASes, the inter-AS protocol is based on the AS graph and does not take individual routers into account.**
+
+P1. In this question, we consider some of the pros and cons of virtual-circuit and datagram networks.
+
+a. Supposethatroutersweresubjectedtoconditionsthatmightcausethem to fail fairly often. Would this argue in favor of a VC or datagram archi- tecture? Why?
+
+b. Supposethatasourcenodeandadestinationrequirethatafixedamount of capacity always be available at all routers on the path between the source and destination node, for the exclusive use of traffic flowing between this source and destination node. Would this argue in favor of a VC or datagram architecture? Why?
+
+c. Supposethatthelinksandroutersinthenetworkneverfailandthatrout- ing paths used between all source/destination pairs remains constant. In this scenario, does a VC or datagram architecture have more control traf- fic overhead? Why?
+
+	a) With a connection-oriented network, every router failure will involve the routing of that connection. At a minimum, this will require the router that is “upstream” from the failed router to establish a new downstream part of the path to the destination node, with all of the requisite signaling involved in setting up a path. Moreover, all of the routers on the initial path that are downstream from the failed node must take down the failed connection, with all of the requisite signaling involved to do this.
+
+	With a connectionless datagram network, no signaling is required to either set up a new downstream path or take down the old downstream path. We have seen, however, that routing tables will need to be updated (e.g., either via a distance vector algorithm or a link state algorithm) to take the failed router into account. We have seen that with distance vector algorithms, this routing table change can sometimes be localized to the area near the failed router. Thus, a datagram network would be preferable. Interestingly, the design criteria that the initial ARPAnet be able to function under stressful conditions was one of the reasons that datagram architecture was chosen for this Internet ancestor.
+
+	b) In order for a router to maintain an available fixed amount of capacity on the path between the source and destination node for that source-destination pair, it would need to know the characteristics of the traffic from all sessions passing through that link. That is, the router must have per-session state in the router. This is possible in a connection-oriented network, but not with a connectionless network. Thus, a connection-oriented VC network would be preferable.
+
+	c) In this scenario, datagram architecture has more control traffic overhead. This is due to the various packet headers needed to route the datagrams through the network. But in VC architecture, once all circuits are set up, they will never change. Thus, the signaling overhead is negligible over the long run.
+
+P26. Consider the following network. With the indicated link costs, use Dijkstra’s shortest-path algorithm to compute the shortest path from x to all network nodes. Show how the algorithm works by computing a table similar to Table 4.3.
+
+![see graph](/assets/images/link-state-p26-graph.png)
+
+![see table solution](/assets/images/link-state-p26-table-sol.png)
+
 hw 13
 ---
 Answer questions ```R1, R5, R9, R11``` from Chapter 5 of the text.
 
 **DUE Apr 28 at 11am**
 
+**Solutions**
+
+R1. Consider the transportation analogy in Section 5.1.1. If the passenger is analagous to a datagram, what is analogous to the link layer frame?
+
+**The transportation mode, e.g., car, bus, train, car.**
+
+R5. In Section 5.3, we listed four desirable characteristics of a broadcast channel. Which of these characteristics does slotted ALOHA have? Which of these characteristics does token passing have?
+
+**Slotted Aloha: 1, 2 and 4 (slotted ALOHA is only partially decentralized, since it requires the clocks in all nodes to be synchronized). Token ring: 1, 2, 3, 4.**
+
+R9. How big is the MAC address space? The IPv4 address space? The IPv6 address space?
+
+**248 MAC addresses; 232 IPv4 addresses; 2128 IPv6 addresses.**
+
+R11. Why is an ARP query sent within a broadcast frame? Why is an ARP response sent within a frame with a specific destination MAC address?
+
+**An ARP query is sent in a broadcast frame because the querying host does not which adapter address corresponds to the IP address in question. For the response, the sending node knows the adapter address to which the response should be sent, so there is no need to send a broadcast frame (which would have to be processed by all the other nodes on the LAN).**
 
 hw 14
 ---
 **DUE May 2 at 11am**
 
 a) Answer questions ```R1, R2, R5, R6, R7, R8``` from Chapter 6 of the text.
+
+**Solutions**
+
+R1. What does it mean for a wireless network to be operating in “infrastructure mode?” If the network is not in infrastructure mode, what mode of operation is it in, and what is the difference between that mode of operation and infra- structure mode?
+
+**In infrastructure mode of operation, each wireless host is connected to the larger network via a base station (access point). If not operating in infrastructure mode, a network operates in ad-hoc mode. In ad-hoc mode, wireless hosts have no infrastructure with which to connect. In the absence of such infrastructure, the hosts themselves must provide for services such as routing, address assignment, DNS-like name translation, and more.**
+
+
+R2. What are the four types of wireless networks identified in our taxonomy in Section 6.1? Which of these types of wireless networks have you used?
+
+**a) Single hop, infrastructure-based b) Single hop, infrastructure-less c) Multi-hop, infrastructure-based d) Multi-hop, infrastructure-less**
+
+R5. Describe the role of the beacon frames in 802.11.
+
+**APs transmit beacon frames. An AP’s beacon frames will be transmitted over one of the 11 channels. The beacon frames permit nearby wireless stations to discover and identify the AP.**
+
+
+R6. True or false: Before an 802.11 station transmits a data frame, it must first send an RTS frame and receive a corresponding CTS frame.
+
+**False**
+
+R7. Why are acknowledgments used in 802.11 but not in wired Ethernet?
+
+**APs transmit beacon frames. An AP’s beacon frames will be transmitted over one of the 11 channels. The beacon frames permit nearby wireless stations to discover and identify the AP.**
+
+R8. True or false: Ethernet and 802.11 use the same frame structure.
+
+**False**
+
 
 b) Write a short python script containing two functions --```encipher(cleartext)``` and ```decipher(ciphertext)```.
 
@@ -968,5 +1116,46 @@ You can use the following to generate your alphabet for the cipher. Remember the
 I will test your program with the following cleartext:
 
 >	blue skies and sn0wee peaks ~ means no surfing today.
+
+**Solution**
+
+{% highlight python %}
+# simple-cipher.py
+
+alpha = [chr(i) for i in range(32, 127)]
+alpha_size = 95
+key = 4
+
+def encipher(cleartext):
+	global alpha, alpha_size, key
+	cipher_str = ''
+
+	for i in cleartext:
+		cphr = (alpha.index(i) + key) % alpha_size
+		cipher_str += alpha[cphr]
+
+	return cipher_str
+
+
+def decipher(ciphertext):
+	global alpha, alpha_size, key
+	clear_str = ''
+	
+	for i in ciphertext:
+		clr = (alpha.index(i) - key) % alpha_size
+		clear_str += alpha[clr]
+
+	return clear_str
+
+msg_clear = raw_input("Enter your cleartext:")
+print 'ORIGINAL\t==>\t', msg_clear
+
+msg_cipher = encipher(msg_clear)
+print 'CIPHER\t\t==>\t', msg_cipher
+
+msg_decipher = decipher(msg_cipher)
+print 'CLEAR\t\t==>\t', msg_decipher
+{% endhighlight %}
+
 
 
