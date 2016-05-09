@@ -38,9 +38,6 @@ Course Information
 [syllabus](/145/syllabus/)
 
 
-Final Review Study Guide
-----
-
 
 
 
