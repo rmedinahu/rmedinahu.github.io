@@ -8,7 +8,8 @@ description: Introduction to Object Oriented Programming
 Final Review Study Guide
 ----
 
->	To prepare for the final exam, please review the following quiz questions from the [online Java textbook](http://math.hws.edu/javanotes/). Remember that for each question, the book as the solution. The questions on the final exam will be CLOSELY related to the questions int the book.
+**To prepare for the final exam, please review the following quiz questions from the [online Java textbook](http://math.hws.edu/javanotes/). Remember that for each question, the book as the solution. The questions on the final exam will be CLOSELY related to the questions int the book.**
+
 
 >	Chapter 2 questions ==> 1, 2, 3, 4, 5, 6, 7, 8
 >
