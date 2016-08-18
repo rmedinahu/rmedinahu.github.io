@@ -11,7 +11,7 @@ class PretestApp {
 
 	public static void main(String[] args) {
 		String n = Pretest.getFirstName();
-		System.out.println("<==== Welcome " + n + " ====>");
+		System.out.println("\n<==== Welcome " + n + " ====>\n");
 
 	/*********************************************************************/
 		System.out.println("Printing integer list ==> ");
