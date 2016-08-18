@@ -31,17 +31,21 @@ def swapFirstLast(alist):
 	pass
 
 
-# 
+# Remove the pass statement then implement the following python function so that it locates the smallest number in alist.
+# print the list
 def findMin(alist):
 	pass
 
-
+# Remove the pass statement then implement the following python function so that it locates the largest number in alist.
+# Print the largest.
 def findMax(alist):
 	pass
 
-
+# Remove the pass statement then implement the following python function so that it reports the frequency of the parameter, target within the list called alist. 
+# Print the frequency.
 def findFrequency(alist, target):
 	pass
+
 
 # ****** Test calls. Do not modify below this line ******
 
@@ -49,5 +53,9 @@ swapper(first, last)
 printList(num_list)
 printListReversed(num_list)
 swapFirstLast(num_list)
+findMin(num_list)
+findMax(num_list)
+findFrequency(num_list, 7)
+
 
 
