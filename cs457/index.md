@@ -1,5 +1,5 @@
 ---
-layout: course
+layout: course-disabled
 title: cs457
 permalink: /457/
 description: Computer Networks

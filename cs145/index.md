@@ -1,5 +1,5 @@
 ---
-layout: course
+layout: course-disabled
 title: cs145
 permalink: /145/
 description: Introduction to Object Oriented Programming

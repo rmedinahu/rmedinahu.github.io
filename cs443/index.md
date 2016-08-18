@@ -1,5 +1,5 @@
 ---
-layout: course
+layout: course-disabled
 title: cs443
 permalink: /443/
 description: Operating Systems
