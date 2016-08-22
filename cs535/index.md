@@ -7,6 +7,6 @@ description: Advanced Cyber Security
 
 [Desire 2 Learn Site (login required)](https://nmhu.desire2learn.com/d2l/home/28410)
 
-[Schedule](/535/schedule/)
+[Schedule](/535/schedule/) (weekly topics, assigned reading, lecture notes)
 
-[Homework 1](/535/hw1), [Homework 2](/535/hw2)
+[Homework Listing](/535/hw/)

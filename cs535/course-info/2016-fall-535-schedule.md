@@ -11,7 +11,7 @@ Jump to week[n] ==> [1](#week-1)
 
 Online Reading:
 
-a. [SANDIA-98: A Common Language for Computer Security Incidents](http://prod.sandia.gov/techlib/access-control.cgi/1998/988667.pdf)
+[SANDIA-98: A Common Language for Computer Security Incidents](http://prod.sandia.gov/techlib/access-control.cgi/1998/988667.pdf)
 
 
 Week 1
