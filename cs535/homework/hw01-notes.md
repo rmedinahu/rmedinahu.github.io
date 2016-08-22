@@ -1,0 +1,96 @@
+---
+layout: course_page
+title: Homework 1
+permalink: /535/hw1/
+parent_course: 535
+---
+
+Description
+---
+Find and read a relatively recent news report about a security data breach. Try to select an article that explains the breach at some level of technical detail (not just that there was a data breach). Be prepared to discuss your article in class.
+
+Submissions
+---
+
+**Fernando**
+
+[http://www.databreachtoday.com/ransomware-attacks-against-government-agencies-widespread-a-9005](http://www.databreachtoday.com/ransomware-attacks-against-government-agencies-widespread-a-9005)
+
+RANSOMWARE
+
+victim -> gov. agencies
+
+* prevention: einstein 3 accelerated system -- einstein3a
+* business orientation of the attacker (cybercriminals)
+* signatures identify a particular threat
+* anomaly analyis analyzes network behavior against "normal" behavior --> more complex
+* intrusion detection
+
+Related Links:
+http://www.databreachtoday.com/gao-feds-einstein-program-comes-up-short-a-8833
+
+https://www.hsgac.senate.gov/download/doj-responds-to-carper-inquiries-on-response-to-threat-of-ransomware
+
+**Ali**
+
+PANAMA PAPERS: Mossack Fonseca
+
+[https://www.theguardian.com/news/2016/apr/03/what-you-need-to-know-about-the-panama-papers](https://www.theguardian.com/news/2016/apr/03/what-you-need-to-know-about-the-panama-papers)
+
+victim -> tax dodgers as well as other innocents
+
+vulnerability -> word press plugin (revolution slider) allowing access to remote shell on web host
+
+Attack vectors:
+* wp-config exposed -> db access creds in plaintext -> db contained plugin creds in plain text
+* drupal vulnerability -> sql injection -> client login -> access to documents
+
+	-	Their web server was using out of date firewall.
+	-	We’ve recognized that they were using the most common WordPress vulnerabilities, Revolution Slider.
+	-	Their web server was on the similar network as their mail servers founded in Panama.
+	-	They were serving sensitive client data from their portal website which comprises a customer login to access that data.
+
+
+**Rosie**
+
+[http://www.databreachtoday.com/healthcare-hacker-attacks-no-end-in-sight-a-9325](http://www.databreachtoday.com/healthcare-hacker-attacks-no-end-in-sight-a-9325)
+
+RANSOMWARE, HACKTIVISM
+* cohabitating medical data with other enterprise operations (e.g., food and beverage payment systems)
+
+Related Links:
+
+Wall of Shame ==> https://ocrportal.hhs.gov/ocr/breach/breach_report.jsf
+
+
+**Niki**
+
+[http://www.infosecurity-magazine.com/news/data-breach-trends-to-evolve-in/](http://www.infosecurity-magazine.com/news/data-breach-trends-to-evolve-in/)
+
+* no data breach is the same. (see problem with Einstein 3A)
+
+
+**Fernando**
+
+[http://www.databreachtoday.com/ransomware-attacks-against-government-agencies-widespread-a-9005](http://www.databreachtoday.com/ransomware-attacks-against-government-agencies-widespread-a-9005)
+
+RANSOMWARE
+
+victim -> gov. agencies
+
+* prevention: einstein 3 accelerated system -- einstein3a
+* business orientation of the attacker (cybercriminals)
+* signatures identify a particular threat
+* anomaly analyis analyzes network behavior against "normal" behavior --> more complex
+* intrusion detection
+
+Related Links:
+http://www.databreachtoday.com/gao-feds-einstein-program-comes-up-short-a-8833
+
+https://www.hsgac.senate.gov/download/doj-responds-to-carper-inquiries-on-response-to-threat-of-ransomware
+
+**Shane**
+
+[https://www.youtube.com/watch?v=o5R8qvM1Xes](https://www.youtube.com/watch?v=o5R8qvM1Xes)
+
+This is a video related to a augmented reality game(ARG) being hosted by Blizzard Entertainment. This game is about a in game character for the video game Overwatch. Blizzard has been releasing encrypted messages to the community, and the community has been working together to solve them. The idea is the character Sombra is interacting with the community. I have been participating in the ARG since July.
