@@ -10,3 +10,5 @@ description: Programming Seminar - Cyber Security
 [Schedule](/350/schedule/) (weekly topics, assigned reading, lecture notes)
 
 [Homework Listing](/350/hw/)
+
+[Lab](/350/lab/)
