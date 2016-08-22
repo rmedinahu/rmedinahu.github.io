@@ -28,11 +28,6 @@ class Pretest {
      */	
 	static void printIntegerList(int[] values) {
 
-        for (int i =0; i < values.length; i++) {
-            System.out.print(values[i] + " ");
-        }
-
-
 	}
 
 

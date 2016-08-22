@@ -10,18 +10,17 @@ last = 'z'
 def swapper(first, last):
 	pass
 
-
 # Remove the pass statement then implement the following python function so that it prints the list parameter on one line separated by commas.
 
 def printList(alist):
-	pass 
-
+	pass
 
 # Remove the pass statement then implement the following python function so that it prints the list parameter on one line in REVERSE order separated by commas.
 
 
 def printListReversed(alist):
 	pass
+
 
 
 # Remove the pass statement then implement the following python function so that it swaps the first and last values from the list parameter.
