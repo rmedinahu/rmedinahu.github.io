@@ -1,5 +1,6 @@
 ---
 layout: course_page
+title: syllabus
 permalink: /245/syllabus/
 parent_course: 245
 ---

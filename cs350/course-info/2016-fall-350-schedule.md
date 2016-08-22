@@ -9,7 +9,7 @@ parent_course: 350
 
 Jump to week[n] ==> [1](#week-1)
 
-### Week 1
+#### 2016-08-22 Week 1
 
 ---
 
@@ -74,6 +74,16 @@ Breach summary (from article) ...
 
 ---
 
-### Week 2
-
----
+[comment]:### 2016-08-29 Week 2
+[comment]:### 2016-09-05 Week 3 
+[comment]:### 2016-09-12 Week 4 
+[comment]:### 2016-09-19 Week 5 
+[comment]:### 2016-09-26 Week 6 
+[comment]:### 2016-10-03 Week 7
+[comment]:### 2016-10-10 Week 8 
+[comment]:### 2016-10-24 Week 9
+[comment]:### 2016-10-31 Week 10 
+[comment]:### 2016-11-07 Week 11
+[comment]:### 2016-11-14 Week 12
+[comment]:### 2016-11-21 Week 13
+[comment]:### 2016-11-28 Week 14

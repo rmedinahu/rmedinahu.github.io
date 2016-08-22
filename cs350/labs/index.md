@@ -1,7 +1,7 @@
 ---
 layout: course_page
 title: cs350 lab
-permalink: /350/lab
+permalink: /350/lab/
 parent_course: 350
 ---
 
