@@ -12,6 +12,7 @@ Jump to week[n] ==> [1](#week-1)
 #### 2016-08-23 Week 1 
 
 #### Readings
+[Human Computer Interaction - brief intro (before week 2)](https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/human-computer-interaction-brief-intro)
 
 #### Topics
 
@@ -87,6 +88,8 @@ where do we begin to deal with this evolution beyound windows, menus, and button
 4. For at least one goal that received a poor rating, discuss among yourselves how you would improve it to elevate its rating.
 
 #### Preassessment (if you haven't done this for me in another course this semester)
+
+Python pre-assessment ==> [pretest.py]({{ site.baseurl }}assets/cs350/pretest.py)
 
 [comment]:### 2016-08-30 Week 2
 [comment]:### 2016-09-06 Week 3 

@@ -10,3 +10,7 @@ description: Human Computer Interaction
 [Schedule](/436/schedule/) (weekly topics, assigned reading, lecture notes)
 
 [Homework Listing](/436/hw/)
+
+[Syllabus](/436/syllabus/) 
+
+[Graduate Syllabus](/436/graduate-syllabus/)
