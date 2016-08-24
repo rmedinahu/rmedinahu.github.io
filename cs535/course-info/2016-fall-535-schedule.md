@@ -20,6 +20,7 @@ READING: Read sections 1 through 5 in SANDIA-98 (linked above)
 
 - [Homework 1](/535/hw1/) discussion
 - [Homework 2 assigned](/535/hw2/)
+- [Homework 3 assigned](/535/hw3/)
 
 **Topics**
 
@@ -40,7 +41,7 @@ Attributes of Secure Systems
 
 Examples: open sockets, open pipes, open rpc, number of services, web server scripts, accounts with elevated creds, percentage of file system with weak access controls
 
-Major Threads in Vulnerability
+Major Threads in Vulnerability and Incidents
 ---
 - Is it in the ```Design```, ```Implementation```, or ```Configuration``` of systems ... or is it all three?
 
@@ -51,6 +52,13 @@ Other ways of assessing vulnerability
 - Access permissions (file systems, etc..)
 - Audits
 - User Interface weaknesses
+
+A Common Language for Computer Security Incidents
+---
+* class discussion
+
+
+
  
 
 
