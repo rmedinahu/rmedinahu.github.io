@@ -10,3 +10,5 @@ description: Advanced Cyber Security
 [Schedule](/535/schedule/) (weekly topics, assigned reading, lecture notes)
 
 [Homework Listing](/535/hw/)
+
+[Syllabus](/535/syllabus/)
