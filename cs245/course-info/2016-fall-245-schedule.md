@@ -16,16 +16,21 @@ Jump to week[n] ==> [0](#week-0), [1](#week-1)
 
 ---
 
-#### 2016-08-23 Week 1 
+#### 2016-08-23 | 25 Week 1 
 
 ---
 
 #### Readings
 
+[Conditionals, loops, arrays](http://math.hws.edu/eck/cs124/javanotes7/c3/index.html)
+
+[Strings Intro](http://math.hws.edu/eck/cs124/javanotes7/c2/s3.html#basics.3.3)
+
 #### Topics
-- Review Java basics
+- Review Java basics (loops, conditionals, arrays)
 - Review Java methods
-- Github setup
+- Github accounts
+- Project management (source "root", navigating the shell, compiling, executing)
 
 ---
 [comment]:### 2016-08-30 Week 2
