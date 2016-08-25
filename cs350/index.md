@@ -11,4 +11,6 @@ description: Programming Seminar - Cyber Security
 
 [Homework Listing](/350/hw/)
 
-[Lab](/350/lab/)
+[Labs](/350/lab/)
+
+[Syllabus](/350/syllabus/)

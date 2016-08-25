@@ -9,7 +9,12 @@ parent_course: 245
 
 Jump to week[n] ==> [0](#week-0), [1](#week-1)
 
+
+{:.green}
 #### 2016-08-18 Week 0
+
+
+
 - Introduction 
 
 ```Homework``` ==> [Java Pre-assessment](/245/hw0/)
