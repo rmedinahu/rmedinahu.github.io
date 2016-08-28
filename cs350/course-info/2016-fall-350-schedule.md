@@ -9,11 +9,23 @@ parent_course: 350
 
 Jump to week[n] ==> [1](#week-1)
 
-#### 2016-08-22 Week 1
+---
+
+{:.green}
+#### 2016-08-29 Week 2
+**READINGS**
+
+#### Topics
+* Python review
+* little hacks: substitution cipher and simple frequence analysis
+* TCP/UDP client server and remote shells?
 
 ---
 
-#### Readings
+{:.gray}
+#### 2016-08-22 Week 1
+
+**READINGS**
 
 1. Sections 1 through 5 in [SANDIA-98: A Common Language for Computer Security Incidents (pdf)](http://prod.sandia.gov/techlib/access-control.cgi/1998/988667.pdf)
 2. [Panama Papers Data Breach](https://www.theguardian.com/news/2016/apr/03/what-you-need-to-know-about-the-panama-papers)
@@ -74,7 +86,7 @@ Breach summary (from article) ...
 
 ---
 
-[comment]:### 2016-08-29 Week 2
+
 [comment]:### 2016-09-05 Week 3 
 [comment]:### 2016-09-12 Week 4 
 [comment]:### 2016-09-19 Week 5 
