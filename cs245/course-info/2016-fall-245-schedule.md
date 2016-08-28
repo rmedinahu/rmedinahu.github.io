@@ -9,21 +9,14 @@ parent_course: 245
 
 Jump to week[n] ==> [0](#week-0), [1](#week-1)
 
+---
 
 {:.green}
-#### 2016-08-18 Week 0
-
-
-
-- Introduction 
-
-```Homework``` ==> [Java Pre-assessment](/245/hw0/)
+### 2016-08-30 Week 2
 
 ---
 
 #### 2016-08-23 | 25 Week 1 
-
----
 
 #### Readings
 
@@ -38,7 +31,17 @@ Jump to week[n] ==> [0](#week-0), [1](#week-1)
 - Project management (source "root", navigating the shell, compiling, executing)
 
 ---
-[comment]:### 2016-08-30 Week 2
+
+#### 2016-08-18 Week 0
+
+- Introduction 
+
+```Homework``` ==> [Java Pre-assessment](/245/hw0/)
+
+---
+
+
+
 [comment]:### 2016-09-06 Week 3 
 [comment]:### 2016-09-13 Week 4 
 [comment]:### 2016-09-20 Week 5 
