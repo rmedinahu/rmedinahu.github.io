@@ -7,18 +7,24 @@ parent_course: 350
 
 **Fall 2016 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1)
+Jump to week[n] ==> [1](#week-1), [2](#week-2)
 
 ---
 
 {:.green}
 #### 2016-08-29 Week 2
-**READINGS**
+**READINGS** 
+
+[Python data structures](https://docs.python.org/2/tutorial/datastructures.html)
 
 #### Topics
-* Python review
-* little hacks: substitution cipher and simple frequence analysis
-* TCP/UDP client server and remote shells?
+* Python review ```type()```, ```str()```, etc...
+	- data types, type casting
+* Python review ```mylist[]```, ```mylist()```, ```mylist{}```, ```range(100)```
+	- *vectors*: lists, tuples, dictionaries, slices, loops, list comprehensions
+* Simple frequence analysis
+* Dictionary lookups
+* Rotations and cycles
 
 ---
 
