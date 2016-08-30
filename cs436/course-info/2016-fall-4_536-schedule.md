@@ -60,6 +60,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2)
 2. Download the following and save to your project folder
 	- [Basic HTML template]({{ site.baseurl }}assets/cs436/boilerplate.html)
 
+		
 		<!-- boilerplate.html -->
 
 		<!doctype html>
