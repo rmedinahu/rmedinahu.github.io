@@ -65,8 +65,18 @@ class Pretest {
      * found in the list.
      */	
 	static int max(int[] values) {
+        int max = values[0];
 
-		return 0;
+        for (int index=1; index < values.length; index++) {
+
+            if (values[index] > max) {
+                max = values[index];
+            }
+
+            // System.out.print(values[index]);
+        }
+
+		return max;
 	}
 
     /**
@@ -74,8 +84,13 @@ class Pretest {
      * values found in the list.
      */	
 	static int findAverage(int[] values) {
-
-		return 0;
+        int sum = 0;
+        for (int i = 0; i < values.length; i++) {
+            sum = sum + values[i];
+        }
+        
+        int avg = sum/values.length;
+		return avg;
 	}
 
     /**
@@ -83,15 +98,35 @@ class Pretest {
      * the number of times the integer is found in the list.
      */	
 	static int frequencyCount(int[] values, int val) {
-
-		return 0;
+        int count  = 0;
+        for(int i = 0; i < values.length; i++) {
+            if(val == values[i]) {
+                count++;
+            }
+        }
+		return count;
 	}
 
     /**
      * Accepts a String argument and returns the argument in reverse order.
      */	
 	static String reverseString(String chars) {
-
-		return "\nNot implemented yet!";
+        char[] revchars = chars.toCharArray();
+        String revstr = "";
+        for(int i=revchars.length-1; i > -1; i--) {
+            revstr += revchars[i];
+        }
+		return revstr;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+

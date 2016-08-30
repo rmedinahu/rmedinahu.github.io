@@ -7,7 +7,7 @@ parent_course: 436
 
 **Fall 2016 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1)
+Jump to week[n] ==> [1](#week-1), [2](#week-2)
 
 ---
 
@@ -15,24 +15,49 @@ Jump to week[n] ==> [1](#week-1)
 ### 2016-08-30 Week 2
 
 #### Readings
-[jQuery](http://jquery.com/)
 
-[jQuery quick start](https://learn.jquery.com/about-jquery/how-jquery-works/)
+[Human Computer Interaction - brief intro](https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/human-computer-interaction-brief-intro)
 
 #### Topics
 - About HCI (John Carroll's intro)
 - Guidelines, principles, and theories
-- UI Contexts ==> direct manipulation, data entry, information display
+- UI Contexts ==> direct manipulation, data entry, information display/visualization, interaction devices, command languages, collaborative and social media 
 - UI Users (novice <--> expert)
+
+#### Sample Guidelines
+- [https://developer.apple.com/library/mac/documentation/UserExperience/Conceptual/OSXHIGuidelines/index.html](https://developer.apple.com/library/mac/documentation/UserExperience/Conceptual/OSXHIGuidelines/index.html)
+- [https://developer.apple.com/ios/human-interface-guidelines/](https://developer.apple.com/ios/human-interface-guidelines/)
+- [https://developer.apple.com/watch/human-interface-guidelines/](https://developer.apple.com/watch/human-interface-guidelines/)
+- [https://developer.android.com/design/index.html](https://developer.android.com/design/index.html)
+- [https://design.ubuntu.com/apps](https://design.ubuntu.com/apps)
+- [https://msdn.microsoft.com/library/windows/desktop/dn742479.aspx](https://msdn.microsoft.com/library/windows/desktop/dn742479.aspx)
+- [https://standards.usa.gov/](https://standards.usa.gov/)
+
+
+
+#### Principles: Eight Golden Rules of Interface Design
+1. Strive for consistency
+2. Cater to universal usbility
+3. Offer informative feedback
+4. Design dialogs to yield closure
+5. Prevent errors
+6. Permit easy reversal of actions
+7. Support internal locus of control
+8. Reduce short term memory load
+
 
 #### Workshop: Coding Data Entry UI with HTML and javascript and jQuery
 
 **A UI for gathering information from student applying for a job.**
 
+[jQuery](http://jquery.com/)
+
+[jQuery quick start](https://learn.jquery.com/about-jquery/how-jquery-works/)
+
 1. Create a project folder for this workshop
 2. Download the following and save to your project folder
-	- [Basic HTML template]()
-	- [jQuery library]()
+	- [Basic HTML template](({{ site.baseurl }}assets/cs436/boilerplate.html))
+	- [jQuery library](https://code.jquery.com/jquery-3.1.0.min.js)
 3. Using html widgets, create an HTML form that gathers the following information from a student.
 	- first and last name
 	- today's date
@@ -45,11 +70,13 @@ Jump to week[n] ==> [1](#week-1)
 
 4. After submitting the form, the UI should present the information in a confirmation dialog (accepting or canceling the application)
 
+5. Demonstrate your UI to instructor.
+
 
 ---
 
 {:.gray}
-#### 2016-08-23 Week 1 
+### 2016-08-23 Week 1 
 
 #### Readings
 [Human Computer Interaction - brief intro (before week 2)](https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/human-computer-interaction-brief-intro)

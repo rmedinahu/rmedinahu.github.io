@@ -10,7 +10,9 @@
 }
 
 /* Basic color palette */
-
+.gray {
+    background: #cccccc;
+}
 .li8-green {
     background: #99b433;
     border: 1px solid #56651D;
