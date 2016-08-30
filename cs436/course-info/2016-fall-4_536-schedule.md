@@ -22,9 +22,10 @@ Jump to week[n] ==> [1](#week-1)
 #### Topics
 - About HCI (John Carroll's intro)
 - Guidelines, principles, and theories
-- Contexts
+- UI Contexts ==> direct manipulation, data entry, information display
+- UI Users (novice <--> expert)
 
-#### Workshop: Coding the UI with HTML and javascript and jQuery
+#### Workshop: Coding Data Entry UI with HTML and javascript and jQuery
 
 **A UI for gathering information from student applying for a job.**
 
