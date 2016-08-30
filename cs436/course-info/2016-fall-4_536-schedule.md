@@ -58,7 +58,33 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2)
 
 1. Create a project folder for this workshop
 2. Download the following and save to your project folder
-	- [Basic HTML template](/{{ site.baseurl }}assets/cs436/boilerplate.html)
+	- [Basic HTML template]({{ site.baseurl }}assets/cs436/boilerplate.html)
+
+		<!-- boilerplate.html -->
+
+		<!doctype html>
+		<html>
+		<head>
+		    <meta charset="utf-8">
+		    <title>Boilerplate</title>
+		</head>
+		<body>
+		    
+
+		    <script src="js/jquery-3.1.0.min.js"></script>
+		    <script>
+		    // Your code goes here.
+				
+				$( document ).ready(function() {
+					
+
+				}); 
+		    </script>
+		</body>
+		</html>
+
+
+
 	- [jQuery library](https://code.jquery.com/jquery-3.1.0.min.js)
 3. Using html widgets, create an HTML form that gathers the following information from a student.
 	- first and last name
