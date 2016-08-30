@@ -45,8 +45,6 @@ Jump to week[n] ==> [1](#week-1)
 4. After submitting the form, the UI should present the information in a confirmation dialog (accepting or canceling the application)
 
 
-
-
 ---
 
 {:.gray}
