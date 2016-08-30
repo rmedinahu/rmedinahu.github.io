@@ -9,6 +9,47 @@ parent_course: 436
 
 Jump to week[n] ==> [1](#week-1)
 
+---
+
+{:.green}
+### 2016-08-30 Week 2
+
+#### Readings
+[jQuery](http://jquery.com/)
+
+[jQuery quick start](https://learn.jquery.com/about-jquery/how-jquery-works/)
+
+#### Topics
+- About HCI (John Carroll's intro)
+- Guidelines, principles, and theories
+- Contexts
+
+#### Workshop: Coding the UI with HTML and javascript and jQuery
+
+**A UI for gathering information from student applying for a job.**
+
+1. Create a project folder for this workshop
+2. Download the following and save to your project folder
+	- [Basic HTML template]()
+	- [jQuery library]()
+3. Using html widgets, create an HTML form that gathers the following information from a student.
+	- first and last name
+	- today's date
+	- gender
+	- a paragraph describing why they want the job
+	- preferred salary
+	- years of prior experience
+	- degree (associates, bachelors, masters, phd)
+	- degree field (CS, Biology, etc.)
+
+4. After submitting the form, the UI should present the information in a confirmation dialog (accepting or canceling the application)
+
+
+
+
+---
+
+{:.gray}
 #### 2016-08-23 Week 1 
 
 #### Readings
@@ -91,7 +132,7 @@ where do we begin to deal with this evolution beyound windows, menus, and button
 
 Python pre-assessment ==> [pretest.py]({{ site.baseurl }}assets/cs350/pretest.py)
 
-[comment]:### 2016-08-30 Week 2
+
 [comment]:### 2016-09-06 Week 3 
 [comment]:### 2016-09-13 Week 4 
 [comment]:### 2016-09-20 Week 5 
