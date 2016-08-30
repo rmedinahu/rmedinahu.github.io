@@ -50,6 +50,8 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2)
 
 **A UI for gathering information from student applying for a job.**
 
+[W3 Schools HTML ref](http://www.w3schools.com/html/default.asp)
+
 [jQuery](http://jquery.com/)
 
 [jQuery quick start](https://learn.jquery.com/about-jquery/how-jquery-works/)
