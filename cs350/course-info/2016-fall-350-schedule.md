@@ -21,9 +21,36 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2)
 * Python review ```type()```, ```str()```, etc...
 	- data types, type casting
 * Python review ```mylist[]```, ```mylist()```, ```mylist{}```, ```range(100)```
-	- *vectors*: lists, tuples, dictionaries, slices, loops, list comprehensions
+	- *vectors*: lists, tuples, dictionaries, slices, loops
 * Simple frequence analysis
 * Dictionary lookups
+* List comprehensions allow you to concisely and clearly specify the following.
+
+	{% highlight python %}
+	evens = []
+		for i in range(10):
+			if i % 2 == 0:
+				evens.append(i)
+
+	#comprehension shortens the above to:
+
+	evens = [i for i in range(10) if i%2 == 0]
+	{% endhighlight python %}
+
+
+* Random numbers
+
+
+{% highlight python %}
+	import random
+	# Generate a random between 0 and 10 inclusive
+	random_int = random.randint(0, 10)
+
+	# Use a list comprehension to generate a thousand random integers between 0 and 10 inclusive.
+	rands = [random.randint(0, 10) for i in range(1000)]
+{% endhighlight python %}
+
+
 * Rotations and cycles
 * Simple substitution ciphers
 
