@@ -14,13 +14,18 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2)
 {:.green}
 ### 2016-08-29 Week 2
 
-**READING** ==> [subprocess package](https://docs.python.org/2/library/subprocess.html) [file I/O](https://docs.python.org/2/tutorial/inputoutput.html#reading-and-writing-files)
+**READING** ==> [subprocess package](https://docs.python.org/2/library/subprocess.html), [file I/O](https://docs.python.org/2/tutorial/inputoutput.html#reading-and-writing-files)
 
-- [Homework 4 assigned](/535/hw4/)
+[Homework 4 assigned](/535/hw4/)
+
+{:.yellow} 
+[Homework 5 assigned](/535/hw5/)
 
 #### Topics
 * Python review
 	- tuples, slices, and loops, dictionaries
+* Python
+	- ```subprocess``` package, file i/o
 * Simple networking with Python
 * Simple substitution cipher
 * Ransomware and network access techniques: remote shell commands?

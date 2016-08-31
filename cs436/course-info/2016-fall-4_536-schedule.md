@@ -58,35 +58,36 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2)
 
 1. Create a project folder for this workshop
 2. Download the following and save to your project folder
-	- [Basic HTML template]({{ site.baseurl }}assets/cs436/boilerplate.html)
+	- Copy and paste the following HTML template into a new html file on your machine.
 
 		
-		<!-- boilerplate.html -->
+>		<!-- boilerplate.html -->
 
-		<!doctype html>
-		<html>
-		<head>
-		    <meta charset="utf-8">
-		    <title>Boilerplate</title>
-		</head>
-		<body>
-		    
+>		<!doctype html>
+>		<html>
+>		<head>
+>		    <meta charset="utf-8">
+>		    <title>Boilerplate</title>
+>		</head>
+>		<body>
+>		    
+>
+>		    <script src="js/jquery-3.1.0.min.js"></script>
+>		    <script>
+>		    // Your code goes here.
+>				
+>				$( document ).ready(function() {
+>					
+>
+>				}); 
+>		    </script>
+>		</body>
+>		</html>
 
-		    <script src="js/jquery-3.1.0.min.js"></script>
-		    <script>
-		    // Your code goes here.
-				
-				$( document ).ready(function() {
-					
-
-				}); 
-		    </script>
-		</body>
-		</html>
 
 
+- [Download jQuery library](https://code.jquery.com/jquery-3.1.0.min.js)
 
-	- [jQuery library](https://code.jquery.com/jquery-3.1.0.min.js)
 3. Using html widgets, create an HTML form that gathers the following information from a student.
 	- first and last name
 	- today's date
@@ -121,7 +122,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2)
 #### Survey says ....
 - How many of you have built a user interface and for what purpose?
 - What was the scope? (a small aspect of a program or function or a comprehensive front-end to a large complex application)
-- What was the scale? (used my MANY users or just a few or just YOU)
+- What was the scale? (used by MANY users or just a few or just YOU)
 
 #### What is HCI?
 - Probable answer A ==> *Programming the user interface so that a human can use our system.*

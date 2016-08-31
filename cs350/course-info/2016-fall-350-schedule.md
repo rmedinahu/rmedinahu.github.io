@@ -25,6 +25,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2)
 * Simple frequence analysis
 * Dictionary lookups
 * Rotations and cycles
+* Simple substitution ciphers
 
 ---
 
