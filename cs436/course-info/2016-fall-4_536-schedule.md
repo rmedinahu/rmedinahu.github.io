@@ -17,22 +17,52 @@ https://standards.usa.gov/getting-started/developers/
 
 #### Readings
 
-[Accessible Rich Internet Applications (ARIA)](https://www.w3.org/TR/wai-aria/)
+For reference:
 
 [US Government Standards for Web UI](https://standards.usa.gov/)
 
 [Web Style Guide 3rd ed.](http://www.webstyleguide.com/wsg3/)
 
+[Accessible Rich Internet Applications (ARIA)](https://www.w3.org/TR/wai-aria/)
+
 #### Topics
 
 - Using design standards and guidelines
-- Data entry UI
-- 
+- Using UI frameworks -- don't reinvent the wheel
+- Data entry 2.0
 
 #### Workshop: CSS Frameworks for Consistency and Accessibility
 
+**A UI for gathering patient information during emergency triage. What are some considerations that need to be made in this context?**
+
+**Reference**
+
 - [https://standards.usa.gov/getting-started/developers/](https://standards.usa.gov/getting-started/developers/)
 - [Form design ==> Web Style Guide 3rd ed.](http://www.webstyleguide.com/wsg3/10-forms-and-applications/3-designing-web-applications.html)
+
+**Description**
+
+Create a single web page with a heading titled with your name followed by "Patient Entry". This page will contain a form that collects information about a patient currently being admitted to ER. Collect the following information to establish the patient Electronic Medical Record (EMR).
+
+- current vitals(conscious, unconscious)
+- current date and time
+- first and last name
+- 4 digit human identifier
+- injury category (make up some categories)
+- injury description
+- emergency status (gray=stable, yellow=somewhat unstable, red=unstable)
+- on submit of the form, gather the data and display it in a **confirm** dialog box.
+
+**Requirements**
+
+1. Use the US government web standards/guidelines.
+2. Use the US government web standards/guidelines developer kit (linked above).
+	- make sure to use the ```grid``` layout
+3. Decide on what you think is the *optimal* ordering of the input widgets.
+4. Use ```jQuery``` for action/event handling
+
+Submit your completed html page (submit only one file) to Desire 2 Learn Dropbox ==> Homework 2.
+
 
 ---
 
@@ -59,8 +89,6 @@ https://standards.usa.gov/getting-started/developers/
 - [https://msdn.microsoft.com/library/windows/desktop/dn742479.aspx](https://msdn.microsoft.com/library/windows/desktop/dn742479.aspx)
 - [https://standards.usa.gov/](https://standards.usa.gov/)
 
-
-
 #### Principles: Eight Golden Rules of Interface Design
 1. Strive for consistency
 2. Cater to universal usbility
@@ -70,7 +98,6 @@ https://standards.usa.gov/getting-started/developers/
 6. Permit easy reversal of actions
 7. Support internal locus of control
 8. Reduce short term memory load
-
 
 #### Workshop: Coding Data Entry UI with HTML and javascript and jQuery
 
