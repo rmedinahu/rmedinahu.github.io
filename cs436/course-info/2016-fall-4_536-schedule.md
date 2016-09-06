@@ -29,7 +29,9 @@ For reference:
 
 - Using design standards and guidelines
 - Using UI frameworks -- don't reinvent the wheel
-- Data entry 2.0
+- data validation
+- action handling
+- grid layouts -- responsive design
 
 #### Workshop: CSS Frameworks for Consistency and Accessibility
 
