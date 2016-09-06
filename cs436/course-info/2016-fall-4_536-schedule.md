@@ -7,11 +7,37 @@ parent_course: 436
 
 **Fall 2016 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3)
+
+---
+https://standards.usa.gov/getting-started/developers/
+
+{:.green}
+### 2016-09-06 Week 3
+
+#### Readings
+
+[Accessible Rich Internet Applications (ARIA)](https://www.w3.org/TR/wai-aria/)
+
+[US Government Standards for Web UI](https://standards.usa.gov/)
+
+[Web Style Guide 3rd ed.](http://www.webstyleguide.com/wsg3/)
+
+#### Topics
+
+- Using design standards and guidelines
+- Data entry UI
+- 
+
+#### Workshop: CSS Frameworks for Consistency and Accessibility
+
+- [https://standards.usa.gov/getting-started/developers/](https://standards.usa.gov/getting-started/developers/)
+- [Form design ==> Web Style Guide 3rd ed.](http://www.webstyleguide.com/wsg3/10-forms-and-applications/3-designing-web-applications.html)
 
 ---
 
-{:.green}
+
+{:.gray}
 ### 2016-08-30 Week 2
 
 #### Readings
