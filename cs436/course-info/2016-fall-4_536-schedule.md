@@ -29,7 +29,8 @@ For reference:
 
 - Using design standards and guidelines
 - Using UI frameworks -- don't reinvent the wheel
-- data validation
+- data entry flow (how many clicks does it take?)
+- data constraints/validation
 - action handling
 - grid layouts -- responsive design
 
