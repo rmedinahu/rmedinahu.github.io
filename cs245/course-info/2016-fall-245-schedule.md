@@ -7,11 +7,28 @@ parent_course: 245
 
 **Fall 2016 Schedule of Topics**
 
-Jump to week[n] ==> [0](#week-0), [1](#week-1), [2](#week-2)
+Jump to week[n] ==> [0](#week-0), [1](#week-1), [2](#week-2), [3](#week-3)
 
 ---
 
 {:.green}
+### 2016-09-06 Week 3
+
+#### Readings
+
+[Functions, methods, subroutines](http://math.hws.edu/eck/cs124/javanotes7/c4/index.html)
+
+[Objects and Classes](http://math.hws.edu/eck/cs124/javanotes7/c5/index.html)
+
+
+
+#### Topics
+- Object Oriented Programming
+- Java arrays
+
+---
+
+{:.gray}
 ### 2016-08-30 Week 2
 
 #### Readings
@@ -53,7 +70,6 @@ Jump to week[n] ==> [0](#week-0), [1](#week-1), [2](#week-2)
 
 
 
-[comment]:### 2016-09-06 Week 3 
 [comment]:### 2016-09-13 Week 4 
 [comment]:### 2016-09-20 Week 5 
 [comment]:### 2016-09-27 Week 6 
