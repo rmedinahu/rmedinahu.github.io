@@ -20,8 +20,9 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3)
 
 #### Topics
 
-* Ransomware attack
+* Ransomware attacks
 * socket programming and client/server networking
+* Python virtual environments
 
 
 {% highlight python %}
