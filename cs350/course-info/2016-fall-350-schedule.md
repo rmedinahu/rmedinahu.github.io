@@ -7,11 +7,27 @@ parent_course: 350
 
 **Fall 2016 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3)
 
 ---
 
 {:.green}
+#### 2016-09-07 Week 3
+
+**READINGS** 
+
+[Python socket library](https://docs.python.org/2/library/socket.html)
+
+#### Topics
+
+* Ransomware attack
+* socket programming and client/server networking
+
+
+---
+
+
+{:.gray}
 #### 2016-08-29 Week 2
 **READINGS** 
 
@@ -121,7 +137,7 @@ Breach summary (from article) ...
 ---
 
 
-[comment]:### 2016-09-05 Week 3 
+
 [comment]:### 2016-09-12 Week 4 
 [comment]:### 2016-09-19 Week 5 
 [comment]:### 2016-09-26 Week 6 

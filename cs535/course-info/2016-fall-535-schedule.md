@@ -7,11 +7,30 @@ parent_course: 535
 
 **Fall 2016 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3)
 
 ---
 
 {:.green}
+### 2016-09-07 Week 3
+
+**READING** ==> 
+
+> [Homework 6 assigned](/535/hw6/)
+
+#### Topics
+* ransomware and network access techniques: remote shell commands?
+	- ```subprocess``` or ```envoy```
+* basic cryptanalysis
+* resources for cryptanalysis
+	- you know the encryption method
+	- you know the encryption key
+	- you possess the ciphertext
+	- you possess the cleartext
+
+---
+
+{:.gray}
 ### 2016-08-29 Week 2
 
 **READING** ==> [subprocess package](https://docs.python.org/2/library/subprocess.html), [file I/O](https://docs.python.org/2/tutorial/inputoutput.html#reading-and-writing-files)
