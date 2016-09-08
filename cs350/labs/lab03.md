@@ -10,6 +10,5 @@ parent_course: 350
 ### Socket Programming, File I/O, & subprocess
 Today's lab will focus on completing [homework 3](/350/hw3)
 
-
 A potentially useful Python resource ==> [Learn Python the Hard Way](https://learnpythonthehardway.org/book/)
 
