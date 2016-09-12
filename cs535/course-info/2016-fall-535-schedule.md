@@ -7,11 +7,28 @@ parent_course: 535
 
 **Fall 2016 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4)
 
 ---
 
 {:.green}
+### 2016-09-12 Week 4 
+
+**READING** ==>
+
+#### Topics
+* *techniques*: remote shells using ```subprocess``` or ```envoy```
+* cryptography == making codes cryptanalysis == breaking codes
+* monoalphabetic, polyalphabetic cipher
+* symmetric key encryption
+	- block chaining 
+	- DES, AES
+* public key cryptography
+	- RSA
+
+---
+
+{:.gray}
 ### 2016-09-07 Week 3
 
 **READING** ==> 
@@ -20,7 +37,6 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3)
 
 #### Topics
 * ransomware and network access techniques: remote shell commands?
-	- ```subprocess``` or ```envoy```
 * basic cryptanalysis
 * resources for cryptanalysis
 	- you know the encryption method
@@ -103,7 +119,6 @@ Examples: open sockets, open pipes, open rpc, number of services, web server scr
 * SSL/TLS
 
 
-[comment]:### 2016-09-12 Week 4 
 [comment]:### 2016-09-19 Week 5 
 [comment]:### 2016-09-26 Week 6 
 [comment]:### 2016-10-03 Week 7
