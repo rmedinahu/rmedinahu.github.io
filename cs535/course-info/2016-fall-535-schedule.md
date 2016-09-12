@@ -14,7 +14,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4)
 {:.green}
 ### 2016-09-12 Week 4 
 
-**READING** ==>
+**READING** ==> [brooks-chapter-3.pdf]({{ site.baseurl }}assets/brooks-chapter-3.pdf)
 
 #### Topics
 * *techniques*: 
