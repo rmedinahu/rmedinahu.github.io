@@ -12,6 +12,24 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3)
 ---
 
 {:.green}
+### 2016-09-12 Week 4 
+
+**READINGS** 
+
+[Python subprocess for spawning child processes](https://docs.python.org/2/library/subprocess.html)
+
+[Python virtualenv for isoloating python environments](https://virtualenv.pypa.io/en/stable/)
+
+[Python virtualenvwrapper for simpler virtualenvs](https://virtualenvwrapper.readthedocs.io/en/latest/)
+
+#### Topics
+
+* Python virtual environments
+* Python shell simulator
+* more socket programming
+---
+
+{:.gray}
 #### 2016-09-07 Week 3
 
 **READINGS** 
@@ -22,7 +40,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3)
 
 * Ransomware attacks
 * socket programming and client/server networking
-* Python virtual environments
+
 
 
 {% highlight python %}
@@ -229,7 +247,7 @@ Breach summary (from article) ...
 
 
 
-[comment]:### 2016-09-12 Week 4 
+
 [comment]:### 2016-09-19 Week 5 
 [comment]:### 2016-09-26 Week 6 
 [comment]:### 2016-10-03 Week 7

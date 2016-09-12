@@ -17,7 +17,9 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4)
 **READING** ==>
 
 #### Topics
-* *techniques*: remote shells using ```subprocess``` or ```envoy```
+* *techniques*: 
+	- system command wrappers in python ```subprocess``` or ```envoy```
+	- remote shells? 
 * cryptography == making codes cryptanalysis == breaking codes
 * monoalphabetic, polyalphabetic cipher
 * symmetric key encryption
