@@ -16,17 +16,20 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3)
 
 **READINGS** 
 
-[Python subprocess for spawning child processes](https://docs.python.org/2/library/subprocess.html)
-
 [Python virtualenv for isoloating python environments](https://virtualenv.pypa.io/en/stable/)
 
 [Python virtualenvwrapper for simpler virtualenvs](https://virtualenvwrapper.readthedocs.io/en/latest/)
 
+[Python subprocess for spawning child processes](https://docs.python.org/2/library/subprocess.html)
+
 #### Topics
 
 * Python virtual environments
-* Python shell simulator
+* Python shell simulation
+	- {:.yellow} ==> *shell injection* ALERT!
 * more socket programming
+
+
 ---
 
 {:.gray}
