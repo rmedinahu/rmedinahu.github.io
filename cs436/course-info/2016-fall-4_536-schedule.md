@@ -18,7 +18,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4)
 
 [Bootstrap](http://getbootstrap.com/)
 
-[Web Style Guide 3rd ed.](http://www.webstyleguide.com/wsg3/)
+[Web Style Guide 3rd ed. -CHAPTER 4](http://www.webstyleguide.com/wsg3/4-interface-design/index.html)
 
 #### Topics
 - data entry in forms (sequencing, widget selection, minimize errors)
