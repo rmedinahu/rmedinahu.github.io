@@ -7,12 +7,59 @@ parent_course: 436
 
 **Fall 2016 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4)
 
 ---
-https://standards.usa.gov/getting-started/developers/
 
 {:.green}
+### 2016-09-13 Week 4
+
+#### Readings
+
+[US Government Standards for Web UI](https://standards.usa.gov/)
+
+[Web Style Guide 3rd ed.](http://www.webstyleguide.com/wsg3/)
+
+#### Topics
+- data entry in forms (sequencing, widget selection, minimize errors)
+- menu design
+- dialog boxes
+- design considerations
+
+#### Workshop: Eyeball Evaluation of EMR Form, Bootstrap & A Library UI
+
+[Bootstrap](http://getbootstrap.com/getting-started/)
+
+##### Eyeball evaluation
+- choose an html file from the list and evaluate the design based on:
+	
+	**Record your metrics on scratch paper for discussion.**
+
+	1. number of actions required to complete the form
+	2. the logical order of fields (very logical or illogical). This is subjective but *who* would be better tasked with evaluating this metric?
+	3. display of form on small screen dimensions (resize the window or use the browser tools to simulate small screen devices). Evaluate whether the form is easy or more difficult to read at small screen sizes.
+
+##### Library UI
+
+1. First, address the questions with a partner and note your conclusions in a file or scratch paper (save this for later)
+
+	**Guiding questions for your work:**
+
+	* What are the services provided by the library (view the real library website for background)
+	* What are the levels of expertise for users (novice, expert?)
+	* Who are the users (students, professors, public, library personnel?)
+	* What kind of actions do users perform at a library website?
+
+
+2. Next, use the ```bootstrap``` framework to design and implement the homepage for the NMHU library. Focus your work on the design of the menus that users will view when accessing the library website. 
+
+>Note: Do not simply replicate the design of the menus but try to devise another menu design based on our class discussion and your own creativity. Review bootstrap components: ```dropboxes```, ```navs```, ```navbars```
+
+
+---
+
+
+{:.gray}
 ### 2016-09-06 Week 3
 
 #### Readings
