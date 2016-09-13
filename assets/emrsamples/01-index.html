@@ -1,0 +1,134 @@
+<!doctype html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Emergency</title>
+	<link rel="stylesheet" href="css/uswds.min.css">
+</head>
+<body>
+<div class="usa-grid">
+	<div class="usa-width-whole">
+	<h1>Aguilar M - Patient Entry</h1>
+	</div>
+</div>
+
+<div class="usa-grid">
+	<div class "usa-width-whole">
+	<p id="time"></p>
+
+	<script>
+	document.getElementById("time").innerHTML = Date();
+	</script>
+
+	</div>
+</div>
+
+<div class="usa-grid">
+	<div class="usa-width-whole">
+	<h4>Emergency Status: </h4>
+	</div>
+</div>
+<fieldset class="usa-fieldset-inputs usa-sans">
+
+    <legend class="usa-sr-only">Emergency Status</legend>
+
+    <ul class="usa-unstyled-list">
+      <li>
+        <input id="stable" type="radio" name="Emergency Status" value="stable">
+        <label for="stable"><font color="#5b616b"> Stable</label></font>
+      </li>
+      <li>
+        <input id="somewhat stable" font color= ""type="radio" name="Emergency Status" value="somewhat stable">
+        <label for="somewhat stable"><font color="#fdb81e">Somewhat Stable</label></font>
+      </li>
+      <li>
+        <input id="unstable" type="radio" name="Emergency Status" value="unstable">
+        <label for="unstable"><font color="#cd2026">Unstable</label></font>
+      </li>
+    </ul>
+
+  </fieldset>
+
+<hr>
+
+  <div class="usa-grid">
+	<div class="usa-width-whole">
+	<h4>Current Vitals: </h4>
+
+</div>
+	
+	</div>
+	<fieldset class="usa-fieldset-inputs usa-sans">
+
+    <legend class="usa-sr-only">Consciousness</legend>
+
+    <ul class="usa-unstyled-list">
+      <li>
+        <input id="conscious" type="radio" checked name="consciousness" value="conscious">
+        <label for="conscious">Conscious</label><br>
+      </li>
+      <li>
+        <input id="unconscious" type="radio" name="consciousness" value="unconscious">
+        <label for="unconscious">Unconscious</label>
+      </li>
+    </ul>
+
+
+  </fieldset>
+<hr>
+<div class="usa-grid">
+	<div class="usa-width-whole">
+	<h4>Patient ID: </h4>
+
+</div>
+	
+ <div>
+<label for="input-type-text">Patients First Name: </label>
+  <input  id="fn" name="input-focus" type="text">
+
+<label for="input-type-text">Patients Last Name: </label>
+  <input  id="ln" name="input-focus" type="text">
+
+<label for="input-type-text">4-Digit Human ID:</label>
+  <input id="input-type-text" name="input-type-text" type="text">
+</div>
+<hr>
+<div class="usa-grid">
+	<div class="usa-width-whole">
+	<h4>Injury:</h4>
+	</div>
+</div>
+  <form class="usa-form">
+    <label for="options">Injury Category</label>
+    <select name="options" id="options">
+      <option value="value1">Head Trauma</option>
+      <option value="value2">Sprains and Strains</option>
+      <option value="value3">Slipped Disc</option>
+      <option value="value4">Infection </option>
+      <option value="value5">Broken Bone</option>
+      <option value="value6">Other</option>
+
+    </select>
+  </form>
+
+
+	<label for="input-type-textarea">Brief Description of Injury</label>
+  	<textarea id="desc-injury" name="input-type-textarea">
+  	</textarea>
+
+  	<div class="button_wrapper">
+    <button class="usa-button-big" type="button">Submit</button>
+  	</div>
+	
+	<script src="js/uswds.min.js"></script>
+	<script type="text/javascript">
+	//Add your javascript code here.
+
+	//$( document ).ready(function() {
+
+		//Selector : Event Function: ACTION
+	//});
+	</script>
+</body>
+</html>

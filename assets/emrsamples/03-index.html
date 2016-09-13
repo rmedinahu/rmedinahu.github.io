@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    	<meta charset="utf-8">
+		<link rel="stylesheet" href="css/uswds.css">
+    	<title>Triage Form</title>
+	</head>
+	<body>		
+		<div class="usa-grid">
+
+			<!-- Header at the top of page -->
+			<h1>Michael Gonzales - Patient Entry</h1>
+
+			<!-- Form used to gather user data -->
+			<form id="triageForm" class="usa-form">
+
+				<!--Current Vitals-->
+				<legend>Current Vitals</legend>
+				<div class="usa-grid">
+					<div class="usa-width-one-whole">	
+						<fieldset class="usa-fieldset-inputs usa-sans">
+							<ul class="usa-unstyled-list">
+							  <li>
+								<input id="current-vitals-1" type="radio" checked name="current-vitals" value="conscious">
+								<label for="current-vitals-1">Conscious</label>
+							  </li>
+							  <li>
+								<input id="current-vitals-2" type="radio" name="current-vitals" value="unconscious">
+								<label for="current-vitals-2">Unconscious</label>
+							  </li>
+							</ul>
+					  	</fieldset>
+					</div>
+				</div>
+
+				<!-- Input patients first name and last name -->
+				<legend>Name of Patient</legend>
+				<div class="usa-grid">
+					<div class="usa-width-one-whole">	
+						First:<br>
+			  			<input type="text" name="firstName" value=""><br>	
+			  			Last:<br>
+			 	 		<input type="text" name="lastName" value=""><br>
+					</div>
+				</div>
+
+				<!--4 digit Human Identifier-->
+				<legend>4 Digit Identifier</legend>
+				<div class="usa-grid">
+					<div class="usa-width-one-whole">
+						<input class="usa-input-inline" aria-describedby="dobHint" class="usa-form-control" id="humanId" name="humanId" pattern="[0-9]{4}" type="number" max="9999" value="">
+					</div>
+				</div>
+
+				<!--Emergency Description-->
+				<legend>Emergency Status</legend>
+				<div class="usa-grid">
+					<div id="stable_btn" class="usa-width-one-whole">
+						<input class="emg_desc_btns usa-button-secondary usa-button-gray usa-width-one-whole" type="button" value="Stable" name="status" id="status_1"><br>
+					</div>
+					<div id="unstable_btn" class="usa-width-one-whole">
+						<input class="emg_desc_btns usa-button-secondary usa-button-gray usa-width-one-whole" type="button" value="Unstable" name="status" id="status_2"><br>
+					</div>
+					<div id="highly_unstable_btn" class="usa-width-one-whole">
+						<input class="emg_desc_btns usa-button-secondary usa-button-gray usa-width-one-whole" type="button" value="Highly Unstable" name="status" id="status_3"><br>
+					</div>	
+				</div>
+
+				<!--Injury Categories-->
+				<legend>Injury Categories</legend>
+				<div class="usa-grid">
+					<div class="usa-width-one-whole">
+						<select id="category" name="category">					
+							<option value="Broken_Bone">Broken Bone</option>
+							<option value="Chest_Pain">Chest Pain</option>
+							<option value="Infection">Infection</option>
+							<option value="Mouth_Pain">Mouth Pain</option>		
+          				</select>
+					</div>
+				</div>
+
+				<!--Injury Description-->
+				<legend>Injury Description</legend>
+				<div class="usa-grid">
+					<div class="usa-width-one-whole">
+						<!-- Input for student paragraph -->			
+						<textarea rows="4" cols="50" id="description" name="description" form="triageForm"></textarea><br>
+					</div>
+				</div>
+			
+				<!--Current Date -->
+				<legend>Date</legend>
+				<div class="usa-grid">
+					<div class="usa-width-one-whole">	
+						<fieldset>
+							<span class="usa-form-hint" id="dobHint">For example: 04 28 1986</span>
+							<div class="usa-date-of-birth">
+							  <div class="usa-form-group usa-form-group-month">
+								<label for="date_of_birth_1">Month</label>
+								<input class="usa-input-inline" aria-describedby="dobHint" class="usa-form-control" id="date_1" name="date_1" pattern="0?[1-9]|1[012]" type="number" min="1" max="12" value="">
+							  </div>
+							  <div class="usa-form-group usa-form-group-day">
+								<label for="date_of_birth_2">Day</label>
+								<input class="usa-input-inline" aria-describedby="dobHint" class="usa-form-control" id="date_2" name="date_2" pattern="0?[1-9]|1[0-9]|2[0-9]|3[01]" type="number" min="1" max="31" value="">
+							  </div>
+							  <div class="usa-form-group usa-form-group-year">
+								<label for="date_of_birth_3">Year</label>
+								<input class="usa-input-inline" aria-describedby="dobHint" class="usa-form-control" id="date_3" name="date_3" pattern="[0-9]{4}" type="number" min="1900" max="2016" value="">
+							  </div>
+							</div>
+				  		</fieldset>
+					</div>
+				</div>
+
+				<!--Current Time-->
+				<legend>Time</legend>
+				<div class="usa-grid">
+					<div class="usa-width-one-whole">	
+						<input type="time" name="time" id="time">
+					</div>
+				</div>
+						
+				<!-- Submit Form -->						
+				<input class="usa-width-one-whole" type="submit" value="Submit"><br>
+			</form>
+		</div>
+	
+		<!-- Include required script for jquery and USWDS -->						
+		<script type="text/javascript" src="js/uswds.min.js"></script>	
+		<script type="text/javascript" src="js/jquery-3.1.0.js"></script>
+			
+		<script>
+			//Use jquery and select entire document		
+			$(document).ready(function(){
+
+				//Use jquery submit function for forms 
+				$("#triageForm").submit(function(event){
+	
+					//Gather each value from the html form submission and store
+					//in a local variable.
+					var currentVitals = $("input[name=current-vitals]:checked").val();
+					var date1 = $("input[name=date_1]").val();
+					var date2 = $("input[name=date_2]").val();
+					var date3 = $("input[name=date_3]").val();
+					var time = $("input[name=time]").val(); 					
+					var firstName = $("input[name=firstName]").val();
+					var lastName = $("input[name=lastName]").val();
+					var humanId = $("input[name=humanId]").val();
+					var category = $("select[name=category]").val();
+					var comment = $("textarea[name=description]").val();
+					var status = $("input[name=status]").val();
+					
+					//Use confirm dialog box so user can return or submit
+					var bool = confirm("Click OK to submit form:\n" 
+										+ "Current Vitals: " + currentVitals + "\n" 
+										+ "First Name: " + firstName + "\n" 
+										+ "Last Name: " + lastName + "\n"  
+										+ "Patient ID: " + humanId + "\n" 
+										+ "Status: " + status + "\n"
+										+ "Injury Category: " + category + "\n" 
+										+ "Injury Description: " + comment + "\n" 
+										+ "Date: " + date1 +"-"+ date2 + "-" + date3 + "\n"  
+										+ "Time: " + time + "\n" 
+										);
+					return bool;
+				});
+				$(".emg_desc_btns").click(function(){
+
+					//Get the parent div id
+					var div_id = $(this).parent().attr('id');
+					
+					if(div_id == 'stable_btn'){
+						$("#stable_btn").css("background-color","#aeb0b5");
+						$("#unstable_btn").css("background-color","#FFFFFF");
+						$("#highly_unstable_btn").css("background-color","#FFFFFF");
+					}
+					else if(div_id == 'unstable_btn'){
+						$("#stable_btn").css("background-color","#FFFFFF");
+						$("#unstable_btn").css("background-color","#f9c642");
+						$("#highly_unstable_btn").css("background-color","#FFFFFF");
+					}
+					else{
+						$("#stable_btn").css("background-color","#FFFFFF");
+						$("#unstable_btn").css("background-color","#FFFFFF");
+						$("#highly_unstable_btn").css("background-color","#e31c3d");
+					}
+				});
+			});			
+		</script>
+	</body>
+</html>

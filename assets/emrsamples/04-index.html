@@ -1,0 +1,174 @@
+<!--Taylor Herrera 9/6/2016 -->
+
+
+
+
+<!--current vitals(conscious, unconscious)
+current date and time
+first and last name
+4 digit human identifier
+injury category (make up some categories)
+injury description
+emergency status (gray=stable, yellow=somewhat unstable, red=unstable)
+on submit of the form, gather the data and display it in a confirm dialog box.-->
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    
+		<title>Emergency</title>
+		<link rel="stylesheet" href="css/uswds.min.css">
+    
+	</head>
+<body>
+
+
+<div class="usa-grid">
+	<div class="usa-width-whole">
+   	<h1>Taylor H - Patient Entry</h1>
+   	</div>
+</div>
+	
+<div class="usa-grid">
+	<div class="usa-width-whole">
+		<form class="usa-form">
+		
+		<p id="time"></p>
+
+		<script>
+		document.getElementById("time").innerHTML = Date();
+		</script>
+		
+		    <fieldset>
+      <legend>Name</legend>
+  
+      <label for="first-name">First name <span class="usa-additional_text">Required</span></label>
+      <input id="first-name" name="first-name" type="text" required="" aria-required="true">
+
+      <label for="last-name">Last name <span class="usa-additional_text">Required</span></label>
+      <input id="last-name" name="last-name" type="text" required="" aria-required="true">
+
+    </fieldset>
+		
+		
+	<br/>		
+
+	<fieldset>
+
+    	<legend>Date of birth</legend>
+    	<span class="usa-form-hint" id="dobHint">Example: 01 25 1991</span>
+
+    	<div class="usa-date-of-birth">
+    	  <div class="usa-form-group usa-form-group-month">
+    	    <label for="date_of_birth_1">Month</label>
+    	    <input class="usa-input-inline" aria-describedby="dobHint" class="usa-form-control" id="date_of_birth_1" name="date_of_birth_1" pattern="0?[1-9]|1[012]" type="number" min="1" max="12" value="">
+    	  </div>
+    	  <div class="usa-form-group usa-form-group-day">
+    	    <label for="date_of_birth_2">Day</label>
+    	    <input class="usa-input-inline" aria-describedby="dobHint" class="usa-form-control" id="date_of_birth_2" name="date_of_birth_2" pattern="0?[1-9]|1[0-9]|2[0-9]|3[01]" type="number" min="1" max="31" value="">
+    	  </div>
+    	  <div class="usa-form-group usa-form-group-year">
+    	    <label for="date_of_birth_3">Year</label>
+    	    <input class="usa-input-inline" aria-describedby="dobHint" class="usa-form-control" id="date_of_birth_3" name="date_of_birth_3" pattern="[0-9]{4}" type="number" min="1900" max="2016" value="">
+    	  </div>
+    	</div>
+  </fieldset>
+  
+  <br/>
+  <br/>
+      <legend for="options">Where is the injury</legend>
+      <br/>
+    <select name="options" id="options">
+      <option value="value1">Head or Neck</option>
+      <option value="value2">Arms or Legs</option>
+      <option value="value3">Chest or Stomach</option>
+      <option value="value4">Other</option>
+    </select>
+  
+  <br/>
+  <br/>
+			<legend>How savere is the pain?</legend>
+			<br/>
+			 <fieldset class="usa-fieldset-inputs usa-sans">
+
+    <legend class="usa-sr-only">How Savere</legend>
+
+    <ul class="usa-unstyled-list">
+    <hr>
+      <li>
+        <input id="uncomfortable" type="radio" name="Savere" value="uncomfortable" checked>
+        <label for="uncomfortable"><font color = "red">Extremely Uncomfortable</font></label>
+      </li>
+      <hr>
+      <li>
+        <input id="Moderate" type="radio" name="Savere" value="Moderate">
+        <label for="Moderate"><font color = "#e6e600">Moderate</font></label>
+      </li>
+      <hr>
+      <li>
+        <input id="tolerantable" type="radio" name="Savere" value="tolerantable">
+        <label for="tolerantable"><font color = "green">Tolerantable</font></label>
+      </li>
+      <hr>
+    </ul>
+
+ 			 </fieldset>
+ 		<br/>
+		  <legend>Injury Discription</legend>
+  <textarea id="input-type-textarea" name="input-type-textarea"></textarea>
+  <br />
+   <fieldset>
+   <br/>
+   
+   	 <legend for="options">Is the patient concious or unconcious?</legend>
+    <select name="options2" id="options2">
+      <option value="v1">Concious</option>
+      <option value="v2">Unconcious</option>
+    </select>
+   
+   
+      <legend class="usa-drop_text">Verification</legend>
+
+      <div class="usa-alert usa-alert-info">
+        <div class="usa-alert-body">
+          <h3 class="usa-alert-heading">Patient must:</h3>
+        </div>
+        <ul class="usa-checklist" id="validation_list">
+          <li data-validator="length">Make a 4 digit code</li>
+
+        </ul>
+      </div>
+      
+      <input id="password" name="password" type="password"
+        aria-describedby="validation_list"
+        class="js-validate_password"
+        data-validate-length=".{4,}"
+        data-validation-element="#validation_list">
+ 
+      <input type="submit" value="Submit" />
+    </fieldset>
+  
+  
+		</form>
+	</div>
+</div>
+
+
+
+    <script src="js/uswds.min.js"></script>
+    
+    <script type="text/javascript">
+    // Your code goes here.
+   
+		
+	//	$( document ).ready(function() {
+
+
+
+	//	});
+	
+    </script>
+</body>
+</html>

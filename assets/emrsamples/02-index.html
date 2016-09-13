@@ -1,0 +1,127 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Emergency</title>
+	<link rel="stylesheet" href="css/uswds.min.css">
+    </head>
+<body>
+<div class="usa-grid">
+    <div class="usa-width-whole">   
+	<h1>Roybal M - Patient Entry</h1>
+    </div>  
+</div>
+
+<div class="usa grid">
+    <div class="usa-width-whole">   
+        <label for="input-type-text">
+        </label>
+        <input id="input-type-text" name="input-type-text" type="text" placeholder="Your First Name Here">
+        
+	<label for="input-type-text">
+        </label>
+        <input id="input-type-text" name="input-type-text" type="text" placeholder="Your Last Name Here">
+        
+        <fieldset>
+	
+        <label>Today's Date
+        </label>
+    
+        <div class="usa-date-of-birth">
+        <div class="usa-form-group usa-form-group-month">
+            <label for="date_of_birth_1">
+            </label>
+            <input class="usa-input-inline" aria-describedby="dobHint" class="usa-form-control" id="date_of_birth_1" name="date_of_birth_1" pattern="0?[1-9]|1[012]" type="number" min="1" max="12" placeholder="01">
+        </div>
+      
+	<div class="usa-form-group usa-form-group-day">
+            <label for="date_of_birth_2">
+	    </label>
+            <input class="usa-input-inline" aria-describedby="dobHint" class="usa-form-control" id="date_of_birth_2" name="date_of_birth_2" pattern="0?[1-9]|1[0-9]|2[0-9]|3[01]" type="number" min="1" max="31" placeholder="01">
+        </div>
+
+        <div class="usa-form-group usa-form-group-year">
+            <label for="date_of_birth_3">
+	    </label>
+            <input class="usa-input-inline" aria-describedby="dobHint" class="usa-form-control" id="date_of_birth_3" name="date_of_birth_3" pattern="[0-9]{4}" type="number" min="1900" max="2000" placeholder="2001">
+        </div>    
+    
+    </fieldset>	
+    <fieldset>  
+        <div class="usa-date-of-birth">
+            <div class="usa-form-group usa-form-group-year">
+            <label for="SSN">SSN:
+	    </label>
+            <input class="usa-input-inline" aria-describedby="dobHint" class="usa-form-control" id="SSN" name="SSN" pattern="[0-9]{4}" type="number" min="0000" max="9999" placeholder="Last 4">
+        </div> 
+     </fieldset>
+     <fieldset class="usa-fieldset-inputs usa-sans"><br><br>Emergency Status
+        <br><br>
+
+        <legend class="usa-sr-only">Historical figures 2</legend>
+
+        <ul class="usa-unstyled-list">
+        <li>
+        <input id="stanton" type="radio" checked name="historical-figures-2" value="stanton">
+        <label for="stanton"><font color = "grey ">Stable</label></font>
+        </li>
+        <li>
+        <input id="anthony" type="radio" name="historical-figures-2" value="anthony">
+        <label for="anthony"><font color = "yellow">Somewhat Unstable</label></font>
+        </li>
+        <li>
+        <input id="tubman" type="radio" name="historical-figures-2" value="tubman">
+        <label for="tubman"><font color = "red">Unstable</label></font>
+        </li>
+        </ul>
+
+      </fieldset> 
+  
+       
+      <form class="usa-form">
+      <label for="options">Injury Category</label>
+      <select name="options" id="options">
+      <option value="value1">Minor</option>
+      <option value="value2">Extreme</option>
+      <option value="value3">Life-Threatening</option>
+      </select>
+      </form>
+   
+      
+      <label for="input-type-textarea">Injury Description</label>
+      <textarea id="input-type-textarea" namej="input-type-textarea" placeholder ="Please enter brief description of injury"></textarea>
+  
+      <form class="usa-form">
+      <label for="options">Current Vitals</label>
+      <select name="options" id="options">
+      <option value="value1">Conscious</option>
+      <option value="value2">Unconscious</option>
+      </select>
+      </form>
+   
+</div>
+
+    <script src="js/uswds.min.js"></script>
+    <script type='text/javascript">
+
+        $( document ).ready(function() {;
+		
+	    $("#btn1").click(function(event) 
+            {
+		
+                var t1 = $("#txt1").val();
+            
+
+                alert(+t1+);
+         
+
+	    }); 
+     
+
+	});	
+
+    </script>
+
+</body>
+</html>
