@@ -12,6 +12,18 @@ Jump to week[n] ==> [0](#week-0), [1](#week-1), [2](#week-2), [3](#week-3)
 ---
 
 {:.green}
+### 2016-09-13 Week 4
+
+
+#### Topics
+- Java *primitive* arrays
+- Object oriented (information hiding, api)
+- Stack
+
+---
+
+
+{:.gray}
 ### 2016-09-06 Week 3
 
 #### Readings
