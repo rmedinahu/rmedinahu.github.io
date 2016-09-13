@@ -16,22 +16,43 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4)
 
 #### Readings
 
-[US Government Standards for Web UI](https://standards.usa.gov/)
+[Bootstrap](http://getbootstrap.com/)
 
 [Web Style Guide 3rd ed.](http://www.webstyleguide.com/wsg3/)
 
 #### Topics
 - data entry in forms (sequencing, widget selection, minimize errors)
 - menu design
-- dialog boxes
-- design considerations
+- menu design for ...?
+	* browsing
+	* accessing
+	* searching
+	* novices or experts or both
+
+- menu design issues
+	* task related
+	* phrasing of items
+	* sequence of items
+	* layout
+	* selection mechanisms
+
+- menu hierarchies
+	* reduce # of required actions 
+	* allow rapid selection (experts?)
+	* view potential actions (novices?)
+
+- menu guidelines
+	- breadth over depth
+	- levels <= 3
+	- trees: items in parent should TITLE items in child
+- menu maps: birds eye view
 
 #### Workshop: Eyeball Evaluation of EMR Form, Bootstrap & A Library UI
 
-[Bootstrap](http://getbootstrap.com/getting-started/)
+[Bootstrap getting started](http://getbootstrap.com/getting-started/)
 
 ##### Eyeball evaluation
-- choose an html file from the list and evaluate the design based on:
+- choose an html file from the list [here]({{ site.baseurl }}assets/emrsamples/) and evaluate the design based on:
 	
 	**Record your metrics on scratch paper for discussion.**
 
@@ -55,6 +76,19 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4)
 
 >Note: Do not simply replicate the design of the menus but try to devise another menu design based on our class discussion and your own creativity. Review bootstrap components: ```dropboxes```, ```navs```, ```navbars```
 
+Boilerplate ...
+
+	<!doctype html>
+	<html lang="en">
+	<head>
+	    <meta charset="utf-8">
+	    <title>Title</title>
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+	    <h1></h1>
+	</body>
+	</html>
 
 ---
 
