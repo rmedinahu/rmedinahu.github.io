@@ -14,7 +14,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3)
 {:.green}
 ### 2016-09-12 Week 4 
 
-**READINGS** 
+#### Readings
 
 [Python virtualenv for isoloating python environments](https://virtualenv.pypa.io/en/stable/)
 
@@ -22,12 +22,15 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3)
 
 [Python subprocess for spawning child processes](https://docs.python.org/2/library/subprocess.html)
 
+[comment]:[The Magic of XOR](https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/BitOp/xor.html)
+
 #### Topics
 
 * Python virtual environments
 * Python shell simulation
 	- {:.yellow} ==> *shell injection* ALERT!
 * more socket programming
+* cryptanalysis: cracking the code
 
 
 ---
