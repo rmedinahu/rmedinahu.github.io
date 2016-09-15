@@ -9,6 +9,6 @@ parent_course: 350
 
 ### Cracking the Code: Exposing Vulnerabilities in Encryption Algorithms
 
-Today's lab will focus on completing (tba)
+Today's lab will focus on completing [homework 4](/350/hw4/).
 
 
