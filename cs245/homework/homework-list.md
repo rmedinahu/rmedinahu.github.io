@@ -5,6 +5,8 @@ permalink: /245/hw/
 parent_course: 245
 ---
 
+2016-09-15 - Online Text -- Exercise 5.2 ==> [Homework 3](/245/hw3)
+
 2016-09-08 - Online Text -- Exercise 5.2 ==> [Homework 2](/245/hw2)
 
 2016-09-01 - Dog Kennel ==> [Homework 1](/245/hw1)
