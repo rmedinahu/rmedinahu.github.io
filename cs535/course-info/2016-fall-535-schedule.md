@@ -16,7 +16,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4)
 
 #### Readings
 
-[http://www.formaestudio.com/rijndaelinspector/archivos/Rijndael_Animation_v4_eng.swf](Rijndael flash animation)
+[Rijndael flash animation](http://www.formaestudio.com/rijndaelinspector/archivos/Rijndael_Animation_v4_eng.swf)
 
 *Cryptography* A more clearly written overview ==> [tanenbaum-chapter-8.pdf]({{ site.baseurl }}assets/cs535/computer-networks-5ed-tanenbaum-chapter-8.pdf)
 
