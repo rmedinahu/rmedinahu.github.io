@@ -7,7 +7,7 @@ parent_course: 535
 
 **Fall 2016 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5)
 
 ---
 
