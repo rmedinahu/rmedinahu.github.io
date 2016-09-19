@@ -12,6 +12,28 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4)
 ---
 
 {:.green}
+### 2016-09-19 Week 5 
+
+#### Readings
+
+[http://www.formaestudio.com/rijndaelinspector/archivos/Rijndael_Animation_v4_eng.swf](Rijndael flash animation)
+
+*Cryptography* A more clearly written overview ==> [tanenbaum-chapter-8.pdf]({{ site.baseurl }}assets/cs535/computer-networks-5ed-tanenbaum-chapter-8.pdf)
+
+*Cryptography* Another more clearly written overview ==> [kurose-chapter-8.pdf]({{ site.baseurl }}assets/cs535/computer-networking-6ed-kurose-etal-chapter-8.pdf)
+
+#### Topics
+* *techniques*: bit shifting, rotatations, XOR
+* symetric key encryption: block cipher ==> AES
+* SHA
+* RSA
+	* PKI - public key infrastructure
+
+
+---
+
+
+{:.gray}
 ### 2016-09-12 Week 4 
 
 > [Homework 7 assigned](/535/hw7/)
