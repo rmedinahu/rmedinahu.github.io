@@ -18,6 +18,12 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4)
 
 [Rijndael flash animation](http://www.formaestudio.com/rijndaelinspector/archivos/Rijndael_Animation_v4_eng.swf)
 
+[About AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
+
+[About Rjindael s-box](https://en.wikipedia.org/wiki/Rijndael_S-box)
+
+[About the s-box](http://crypto.stackexchange.com/questions/10996/how-are-the-aes-s-boxes-calculated)
+
 *Cryptography* A more clearly written overview ==> [tanenbaum-chapter-8.pdf]({{ site.baseurl }}assets/cs535/computer-networks-5ed-tanenbaum-chapter-8.pdf)
 
 *Cryptography* Another more clearly written overview ==> [kurose-chapter-8.pdf]({{ site.baseurl }}assets/cs535/computer-networking-6ed-kurose-etal-chapter-8.pdf)
