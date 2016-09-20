@@ -38,7 +38,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 {:.blue}
 #### Workshop: Shopping and Sorting with Drag and Drop
 
-###### This is homework 
+###### This is homework. **Submit to D2L dropbox by next Tuesday before class.**
 
 [jQuery core library](http://jquery.com/)
 
