@@ -54,6 +54,7 @@ Write a single html page that simulates an interface for selecting movies from a
 1. Take a look at other shopping ui's (e.g., amazon, netflix, etc.) for ideas.
 2. You will need at least **12** sample items (e.g., movie images) but definitely consider how your design will scale with hundreds or thousands of items.
 3. Consider the best way for someone to *browse* the sample items. Remember that users will be *dragging* selections to the shopping cart so make sure that is easy to get to!
+4. Bootstrap framework is required!
 
 #### The following should help you get started with drag and drop.
 {% highlight html %}
