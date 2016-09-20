@@ -18,7 +18,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 
 [Bootstrap](http://getbootstrap.com/)
 
-[Web Style Guide 3rd ed. -CHAPTER 4](http://www.webstyleguide.com/wsg3/4-interface-design/index.html)
+[Web Style Guide 3rd ed. - CHAPTER 11 - Graphics](http://www.webstyleguide.com/wsg3/11-graphics/index.html)
 
 #### Topics
 - direct manipulation
@@ -35,11 +35,76 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 	* adding to a list or set of choices
 	* where else?
 
+{:.blue}
 #### Workshop: Shopping and Sorting with Drag and Drop
 
+###### This is homework 
+
 [jQuery core library](http://jquery.com/)
+
 [jQuery ui library](https://jqueryui.com/)
+
 [Bootstrap getting started](http://getbootstrap.com/getting-started/)
+
+[Web Style Guide 3rd ed. - CHAPTER 11 - Graphics](http://www.webstyleguide.com/wsg3/11-graphics/index.html)
+
+
+Write a single html page that simulates an interface for selecting movies from a set of choices. A selected movie should be dragged to a *shopping cart* container. The user can *reorder* the items in the shopping cart by priority at any time. Movies should be represented with images and text.
+
+1. Take a look at other shopping ui's (e.g., amazon, netflix, etc.) for ideas.
+2. You will need at least **12** sample items (e.g., movie images) but definitely consider how your design will scale with hundreds or thousands of items.
+3. Consider the best way for someone to *browse* the sample items. Remember that users will be *dragging* selections to the shopping cart so make sure that is easy to get to!
+
+#### The following should help you get started with drag and drop.
+{% highlight html %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UI Draggable</title>
+  <style>
+    .draggable { border: 1px solid black; width: 50px;}
+    #dropzone { width: 200px; height: 150px; background-color: #cccccc; border: 1px solid black;}
+  </style>
+  
+</head>
+<body>
+
+<div>
+
+  <h3>Draggables</h3>
+  <p><span id="draggable1" class="draggable">item 1</span></p>
+  <p><span id="draggable2" class="draggable">item 2</span></p>
+  <p><span id="draggable3" class="draggable">item 3</span></p>
+
+
+  <h3>Drop Zone</h3>
+  <div id="dropzone">
+    <ul id="sortable"></ul>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script type="text/javascript">
+  $( document ).ready(function() {
+    $( ".draggable" ).draggable();
+    $( "#sortable" ).sortable().disableSelection();
+    
+    $( "#dropzone" ).droppable({
+        drop: function( event, ui ) {
+          $("#sortable").append( "<li>"+ui.draggable.text()+"</li>" );
+          ui.draggable.remove();
+          $("#sortable").hide().fadeIn('fast')
+        }
+    });
+  });  
+</script>
+</body>
+</html>
+{% endhighlight %}
+
 
 ---
 
