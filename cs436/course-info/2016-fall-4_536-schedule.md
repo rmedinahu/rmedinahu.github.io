@@ -7,11 +7,43 @@ parent_course: 436
 
 **Fall 2016 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5)
 
 ---
 
 {:.green}
+### 2016-09-20 Week 5
+
+#### Readings
+
+[Bootstrap](http://getbootstrap.com/)
+
+[Web Style Guide 3rd ed. -CHAPTER 4](http://www.webstyleguide.com/wsg3/4-interface-design/index.html)
+
+#### Topics
+- direct manipulation
+	* leverages humans' efficient hand-eye coordination
+- drag and drop
+	* mouse and touch
+	* freehand vs. constrained
+- design problems:
+	* target object large enough for "grasping"
+	* cause and effect
+	* affordances
+- design context:
+	* sorting items
+	* adding to a list or set of choices
+	* where else?
+
+#### Workshop: Shopping and Sorting with Drag and Drop
+
+[jQuery core library](http://jquery.com/)
+[jQuery ui library](https://jqueryui.com/)
+[Bootstrap getting started](http://getbootstrap.com/getting-started/)
+
+---
+
+{:.gray}
 ### 2016-09-13 Week 4
 
 #### Readings
