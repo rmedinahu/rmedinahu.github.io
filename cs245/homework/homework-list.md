@@ -4,6 +4,8 @@ title: homework
 permalink: /245/hw/
 parent_course: 245
 ---
+ 
+2016-09-22 - Simple Stack Extended ==> [Homework 4](/245/hw4)
 
 2016-09-15 - Simple Stack ==> [Homework 3](/245/hw3)
 
