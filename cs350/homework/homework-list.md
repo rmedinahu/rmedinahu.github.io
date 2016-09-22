@@ -5,6 +5,8 @@ permalink: /350/hw/
 parent_course: 350
 ---
 
+Simple Cipher Block ==> [Homework 5](/350/hw5)
+
 Simple Cryptanalysis ==> [Homework 4](/350/hw4)
 
 Client/Server Network Application - Peeking At Remote Files ==> [Homework 3](/350/hw3)
