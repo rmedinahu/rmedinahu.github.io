@@ -4,6 +4,8 @@ title: homework
 permalink: /535/hw/
 parent_course: 535
 ---
+> [hw-08 due sep 28](/535/hw8/) -- Simple Symetric Block Cipher With Cipher Block Chain
+
 > [hw-07 due sep 19](/535/hw7/) -- Simple shell interpreter
 
 > [hw-06 due sep 12](/535/hw6/) -- Cracking a simple substitution cipher
