@@ -19,7 +19,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 [Sections 8.2.2 and 8.3]({{ site.baseurl }}assets/cs535/computer-networking-6ed-kurose-etal-chapter-8.pdf)
 
 #### Topics
-- bit shifting and manipulations
+- bit shifting and manipulations (our print bits function)
 - RSA - asymetric ciphers
 - Digital Signatures
 - Secure Hash functions
