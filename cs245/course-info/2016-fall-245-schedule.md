@@ -7,11 +7,28 @@ parent_course: 245
 
 **Fall 2016 Schedule of Topics**
 
-Jump to week[n] ==> [0](#week-0), [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5)
+Jump to week[n] ==> [0](#week-0), [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6)
 
 ---
 
+
 {:.green}
+### 2016-09-27 Week 6
+
+#### Readings
+
+[Chapter 7 -- Online Text](http://math.hws.edu/eck/cs124/javanotes7/c7/index.html)
+
+#### Topics
+- Stack ADT.
+- Queue ADT.
+- Java *primitive* arrays vs. Java *ArrayList*
+
+
+---
+
+
+{:.gray}
 ### 2016-09-20 Week 5
 
 #### Readings
