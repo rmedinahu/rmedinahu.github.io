@@ -10,6 +10,8 @@ parent_course: 436
 Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5)
 
 ---
+
+
 {:.green}
 ### 2016-09-27 Week 6
 
@@ -22,15 +24,16 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 #### Topics
 - socio-technical UI
 - design problems:
-	* visibility
-	* awareness
-	* identity
-	* time
+	* visibility: *Who am I interacting with?*
+	* awareness: *What are we doing?*
+	* identity: *Who am I?*
+	* time: *Asynchronous or Synchronous*
+	* shared objects: *What objects do we share and don't share?*
 
 - design context:
-	* time ordering
-	* dynamic lists
-
+	* real time communication and/or collaboration
+	* asynchronous communication and/or collaboration
+	* multiple channels for communication and/or action
 
 {:.blue}
 #### Workshop: Chat User Interface
