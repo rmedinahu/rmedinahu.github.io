@@ -10,8 +10,46 @@ parent_course: 436
 Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5)
 
 ---
-
 {:.green}
+### 2016-09-27 Week 6
+
+#### Readings
+
+[Bootstrap](http://getbootstrap.com/)
+
+[Web Style Guide 3rd ed. - CHAPTER 11 - Graphics](http://www.webstyleguide.com/wsg3/11-graphics/index.html)
+
+#### Topics
+- socio-technical UI
+- design problems:
+	* visibility
+	* awareness
+	* identity
+	* time
+
+- design context:
+	* time ordering
+	* dynamic lists
+
+
+{:.blue}
+#### Workshop: Chat User Interface
+
+###### This is homework. **Submit to D2L dropbox by next Tuesday before class.**
+
+**Required Libraries:** [jQuery core library](http://jquery.com/),  [Bootstrap getting started](http://getbootstrap.com/getting-started/), [Font Awesome Icons](http://fontawesome.io/get-started/)
+
+Write a single HTML page that simulates a chat room. The UI should contain an input widget to enter a chat message. On "send", use jQuery/javascript to append the new message to a list of messages in a separate container. Once a message has been "sent" clear the chat input widget to accept another message.
+
+1. Must use Bootstrap and grid layouts.
+2. Must use icons to provide clues to the organization of the UI. (see Font Awesome linked above).
+3. Chat messages must scroll when message list grows long.
+
+
+---
+
+
+{:.gray}
 ### 2016-09-20 Week 5
 
 #### Readings
@@ -37,6 +75,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 
 {:.blue}
 #### Workshop: Shopping and Sorting with Drag and Drop
+
 
 ###### This is homework. **Submit to D2L dropbox by next Tuesday before class.**
 
