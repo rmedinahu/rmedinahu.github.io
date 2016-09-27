@@ -48,6 +48,38 @@ Write a single HTML page that simulates a chat room. The UI should contain an in
 2. Must use icons to provide clues to the organization of the UI. (see Font Awesome linked above).
 3. Chat messages must scroll when message list grows long.
 
+{% highlight html %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title> 
+    
+    <script src="https://use.fontawesome.com/31ce935913.js"></script>
+
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="data-target" class="col-md-12"></div>
+        </div>
+    </div>
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+    $( document ).ready(function() {
+        
+    });  
+</script>
+</body>
+</html>
+{% endhighlight html %}
 
 ---
 
