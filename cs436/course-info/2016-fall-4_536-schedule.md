@@ -7,7 +7,7 @@ parent_course: 436
 
 **Fall 2016 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6)
 
 ---
 
@@ -80,6 +80,7 @@ Write a single HTML page that simulates a chat room. The UI should contain an in
 </body>
 </html>
 {% endhighlight html %}
+
 
 ---
 
