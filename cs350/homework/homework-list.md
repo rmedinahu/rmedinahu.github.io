@@ -5,6 +5,8 @@ permalink: /350/hw/
 parent_course: 350
 ---
 
+Print Bits ==> [Homework 6](/350/hw6)
+
 Simple Cipher Block ==> [Homework 5](/350/hw5)
 
 Simple Cryptanalysis ==> [Homework 4](/350/hw4)
