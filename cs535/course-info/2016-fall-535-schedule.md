@@ -7,11 +7,29 @@ parent_course: 535
 
 **Fall 2016 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7)
 
 ---
 
 {:.green}
+### 2016-10-03 Week 7 
+
+
+#### Readings
+
+*Cryptography* A more clearly written overview ==> [tanenbaum-chapter-8.pdf]({{ site.baseurl }}assets/cs535/computer-networks-5ed-tanenbaum-chapter-8.pdf)
+
+*Cryptography* Another more clearly written overview ==> [kurose-chapter-8.pdf]({{ site.baseurl }}assets/cs535/computer-networking-6ed-kurose-etal-chapter-8.pdf)
+
+#### Topics
+
+- asymetric ciphers (Diffie-Hellman, RSA)
+- Digital Signatures
+- Secure Hash functions (SHA, MD5)
+
+---
+
+{:.gray}
 ### 2016-09-26 Week 6 
 
 > [Homework 9 assigned](/535/hw9/)
