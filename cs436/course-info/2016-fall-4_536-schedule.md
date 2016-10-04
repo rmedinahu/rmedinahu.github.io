@@ -21,6 +21,8 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 [Web Style Guide 3rd ed. - CHAPTER 11 - Graphics](http://www.webstyleguide.com/wsg3/11-graphics/index.html)
 
 #### Topics
+- use cases
+- prototypes
 
 {:.blue}
 #### Workshop: Scheduling Prototype
