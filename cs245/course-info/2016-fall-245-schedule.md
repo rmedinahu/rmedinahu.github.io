@@ -7,12 +7,72 @@ parent_course: 245
 
 **Fall 2016 Schedule of Topics**
 
-Jump to week[n] ==> [0](#week-0), [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6)
+Jump to week[n] ==> [0](#week-0), [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7)
 
 ---
 
-
 {:.green}
+### 2016-10-04 Week 7
+
+> [Homework 6 assigned](/245/hw6)
+
+#### Readings
+
+[Chapter 7 -- Online Text](http://math.hws.edu/eck/cs124/javanotes7/c7/index.html)
+
+#### Topics
+- Java *primitive* arrays vs. Java *ArrayList*
+- Stack ADT and Queue ADT
+- ```for : each``` construct
+
+
+#### Demo Code (copy-paste-compile-execute)
+
+{% highlight java %}
+// week7.java
+
+import java.util.ArrayList;
+
+public class week7 {
+
+	public static void main(String[] args) {
+		ArrayList<Integer> list = new ArrayList<Integer>();
+		list.add(9);
+		list.add(11);
+		list.add(13);
+		list.add(17);
+
+		System.out.println("\n\nSIZE ==> \t" + list.size());
+
+		System.out.print("VALUES ==> \t");
+		
+		for (int i = 0; i < list.size(); i++ ) {
+			System.out.print(list.get(i) + ", ");
+		}
+		
+
+		list.remove(0);
+
+		System.out.println("\n\nREMOVED ITEM AT 0!\n\nSIZE ==> \t" + list.size());
+		System.out.println("LIST @ 0 ==> \t " + list.get(0));
+
+		System.out.print("VALUES ==> \t");
+		
+		// Using for:each construct.
+		for (Integer item : list) {
+			System.out.print(item + " ");
+		}
+
+		System.out.println("\n\n");
+
+	}
+}
+{% endhighlight java %}
+
+
+---
+
+{:.gray}
 ### 2016-09-27 Week 6
 
 #### Readings
