@@ -7,7 +7,7 @@ parent_course: 436
 
 **Fall 2016 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7)
 
 ---
 
@@ -29,7 +29,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 
 ###### This is your midterm exam. **Submit to D2L dropbox by next Wednesday, October 12 before 5pm.**
 
-You are going to *prototype* a UI to assist CS faculty with developing a schedule for the upcoming semester. This UI should allow the user to make selections regarding what class is taught and by who. The result of the selections should produce a dialog box containing a list each course selected and who is going to teach it. Your prototype should handle a schedule with a minimum of 6 courses taught by a minimum of 2 professors. In addition to your prototype you will need to provide a rationale for your design. This will be a separate html page containing your explanation of the design (why you used certain components, etc.). Link the rationale page from your prototype.
+You are going to *prototype* a UI to assist CS faculty with developing a schedule for the upcoming semester. This UI should allow the user to make selections regarding what class is taught and by who. The result of the selections should produce a dialog box containing a list of each course selected and who is going to teach it. Your prototype should handle a schedule with a minimum of 6 courses taught by a minimum of 2 professors. In addition to your prototype you will need to provide a rationale for your design. This will be a separate html page containing your explanation of the design (why you used certain components, etc.). Link the rationale page from your prototype.
 
 Here's a course listing: [sample-courses.txt]({{ site.baseurl }}assets/cs436/sample-courses.txt)
 
