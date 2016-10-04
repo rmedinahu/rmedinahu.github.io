@@ -11,8 +11,54 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 
 ---
 
-
 {:.green}
+### 2016-10-04 Week 7
+
+#### Readings
+
+[Bootstrap](http://getbootstrap.com/)
+
+[Web Style Guide 3rd ed. - CHAPTER 11 - Graphics](http://www.webstyleguide.com/wsg3/11-graphics/index.html)
+
+#### Topics
+
+{:.blue}
+#### Workshop: Scheduling Prototype
+
+###### This is your midterm exam. **Submit to D2L dropbox by next Wednesday, October 12 before 5pm.**
+
+You are going to *prototype* a UI to assist CS faculty with developing a schedule for the upcoming semester. This UI should allow the user to make selections regarding what class is taught and by who. The result of the selections should produce a dialog box containing a list each course selected and who is going to teach it. Your prototype should handle a schedule with a minimum of 6 courses taught by a minimum of 2 professors. In addition to your prototype you will need to provide a rationale for your design. This will be a separate html page containing your explanation of the design (why you used certain components, etc.). Link the rationale page from your prototype.
+
+Here's a course listing: [sample-courses.txt]({{ site.baseurl }}assets/cs436/sample-courses.txt)
+
+Below are *use cases* that your prototype should address:
+
+##### Use Cases:
+0. User creates a new semester schedule by selecting courses and instructors.
+
+1. User can review a history of course offerings by semester, going back 5 years (10 semesters).
+
+2. User can review a listing of courses in the catalog where each course listing contains the course number and title.
+
+3. User can select a course from the course listing to add to the new semester
+
+4. User can select a instructor from a listing of instructors to associate with a course (in the new schedule).
+
+5. User tries to build schedule so that courses that have not been offered in a "long" time are given priority for the new schedule.
+
+##### Grading Criteria:
+
+* +50 each of the above use cases are reflected in the prototype
+* +10 Bootstrap framework is used including grid layouts
+* +10 jQuery is used to handle simulated actions
+* +10 for each component, specify which use case the component addresses. You can use a ```popup``` indicate this.
+* +20 a short html page that explains the *rationale* for your design. This page is separate from the prototype but should be linked from the prototype.
+
+##### Submit prototype and rationale pages to d2l.
+
+---
+
+{:.gray}
 ### 2016-09-27 Week 6
 
 #### Readings
