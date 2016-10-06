@@ -5,6 +5,10 @@ permalink: /350/labs/
 parent_course: 350
 ---
 
+[Lab 07 2016-10-06](/350/lab7/) ==> Start Midterm Project
+
+[Lab 06 2016-09-29](/350/lab6/) ==>	Continuing Simple Cipher Block
+
 [Lab 05 2016-09-22](/350/lab5/) ==> Simple Cipher Block and Bit Level Computations
 
 [Lab 04 2016-09-15](/350/lab4/) ==> Cracking the Code: Exposing Vulnerabilities in Encryption Algorithms

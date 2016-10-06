@@ -5,6 +5,8 @@ permalink: /350/hw/
 parent_course: 350
 ---
 
+[Midterm Project](/350/midterm)
+
 Print Bits ==> [Homework 6](/350/hw6)
 
 Simple Cipher Block ==> [Homework 5](/350/hw5)
