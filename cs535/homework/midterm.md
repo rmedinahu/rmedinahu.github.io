@@ -30,17 +30,22 @@ Please include [A] and [B] in one TEXT document and upload to D2L.
 
 #### Readings:
 
-The links below take you the ACM Digital Library. If you want to access the full document (which you do if you're going to read it!) then login [here](http://donnelly.nmhu.edu:2048/login?url=http://dl.acm.org/) to access our trial subscription. Plugging in the title will bring up the paper as a first result. 
+The documents are available in NMHU's trial subscription to the ACM Digital Library. 
 
-[Physical key extraction attacks on PCs](http://dl.acm.org/citation.cfm?doid=2942427.2851486)
+a. Login [here](http://donnelly.nmhu.edu:2048/login?url=http://dl.acm.org/). 
+b. Copy and paste the DOI for the article (listed below) in the search box at the top right.
+c. This should retrieve the document (double check the title!).
 
-[Finding New Directions in Cryptography](http://dl.acm.org/citation.cfm?doid=2942427.2911977)
 
-[Cybersecurity Gets Smart](http://dl.acm.org/citation.cfm?doid=2930840.2898969)
+10.1145/2851486  ==> Physical key extraction attacks on PCs  
 
-[No easy answers in the fight over iPhone decryption](http://dl.acm.org/citation.cfm?doid=2991470.2971325)
+10.1145/2911977  ==> Finding New Directions in Cryptography 
 
-[The Key to Privacy](http://dl.acm.org/citation.cfm?doid=2942427.2911979)
+10.1145/2898969  ==> Cybersecurity Gets Smart (Machine Learning/Cybersecurity)
+
+10.1145/2971325  ==> No easy answers in the fight over iPhone decryption 
+
+10.1145/2911979  ==> The Key to Privacy
 
 
 
