@@ -28,13 +28,11 @@ Please include [A] and [B] in one TEXT document and upload to D2L.
 2. Include the bibliographic reference to the article at the bottom of your review (use APA).
 
 
-#### Readings:
+#### Readings: The documents are available in NMHU's trial subscription to the ACM Digital Library. 
 
-The documents are available in NMHU's trial subscription to the ACM Digital Library. 
-
-a. Login [here](http://donnelly.nmhu.edu:2048/login?url=http://dl.acm.org/). 
-b. Copy and paste the DOI for the article (listed below) in the search box at the top right.
-c. This should retrieve the document (double check the title!).
+##### 1. Login [here](http://donnelly.nmhu.edu:2048/login?url=http://dl.acm.org/). 
+##### 2. Copy and paste the DOI for the article (listed below) in the search box at the top right.
+##### 3. This should retrieve the document (double check the title!).
 
 
 10.1145/2851486  ==> Physical key extraction attacks on PCs  
