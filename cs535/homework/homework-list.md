@@ -4,6 +4,9 @@ title: homework
 permalink: /535/hw/
 parent_course: 535
 ---
+
+> [midterm due oct 14](/535/midterm/) -- Paper Reviews
+
 > [hw-09 due oct 03](/535/hw9/) -- Algorithm Report/Presentation
 
 > [hw-08 due sep 28](/535/hw8/) -- Simple Symetric Block Cipher With Cipher Block Chain
