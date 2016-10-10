@@ -18,16 +18,13 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 
 #### Readings
 
-*Cryptography* A more clearly written overview ==> [tanenbaum-chapter-8.pdf]({{ site.baseurl }}assets/cs535/computer-networks-5ed-tanenbaum-chapter-8.pdf)
-
-*Cryptography* Another more clearly written overview ==> [kurose-chapter-8.pdf]({{ site.baseurl }}assets/cs535/computer-networking-6ed-kurose-etal-chapter-8.pdf)
+*Network Security (Sections 8.3 & 8.6) ==> [kurose-chapter-8.pdf]({{ site.baseurl }}assets/cs535/computer-networking-6ed-kurose-etal-chapter-8.pdf)
 
 
 #### Topics
 
-- asymetric ciphers (Diffie-Hellman, RSA)
-- Digital Signatures
-- Secure Hash functions (SHA, MD5)
+- SSL/TLS - Basics of Secure Network Communication
+- Midterm reports
 
 ---
 
@@ -227,11 +224,7 @@ Examples: open sockets, open pipes, open rpc, number of services, web server scr
 * SSL/TLS
 
 
-[comment]:### 2016-09-19 Week 5 
-[comment]:### 2016-09-26 Week 6 
-[comment]:### 2016-10-03 Week 7
-[comment]:### 2016-10-10 Week 8 
-[comment]:### 2016-10-24 Week 9
+[comment]:### 2016-10-24 Week 9 SSL insecurity - heartbleed. poodle. 
 [comment]:### 2016-10-31 Week 10 
 [comment]:### 2016-11-07 Week 11
 [comment]:### 2016-11-14 Week 12
