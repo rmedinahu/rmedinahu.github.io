@@ -1,7 +1,7 @@
 ---
 layout: course_page
-title: Homework 9
-permalink: /535/hw9/
+title: Midterm
+permalink: /535/midterm/
 parent_course: 535
 ---
 
