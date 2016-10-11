@@ -5,6 +5,8 @@ permalink: /245/hw/
 parent_course: 245
 ---
 
+2016-10-11 - Simple Queue With ArrayList ==> [Homework 7](/245/hw7)
+
 2016-10-04 - Simple Stack With ArrayList ==> [Homework 6](/245/hw6)
 
 2016-09-29 - Simple Stack Extended V.2 ==> [Homework 5](/245/hw5)

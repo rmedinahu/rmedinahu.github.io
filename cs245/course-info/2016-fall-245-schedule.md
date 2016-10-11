@@ -12,6 +12,22 @@ Jump to week[n] ==> [0](#week-0), [1](#week-1), [2](#week-2), [3](#week-3), [4](
 ---
 
 {:.green}
+### 2016-10-11 Week 8
+
+> [Homework 7 assigned](/245/hw7)
+
+#### Readings
+
+[Chapter 7 -- Online Text](http://math.hws.edu/eck/cs124/javanotes7/c7/index.html)
+
+#### Topics
+- Stack review
+- Midterm exam
+
+---
+
+
+{:.gray}
 ### 2016-10-04 Week 7
 
 > [Homework 6 assigned](/245/hw6)
