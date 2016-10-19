@@ -12,6 +12,23 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 ---
 
 {:.green}
+### 2016-10-17 Week 9 
+
+#### Readings
+
+> Please read the following prior to Monday, October 24: 
+
+> *Vulnerability Overview*  ==> [Sections 9.7 -> 9.9 (p.639-684)]({{ site.baseurl }}assets/cs535/modern-operating-systems-4ed-tanenbaum-chapter-9.pdf)
+
+
+
+#### Topics
+
+- Vulnerabilities
+
+---
+
+{:.gray}
 ### 2016-10-10 Week 8 
 
 > [Midterm assigned](/535/midterm/)
