@@ -7,11 +7,42 @@ parent_course: 350
 
 **Fall 2016 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8), [9](#week-9)
 
 ---
 
 {:.green}
+### 2016-10-17 Week 9 
+
+#### Readings
+
+> Please read the following prior to Monday, October 24: 
+
+> *Vulnerability Overview*  ==> [Sections 9.7 -> 9.9 (p.639-684)]({{ site.baseurl }}assets/cs535/modern-operating-systems-4ed-tanenbaum-chapter-9.pdf)
+
+
+#### Topics
+
+- Vulnerabilities
+
+---
+
+{:.gray}
+### 2016-10-10 Week 8 
+
+#### Readings
+
+> Midterm project work.
+
+
+#### Topics
+
+- Digtial signatures
+
+
+---
+
+{:.gray}
 ### 2016-10-03 Week 7 
 
 >[Homework 6 assigned](/350/hw6)
