@@ -10,8 +10,21 @@ parent_course: 245
 Jump to week[n] ==> [0](#week-0), [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7)
 
 ---
-
 {:.green}
+### 2016-10-18 Week 9
+
+#### Readings
+
+[Chapter 9 -- Online Text](http://math.hws.edu/javanotes/c9/index.html)
+
+#### Topics
+- Midterm review
+- Queue review
+- Stacks and Queues in the real world
+
+---
+
+{:.gray}
 ### 2016-10-11 Week 8
 
 > [Homework 7 assigned](/245/hw7)
@@ -191,15 +204,10 @@ public class week7 {
 
 
 
-[comment]:### 2016-09-13 Week 4 
-[comment]:### 2016-09-20 Week 5 
-[comment]:### 2016-09-27 Week 6 
-[comment]:### 2016-10-04 Week 7
-[comment]:### 2016-10-11 Week 8 
-[comment]:### 2016-10-25 Week 9
-[comment]:### 2016-11-01 Week 10 
-[comment]:### 2016-11-08 Week 11
-[comment]:### 2016-11-15 Week 12
-[comment]:### 2016-11-22 Week 13
-[comment]:### 2016-11-29 Week 14
+
+[comment]:### 2016-11-01 Week 10 chapter 7.4, searching, sorting 
+[comment]:### 2016-11-08 Week 11 chapter 8, algorithm analysis, error handling
+[comment]:### 2016-11-15 Week 12 chapter 9, linked lists, binary trees
+[comment]:### 2016-11-22 Week 13 chapter 9, linked lists, binary trees
+[comment]:### 2016-11-29 Week 14 
 
