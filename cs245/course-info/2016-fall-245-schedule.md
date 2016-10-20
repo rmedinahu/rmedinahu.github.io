@@ -7,7 +7,7 @@ parent_course: 245
 
 **Fall 2016 Schedule of Topics**
 
-Jump to week[n] ==> [0](#week-0), [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7)
+Jump to week[n] ==> [0](#week-0), [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8), [9](#week-9)
 
 ---
 {:.green}
@@ -15,7 +15,7 @@ Jump to week[n] ==> [0](#week-0), [1](#week-1), [2](#week-2), [3](#week-3), [4](
 
 #### Readings
 
-[Chapter 9 -- Online Text](http://math.hws.edu/javanotes/c9/index.html)
+[Chapter 7 -- Searching and Sorting](http://math.hws.edu/javanotes/c7/s4.html)
 
 #### Topics
 - Midterm review

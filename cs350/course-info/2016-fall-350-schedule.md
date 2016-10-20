@@ -14,6 +14,8 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 {:.green}
 ### 2016-10-17 Week 9 
 
+>[Homework 7 assigned](/350/hw7)
+
 #### Readings
 
 > Please read the following prior to Monday, October 24: 

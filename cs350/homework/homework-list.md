@@ -5,6 +5,8 @@ permalink: /350/hw/
 parent_course: 350
 ---
 
+Conversational Agent ==> [Homework 7](/350/hw7)
+
 [Midterm Project](/350/midterm)
 
 Print Bits ==> [Homework 6](/350/hw6)
