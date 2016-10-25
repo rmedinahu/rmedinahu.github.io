@@ -7,10 +7,27 @@ parent_course: 245
 
 **Fall 2016 Schedule of Topics**
 
-Jump to week[n] ==> [0](#week-0), [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8), [9](#week-9)
+Jump to week[n] ==> [0](#week-0), [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8), [9](#week-9), [10](#week-10)
 
 ---
+
 {:.green}
+### 2016-10-25 Week 10
+
+> [Homework 8 assigned](/245/hw8)
+
+#### Readings
+
+[Chapter 7 -- Searching and Sorting](http://math.hws.edu/javanotes/c7/s4.html)
+
+#### Topics
+- Midterm review
+- Queue review
+- Stacks and Queues in the real world
+
+---
+
+{:.gray}
 ### 2016-10-18 Week 9
 
 #### Readings
