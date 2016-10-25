@@ -7,11 +7,132 @@ parent_course: 436
 
 **Fall 2016 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [10](#week-10)
 
 ---
 
 {:.green}
+### 2016-10-25 Week 10
+
+#### Readings
+
+[Bootstrap](http://getbootstrap.com/)
+
+[Metafizzy Isotope](http://isotope.metafizzy.co/)
+
+#### Topics
+- managing large data sets.
+
+{:.blue}
+#### Workshop: Data Filtering and Sorting
+
+###### This is homework. **Submit to D2L dropbox by next Tuesday, November 1 before class.**
+
+You are going to *prototype* a UI that helps a user browse/search a large number of items. You will use filtering and sorting techniques and the isotope library to design an efficient UI for the following use cases. These again are in the context of a scheduling application.
+
+##### Use Cases:
+
+1. Filter courses by name (e.g. show all courses that begin with the letter a).
+2. Filter courses by course number (e.g. 245, 351, etc.)
+3. Sort courses by name in descending or ascending order.
+4. Show all courses.
+5. Filter courses by semester(s) previously taught in the last four semesters. (e.g., spring 2016, fall 2015, spring 2015, fall 2014). A course may have been taught in more than once in the previous four semesters.
+
+##### Starter code:
+{% highlight html %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+<body>
+	<div class="container-fluid">
+	    <div class="row"><p class="lead">Metafizzy Sample</p></div>
+
+		<div class="row button-group filters-button-group">
+			<div class="col-md-4 btn" data-filter="*">show all</div>
+			<div class="col-md-4 btn" data-filter=".a-f">a-f</div>
+			
+			<button id="sort-btn" class="col-md-4 btn" data-sort-by="name" data-order="dsc">sort</button>
+
+		</div>
+
+		<div id="list" class="row lead filterdata">
+			<div class="col-md-12 item name a-f">Adv Computer ProgrammingAdv</div>
+			<div class="col-md-12 item name a-f">C and Unix</div>
+			<div class="col-md-12 item name a-f">Computer Networks</div>
+			<div class="col-md-12 item name">Intro to Computer Science</div>
+			<div class="col-md-12 item name">Hands on UNIX</div>
+			<div class="col-md-12 item name">Human-Computer Interaction</div>
+			<div class="col-md-12 item name">Image Processing</div>
+			<div class="col-md-12 item name">Living with Computers</div>
+			<div class="col-md-12 item name">Multimedia Project Development</div>
+			<div class="col-md-12 item name">Multimedia Programming</div>
+			<div class="col-md-12 item name">Network Security</div>
+			<div class="col-md-12 item name">Parallel and Distributed Program</div>
+			<div class="col-md-12 item name">Senior Project Implementation</div>
+			<div class="col-md-12 item name">Systems Design and Analysis</div>
+			<div class="col-md-12 item name">Synthesis of Media Arts and CS</div>
+		</div>
+	</div>
+
+    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
+	<script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+
+    <script type="text/javascript">
+		$( document ).ready(function() {
+			
+			var $grid = $('.filterdata').isotope({
+				  itemSelector: '.item',
+				  layoutMode: 'fitRows',
+				  
+				  getSortData: {
+					name: '.name' 
+				}				  
+			});		
+
+			// bind filter button click
+			$('.filters-button-group').on( 'click', '.btn', function() {
+				var filterValue = $( this ).attr('data-filter');
+				$grid.isotope({ filter: filterValue });
+			});
+
+			// bind sort button click
+			$('#sort-btn').on( 'click', function() {
+				var sortbyval = $( this ).attr('data-sort-by');
+				var order = "";
+                if ($(this).attr("data-order")==="asc") {
+                    order = true;
+                    $(this).attr("data-order", "");
+                } else {
+                    order = false;
+                    $(this).attr("data-order", "asc");
+                }
+
+				$grid.isotope({ sortBy : sortbyval, sortAscending: order });
+				console.log('sorting?' + sortbyval);
+			});
+
+		});  
+    </script>
+</body>
+</html
+{% endhighlight %}
+
+---
+
+{:.gray}
 ### 2016-10-04 Week 7
 
 #### Readings
