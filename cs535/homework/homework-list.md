@@ -5,6 +5,8 @@ permalink: /535/hw/
 parent_course: 535
 ---
 
+> [hw-10 due nov 7](/535/hw10/) -- Malware Presentation
+
 > [midterm due oct 14](/535/midterm/) -- Paper Reviews
 
 > [hw-09 due oct 03](/535/hw9/) -- Algorithm Report/Presentation
