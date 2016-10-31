@@ -25,7 +25,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 - case study: HTML input forms
 - Kali Linux 
 
-
+{% highlight c %}
 	#include <stdio.h>
 	#include <string.h>
 
@@ -47,7 +47,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 		
 		// vulnerable();
 	}
-
+{% endhighlight c %}
 
 ---
 
