@@ -25,6 +25,30 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 - case study: HTML input forms
 - Kali Linux 
 
+
+	#include <stdio.h>
+	#include <string.h>
+
+	void vulnerable() {
+		char s[100], g[100] = "Hello ";
+		gets(s);
+		strcat(g, s);
+		printf(g);
+	}
+
+	int main(int argc, char *argv[]) {
+		char creeper[128];
+		int innocent = 99;
+		
+		printf("BEFORE innocent=%d \n", innocent);
+		gets(creeper);
+		printf(creeper);
+		printf("\nAFTER innocent=%d \n", innocent);
+		
+		// vulnerable();
+	}
+
+
 ---
 
 {:.green}
