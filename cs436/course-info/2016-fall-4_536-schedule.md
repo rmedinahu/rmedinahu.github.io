@@ -30,7 +30,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 
 You are going to refactor Filtering and Sorting homework so that it loads sample data. Use cases stil apply. 
 
-a. See []() for sample csv file. You will need to preprocess this list of courses using python as demonstrated in class to produce an array:
+a. Download [cs-2005-2015.csv]({{ site.baseurl }}assets/cs436/cs-2005-2015.csv) containing sample course data. You will need to preprocess this list of courses using python as demonstrated in class to produce an array:
 
 ```[["200610", "Fall Semester 2005", "101", "Living with Computers", "37"], [...]]```
 
@@ -77,6 +77,7 @@ You are going to *prototype* a UI that helps a user browse/search a large number
 5. Filter courses by semester(s) previously taught in the last four semesters. (e.g., spring 2016, fall 2015, spring 2015, fall 2014). A course may have been taught in more than once in the previous four semesters.
 
 ##### Starter code:
+
 {% highlight html %}
 <!doctype html>
 <html lang="en">
@@ -165,7 +166,8 @@ You are going to *prototype* a UI that helps a user browse/search a large number
 		});  
     </script>
 </body>
-</html
+</html>
+
 {% endhighlight %}
 
 ---

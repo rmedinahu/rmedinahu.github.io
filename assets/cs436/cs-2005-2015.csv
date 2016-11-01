@@ -1,0 +1,232 @@
+TERM_CODE,TERM_DESCRIPTION,COURSE_NUMBER,TITLE,ACTUAL_ENROLLMENT
+200610,Fall Semester 2005,101,Living with Computers,37
+200610,Fall Semester 2005,101,Living with Computers,39
+200610,Fall Semester 2005,135,Select Top in Comp Science,16
+200610,Fall Semester 2005,144,Intro to Computer Science,14
+200610,Fall Semester 2005,145,Intro to Object-Oriented Prog,7
+200610,Fall Semester 2005,245,Adv Computer Programming,2
+200610,Fall Semester 2005,341,Mach Arch & Assem Lang Prog,6
+200610,Fall Semester 2005,451,Software Engineering,5
+200610,Fall Semester 2005,457,Computer Networks,10
+200620,Spring Semester 2006,101,Living with Computers,37
+200620,Spring Semester 2006,101,Living with Computers,40
+200620,Spring Semester 2006,135,Select Top in Comp Science,4
+200620,Spring Semester 2006,144,Intro to Computer Science,9
+200620,Spring Semester 2006,145,Intro to Object-Oriented Prog,11
+200620,Spring Semester 2006,245,Adv Computer Programming,2
+200620,Spring Semester 2006,327,Hands on UNIX,6
+200620,Spring Semester 2006,328,C and Unix,6
+200620,Spring Semester 2006,335,Select Top in Comp Science,3
+200620,Spring Semester 2006,335,Select Top in Comp Science,8
+200620,Spring Semester 2006,350,Programming Seminar 1,3
+200620,Spring Semester 2006,380,Computer Modeling & Simulation,8
+200620,Spring Semester 2006,421,Adv Data Struct & Alg Dev,2
+200620,Spring Semester 2006,443,Operating Systems,1
+200620,Spring Semester 2006,443,Operating Systems,9
+200710,Fall Semester 2006,101,Living with Computers,44
+200710,Fall Semester 2006,101,Living with Computers,45
+200710,Fall Semester 2006,144,Intro to Computer Science,25
+200710,Fall Semester 2006,145,Intro to Object-Oriented Prog,7
+200710,Fall Semester 2006,245,Adv Computer Programming,2
+200710,Fall Semester 2006,314,"The ""C++"" Prog Language",5
+200710,Fall Semester 2006,431,Database Management,6
+200710,Fall Semester 2006,450,Programming Seminar 2,1
+200710,Fall Semester 2006,459,Network Security,7
+200710,Fall Semester 2006,472,Cognitive Science,2
+200710,Fall Semester 2006,474,Machine Learning Algorithms,2
+200720,Spring Semester 2007,101,Living with Computers,39
+200720,Spring Semester 2007,101,Living with Computers,40
+200720,Spring Semester 2007,144,Intro to Computer Science,15
+200720,Spring Semester 2007,145,Intro to Object-Oriented Prog,12
+200720,Spring Semester 2007,245,Adv Computer Programming,5
+200720,Spring Semester 2007,327,Hands on UNIX,4
+200720,Spring Semester 2007,335,Select Top in Comp Science,1
+200720,Spring Semester 2007,335,Select Top in Comp Science,11
+200720,Spring Semester 2007,350,Programming Seminar 1,6
+200810,Fall Semester 2007,101,Living with Computers,36
+200810,Fall Semester 2007,101,Living with Computers,38
+200810,Fall Semester 2007,144,Intro to Computer Science,23
+200810,Fall Semester 2007,145,Intro to Object-Oriented Prog,11
+200810,Fall Semester 2007,341,Mach Arch & Assem Lang Prog,9
+200810,Fall Semester 2007,443,Operating Systems,4
+200810,Fall Semester 2007,451,Software Engineering,9
+200810,Fall Semester 2007,457,Computer Networks,8
+200810,Fall Semester 2007,463,Web Programming,2
+200820,Spring Semester 2008,101,Living with Computers,28
+200820,Spring Semester 2008,101,Living with Computers,40
+200820,Spring Semester 2008,144,Intro to Computer Science,18
+200820,Spring Semester 2008,145,Intro to Object-Oriented Prog,18
+200820,Spring Semester 2008,245,Adv Computer Programming,2
+200820,Spring Semester 2008,328,C and Unix,10
+200820,Spring Semester 2008,345,Data & File Structures,9
+200820,Spring Semester 2008,431,Database Management,8
+200820,Spring Semester 2008,450,Programming Seminar 2,6
+200820,Spring Semester 2008,473,Artificial Neural Networks,1
+200910,Fall Semester 2008,101,Living with Computers,37
+200910,Fall Semester 2008,101,Living with Computers,40
+200910,Fall Semester 2008,144,Intro to Computer Science,24
+200910,Fall Semester 2008,145,Intro to Object-Oriented Prog,21
+200910,Fall Semester 2008,245,Adv Computer Programming,4
+200910,Fall Semester 2008,350,Programming Seminar 1,7
+200910,Fall Semester 2008,451,Software Engineering,4
+200910,Fall Semester 2008,461,Programming Languages,8
+200910,Fall Semester 2008,463,Web Programming,7
+200920,Spring Semester 2009,101,Living with Computers,36
+200920,Spring Semester 2009,101,Living with Computers,40
+200920,Spring Semester 2009,144,Intro to Computer Science,15
+200920,Spring Semester 2009,145,Intro to Object-Oriented Prog,13
+200920,Spring Semester 2009,245,Adv Computer Programming,7
+200920,Spring Semester 2009,328,C and Unix,11
+200920,Spring Semester 2009,335,Select Top in Comp Science,1
+200920,Spring Semester 2009,335,Select Top in Comp Science,1
+200920,Spring Semester 2009,335,Select Top in Comp Science,5
+200920,Spring Semester 2009,335,Select Top in Comp Science,17
+200920,Spring Semester 2009,421,Adv Data Struct & Alg Dev,5
+200920,Spring Semester 2009,435,Select Top in Comp Science,9
+200920,Spring Semester 2009,474,Machine Learning Algorithms,3
+200930,Summer Semester 2009,328,C and Unix,7
+201010,Fall Semester 2009,101,Living with Computers,19
+201010,Fall Semester 2009,101,Living with Computers,23
+201010,Fall Semester 2009,101,Living with Computers,38
+201010,Fall Semester 2009,101,Living with Computers,39
+201010,Fall Semester 2009,144,Intro to Computer Science,17
+201010,Fall Semester 2009,145,Intro to Object-Oriented Prog,11
+201010,Fall Semester 2009,245,Adv Computer Programming,7
+201010,Fall Semester 2009,341,Mach Arch & Assem Lang Prog,11
+201010,Fall Semester 2009,350,Programming Seminar 1,7
+201010,Fall Semester 2009,431,Database Management,4
+201010,Fall Semester 2009,443,Operating Systems,8
+201010,Fall Semester 2009,450,Programming Seminar 2,3
+201010,Fall Semester 2009,463,Web Programming,2
+201010,Fall Semester 2009,464,Network Programming,1
+201020,Spring Semester 2010,101,Living with Computers,6
+201020,Spring Semester 2010,101,Living with Computers,19
+201020,Spring Semester 2010,101,Living with Computers,29
+201020,Spring Semester 2010,101,Living with Computers,30
+201020,Spring Semester 2010,135,Select Top in Comp Science,5
+201020,Spring Semester 2010,144,Intro to Computer Science,18
+201020,Spring Semester 2010,145,Intro to Object-Oriented Prog,16
+201020,Spring Semester 2010,245,Adv Computer Programming,12
+201020,Spring Semester 2010,350,Programming Seminar 1,2
+201020,Spring Semester 2010,350,Programming Seminar 1,3
+201020,Spring Semester 2010,351,Systems Design & Analysis,10
+201020,Spring Semester 2010,421,Adv Data Struct & Alg Dev,8
+201020,Spring Semester 2010,431,Database Management,1
+201020,Spring Semester 2010,431,Database Management,3
+201020,Spring Semester 2010,431,Database Management,3
+201020,Spring Semester 2010,435,Select Top in Comp Science,2
+201020,Spring Semester 2010,451,Software Engineering,9
+201020,Spring Semester 2010,461,Programming Languages,8
+201110,Fall Semester 2010,101,Living with Computers,20
+201110,Fall Semester 2010,101,Living with Computers,29
+201110,Fall Semester 2010,101,Living with Computers,31
+201110,Fall Semester 2010,144,Intro to Computer Science,23
+201110,Fall Semester 2010,145,Intro to Object-Oriented Prog,10
+201110,Fall Semester 2010,245,Adv Computer Programming,7
+201110,Fall Semester 2010,314,"The ""C++"" Prog Language",20
+201110,Fall Semester 2010,324,UNIX Operating System,10
+201110,Fall Semester 2010,345,Data & File Structures,14
+201110,Fall Semester 2010,435,Select Top in Comp Science,2
+201110,Fall Semester 2010,436,Human-Computer Interaction,1
+201110,Fall Semester 2010,436,Human-Computer Interaction,2
+201110,Fall Semester 2010,450,Programming Seminar 2,11
+201110,Fall Semester 2010,474,Machine Learning Algorithms,6
+201120,Spring Semester 2011,101,Living with Computers,38
+201120,Spring Semester 2011,101,Living with Computers,40
+201120,Spring Semester 2011,144,Intro to Computer Science,7
+201120,Spring Semester 2011,145,Intro to Object-Oriented Prog,10
+201120,Spring Semester 2011,245,Adv Computer Programming,7
+201120,Spring Semester 2011,350,Programming Seminar 1,10
+201120,Spring Semester 2011,431,Database Management,16
+201120,Spring Semester 2011,435,Select Top in Comp Science,1
+201120,Spring Semester 2011,435,Select Top in Comp Science,13
+201120,Spring Semester 2011,435,Select Top in Comp Science,15
+201120,Spring Semester 2011,443,Operating Systems,1
+201120,Spring Semester 2011,443,Operating Systems,13
+201130,Summer Semester 2011,457,Computer Networks,5
+201210,Fall Semester 2011,101,Living with Computers,44
+201210,Fall Semester 2011,101,Living with Computers,45
+201210,Fall Semester 2011,144,Intro to Computer Science,10
+201210,Fall Semester 2011,145,Intro to Object-Oriented Prog,4
+201210,Fall Semester 2011,328,C and Unix,12
+201210,Fall Semester 2011,380,Computer Modeling & Simulation,9
+201210,Fall Semester 2011,435,Select Top in Comp Science,14
+201210,Fall Semester 2011,450,Programming Seminar 2,7
+201210,Fall Semester 2011,461,Programming Languages,12
+201220,Spring Semester 2012,101,Living with Computers,9
+201220,Spring Semester 2012,101,Living with Computers,42
+201220,Spring Semester 2012,101,Living with Computers,48
+201220,Spring Semester 2012,145,Intro to Object-Oriented Prog,10
+201220,Spring Semester 2012,245,Adv Computer Programming,10
+201220,Spring Semester 2012,451,Software Engineering,1
+201220,Spring Semester 2012,451,Software Engineering,8
+201220,Spring Semester 2012,455,Intro to Computer Graphics,10
+201220,Spring Semester 2012,463,Web Programming,3
+201220,Spring Semester 2012,463,Web Programming,10
+201230,Summer Semester 2012,101,Living with Computers,2
+201230,Summer Semester 2012,101,Living with Computers,4
+201230,Summer Semester 2012,464,Network Programming,3
+201310,Fall Semester 2012,101,Living with Computers,36
+201310,Fall Semester 2012,101,Living with Computers,40
+201310,Fall Semester 2012,144,Intro to Computer Science,19
+201310,Fall Semester 2012,145,Intro to Object-Oriented Prog,14
+201310,Fall Semester 2012,245,Adv Computer Programming,5
+201310,Fall Semester 2012,350,Programming Seminar 1,1
+201310,Fall Semester 2012,350,Programming Seminar 1,14
+201310,Fall Semester 2012,443,Operating Systems,2
+201310,Fall Semester 2012,443,Operating Systems,10
+201320,Spring Semester 2013,101,Living with Computers,64
+201320,Spring Semester 2013,144,Intro to Computer Science,10
+201320,Spring Semester 2013,245,Adv Computer Programming,9
+201320,Spring Semester 2013,421,Adv Data Struct & Alg Dev,4
+201320,Spring Semester 2013,431,Database Management,2
+201320,Spring Semester 2013,431,Database Management,13
+201320,Spring Semester 2013,451,Software Engineering,1
+201320,Spring Semester 2013,451,Software Engineering,6
+201320,Spring Semester 2013,477,Parallel & Distributed Program,9
+201410,Fall Semester 2013,101,Living with Computers,69
+201410,Fall Semester 2013,144,Intro to Computer Science,24
+201410,Fall Semester 2013,145,Intro to Object-Oriented Prog,23
+201410,Fall Semester 2013,328,C and Unix,7
+201410,Fall Semester 2013,341,Mach Arch & Assem Lang Prog,11
+201410,Fall Semester 2013,345,Data & File Structures,11
+201410,Fall Semester 2013,350,Programming Seminar 1,3
+201410,Fall Semester 2013,463,Web Programming,5
+201420,Spring Semester 2014,101,Living with Computers,12
+201420,Spring Semester 2014,101,Living with Computers,27
+201420,Spring Semester 2014,101,Living with Computers,30
+201420,Spring Semester 2014,144,Intro to Computer Science,8
+201420,Spring Semester 2014,145,Intro to Object-Oriented Prog,14
+201420,Spring Semester 2014,245,Adv Computer Programming,15
+201420,Spring Semester 2014,435,Select Top in Comp Science,13
+201420,Spring Semester 2014,443,Operating Systems,10
+201420,Spring Semester 2014,451,Software Engineering,7
+201420,Spring Semester 2014,474,Machine Learning Algorithms,2
+201420,Spring Semester 2014,474,Machine Learning Algorithms,3
+201510,Fall Semester 2014,101,Living with Computers,20
+201510,Fall Semester 2014,101,Living with Computers,36
+201510,Fall Semester 2014,144,Intro to Computer Science,13
+201510,Fall Semester 2014,145,Intro to Object-Oriented Prog,11
+201510,Fall Semester 2014,245,Adv Computer Programming,9
+201510,Fall Semester 2014,328,C and Unix,14
+201510,Fall Semester 2014,345,Data & File Structures,7
+201510,Fall Semester 2014,350,Programming Seminar 1,7
+201510,Fall Semester 2014,431,Database Management,8
+201510,Fall Semester 2014,435,Select Top in Comp Science,12
+201510,Fall Semester 2014,457,Computer Networks,10
+201520,Spring Semester 2015,101,Living with Computers,59
+201520,Spring Semester 2015,144,Intro to Computer Science,6
+201520,Spring Semester 2015,145,Intro to Object-Oriented Prog,8
+201520,Spring Semester 2015,341,Mach Arch & Assem Lang Prog,22
+201520,Spring Semester 2015,431,Database Management,11
+201520,Spring Semester 2015,443,Operating Systems,8
+201520,Spring Semester 2015,474,Machine Learning Algorithms,20
+201610,Fall Semester 2015,101,Living with Computers,22
+201610,Fall Semester 2015,101,Living with Computers,22
+201610,Fall Semester 2015,135,Select Top in Comp Science,19
+201610,Fall Semester 2015,144,Intro to Computer Science,7
+201610,Fall Semester 2015,145,Intro to Object-Oriented Prog,17
+201610,Fall Semester 2015,245,Adv Computer Programming,10
+201610,Fall Semester 2015,350,Programming Seminar 1,10
+201610,Fall Semester 2015,451,Software Engineering,12
+201610,Fall Semester 2015,477,Parallel & Distributed Program,18
