@@ -12,6 +12,44 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 ---
 
 {:.green}
+### 2016-11-01 Week 11
+
+#### Readings
+
+[Bootstrap](http://getbootstrap.com/)
+
+[Metafizzy Isotope](http://isotope.metafizzy.co/)
+
+#### Topics
+- Simple data wrangling for prototype purposes.
+
+{:.blue}
+#### Workshop: Data Wrangling With Filtering and Sorting
+
+###### This is homework. **Submit to D2L dropbox by next Tuesday, November 8 before class.**
+
+You are going to refactor Filtering and Sorting homework so that it loads sample data. Use cases stil apply. 
+
+a. See []() for sample csv file. You will need to preprocess this list of courses using python as demonstrated in class to produce an array:
+
+```[["200610", "Fall Semester 2005", "101", "Living with Computers", "37"], [...]]```
+
+b. The array should be written to a local file.
+
+c. Copy and paste the array in the processed file into your html file (at the bottom of your script tag) then process the array as shown below.:
+
+>	var DATA = [["200610", "Fall Semester 2005", "101", "Living with Computers", "37"], ["200610", "Fall Semester 2005", "101", "Living with Computers", "39"], ["200610", "Fall Semester 2005", "135", "Select Top in Comp Science", "16"], ...];
+>	for (i = 0; i < DATA.length; i++) { 
+>		var row = "<li>";
+>		for (j = 0; j < DATA[i].length; j++) { 
+>			row += DATA[i][j] + " ";
+>		}
+>		row += "</li>";
+>	}
+
+---
+
+{:.gray}
 ### 2016-10-25 Week 10
 
 #### Readings
