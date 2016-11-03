@@ -5,6 +5,8 @@ permalink: /245/hw/
 parent_course: 245
 ---
 
+2016-11-03 - Two Dimensional Array Practice ==> [Homework 10](/245/hw10)
+
 2016-10-27 - Binary Search with Bubble Sort ==> [Homework 9](/245/hw9)
 
 2016-10-25 - Simple Linear Search ==> [Homework 8](/245/hw8)
