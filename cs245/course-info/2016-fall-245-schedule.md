@@ -20,10 +20,13 @@ Jump to week[n] ==> [0](#week-0), [1](#week-1), [2](#week-2), [3](#week-3), [4](
 
 [Chapter 7](http://math.hws.edu/javanotes/c7/index.html)
 
+[INFO ON SELECTION SORT (example in python)](https://interactivepython.org/runestone/static/pythonds/SortSearch/TheSelectionSort.html)
+
 #### Topics
 - hw 9  review
 - 2D arrays
 - linear and binary searching
+- selection sort
 
 ---
 
@@ -38,10 +41,13 @@ Jump to week[n] ==> [0](#week-0), [1](#week-1), [2](#week-2), [3](#week-3), [4](
 
 [Chapter 7 -- Searching and Sorting](http://math.hws.edu/javanotes/c7/s4.html)
 
+[INFO ON BUBBLE SORT (example in python)](http://interactivepython.org/runestone/static/pythonds/SortSearch/TheBubbleSort.html)
+
 #### Topics
 - Midterm review
 - Queue review
 - Stacks and Queues in the real world
+- bubble sort
 
 ---
 
@@ -238,11 +244,8 @@ public class week7 {
 ---
 
 
-
-
-[comment]:### 2016-11-01 Week 10 chapter 7.4, searching, sorting 
-[comment]:### 2016-11-08 Week 11 chapter 8, algorithm analysis, error handling
+[comment]:### 2016-11-08 Week 11 chapter 8, selection and insertion sort, algorithm analysis, error handling
 [comment]:### 2016-11-15 Week 12 chapter 9, linked lists, binary trees
 [comment]:### 2016-11-22 Week 13 chapter 9, linked lists, binary trees
-[comment]:### 2016-11-29 Week 14 
+[comment]:### 2016-11-29 Week 14 chapter 9
 
