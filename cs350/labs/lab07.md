@@ -1,7 +1,7 @@
 ---
 layout: course_page
-title: lab 6
-permalink: /350/lab6/
+title: lab 7
+permalink: /350/lab7/
 parent_course: 350
 ---
 
