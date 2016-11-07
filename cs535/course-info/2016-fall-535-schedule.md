@@ -7,11 +7,28 @@ parent_course: 535
 
 **Fall 2016 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8), [9](#week-9)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8), [9](#week-9), [10](#week-10), [11](#week-11)
 
 ---
 
 {:.green}
+### 2016-11-07 Week 11 
+
+#### Readings
+
+> *Vulnerability Overview*  ==> [Sections 9.7 -> 9.9 (p.639-684)]({{ site.baseurl }}assets/cs535/modern-operating-systems-4ed-tanenbaum-chapter-9.pdf)
+> *Black Hat Python*  ==> [Chapter 4](https://www.nostarch.com/blackhatpython)
+
+
+#### Topics
+- Trojan Horses, Viruses, Worms, Spyware, and Rootkits ... *OH MY!*
+- network based attacks (ARP poisoning and packet sniffing)
+- case study: HTML input forms
+
+
+---
+
+{:.gray}
 ### 2016-10-31 Week 10 
 
 #### Readings
@@ -302,8 +319,7 @@ Examples: open sockets, open pipes, open rpc, number of services, web server scr
 
 
  
-[comment]:### 2016-11-07 Week 11 SSL insecurity - heartbleed. poodle.
-[comment]:### 2016-11-14 Week 12
+[comment]:### 2016-11-14 Week 12SSL insecurity - heartbleed. poodle.
 [comment]:### 2016-11-21 Week 13
 [comment]:### 2016-11-28 Week 14
 
