@@ -21,12 +21,12 @@ a-day-in-the-life-of-a-web-request.pptx)
 
 #### Topics
 - Kali linux
-- Network basics - [A Day in the Life...]({{ site.baseurl }}assets/
-a-day-in-the-life-of-a-web-request.pptx)
+- Network basics
 - Network vulnerabilities
 	* ARP poisoning
 	* Man in the middle atatck
 - Packet sniffing
+
 
 ---
 
