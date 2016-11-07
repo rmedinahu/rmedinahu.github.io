@@ -7,11 +7,62 @@ parent_course: 350
 
 **Fall 2016 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8), [9](#week-9)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8), [9](#week-9), [10](#week-10), [11](#week-11), [12](#week-12)
 
 ---
 
 {:.green}
+### 2016-11-07 Week 12 
+
+#### Readings
+
+- Network basics - [A Day in the Life...]({{ site.baseurl }}assets/
+a-day-in-the-life-of-a-web-request.pptx)
+
+#### Topics
+- Kali linux
+- Network basics - [A Day in the Life...]({{ site.baseurl }}assets/
+a-day-in-the-life-of-a-web-request.pptx)
+- Network vulnerabilities
+	* ARP poisoning
+	* Man in the middle atatck
+- Packet sniffing
+
+---
+
+
+{:.gray}
+### 2016-10-31 Week 11 
+
+#### Readings
+
+> *Vulnerability Overview*  ==> [Sections 9.7 -> 9.9 (p.639-684)]({{ site.baseurl }}assets/cs535/modern-operating-systems-4ed-tanenbaum-chapter-9.pdf)
+
+
+#### Topics
+- Kali linux
+- buffer overflows
+- GDB buffer overflow simulation
+
+
+---
+
+
+{:.gray}
+### 2016-10-24 Week 10 
+
+#### Readings
+
+> *Vulnerability Overview*  ==> [Sections 9.7 -> 9.9 (p.639-684)]({{ site.baseurl }}assets/cs535/modern-operating-systems-4ed-tanenbaum-chapter-9.pdf)
+
+
+#### Topics
+- Kali linux
+- buffer overflows
+
+---
+
+{:.gray}
 ### 2016-10-17 Week 9 
 
 >[Homework 7 assigned](/350/hw7)
@@ -348,15 +399,6 @@ Breach summary (from article) ...
 ---
 
 
-
-
-[comment]:### 2016-09-19 Week 5 
-[comment]:### 2016-09-26 Week 6 
-[comment]:### 2016-10-03 Week 7
-[comment]:### 2016-10-10 Week 8 
-[comment]:### 2016-10-24 Week 9
-[comment]:### 2016-10-31 Week 10 
-[comment]:### 2016-11-07 Week 11
 [comment]:### 2016-11-14 Week 12
 [comment]:### 2016-11-21 Week 13
 [comment]:### 2016-11-28 Week 14
