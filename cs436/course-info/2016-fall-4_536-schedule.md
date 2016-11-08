@@ -37,6 +37,8 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 
 [A Working Example to Start With (filter-sort.html)]({{ site.baseurl }}assets/cs436/filter-sort.html)
 
+[Python file for preprocessing the csv file referenced below ==> cs-2005-2015-wrangle.py]({{ site.baseurl }}assets/cs436/cs-2005-2015-wrangle.py)
+
 
 ---
 
