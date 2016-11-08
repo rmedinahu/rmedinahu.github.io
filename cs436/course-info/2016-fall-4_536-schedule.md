@@ -12,6 +12,34 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 ---
 
 {:.green}
+### 2016-11-08 Week 12
+
+#### Readings
+
+[Bootstrap](http://getbootstrap.com/)
+
+[Metafizzy Isotope](http://isotope.metafizzy.co/)
+
+#### Topics
+- Evaluating User Interfaces -- linking **use case** <==> **design** <==> **implementation**
+- data metrics:
+	- video (objective)
+	- eye tracking (objective)
+	- log files (objective) E.g, UGU, 
+	- surveys
+- Examples:
+	- UGU/VMT
+	- Tag Clouds
+	- Tobii
+
+{:.blue}
+#### Workshop: EXTENDED to Nov 15. Data Wrangling With Filtering and Sorting  (see below)
+
+
+---
+
+
+{:.gray}
 ### 2016-11-01 Week 11
 
 #### Readings
