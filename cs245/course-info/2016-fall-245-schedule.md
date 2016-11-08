@@ -24,8 +24,6 @@ Jump to week[n] ==> [0](#week-0), [1](#week-1), [2](#week-2), [3](#week-3), [4](
 
 #### Topics
 - hw 9  review
-- 2D arrays
-- linear and binary searching
 - selection sort
 - insertion sort
 
