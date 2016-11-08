@@ -12,9 +12,9 @@ Jump to week[n] ==> [0](#week-0), [1](#week-1), [2](#week-2), [3](#week-3), [4](
 ---
 
 {:.green}
-### 2016-10-31 Week 11
+### 2016-11-08 Week 12
 
-> [Homework 10 assigned](/245/hw10)
+> [Homework 11 assigned](/245/hw11)
 
 #### Readings
 
@@ -27,6 +27,24 @@ Jump to week[n] ==> [0](#week-0), [1](#week-1), [2](#week-2), [3](#week-3), [4](
 - 2D arrays
 - linear and binary searching
 - selection sort
+- insertion sort
+
+
+---
+
+{:.gray}
+### 2016-10-31 Week 11
+
+> [Homework 10 assigned](/245/hw10)
+
+#### Readings
+
+[Chapter 7](http://math.hws.edu/javanotes/c7/index.html)
+
+#### Topics
+- hw 9  review
+- 2D arrays
+- linear and binary searching
 
 ---
 
