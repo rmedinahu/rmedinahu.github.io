@@ -23,7 +23,7 @@ Jump to week[n] ==> [0](#week-0), [1](#week-1), [2](#week-2), [3](#week-3), [4](
 [INFO ON SELECTION SORT (example in python)](https://interactivepython.org/runestone/static/pythonds/SortSearch/TheSelectionSort.html)
 
 #### Topics
-- hw 9  review
+- hw 10 review
 - selection sort
 - insertion sort
 
