@@ -35,6 +35,8 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 {:.blue}
 #### Workshop: EXTENDED to Nov 15. Data Wrangling With Filtering and Sorting  (see below)
 
+[A Working Example to Start With (filter-sort.html)]({{ site.baseurl }}assets/cs436/filter-sort.html)
+
 
 ---
 
