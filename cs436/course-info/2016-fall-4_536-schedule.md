@@ -29,7 +29,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 	- surveys
 - Examples:
 	- UGU/VMT
-	- Tag Clouds
+	- Tag Clouds video w/Elan
 	- Tobii
 
 {:.blue}
