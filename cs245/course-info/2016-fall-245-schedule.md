@@ -14,6 +14,8 @@ Jump to week[n] ==> [0](#week-0), [1](#week-1), [2](#week-2), [3](#week-3), [4](
 {:.green}
 ### 2016-11-08 Week 12
 
+> [Homework 12 assigned](/245/hw12)
+
 > [Homework 11 assigned](/245/hw11)
 
 #### Readings

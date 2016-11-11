@@ -5,7 +5,9 @@ permalink: /245/hw/
 parent_course: 245
 ---
 
-2016-11-08 - Comparing Bubble and Selection Sortsce ==> [Homework 11](/245/hw11)
+2016-11-10 - User Input and the Insertion Sort ==> [Homework 12](/245/hw12)
+
+2016-11-08 - Comparing Bubble and Selection Sorts ==> [Homework 11](/245/hw11)
 
 2016-11-03 - Two Dimensional Array Practice ==> [Homework 10](/245/hw10)
 
