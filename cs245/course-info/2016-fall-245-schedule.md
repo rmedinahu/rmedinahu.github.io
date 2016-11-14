@@ -7,11 +7,28 @@ parent_course: 245
 
 **Fall 2016 Schedule of Topics**
 
-Jump to week[n] ==> [0](#week-0), [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8), [9](#week-9), [10](#week-10), [11](#week-11), [12](#week-12)
+Jump to week[n] ==> [0](#week-0), [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8), [9](#week-9), [10](#week-10), [11](#week-11), [12](#week-12), [13](#week-13)
 
 ---
 
 {:.green}
+### 2016-11-15 Week 13
+
+
+#### Readings
+
+
+
+#### Topics
+- recursion
+- algorithm efficiency
+- linked lists
+
+
+---
+
+
+{:.gray}
 ### 2016-11-08 Week 12
 
 > [Homework 12 assigned](/245/hw12)

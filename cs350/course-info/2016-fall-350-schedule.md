@@ -7,11 +7,24 @@ parent_course: 350
 
 **Fall 2016 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8), [9](#week-9), [10](#week-10), [11](#week-11), [12](#week-12)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8), [9](#week-9), [10](#week-10), [11](#week-11), [12](#week-12), [13](#week-13)
 
 ---
 
 {:.green}
+### 2016-11-14 Week 13 
+
+#### Readings
+
+
+#### Topics
+- Packet sniffing
+- viruses
+
+---
+
+
+{:.gray}
 ### 2016-11-07 Week 12 
 
 #### Readings
