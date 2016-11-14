@@ -7,11 +7,28 @@ parent_course: 535
 
 **Fall 2016 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8), [9](#week-9), [10](#week-10), [11](#week-11)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8), [9](#week-9), [10](#week-10), [11](#week-11), [12](#week-12)
 
 ---
 
+
 {:.green}
+### 2016-11-14 Week 12 
+
+#### Readings
+
+> *Black Hat Python*  ==> [Chapter 4](https://www.nostarch.com/blackhatpython)
+
+
+#### Topics
+- network based attacks (ARP poisoning and packet sniffing)
+- case study: HTML input forms
+
+
+---
+
+
+{:.gray}
 ### 2016-11-07 Week 11 
 
 #### Readings
@@ -22,9 +39,6 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 
 #### Topics
 - Trojan Horses, Viruses, Worms, Spyware, and Rootkits ... *OH MY!*
-- network based attacks (ARP poisoning and packet sniffing)
-- case study: HTML input forms
-
 
 ---
 
