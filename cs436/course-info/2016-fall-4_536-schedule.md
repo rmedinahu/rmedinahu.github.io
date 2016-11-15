@@ -7,7 +7,7 @@ parent_course: 436
 
 **Fall 2016 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [10](#week-10), [11](#week-11), [12](#week-12)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [10](#week-10), [11](#week-11), [12](#week-12), [13](#week-13)
 
 ---
 
@@ -20,6 +20,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 - Evaluating User Interfaces -- linking **use case** <==> **design** <==> **implementation**
 - Layouts, grouping by task, efficient use of space
 - Demonstration of filtering and sorting submissions
+- User feedback important in complex displays!!!
 
 {:.blue}
 #### Workshop: Sliders in Space
