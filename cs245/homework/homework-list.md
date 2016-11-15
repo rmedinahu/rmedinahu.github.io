@@ -7,6 +7,8 @@ parent_course: 245
 
 \* **graded**
 
+2016-11-15 - Exceptions Robustness and Efficiency ==> [Homework 13](/245/hw13) 
+
 2016-11-10 - User Input and the Insertion Sort ==> [Homework 12](/245/hw12) 
 
 \* 2016-11-08 - Comparing Bubble and Selection Sorts ==> [Homework 11](/245/hw11) 

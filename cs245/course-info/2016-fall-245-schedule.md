@@ -14,14 +14,17 @@ Jump to week[n] ==> [0](#week-0), [1](#week-1), [2](#week-2), [3](#week-3), [4](
 {:.green}
 ### 2016-11-15 Week 13
 
+> [Homework 13 assigned](/245/hw13)
 
 #### Readings
 
-
+[Chapter 8](http://math.hws.edu/javanotes/c8)
+[Chapter 9](http://math.hws.edu/javanotes/c9)
 
 #### Topics
-- recursion
+- program correctness/robustness
 - algorithm efficiency
+- recursion
 - linked lists
 
 

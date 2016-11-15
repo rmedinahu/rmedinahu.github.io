@@ -18,8 +18,8 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 
 
 #### Topics
-- Packet sniffing
-- viruses
+- packet sniffing review
+- web application security
 
 ---
 
