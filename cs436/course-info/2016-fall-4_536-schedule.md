@@ -32,10 +32,10 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 
 ###### This is homework. **Submit to D2L dropbox by next Tuesday, November 22 before class.**
 
-This projects is yet another extension to filtering and sorting to manage large data sets. You are going to use the same data from the last assignment as well as the filtering and sorting you've already implemented. The task for this is to:
+This project is yet another extension to filtering and sorting to manage large data sets. You are going to use the same data from the last assignment as well as the filtering and sorting you've already implemented. The task for this assignment is to implement the following ADDITIONAL use cases:
 
 ###### Use Cases:
-1. filter courses by semester
+1. filter courses by semester (already implemented but this time use a slider.)
 2. filter courses by enrollment
 
 ###### Requirements:
