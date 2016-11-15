@@ -12,6 +12,46 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 ---
 
 {:.green}
+### 2016-11-15 Week 13
+
+#### Readings
+
+#### Topics
+- Evaluating User Interfaces -- linking **use case** <==> **design** <==> **implementation**
+- Layouts, grouping by task, efficient use of space
+- Demonstration of filtering and sorting submissions
+
+{:.blue}
+#### Workshop: Sliders in Space
+
+[jqueryui](https://jqueryui.com/)
+
+[Bootstrap](http://getbootstrap.com/)
+
+[Metafizzy Isotope](http://isotope.metafizzy.co/)
+
+###### This is homework. **Submit to D2L dropbox by next Tuesday, November 22 before class.**
+
+This projects is yet another extension to filtering and sorting to manage large data sets. You are going to use the same data from the last assignment as well as the filtering and sorting you've already implemented. The task for this is to:
+
+###### Use Cases:
+1. filter courses by semester
+2. filter courses by enrollment
+
+###### Requirements:
+a. use a slider widget to filter courses by semester
+
+b. use a slider widget to filter courses by enrollment. (This is already in the data.)
+
+c. menus to limit the filtering and sorting toolbar to the top row of the screen. (We need to optimize screen space!!!)
+
+d. ensure that your ui provides feedback on the selected filter.
+
+
+---
+
+
+{:.gray}
 ### 2016-11-08 Week 12
 
 #### Readings
