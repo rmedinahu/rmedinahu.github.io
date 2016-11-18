@@ -7,11 +7,13 @@ parent_course: 245
 
 \* **graded**
 
-2016-11-15 - Exceptions Robustness and Efficiency ==> [Homework 13](/245/hw13) 
+2016-11-18 - Handling The Unexpected ==> [Homework 14](/245/hw14)
 
-2016-11-10 - User Input and the Insertion Sort ==> [Homework 12](/245/hw12) 
+\* 2016-11-15 - Exceptions Robustness and Efficiency ==> [Homework 13](/245/hw13) **see text for answers** 
 
-\* 2016-11-08 - Comparing Bubble and Selection Sorts ==> [Homework 11](/245/hw11) 
+\* 2016-11-10 - User Input and the Insertion Sort ==> [Homework 12](/245/hw12)**has solution** 
+
+\* 2016-11-08 - Comparing Bubble and Selection Sorts ==> [Homework 11](/245/hw11)**has solution** 
 
 \*  2016-11-03 - Two Dimensional Array Practice ==> [Homework 10](/245/hw10) **has solution**
 
