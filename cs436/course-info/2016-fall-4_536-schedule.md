@@ -12,6 +12,42 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 ---
 
 {:.green}
+### 2016-11-21 Week 14
+
+#### Readings
+
+#### Topics
+- RIA - Rich Internet Applications
+- HTML - CSS - Javascript as UI frameworks
+- Example ==> [atom](https://atom.io/)
+
+
+{:.blue}
+#### Workshop: Electron Web Based Desktop Application
+
+[node.js](https://nodejs.org/en/)
+
+[electron](http://electron.atom.io/)
+
+Electron api demo: [http://electron.atom.io/#get-started](http://electron.atom.io/#get-started)
+
+
+
+##### Tutorial: [http://electron.atom.io/docs/tutorial/quick-start/](http://electron.atom.io/docs/tutorial/quick-start/)
+
+
+
+##### Experiment:
+- install node.js if not installed
+- install electron if not installed
+- using the electron get started app, place your html from last week (sliders) into the ```index.html``` file in the get started app. 
+
+- Observe results, then enjoy... gobble gobble.
+
+---
+
+
+{:.green}
 ### 2016-11-15 Week 13
 
 #### Readings
