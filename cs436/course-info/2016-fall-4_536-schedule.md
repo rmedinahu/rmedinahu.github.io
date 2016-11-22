@@ -20,7 +20,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 - RIA - Rich Internet Applications
 - HTML - CSS - Javascript as UI frameworks
 - Example ==> [atom](https://atom.io/)
-
+- Example ==> Electron api demo: [http://electron.atom.io/#get-started](http://electron.atom.io/#get-started)
 
 {:.blue}
 #### Workshop: Electron Web Based Desktop Application
@@ -29,12 +29,9 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 
 [electron](http://electron.atom.io/)
 
-Electron api demo: [http://electron.atom.io/#get-started](http://electron.atom.io/#get-started)
-
 
 
 ##### Tutorial: [http://electron.atom.io/docs/tutorial/quick-start/](http://electron.atom.io/docs/tutorial/quick-start/)
-
 
 
 ##### Experiment:
