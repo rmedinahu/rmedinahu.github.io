@@ -33,8 +33,10 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 
 ##### Tutorial: [http://electron.atom.io/docs/tutorial/quick-start/](http://electron.atom.io/docs/tutorial/quick-start/)
 
+More specifically, start here:
 
-##### Experiment:
+
+##### Experiment: [http://electron.atom.io/docs/tutorial/quick-start/#try-this-example()](http://electron.atom.io/docs/tutorial/quick-start/#try-this-example)
 - install node.js if not installed
 - install electron if not installed
 - using the electron get started app, place your html from last week (sliders) into the ```index.html``` file in the get started app. 
