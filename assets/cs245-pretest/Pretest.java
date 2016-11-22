@@ -15,10 +15,7 @@ class Pretest {
      * to retrieve the name. It shoud return the collected string.
      */
 	static String getFirstName() {
-        Scanner scnr = new Scanner(System.in);
-        System.out.print("Enter your first name please: ");
-        String name = scnr.next();
-		return name;
+        return "not implemented"; // Remove after you've implemented
 	}
 
 
@@ -27,7 +24,7 @@ class Pretest {
      * the screen on one line.
      */	
 	static void printIntegerList(int[] values) {
-
+        System.out.println("not implemented"); // Remove after you've implemented
 	}
 
 
@@ -36,19 +33,18 @@ class Pretest {
      * ORDER to the screen on one line.
      */	
 	static void printIntegerListReversed(int[] values) {
-
+        System.out.println("not implemented"); // Remove after you've implemented
 	}
 
 
 
     /**
      * Accepts a list of integers as an argument and swaps the first value 
-     * with the last value in the list. This method return
+     * with the last value in the list. This method returns
      * swapped version of the array that was passed in as the argument.
      */	
 	static int[] swapFirstWithLast(int[] values) {
-
-		return values;
+        return values; // Should pass the test after you've implemented
 	}
 
     /**
@@ -56,8 +52,7 @@ class Pretest {
      * found in the list.
      */	
 	static int min(int[] values) {
-
-		return 0;
+		return -1; // modify to reflect the calculation
 	}
 
     /**
@@ -65,18 +60,7 @@ class Pretest {
      * found in the list.
      */	
 	static int max(int[] values) {
-        int max = values[0];
-
-        for (int index=1; index < values.length; index++) {
-
-            if (values[index] > max) {
-                max = values[index];
-            }
-
-            // System.out.print(values[index]);
-        }
-
-		return max;
+        return -1; // modify to reflect the calculation
 	}
 
     /**
@@ -84,13 +68,7 @@ class Pretest {
      * values found in the list.
      */	
 	static int findAverage(int[] values) {
-        int sum = 0;
-        for (int i = 0; i < values.length; i++) {
-            sum = sum + values[i];
-        }
-        
-        int avg = sum/values.length;
-		return avg;
+		return -1; // modify to reflect the calculation
 	}
 
     /**
@@ -98,35 +76,13 @@ class Pretest {
      * the number of times the integer is found in the list.
      */	
 	static int frequencyCount(int[] values, int val) {
-        int count  = 0;
-        for(int i = 0; i < values.length; i++) {
-            if(val == values[i]) {
-                count++;
-            }
-        }
-		return count;
+		return -1; // modify to reflect the calculation
 	}
 
     /**
      * Accepts a String argument and returns the argument in reverse order.
      */	
 	static String reverseString(String chars) {
-        char[] revchars = chars.toCharArray();
-        String revstr = "";
-        for(int i=revchars.length-1; i > -1; i--) {
-            revstr += revchars[i];
-        }
-		return revstr;
+		return "not implemented"; // modify to reflect the calculation
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
