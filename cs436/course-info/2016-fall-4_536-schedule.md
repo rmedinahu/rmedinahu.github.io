@@ -7,11 +7,61 @@ parent_course: 436
 
 **Fall 2016 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [10](#week-10), [11](#week-11), [12](#week-12), [13](#week-13), [14](#week-14)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [10](#week-10), [11](#week-11), [12](#week-12), [13](#week-13), [14](#week-14), [15](#week-15)
 
 ---
 
 {:.green}
+### 2016-11-29 Week 15
+
+#### Readings
+
+#### Topics
+- Another shot at electron. 
+- Example ==> Electron api demo: [http://electron.atom.io/#get-started](http://electron.atom.io/#get-started)
+- Preprocessing Data for Final Project
+
+{:.blue}
+#### Workshop: Final Project: Event Log Analysis
+
+You're going to prototype a UI that aids a user in analyzing event data from a log file. You should rely on the tools you have used during the semester to come up with your own *approach* to meeting the following use cases.
+
+#### Use Case Requirements:
+
+1. User can filter event data by day (date). Think about using a calendar widget to input filter variable.
+2. User can filter event data by user (minimum of two users maximum of 4).
+3. User can filter event data by event type.
+4. User can analyze, at a glance, the *density* of activity through the entire data set. Density can be defined as the the relative frequency of an event type. E.g., number of login events, number of page reads, number of file_downloads.
+5. Roll your own -- Come up with one or more additional use cases to prototype.
+
+#### Data format: 
+
+**Use the following for starting your prototype. I will be providing a larger dataset through the web in a few days.**
+
+*event_types* ==> ['login', 'logout', 'page_read', 'file_download']
+
+*date format* ==> yyyy-mm-dd
+
+*log event format* ==> user_id, date, event_type
+
+Example:
+
+> "443", "2016-11-29", "page_read"
+
+```
+[["443", "2016-11-29", "login"], ["443", "2016-11-18", "login"], ["443", "2016-11-19", "file_download"], ["441", "2016-11-29", "page_read"], ["441", "2016-11-15", "login"], ["442", "2016-11-20", "logout"]]
+```
+
+#### Submission Requirements:
+* Submit two html files: (1) Your prototype, (2) Your design rationale. 
+	- Note: If you use an external file that does not have a cdn please include that as well. Do try and use CDN's to limit this.
+* Link to your design rationale page from your prototype.
+* Indicate (popover, etc) which components of your UI meet the relevant use case.
+
+
+---
+
+{:.gray}
 ### 2016-11-21 Week 14
 
 #### Readings
