@@ -7,11 +7,20 @@ parent_course: 245
 
 **Fall 2016 Schedule of Topics**
 
-Jump to week[n] ==> [0](#week-0), [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8), [9](#week-9), [10](#week-10), [11](#week-11), [12](#week-12), [13](#week-13)
+Jump to week[n] ==> [0](#week-0), [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8), [9](#week-9), [10](#week-10), [11](#week-11), [12](#week-12), [13](#week-13), [14](#week-14), [15](#week-15)
 
 ---
 
 {:.green}
+### 2016-11-22 Week 15
+
+Download both ```PretestApp.java``` and ```Pretest.java``` from the link below. Implement the methods in ```Pretest.java``` so that all tests in ```PretestApp.java``` pass.
+
+> [Java Pre-assessment 2](/245/hw15/)
+
+---
+
+{:.gray}
 ### 2016-11-22 Week 14
 
 Download both ```PretestApp.java``` and ```Pretest.java``` from the link below. Implement the methods in ```Pretest.java``` so that all tests in ```PretestApp.java``` pass.
