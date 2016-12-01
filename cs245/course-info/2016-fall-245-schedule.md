@@ -12,11 +12,16 @@ Jump to week[n] ==> [0](#week-0), [1](#week-1), [2](#week-2), [3](#week-3), [4](
 ---
 
 {:.green}
-### 2016-11-22 Week 15
-
-Download both ```PretestApp.java``` and ```Pretest.java``` from the link below. Implement the methods in ```Pretest.java``` so that all tests in ```PretestApp.java``` pass.
+### 2016-11-29 Week 15
 
 > [Homework 15 assigned](/245/hw15/)
+
+#### Readings
+
+[Chapter 9](http://math.hws.edu/javanotes/c9)
+
+#### Topics
+- linked lists
 
 ---
 
@@ -41,6 +46,7 @@ Download both ```PretestApp.java``` and ```Pretest.java``` from the link below. 
 #### Readings
 
 [Chapter 8](http://math.hws.edu/javanotes/c8)
+
 [Chapter 9](http://math.hws.edu/javanotes/c9)
 
 #### Topics
