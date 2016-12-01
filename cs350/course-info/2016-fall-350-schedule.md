@@ -339,9 +339,9 @@ s.close()
 
 	{% highlight python %}
 	evens = []
-		for i in range(10):
-			if i % 2 == 0:
-				evens.append(i)
+	for i in range(10):
+		if i % 2 == 0:
+			evens.append(i)
 
 	#comprehension shortens the above to:
 

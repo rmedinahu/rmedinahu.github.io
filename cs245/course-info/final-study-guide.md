@@ -6,11 +6,11 @@ parent_course: 245
 ---
 
 ## Overview
-The final exam will be given online in D2L. This exam is cumulative therefore questions from the midterm exam will be included in addition to the new topics we have covered since then. This guide is designed to help you focus on the topics to be assessed.
+The final exam will be given online in D2L. This exam is cumulative therefore [questions](#midterm-questions) from the midterm exam will be included in addition to the new topics we have covered since then. This guide is designed to help you focus on the topics to be assessed.
 
 ## New Topics:
 
-### Relevant Chapters ==> chapter 7, chapter 8, chapter 9
+### Relevant Textbook Chapters ==> chapter 7, chapter 8, chapter 9
 
 ### Topics
 
@@ -30,7 +30,7 @@ The final exam will be given online in D2L. This exam is cumulative therefore qu
 	- benefits of a linked list over a primitive array
 - Programming Concepts:
 	- recursion: **Identify** base case vs. recursive case
-	- copy by value vs. copy by reference: **a variable's address is not its value**
+	- copy by value vs. copy by reference: **a variable's address is DISTINCT from its value**
 	- algorithm efficiency: **n2 vs log n**
 	- ```for: each``` construct
 	- exception handling, robust programs, ```try/catch``` blocks

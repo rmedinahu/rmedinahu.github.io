@@ -5,6 +5,8 @@ permalink: /350/hw/
 parent_course: 350
 ---
 
+Password Checker and Generator ==> [Homework 8](/350/hw8)
+
 Conversational Agent ==> [Homework 7](/350/hw7)
 
 [Midterm Project](/350/midterm)
