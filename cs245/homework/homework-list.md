@@ -7,6 +7,8 @@ parent_course: 245
 
 \* **graded**
 
+2016-12-01 - Linked List Implementation of Stack **V.2** ==> [Homework 16](/245/hw16)
+
 2016-11-29 - Linked List Implementation of Stack ==> [Homework 15](/245/hw15)
 
 2016-11-18 - Handling The Unexpected ==> [Homework 14](/245/hw14)

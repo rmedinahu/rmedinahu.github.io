@@ -8,49 +8,81 @@ parent_course: 245
 ## Overview
 The final exam will be given online in D2L. This exam is cumulative therefore questions from the midterm exam will be included in addition to the new topics we have covered since then. This guide is designed to help you focus on the topics to be assessed.
 
+## New Topics:
+
+### Relevant Chapters ==> chapter 7, chapter 8, chapter 9
+
+### Topics
+
+
+
+- Sorting **Understand how the following algorithms work. I highly recommend that you practice answering the questions that are linked.**
+	- bubble sort [try the quiz](http://interactivepython.org/runestone/static/pythonds/SortSearch/TheBubbleSort.html)
+	- selection sort [try the quiz](http://interactivepython.org/runestone/static/pythonds/SortSearch/TheSelectionSort.html)
+	- insertion sort [try the quiz](http://interactivepython.org/runestone/static/pythonds/SortSearch/TheInsertionSort.html)
+- Searching
+	- linear search vs. binary search
+- Data Structures (ADT's)
+	- queues
+	- stacks
+	- primitive vs. ArrayList class
+	- linked lists
+	- benefits of a linked list over a primitive array
+- Programming Concepts:
+	- recursion: **Identify** base case vs. recursive case
+	- copy by value vs. copy by reference: **a variable's address is not its value**
+	- algorithm efficiency: **n2 vs log n**
+	- ```for: each``` construct
+	- exception handling, robust programs, ```try/catch``` blocks
+	- program correctness
+
+
+
 ## Midterm Questions:
+
 In computer programming, what does the concept of information hiding refer to?
 
 - [x] hiding the implementation to manage complexity
-- [ ] hidden variables in a list
-- [ ] password encryption
-- [ ] hiding algorithms from the public
+- hidden variables in a list
+- password encryption
+- hiding algorithms from the public
 
 
 What does API stand for?
 
-application parameter instance
-application programming inactive
-Xapplication programming interface
-application programming implementation
+- application parameter instance
+- application programming inactive
+- [x] application programming interface
+- application programming implementation
 
 
 What is the purpose of an API?
 
-to assist programmers with using other libraries
-to constrain the types of behaviors defined for a class
-to provide a set of possible actions on an object
-Xall of the above
+- to assist programmers with using other libraries
+- to constrain the types of behaviors defined for a class
+- to provide a set of possible actions on an object
+- [x] all of the above
 
 
 What does ADT stand for?
 
-application data transfer
-application data type
-Xabstract data type
-none of the above
+- application data transfer
+- application data type
+- [x] abstract data type
+- none of the above
 
 
 Which of the following kinds of data is NOT an ADT?
 
-stack
-Xint
-queue
-array
+- stack
+- [x] int
+- queue
+- array
 
 
 Analyze the following code. What is the value printed on the screen after this code completes? (You can assume the code compiles.)
 
+{% highlight java %}
 ArrayList<Integer> list = new ArrayList<Integer>();
 list.add(1);
 list.add(2);
@@ -78,16 +110,18 @@ list[3] = 5;
 list[4] = 2;
 
 System.out.println( list[LIST_SIZE] );
+{% endhighlight %}
 
-1
-2
-3
-5
-Xnothing is printed because an index out of bounds error occurs.
+- 1
+- 2
+- 3
+- 5
+- [x] nothing is printed because an index out of bounds error occurs.
 
 
 Analyze the following code. What is the value printed on the screen after this code completes? (You can assume the code compiles.)
 
+{% highlight java %}
 char[] message = {'h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd'};
 
 for (int i = message.length - 1; i > -1; i--) {
@@ -98,16 +132,18 @@ for (int i = message.length - 1; i > -1; i--) {
 	}
 }
 System.out.println();
+{% endhighlight %}
 
-dlrow olleh
-hello*world
-Xdlrow*olleh
-hello world
-nothing is printed because an index out of bounds error occurs.
+- dlrow olleh
+- hello*world
+- [x] dlrow*olleh
+- hello world
+- nothing is printed because an index out of bounds error occurs.
 
 
 MidtermStack implements a stack. What is the value printed on the screen after this code completes? (You can assume the code compiles.)
 
+{% highlight java %}
 MidtermStack stack = new MidtermStack();
 stack.push(90);
 stack.push(80);
@@ -118,17 +154,16 @@ int u = stack.pop();
 int v = stack.top();
 System.out.println(t + " - " + u +  " - " + v);
 
-70 - 80 - 90
-
-90 - 80 - 70
-
-90 - 90 - 80
-
-X70 - 70 - 80
+{% endhighlight %}
+- 70 - 80 - 90
+- 90 - 80 - 70
+- 90 - 90 - 80
+- [x] 70 - 70 - 80
 
 
 Analyze the following code. What is the value printed on the screen after this code completes? (You can assume the code compiles.)
 
+{% highlight java %}
 char[] message = {'h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd'};
 for( char i : message ) {
 	if (i == 'l') {
@@ -139,26 +174,27 @@ for( char i : message ) {
 		System.out.print(i);
 	}
 }
+{% endhighlight %}
 
-hello world
-Xhe110 w0r1d
-012345678910
-109876543210
-nothing is printed because an index out of bounds error occurs.
-
+- hello world
+- [x] he110 w0r1d
+- 012345678910
+- 109876543210
+- nothing is printed because an index out of bounds error occurs.
 
 
 What is the advantage of a dynamic array over a regular array?
 
-dynamic arrays are difficult to implement and not usually used
-there are no advantages because they are the same thing with different names
-Xa dynamic array has no upper limit
-a dynamic array has a fixed size
+- dynamic arrays are difficult to implement and not usually used
+- there are no advantages because they are the same thing with different names
+- [x] a dynamic array has no upper limit
+- a dynamic array has a fixed size
 
 
 
 Analyze the following code that processes a 6X6 matrix. What is the value printed on the screen after this code completes? (You can assume the code compiles.)
 
+{% highlight java %}
 int num_rows = 6;
 int num_cols = 6;
 
@@ -219,11 +255,11 @@ X.....*
 *.....
 *.....
 *.....
-
+{% endhighlight %}
 
 
 Analyze the following program that uses Gradebook. What is printed on the screen after this program completes? (You can assume the code compiles.)
-
+{% highlight java %}
 class Gradebook {
 	int[] grade_data = {1, 2, 3, 5, 7, 11, 13};
 
@@ -248,8 +284,9 @@ class Gradebook {
 	}
 }
 
+{% endhighlight %}
 
-Gradebook Size: 0
-Gradebook Size: 7
-XGradebook Size: 14
-nothing is printed because an index out of bounds error occurs.
+- Gradebook Size: 0
+- Gradebook Size: 7
+- [x] Gradebook Size: 14
+- nothing is printed because an index out of bounds error occurs.
