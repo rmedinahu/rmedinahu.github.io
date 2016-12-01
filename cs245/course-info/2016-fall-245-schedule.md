@@ -16,7 +16,7 @@ Jump to week[n] ==> [0](#week-0), [1](#week-1), [2](#week-2), [3](#week-3), [4](
 
 Download both ```PretestApp.java``` and ```Pretest.java``` from the link below. Implement the methods in ```Pretest.java``` so that all tests in ```PretestApp.java``` pass.
 
-> [Java Pre-assessment 2](/245/hw15/)
+> [Homework 15 assigned](/245/hw15/)
 
 ---
 
