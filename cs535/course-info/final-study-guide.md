@@ -26,7 +26,6 @@ Black Hat Python (chapters 4 and 5)
 
 [About AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
 
-
 ### Topics
 
 [WEEK 1](http://rmedinahu.github.io/535/schedule/#week-1)
