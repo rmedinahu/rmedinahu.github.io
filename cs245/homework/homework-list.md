@@ -9,9 +9,9 @@ parent_course: 245
 
 2016-12-01 - Linked List Implementation of Stack **V.2** ==> [Homework 16](/245/hw16)
 
-2016-11-29 - Linked List Implementation of Stack ==> [Homework 15](/245/hw15)
+\* 2016-11-29 - Linked List Implementation of Stack ==> [Homework 15](/245/hw15)**has solution** 
 
-2016-11-18 - Handling The Unexpected ==> [Homework 14](/245/hw14)
+\* 2016-11-18 - Handling The Unexpected ==> [Homework 14](/245/hw14)**has solution** 
 
 \* 2016-11-15 - Exceptions Robustness and Efficiency ==> [Homework 13](/245/hw13) **see text for answers** 
 
