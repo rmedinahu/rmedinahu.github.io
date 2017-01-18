@@ -1,5 +1,5 @@
 ---
-layout: course
+layout: course-disabled
 title: cs535
 permalink: /535/
 description: Advanced Cyber Security

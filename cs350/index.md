@@ -1,5 +1,5 @@
 ---
-layout: course
+layout: course-disabled
 title: cs350
 permalink: /350/
 description: Programming Seminar - Cyber Security

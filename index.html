@@ -13,29 +13,31 @@ description: Home Page for Jekyll Metro Theme
 	</header>
 	<nav>
 		<div class="row">
- 			<div class="col-md-4 col-sm-6 col-xs-12">
+ 			<!-- <div class="col-md-4 col-sm-6 col-xs-12">
 				<a href="about/" title="Office">
 					<div class="tile orange profile">
 						<h2 class="title text-default">Office</h2>
 						<p></p>
 					</div>
 				</a>
-		    </div>
+		    </div> -->
 		</div>
 
 		<div class="row">
-			<div class="col-md-4 col-sm-4 col-xs-4">
+			
 				{% for course in site.pages %}
 					{% if course.layout == "course" %}
 					<a href="{{course.url}}" title="">
-						<div class="thumbnail green">
-							<h3 class="title">{{ course.title }}</h3>
-							<h4 class="title">{{ course.description }}</h4>
+						<div class="col-md-4">
+							<div class="thumbnail green">
+								<h3 class="title">{{ course.title }}</h3>
+								<h4 class="title">{{ course.description }}</h4>
+							</div>
 						</div>
 					</a>
 					{% endif %}
 				{% endfor %}
-			</div>
+			
 		</div>
 
 		<div class="row" style="margin-bottom:25px">

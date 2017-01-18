@@ -1,5 +1,5 @@
 ---
-layout: course
+layout: course-disabled
 title: cs436-536
 permalink: /436/
 description: Human Computer Interaction

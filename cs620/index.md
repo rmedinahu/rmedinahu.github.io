@@ -1,5 +1,5 @@
 ---
-layout: course
+layout: course-disabled
 title: cs620
 permalink: /620/
 description: Multimedia Project Development

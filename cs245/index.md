@@ -1,5 +1,5 @@
 ---
-layout: course
+layout: course-disabled
 title: cs245
 permalink: /245/
 description: Advanced Computer Programming
