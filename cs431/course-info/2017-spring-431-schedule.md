@@ -14,6 +14,10 @@ Jump to week[n] ==> [1](#week-1),
 {:.green}
 ### 2017-01-18 Week 1 
 
+
+> [homework 1 assigned](/431/hw1/)
+
+
 #### Readings
 - interwebs
 

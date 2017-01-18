@@ -5,7 +5,13 @@ permalink: /431/
 description: Database Management
 ---
 
-----
+---
+
+[Schedule](/431/schedule/) (weekly topics, assigned reading, lecture notes)
+
+[Homework Listing](/431/hw/)
+
+---
 
 [Syllabus](/431/syllabus/)
 
