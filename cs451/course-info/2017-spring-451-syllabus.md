@@ -13,10 +13,10 @@ Department of Computer and Mathematical Sciences
 
 New Mexico Highlands University
 
-##### Instructor
+## Instructor
 Richard Medina, Ph.D. 
 
-Office: HSCI 291 | 505-426-2277 | rmedina@nmhu.edu
+Office: HSCI 291 **505-426-2277** **rmedina@nmhu.edu**
 
 Office Hours: MTW 2-4pm (or by appointment)
 
@@ -51,6 +51,7 @@ Instructor site for updates and schedule ==> http://rmedinahu.github.io/
 * application frameworks (e.g., web application frameworks)
 * system architecture
 * design patterns
+* security
 
 ## Intended Outcomes
 * Background knowledge on software development methodologies
@@ -119,6 +120,7 @@ Your source files should be named to include your last name first initial follow
 
     # Medina, Richard 1-19-2016
     # Homework 999
+    # I worked on the printmessage function with Guido. He showed me a way to format the string.
 
     def printmessage():
 	    print('Hello. This is a sample program.')

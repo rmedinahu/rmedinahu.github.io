@@ -13,10 +13,10 @@ Department of Computer and Mathematical Sciences
 
 New Mexico Highlands University
 
-##### Instructor
+## Instructor
 Richard Medina, Ph.D. 
 
-Office: HSCI 291 | 505-426-2277 | rmedina@nmhu.edu
+Office: HSCI 291 **505-426-2277** **rmedina@nmhu.edu**
 
 Office Hours: MTW 2-4pm (or by appointment)
 
@@ -121,6 +121,7 @@ Your source files should be named to include your last name first initial follow
 
     # Medina, Richard 1-19-2016
     # Homework 999
+    # I worked on the printmessage function with Guido. He showed me a way to format the string.
 
     def printmessage():
 	    print('Hello. This is a sample program.')
@@ -134,6 +135,7 @@ Prior to midterm week, you and the instructor will discuss and agree on a resear
 * 5 - 8 pages in length, single spaced, 12 point font.
 * must include inline citations and bibliography
 * must include a title AND abstract
+* must adhere to APA formatting guidelines
 
 ### Presentation
 * must be presented to entire class towards the end of the semester

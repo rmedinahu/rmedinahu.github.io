@@ -15,8 +15,11 @@ Jump to week[n] ==> [1](#week-1),
 ### 2017-01-19 Week 1 
 
 #### Readings
+[cathedral-bazaar.pdf]({{ site.baseurl }}assets/cs451/cathedral-bazaar.pdf).
 
 #### Topics
+- course introduction
+- syllabus
 
 ---
 
