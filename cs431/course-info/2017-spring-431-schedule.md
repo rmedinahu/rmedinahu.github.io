@@ -7,11 +7,24 @@ parent_course: 431
 
 **Spring 2017 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), 
+Jump to week[n] ==> [1](#week-1), [2](#week-2)
 
 ---
 
 {:.green}
+### 2017-01-23 Week 2 
+
+#### Readings
+- **Chapter 1** ==> (DBI) Databases Illuminated
+
+#### Topics
+- relational db overview
+- rdb application stack
+- tour of rdb driven web application
+
+---
+
+{:.gray}
 ### 2017-01-18 Week 1 
 
 
