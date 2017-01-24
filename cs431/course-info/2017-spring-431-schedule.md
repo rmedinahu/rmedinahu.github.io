@@ -14,13 +14,17 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2)
 {:.green}
 ### 2017-01-23 Week 2 
 
+> [homework 2 assigned](/431/hw2/)
+
 #### Readings
 - **Chapter 1** ==> (DBI) Databases Illuminated
 
 #### Topics
-- relational db overview
-- rdb application stack
+- *relational db overview
+- *rdb application stack
 - tour of rdb driven web application
+- overview of db management software
+- a look at LibreOffice Base
 
 ---
 

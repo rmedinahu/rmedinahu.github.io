@@ -27,8 +27,6 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2)
 	- a walk through a somewhat complex software project
 - git preliminaries
 
-
-
 {% highlight python %}
 # git-exercise-01.py
 
@@ -51,7 +49,6 @@ if __name__ == "__main__":
 	main()
 
 {% endhighlight python %}
-
 
 ---
 
