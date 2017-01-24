@@ -29,7 +29,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2)
 
 
 
-{% highlight python}
+{% highlight python %}
 # git-exercise-01.py
 
 # TEAM LEADER:
