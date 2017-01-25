@@ -7,6 +7,7 @@ parent_course: 345
 
 ### 2017-01-25
 
+DUE Monday Jan 30 at 9AM.
 ### Python Primer Cont...
 Exercises from Chapter 1:
 
