@@ -8,6 +8,7 @@ parent_course: 345
 ### 2017-01-25
 
 DUE Monday Jan 30 at 9AM.
+
 ### Python Primer Cont...
 Exercises from Chapter 1:
 
@@ -16,7 +17,9 @@ Exercises from Chapter 1:
 Each exercise must be implemented as a function (e.g., when the text asks you to "demonstrate", demonstrate by writing a function...). 
 
 Your submission will contain:
+
 1. each of the seven functions indicated above.
+
 2. a call to each function
 
 ### Resources
