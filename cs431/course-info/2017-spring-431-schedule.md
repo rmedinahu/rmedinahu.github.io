@@ -10,6 +10,7 @@ parent_course: 431
 Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3)
 
 ---
+
 {:.green}
 ### 2017-01-30 Week 3 
 
