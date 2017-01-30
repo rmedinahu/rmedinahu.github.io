@@ -7,11 +7,26 @@ parent_course: 431
 
 **Spring 2017 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3)
+
+---
+{:.green}
+### 2017-01-30 Week 3 
+
+### Database Architecture Foundations and Design
+
+#### Readings
+- **Chapter 2** ==> (DBI) Databases Illuminated
+
+#### Topics
+- review of DBMS software
+- DB architecture: layers and stages
+- DB design
+- a look at application level design: *The case of the overworked manager*
 
 ---
 
-{:.green}
+{:.gray}
 ### 2017-01-23 Week 2 
 
 > [homework 2 assigned](/431/hw2/)
@@ -30,7 +45,6 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2)
 
 {:.gray}
 ### 2017-01-18 Week 1 
-
 
 > [homework 1 assigned](/431/hw1/)
 

@@ -7,11 +7,21 @@ parent_course: 600
 
 **Spring 2017 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3)
 
 ---
 
 {:.green}
+### 2017-01-31 Week 3 
+
+### Research/Topic Presentations
+
+#### Topics
+- 
+
+---
+
+{:.gray}
 ### 2017-01-24 Week 2 
 
 ### Research/Topic Presentations

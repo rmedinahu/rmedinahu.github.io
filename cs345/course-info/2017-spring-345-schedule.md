@@ -7,11 +7,27 @@ parent_course: 345
 
 **Spring 2017 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3)
 
 ---
 
 {:.green}
+### 2017-01-30 Week 3 
+
+### Python Primer Cont. and Object Oriented Programming
+
+#### Readings
+- **CHAPTER 1 & 2** ==> DSAP (Data Structures and Algorithms in Python)
+
+#### Topics
+- dictionaries, sets, and lists
+- exceptions ==> *ask for forgiveness not permission*
+- file I/O
+- classes and objects in python
+
+---
+
+{:.gray}
 ### 2017-01-23 Week 2 
 
 #### Readings
