@@ -18,13 +18,14 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3)
 
 #### Readings
 
-
+- **Chapter 1** ==> Beginning Software Engineering (BSE)
 
 #### Topics
 - modules and frameworks
 - software engineering and complexity
 	- a walk through a somewhat complex software project
 - git preliminaries
+- github pages
 
 #### Git Exercise
 
