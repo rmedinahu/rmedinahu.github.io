@@ -16,15 +16,18 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3)
 
 ### Modern Software Development/Git Preliminaries
 
+> [Homework 1 assigned](/451/hw1)
+
 #### Readings
 
 - **Chapter 1** ==> Beginning Software Engineering (BSE)
 
 #### Topics
-- modules and frameworks
-- software engineering and complexity
+- * modules and frameworks
+- * software engineering and complexity
 	- a walk through a somewhat complex software project
-- git preliminaries
+- * git preliminaries
+- git in depth
 - github pages
 
 #### Git Exercise
@@ -79,7 +82,7 @@ if __name__ == "__main__":
 #### Topics
 - discussion of Cathedral and the Bazaar reading
 - lessons from the open source software philosophy
-- the "prime directives"
+
 
 
 #### CATB Principles:

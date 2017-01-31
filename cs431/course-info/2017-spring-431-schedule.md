@@ -14,6 +14,8 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3)
 {:.green}
 ### 2017-01-30 Week 3 
 
+> [homework 3 assigned](/431/hw3/)
+
 ### Database Architecture Foundations and Design
 
 #### Readings
@@ -24,8 +26,12 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3)
 - DB architecture: layers and stages
 - DB design
 - a look at application level design: *The case of the overworked manager*
-- Entity Relation Diagramming
-- UML
+- E-R (Entity-Relationship) Model (entities, attributes, relations)
+- *Relationship degree*: ```unary```, ```binary```, ```ternary```, ```n-ary```
+- *Binary relationships*: ```cardinality```
+	* one-to-one, one-to-many, many-to-one, many-to-many
+- *Participation*: min, max
+- entity relationship diagramming: *The case of the small university*
 
 ---
 

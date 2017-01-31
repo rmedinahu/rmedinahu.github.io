@@ -20,7 +20,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3)
 - **CHAPTER 1 & 2** ==> DSAP (Data Structures and Algorithms in Python)
 
 #### Topics
-- dictionaries, sets, and lists
+- * dictionaries, sets, and lists
 - exceptions ==> *ask for forgiveness not permission*
 - file I/O
 - classes and objects in python
