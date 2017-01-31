@@ -40,7 +40,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3)
 
 6. Leader and member write, test, and debug their respective code. When their portion is complete, they commit and push their changes to github.
 
-7. Each member should then pull changes to the working copy to see the "merge" of each respective code segment.
+7. Each member should then pull changes to THEIR working copy to see the "merge" of each respective code segment.
 
 {% highlight python %}
 # git-exercise-01.py
