@@ -15,13 +15,16 @@ parent_course: 345
 A. Complete Chapter 2 exercise ```R-2.4```
 
 B. Write test cases that test every method in the ```Flower``` class.
-	1. Methods required: constructor and getter and setter methods for each data member.
+	
+1. Methods required: constructor and getter and setter methods for each data member.
 
 C. After your test cases, include a segment of code that:
-	1. Creates 5 randomly initialized flower objects and places them in a list.
-	2. Reports the average number of flower petals in the list.
+	
+1. Creates 5 randomly initialized flower objects and places them in a list.
 
-Each exercise must be implemented as a function (e.g., when the text asks you to "demonstrate", demonstrate by writing a function...). 
+2. Reports the average number of flower petals in the list.
+
+#### Submit 1 file to D2L for this lab.
 
 ### Resources
 DSAP Textbook chapter 1 and 2
