@@ -14,6 +14,8 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3)
 {:.green}
 ### 2017-01-30 Week 3 
 
+> [Homework 3 assigned](/345/hw3/)
+
 ### Python Primer Cont. and Object Oriented Programming
 
 #### Readings
@@ -22,7 +24,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3)
 #### Topics
 - * dictionaries, sets, and lists
 - exceptions ==> *ask for forgiveness not permission*
-- file I/O
+- raising exceptions
 - classes and objects in python
 
 ---
