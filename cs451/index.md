@@ -17,6 +17,13 @@ description: Software Engineering
 
 ---
 
+Links that may be useful:
+
+[Git and Other Stuff](http://tott-meetup.readthedocs.io/en/latest/index.html)
+
+---
+
 [Syllabus](/451/syllabus/)
 
 [Graduate Syllabus](/451/syllabus-grad/)
+
