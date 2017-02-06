@@ -12,6 +12,27 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3)
 ---
 
 {:.green}
+### 2017-02-06 Week 4 
+
+### Database Design: E-R and EE-R Diagrams
+
+#### Readings
+- **Chapter 3** ==> (DBI) Databases Illuminated
+
+#### Topics
+- E-R (Entity-Relationship) Model (entities, attributes, relations)
+- *Relationship degree*: ```unary```, ```binary```, ```ternary```, ```n-ary```
+- *Binary relationships*: ```cardinality```
+	* one-to-one, one-to-many, many-to-one, many-to-many
+- *Participation*: min, max
+- *weak/strong entities*
+- case study: a DB for a small motel in Wagon Mound NM:
+	- entities, attributes, relations?
+	- queries?
+
+---
+
+{:.gray}
 ### 2017-01-30 Week 3 
 
 > [homework 3 assigned](/431/hw3/)
@@ -27,11 +48,6 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3)
 - DB design
 - a look at application level design: *The case of the overworked manager*
 - E-R (Entity-Relationship) Model (entities, attributes, relations)
-- *Relationship degree*: ```unary```, ```binary```, ```ternary```, ```n-ary```
-- *Binary relationships*: ```cardinality```
-	* one-to-one, one-to-many, many-to-one, many-to-many
-- *Participation*: min, max
-- entity relationship diagramming: *The case of the small university*
 
 ---
 
