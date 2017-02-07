@@ -12,4 +12,4 @@ parent_course: 345
 \*  [Homework 1 (LAB 1): Python Primer 1](/345/lab1/) **has solution**
 
 
-######\* **graded**
+\* **graded**
