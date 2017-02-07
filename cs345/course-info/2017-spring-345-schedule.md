@@ -7,11 +7,26 @@ parent_course: 345
 
 **Spring 2017 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4)
 
 ---
 
 {:.green}
+### 2017-02-06 Week 4 
+
+### Object Oriented Programming with Python
+
+#### Readings
+- **CHAPTER 1 & 2** ==> DSAP (Data Structures and Algorithms in Python)
+
+#### Topics
+- classes and objects in python
+- object oriented design
+- case study: file system hierarchy and recursion
+
+---
+
+{:.gray}
 ### 2017-01-30 Week 3 
 
 > [Homework 3 assigned](/345/hw3/)

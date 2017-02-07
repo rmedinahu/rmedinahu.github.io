@@ -7,11 +7,19 @@ parent_course: 600
 
 **Spring 2017 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4)
 
 ---
 
 {:.green}
+### 2017-02-07 Week 4 
+
+### Research Paper Discussions
+see [homework 1](/600/hw1/) for papers and day on which you will lead class discussion.
+
+---
+
+{:.gray}
 ### 2017-01-31 Week 3 
 
 ### Research Papers/Videos

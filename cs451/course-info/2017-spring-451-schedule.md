@@ -7,11 +7,30 @@ parent_course: 451
 
 **Spring 2017 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4)
 
 ---
 
 {:.green}
+### 2017-02-07 Week 4 
+
+### Overview of Modern Software Development Components
+
+#### Readings
+
+- **Chapter 2 & 3** ==> BSE
+
+#### Topics
+- prime directives
+- introduction of model-view-controller design pattern
+- software dev skill: virtual environments and projects
+- software dev skill: requirements file
+- software dev skill: creating a project shell
+- framework analysis - the pyramid framework
+
+---
+
+{:.gray}
 ### 2017-01-31 Week 3 
 
 ### Modern Software Development/Git Preliminaries
@@ -27,8 +46,8 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3)
 - * software engineering and complexity
 	- a walk through a somewhat complex software project
 - * git preliminaries
-- git in depth
-- github pages
+- * git in depth
+- * github pages
 
 #### Git Exercise
 
