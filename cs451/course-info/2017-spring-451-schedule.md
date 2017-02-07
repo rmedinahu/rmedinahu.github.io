@@ -26,7 +26,27 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4)
 - software dev skill: virtual environments and projects
 - software dev skill: requirements file
 - software dev skill: creating a project shell
-- framework analysis - the pyramid framework
+- framework analysis - the pyramid application framework
+
+#### Git In-Class Exercise
+1. create a virtual environment, activate it then locate and find a python module to install in it.
+	- ```pip install ...```
+2. create a project shell and initialize with git.
+	- a project root folder
+	- a requirements file
+	- a source code directory
+
+3. Place code containing a simple demonstration of your python package in a source code file in your source code directory.
+
+4. Test, then push your repository to GitHub.
+
+##### Sources that describe python libraries:
+
+* [http://www.oreilly.com/programming/free/files/20-python-libraries-you-arent-using-but-should.pdf](http://www.oreilly.com/programming/free/files/20-python-libraries-you-arent-using-but-should.pdf)
+
+* [http://awesome-python.com/](http://awesome-python.com/)
+
+* [http://docs.python-guide.org/en/latest/#scenario-guide-for-python-applications](http://docs.python-guide.org/en/latest/#scenario-guide-for-python-applications) See section entitled *Scenario Guide for Python Applications*
 
 #### Prime Directives for Open Source Software Development
 developed by Philip Johnson, University of Hawaii 
