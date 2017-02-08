@@ -14,6 +14,8 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4)
 {:.green}
 ### 2017-02-06 Week 4 
 
+> [Homework 4 assigned](/345/hw4/)
+
 ### Object Oriented Programming with Python
 
 #### Readings
@@ -22,7 +24,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4)
 #### Topics
 - classes and objects in python
 - object oriented design
-- case study: file system hierarchy and recursion
+- file reading and basic data processing with objects and json
 
 ---
 

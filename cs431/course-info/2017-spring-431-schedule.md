@@ -7,7 +7,7 @@ parent_course: 431
 
 **Spring 2017 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4)
 
 ---
 
@@ -15,6 +15,8 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3)
 ### 2017-02-06 Week 4 
 
 ### Database Design: E-R and EE-R Diagrams
+
+> [homework 4 assigned](/431/hw4/)
 
 #### Readings
 - **Chapter 3** ==> (DBI) Databases Illuminated
@@ -26,6 +28,9 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3)
 	* one-to-one, one-to-many, many-to-one, many-to-many
 - *Participation*: min, max
 - *weak/strong entities*
+- EE-R diagrams
+- generalization/specialization
+- unions
 - case study: a DB for a small motel in Wagon Mound NM:
 	- entities, attributes, relations?
 	- queries?

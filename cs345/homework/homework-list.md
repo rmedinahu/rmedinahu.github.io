@@ -5,6 +5,8 @@ permalink: /345/hw/
 parent_course: 345
 ---
 
+[Homework 4: Python Primer 4: Objects, Files, and Data](/345/hw4)
+
 [Homework 3: Python Primer 3](/345/hw3) 
 
 [Homework 2 (LAB 2): Python Primer 2](/345/lab2) 
