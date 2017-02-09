@@ -14,6 +14,8 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4)
 {:.green}
 ### 2017-02-07 Week 4 
 
+> [Homework 2 assigned](/451/hw2)
+
 ### Overview of Modern Software Development Components
 
 #### Readings
