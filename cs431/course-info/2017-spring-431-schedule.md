@@ -20,7 +20,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4)
 
 #### Readings
 - **Chapter 3** ==> (DBI) Databases Illuminated
-- **POWERPOINT SLIDES** ==> [Chapter 3 slides](({{ site.baseurl }}assets/cs431/9781284079050_SLID_CH03.ppt)
+- **POWERPOINT SLIDES** ==> [Chapter 3 slides]({{ site.baseurl }}assets/cs431/9781284079050_SLID_CH03.ppt)
 
 #### Topics
 - E-R (Entity-Relationship) Model (entities, attributes, relations)
