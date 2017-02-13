@@ -7,11 +7,27 @@ parent_course: 345
 
 **Spring 2017 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5)
 
 ---
 
 {:.green}
+### 2017-02-13 Week 5 
+
+### Data File Handling/Recursion 
+
+#### Readings
+- **CHAPTER 4** ==> DSAP (Data Structures and Algorithms in Python)
+
+#### Topics
+- REVIEW: file reading and basic data processing with objects and json
+- serialization and deserialization techniques
+- file/directory organization
+- recursion
+
+---
+
+{:.gray}
 ### 2017-02-06 Week 4 
 
 > [Homework 4 assigned](/345/hw4/)
@@ -90,5 +106,25 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4)
 
 ---
 
-{:.gray}
+{% comment %}
+
+### 2017-01-18 Week 1 ### Introduction
+### 2017-01-23 Week 2 ### Python Primer
+### 2017-01-30 Week 3 ### Python Primer Cont. and Object Oriented Programming
+### 2017-02-06 Week 4 ### Object Oriented Programming with Python
+### 2017-02-13 Week 5 ### Data File Handling/Recursion 
+### 2017-02-20 Week 6 ### Algorithm Analyis
+### 2017-02-27 Week 7 ### TBD
+### 2017-03-06 Week 8 ### TBD
+### 2017-03-13 Week 9 ### Midterm
+### 2017-03-20 Week 10 ### Spring Break
+### 2017-03-27 Week 11 ### TBD
+### 2017-04-03 Week 12 ### TBD
+### 2017-04-10 Week 13 ### TBD
+### 2017-04-17 Week 14 ### TBD
+### 2017-04-24 Week 15 ### TBD
+### 2017-05-01 Week 16 ### TBD
+### 2017-05-08 Week 17 ### Final Exam Week
+
+{% endcomment %}
 

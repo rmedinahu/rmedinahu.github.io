@@ -7,11 +7,34 @@ parent_course: 431
 
 **Spring 2017 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5)
 
 ---
 
 {:.green}
+### 2017-02-13 Week 5 
+
+### Database Design/Relational Model: EE-R Modeling
+
+#### Readings
+- **Chapter 3 & 4** ==> (DBI) Databases Illuminated
+- **POWERPOINT SLIDES** ==> [[Chapter 3]]({{ site.baseurl }}assets/cs431/9781284079050_SLID_CH03.ppt) [[Chapter 4]]({{ site.baseurl }}assets/cs431/9781284079050_SLID_CH04.ppt)
+
+#### Topics
+- *weak/strong entities*
+- Extended E-R (EE-R) modeling
+- generalization
+- specialization
+	- total/partial
+	- disjoint/overlapping
+	- predicate defined (attribute or user defined)
+- union
+	- total/partial category
+- relational model
+
+---
+
+{:.gray}
 ### 2017-02-06 Week 4 
 
 ### Database Design: E-R and EE-R Diagrams
@@ -20,7 +43,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4)
 
 #### Readings
 - **Chapter 3** ==> (DBI) Databases Illuminated
-- **POWERPOINT SLIDES** ==> [Chapter 3 slides]({{ site.baseurl }}assets/cs431/9781284079050_SLID_CH03.ppt)
+- **POWERPOINT SLIDES** ==> [Chapter 3]({{ site.baseurl }}assets/cs431/9781284079050_SLID_CH03.ppt)
 
 #### Topics
 - E-R (Entity-Relationship) Model (entities, attributes, relations)
@@ -90,5 +113,24 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4)
 
 ---
 
-{:.gray}
+{% comment %}
+### 2017-01-18 Week 1 ### Introduction
+### 2017-01-23 Week 2 ### Relational DB/Applications
+### 2017-01-30 Week 3 ### Database Architecture Foundations and Design
+### 2017-02-06 Week 4 ### Database Design: E-R and EE-R Diagrams
+### 2017-02-13 Week 5 ### Database Design/Relational Model: EE-R Modeling
+### 2017-02-20 Week 6 ### Relational Model
+### 2017-02-27 Week 7 ### Relational Model
+### 2017-03-06 Week 8 ### TBD
+### 2017-03-13 Week 9 ### Midterm
+### 2017-03-20 Week 10 ### Spring Break
+### 2017-03-27 Week 11 ### TBD
+### 2017-04-03 Week 12 ### TBD
+### 2017-04-10 Week 13 ### TBD
+### 2017-04-17 Week 14 ### TBD
+### 2017-04-24 Week 15 ### TBD
+### 2017-05-01 Week 16 ### TBD
+### 2017-05-08 Week 17 ### Final Exam Week
+
+{% endcomment %}
 

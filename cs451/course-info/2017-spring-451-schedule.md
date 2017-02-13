@@ -7,11 +7,25 @@ parent_course: 451
 
 **Spring 2017 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5)
 
 ---
-
+ 
 {:.green}
+### 2017-02-14 Week 5 
+
+### Documentation/Testing
+
+#### Readings
+- **Chapter 2 & 3** ==> BSE
+
+#### Topics
+- documentation types
+- testing and debugging
+- tools for generating documentation
+- tools for running tests, fixtures
+
+{:.gray}
 ### 2017-02-07 Week 4 
 
 > [Homework 2 assigned](/451/hw2)
@@ -19,7 +33,6 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4)
 ### Overview of Modern Software Development Components
 
 #### Readings
-
 - **Chapter 2 & 3** ==> BSE
 
 #### Topics
@@ -120,7 +133,7 @@ if __name__ == "__main__":
 {:.gray}
 ### 2017-01-24 Week 2 
 
-### Philosophy of Open Source Software
+### Philosophy of Open Source Software Development
 
 #### Readings
 [cathedral-bazaar.pdf]({{ site.baseurl }}assets/cs451/cathedral-bazaar.pdf)
@@ -168,5 +181,27 @@ if __name__ == "__main__":
 - syllabus
 
 ---
+
+{% comment %}
+
+### 2017-01-19 Week 1 ### Introduction
+### 2017-01-24 Week 2 ### Philosophy of Open Source Software Development
+### 2017-01-31 Week 3 ### Modern Software Development/Git Preliminaries
+### 2017-02-07 Week 4 ### Overview of Modern Software Development Components
+### 2017-02-14 Week 5 ### Documentation/Testing 
+### 2017-02-21 Week 6 ### Project Management
+### 2017-02-28 Week 7 ### TBD
+### 2017-03-07 Week 8 ### TBD
+### 2017-03-14 Week 9 ### Midterm
+### 2017-03-21 Week 10 ### Spring Break
+### 2017-03-28 Week 11 ### TBD
+### 2017-04-04 Week 12 ### TBD
+### 2017-04-11 Week 13 ### TBD
+### 2017-04-18 Week 14 ### TBD
+### 2017-04-25 Week 15 ### TBD
+### 2017-05-02 Week 16 ### TBD
+### 2017-05-09 Week 17 ### Final Exam Week
+
+{% endcomment %}
 
 

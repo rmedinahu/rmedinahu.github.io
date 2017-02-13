@@ -12,6 +12,17 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4)
 ---
 
 {:.green}
+### 2017-02-14 Week 5 
+
+### Data Science Topics, Projects, and Resources
+
+### Readings
+
+### Topics
+
+---
+
+{:.gray}
 ### 2017-02-07 Week 4 
 
 ### Research Paper Discussions
@@ -116,4 +127,24 @@ see [homework 1](/600/hw1/) for papers and day on which you will lead class disc
 
 ---
 
+{% comment %}
 
+### 2017-01-19 Week 1 ### Introduction
+### 2017-01-24 Week 2 ### Research/Topic Presentations
+### 2017-01-31 Week 3 ### Research Papers/Videos
+### 2017-02-07 Week 4 ### Research Paper Discussions
+### 2017-02-14 Week 5 ### Data Science Topics, Projects, and Resources
+### 2017-02-21 Week 6 ### TBD
+### 2017-02-28 Week 7 ### TBD
+### 2017-03-07 Week 8 ### TBD
+### 2017-03-14 Week 9 ### Midterm
+### 2017-03-21 Week 10 ### Spring Break
+### 2017-03-28 Week 11 ### TBD
+### 2017-04-04 Week 12 ### TBD
+### 2017-04-11 Week 13 ### TBD
+### 2017-04-18 Week 14 ### TBD
+### 2017-04-25 Week 15 ### TBD
+### 2017-05-02 Week 16 ### TBD
+### 2017-05-09 Week 17 ### Final Exam Week
+
+{% endcomment %}
