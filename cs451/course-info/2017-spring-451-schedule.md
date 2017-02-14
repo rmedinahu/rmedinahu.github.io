@@ -14,16 +14,33 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 {:.green}
 ### 2017-02-14 Week 5 
 
-### Documentation/Testing
+> [Homework 3 assigned](/451/hw3)
+
+### Basic Documentation/Testing
 
 #### Readings
 - **Chapter 2 & 3** ==> BSE
 
 #### Topics
-- documentation types
-- testing and debugging
-- tools for generating documentation
-- tools for running tests, fixtures
+- software dev skill: git ```fork``` and git ```branch```
+- unit testing
+- **builtin** tools for running tests using ```unittest``` module
+	1. create python file for your test cases. ```test_mystuff.py```
+	2. run the unit tests in your test file. ```python test_mystuff.py```
+	3. cross your fingers...
+- ```pytest``` module
+- documentation (developer/user)
+- **builtin** tools for generating documentation ```pydoc```
+- framework analysis - the pyramid application framework
+
+#### Python Tools
+- [about git fork](https://help.github.com/articles/fork-a-repo/)
+- pydoc [docs](https://docs.python.org/2/library/pydoc.html)
+- testing
+	- [Python unittest module (builtin)](https://docs.python.org/3/library/unittest.html)
+	- [Hitchhiker's Guide to Writing Tests](http://docs.python-guide.org/en/latest/writing/tests/)
+
+---
 
 {:.gray}
 ### 2017-02-07 Week 4 
@@ -41,7 +58,6 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 - software dev skill: virtual environments and projects
 - software dev skill: requirements file
 - software dev skill: creating a project shell
-- framework analysis - the pyramid application framework
 
 #### Prime Directives for Open Source Software Development
 developed by Philip Johnson, University of Hawaii 
@@ -188,7 +204,7 @@ if __name__ == "__main__":
 ### 2017-01-24 Week 2 ### Philosophy of Open Source Software Development
 ### 2017-01-31 Week 3 ### Modern Software Development/Git Preliminaries
 ### 2017-02-07 Week 4 ### Overview of Modern Software Development Components
-### 2017-02-14 Week 5 ### Documentation/Testing 
+### 2017-02-14 Week 5 ### Basic Documentation/Testing 
 ### 2017-02-21 Week 6 ### Project Management
 ### 2017-02-28 Week 7 ### TBD
 ### 2017-03-07 Week 8 ### TBD
