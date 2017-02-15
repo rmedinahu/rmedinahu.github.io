@@ -24,6 +24,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 - serialization and deserialization techniques
 - file/directory organization
 - recursion
+- [generators? lazy evaluation?](http://intermediatepythonista.com/python-generators)
 
 ---
 
