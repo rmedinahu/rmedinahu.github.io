@@ -30,6 +30,9 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 - union
 	- total/partial category
 - relational model
+- case study: a *non*-relational database
+	- [data.txt]({{ site.baseurl }}assets/cs345/data.txt)
+	
 
 ---
 
