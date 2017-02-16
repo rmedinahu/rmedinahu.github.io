@@ -7,18 +7,27 @@ parent_course: 600
 
 **Spring 2017 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5)
 
 ---
 
 {:.green}
+### 2017-02-14 Week 6 
+
+### GROUP A:
+
+### Topics
+- Zotero and Citation Management
+
+---
+
+{:.gray}
 ### 2017-02-14 Week 5 
 
 ### Data Science Topics, Projects, and Resources
 
-### Readings
-
 ### Topics
+- Graduate students organized into three groups (A, B, C)
 
 ---
 
