@@ -5,6 +5,8 @@ permalink: /345/hw/
 parent_course: 345
 ---
 
+[Homework 5: Basic Recursion](/345/hw5)
+
 [Homework 4: Python Primer 4: Objects, Files, and Data](/345/hw4)
 
 [Homework 3: Python Primer 3](/345/hw3) **has solution** 
