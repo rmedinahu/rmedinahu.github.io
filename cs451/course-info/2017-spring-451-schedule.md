@@ -14,6 +14,8 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 {:.green}
 ### 2017-02-14 Week 5 
 
+> [Homework 4 assigned](/451/hw4)
+
 > [Homework 3 assigned](/451/hw3)
 
 ### Basic Documentation/Testing
@@ -23,21 +25,86 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 
 #### Topics
 - software dev skill: git ```fork``` and git ```branch```
-- unit testing
-- **builtin** tools for running tests using ```unittest``` module
+- unit testing : **unittest**, **pytest**, **doctest**
+
+- software dev skill: ```unittest``` module
 	1. create python file for your test cases. ```test_mystuff.py```
 	2. run the unit tests in your test file. ```python test_mystuff.py```
 	3. cross your fingers...
-- ```pytest``` module
-- documentation (developer/user)
-- **builtin** tools for generating documentation ```pydoc```
-- framework analysis - the pyramid application framework
+
+- software dev skill: ```pytest``` module
+	0. install pytest if needed: ```pip install pytest```
+	1. assume you have a source file: ```sample.py```
+	2. create python file for your test cases. ```test_sample.py``` (prepending with test allows pytest to find your test cases!)
+	3. add unit tests to your test file.
+	4. run your unit tests from project root or in src dir: ```py.test```
+
+- Example:
+
+	{% highlight python %}
+	# sample.py
+	# Using unit tests included in docstrings 
+	# See test_sample.py for unit tests that utilize pytest
+
+	def pow_of_two(x):
+	    """Return x to the power of 2.
+
+	    >>> pow_of_two(2)
+	    4
+	    >>> pow_of_two(-2)
+	    4
+	    """
+	    return x**2
+
+	def float_div_by_two(x):
+	    """Return x divided by 2 in floating point precision.
+
+	    >>> float_div_by_two(49)
+	    24.5
+	    >>> float_div_by_two(48)
+	    24.0
+	    """
+	    return x / 2.0
+
+	if __name__ == '__main__':
+	    import doctest
+	    doctest.testmod()
+	{% endhighlight python %}
+
+---
+
+	{% highlight python %}
+	# test_sample.py
+	# Demonstrates unit testing using the pytest module.
+	# pytest must be installed through pip.
+
+	from sample import pow_of_two, float_div_by_two
+
+	def test_pow_of_two():
+	    assert pow_of_two(3) == 9
+
+	def test_float_div_by_two():
+	    assert float_div_by_two(5) == 2.5
+	{% endhighlight python %}
+
+
+- documentation (developer/user): **pydoc**
+
+- software dev skill: ```pydoc``` module
+	1. add documentation to your source code and save. ```sample.py```
+	2. in shell, run ```pydoc -w ./sample.py``` to generate a documentation page in html. Should be ```sample.html```
+	3. take a look at your fine work in a browser.
 
 #### Python Tools
 - [about git fork](https://help.github.com/articles/fork-a-repo/)
-- pydoc [docs](https://docs.python.org/2/library/pydoc.html)
-- testing
+
+- documentation generators
+	- [pydoc](https://docs.python.org/2/library/pydoc.html)
+	- [doctest](https://docs.python.org/2.7/library/doctest.html?highlight=doctest#module-doctest)
+
+- unit testing tools
 	- [Python unittest module (builtin)](https://docs.python.org/3/library/unittest.html)
+	- [pytest](http://docs.pytest.org/en/latest/)
 	- [Hitchhiker's Guide to Writing Tests](http://docs.python-guide.org/en/latest/writing/tests/)
 
 ---
