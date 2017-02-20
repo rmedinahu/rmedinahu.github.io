@@ -7,11 +7,66 @@ parent_course: 431
 
 **Spring 2017 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6)
 
 ---
 
 {:.green}
+### 2017-02-20 Week 6 
+
+### Relational Model
+
+#### Readings
+- **Chapter 4 & 5** ==> (DBI) Databases Illuminated
+- **POWERPOINT SLIDES** ==> [[Chapter 4]]({{ site.baseurl }}assets/cs431/9781284079050_SLID_CH04.ppt)
+
+#### Topics
+- db modeling review
+- case study: Design a db for a multiple choice test.
+
+> A online testing app displays multiple choice tests. All tests must contain 20 multiple choice questions. Each question contains up to 5 possible choices. The testing app allows any number of students to take any number of tests. The test score for each student must be recorded for eternity.
+
+- what to indicate:
+	- entities and relations
+	- cardinalities and participation constraints using (min, max)
+- relational model
+	- relations and tables
+	- keys
+	- schemas (DML, DDL)
+- playing with the relational model:
+
+{% highlight python %}
+
+import itertools
+
+# roll your own ascii character generator.
+alpha = [chr(i) for i in range(65, 65+26)] + [chr(i) for i in range(97, 97+26)] + [chr(i) for i in range(48, 58)]
+
+##### Schema Example ==> (attr1, attr2, attr3)
+
+# generate the cartesian product of sets of ascii characters (D1 * D2 * D3)
+sets = list(itertools.product(alpha, alpha, alpha))
+
+# a "relation" is a subset of sets:
+rel = [i for i in sets if i[0] == 'A' and i[2] == 'Z']
+
+##### Another Schema Example ==> (make, year, odometer)
+domain_make = ['ford', 'dodge', 'gmc', 'chevy']
+domain_year = range(2000, 2018)
+domain_odom = range(50000, 200000, 50000)
+
+# generate the cartesian product of sets of ascii characters (D1 * D2 * D3)
+sets = list(itertools.product(domain_make, domain_year, domain_odom))
+
+# a "relation" is a subset of sets:
+rel = [i for i in sets if i[0] == 'ford' and i[2] == 2017]
+
+{% endhighlight python %}
+
+
+---
+
+{:.gray}
 ### 2017-02-13 Week 5 
 
 ### Database Design/Relational Model: EE-R Modeling

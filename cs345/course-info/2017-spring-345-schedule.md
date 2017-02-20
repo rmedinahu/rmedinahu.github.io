@@ -7,11 +7,27 @@ parent_course: 345
 
 **Spring 2017 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6)
 
 ---
 
 {:.green}
+### 2017-02-13 Week 6 
+
+### Recursion 
+
+#### Readings
+- **CHAPTER 4** ==> DSAP (Data Structures and Algorithms in Python)
+
+#### Topics
+- designing recursive algorithms
+	- identify smallest problem
+	- identify **base case**
+	- identify **recursive case**
+
+---
+
+{:.gray}
 ### 2017-02-13 Week 5 
 
 ### Data File Handling/Recursion 
