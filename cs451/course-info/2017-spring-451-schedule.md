@@ -7,11 +7,40 @@ parent_course: 451
 
 **Spring 2017 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6)
 
 ---
- 
+
 {:.green}
+### 2017-02-21 Week 6 
+
+### Frameworks & Project Management
+
+#### Readings
+- **Chapter 3** ==> BSE
+
+#### Topics
+- testing and documentation review
+- application frameworking
+- software dev skill: ```pyramid``` basic intro
+	- [Pyramid Web Application Framework](https://trypyramid.com/)
+	- [Pyramid Installation (Hey! There's Documentation!?!)](http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/install.html)
+	- [Pyramid Basic Ops: Hello World Tutorial](http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/firstapp.html)
+
+- software dev skill: ```pyramid``` == NOT starting from scratch...
+	- [Pyramid Cookiecutter Tutorial](http://docs.pylonsproject.org/projects/pyramid/en/latest/quick_tutorial/cookiecutters.html)
+
+	> 1. Once you have the cookiecutter running, come up with an interesting *display* name for your project. Add this new variable to your view then modify the relevant template file in your project (```templatesmytemplate.jinja2```). Test in a browser.
+	> 2. Now modify ```test.py``` to test the value of your *display* name variable. See function: ```test_my_view(request). ``` Run pytest like: ```py.test```. Make all tests pass...
+	> 3. After all tests pass. initialize your project with git (**make sure you are in the project root!**)
+	> 4. Create a git repo on GitHub then add it as a remote to your pyramid project.
+
+- project management
+- software dev skill: ```issues``` with GitHub
+
+---
+
+{:.gray}
 ### 2017-02-14 Week 5 
 
 > [Homework 4 assigned](/451/hw4)
