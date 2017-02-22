@@ -30,6 +30,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 	- entities and relations
 	- cardinalities and participation constraints using (min, max)
 - relational model
+	- database correctness?
 	- relations and tables
 	- keys
 	- schemas (DML, DDL)

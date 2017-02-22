@@ -14,6 +14,8 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 {:.green}
 ### 2017-02-13 Week 6 
 
+> [Homework 6 assigned](/345/hw6/)
+
 ### Recursion 
 
 #### Readings
@@ -24,11 +26,16 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 	- identify smallest problem
 	- identify **base case**
 	- identify **recursive case**
+- recursive binary search
+- a simple linked list
+- **terms**: ```activation record (stack frame)```, ```base case```, ```recursive case```, ```linear, binary, multiple recursion```, ```tail recursion```
 
 ---
 
 {:.gray}
 ### 2017-02-13 Week 5 
+
+> [Homework 5 assigned](/345/hw5/)
 
 ### Data File Handling/Recursion 
 
