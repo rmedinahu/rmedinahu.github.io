@@ -64,7 +64,7 @@ class LinkedStack:
         self._size -= 1
         return answer
 
-    def as_string(self):
+    def as_string(self, s):
         """Recursively build a string containing each element of the stack without modifying the stack.
         
         Returns the string beginning with the top element on one line separated by spaces.
