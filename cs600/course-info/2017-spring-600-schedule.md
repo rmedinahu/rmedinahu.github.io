@@ -12,12 +12,29 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 ---
 
 {:.green}
-### 2017-02-14 Week 6 
+### 2017-02-21 Week 6 
 
-### GROUP A:
+### GROUP A: Research Tools
 
 ### Topics
-- Zotero and Citation Management
+- services for file and document management
+	- Google Drive, Dropbox, Your own Github site (like this one), blog, website, etc...
+- Zotero and citatioin management
+
+### Tasks
+1. browse the [Social Media Research Toolkit](http://socialmediadata.org/social-media-research-toolkit/?imm_mid=0eda06&cmp=em-data-na-na-newsltr_20170222)
+
+2. find a tool that interests you
+
+3. identify an academic paper associated with that tool (they're linked next to the tool)
+
+4. read the paper.
+
+5. write a summary of the paper (.5 page at most), then use *zotero* to ...
+	a. include an inline citation
+	b. include a bibliography section containing the full reference to the paper.
+
+6. store your summary in your google drive or other online accessible location.
 
 ---
 
@@ -143,9 +160,9 @@ see [homework 1](/600/hw1/) for papers and day on which you will lead class disc
 ### 2017-01-31 Week 3 ### Research Papers/Videos
 ### 2017-02-07 Week 4 ### Research Paper Discussions
 ### 2017-02-14 Week 5 ### Data Science Topics, Projects, and Resources
-### 2017-02-21 Week 6 ### TBD
-### 2017-02-28 Week 7 ### TBD
-### 2017-03-07 Week 8 ### TBD
+### 2017-02-21 Week 6 ### Research Tools
+### 2017-02-28 Week 7 ### Case Study: Network Science
+### 2017-03-07 Week 8 ### Case Study: Network Science
 ### 2017-03-14 Week 9 ### Midterm
 ### 2017-03-21 Week 10 ### Spring Break
 ### 2017-03-28 Week 11 ### TBD

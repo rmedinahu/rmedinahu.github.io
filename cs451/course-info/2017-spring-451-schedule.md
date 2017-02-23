@@ -22,21 +22,41 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 #### Topics
 - testing and documentation review
 - application frameworking
-- software dev skill: ```pyramid``` basic intro
-	- [Pyramid Web Application Framework](https://trypyramid.com/)
-	- [Pyramid Installation (Hey! There's Documentation!?!)](http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/install.html)
-	- [Pyramid Basic Ops: Hello World Tutorial](http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/firstapp.html)
-
-- software dev skill: ```pyramid``` == NOT starting from scratch...
-	- [Pyramid Cookiecutter Tutorial](http://docs.pylonsproject.org/projects/pyramid/en/latest/quick_tutorial/cookiecutters.html)
-
-	> 1. Once you have the cookiecutter running, come up with an interesting *display* name for your project. Add this new variable to your view then modify the relevant template file in your project (```templatesmytemplate.jinja2```). Test in a browser.
-	> 2. Now modify ```test.py``` to test the value of your *display* name variable. See function: ```test_my_view(request). ``` Run pytest like: ```py.test```. Make all tests pass...
-	> 3. After all tests pass. initialize your project with git (**make sure you are in the project root!**)
-	> 4. Create a git repo on GitHub then add it as a remote to your pyramid project.
-
 - project management
 - software dev skill: ```issues``` with GitHub
+
+#### software dev skill: ```pyramid``` basic intro
+- [Pyramid Web Application Framework](https://trypyramid.com/)
+- [Pyramid Installation (Hey! There's Documentation!?!)](http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/install.html)
+- [Pyramid Basic Ops: Hello World Tutorial](http://docs.pylonsproject.org/projects/pyramid/en/latest/narr/firstapp.html)
+
+#### software dev skill: ```pyramid``` == NOT starting from scratch == [Pyramid Cookiecutter Tutorial](http://docs.pylonsproject.org/projects/pyramid/en/latest/quick_tutorial/cookiecutters.html)
+
+##### Developing on a Framework
+1. Once you have the cookiecutter project running __AND VISIBLE IN A BROWSER__ ...
+2. Come up with a **randomly** interesting *nickname* for your project. See the function below for ideas. You will need to add this function to your views then use it to generate a random nickname. Add this nickname as *new* variable to your view then modify the relevant template file in your project (```templates/mytemplate.jinja2```). Test in a browser.
+
+{:.yellow}
+> NOTE: you may encounter *not found* errors during the testing phase below. Study these and run the appropriate ```pip install``` commands to get them fixed.
+
+##### Testing on a Framework
+3. Now modify ```test.py``` to test the value of your *nickname* variable. See function: ```test_my_view(request). ``` Run pytest  ```py.test``` from the project root folder.
+4. There's a random chance that your tests will pass but you get the idea! *Why is there a random chance tests will pass?* :)
+4. After your testing, initialize your project with git (**make sure you are in the project root!**)
+5. Create a git repo on GitHub then add it as a remote to your pyramid project (initialized in the previous step right?).
+
+
+{% highlight python %}
+import random
+
+def get_random_nickname():
+    adjvs = ['golden', 'ruby', 'fuzzy', 'liquid', 'sour', 'snowy', 'blazing']
+    nouns = ['shores', 'keys', 'peaks', 'smiles', 'jungles', 'skies', 'forests']
+
+    return random.choice(adjvs) + ' ' + random.choice(nouns)
+
+{% endhighlight python %}
+
 
 ---
 
@@ -301,8 +321,8 @@ if __name__ == "__main__":
 ### 2017-01-31 Week 3 ### Modern Software Development/Git Preliminaries
 ### 2017-02-07 Week 4 ### Overview of Modern Software Development Components
 ### 2017-02-14 Week 5 ### Basic Documentation/Testing 
-### 2017-02-21 Week 6 ### Project Management
-### 2017-02-28 Week 7 ### TBD
+### 2017-02-21 Week 6 ### Framework(ing) and Project Management
+### 2017-02-28 Week 7 ### Project Management
 ### 2017-03-07 Week 8 ### TBD
 ### 2017-03-14 Week 9 ### Midterm
 ### 2017-03-21 Week 10 ### Spring Break
