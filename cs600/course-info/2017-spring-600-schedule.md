@@ -19,7 +19,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 ### Topics
 - services for file and document management
 	- Google Drive, Dropbox, Your own Github site (like this one), blog, website, etc...
-- Zotero and citatioin management
+- Zotero and citation management
 
 ### Tasks
 1. browse the [Social Media Research Toolkit](http://socialmediadata.org/social-media-research-toolkit/?imm_mid=0eda06&cmp=em-data-na-na-newsltr_20170222)
