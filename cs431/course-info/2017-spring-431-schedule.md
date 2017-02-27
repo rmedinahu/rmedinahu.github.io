@@ -19,7 +19,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 #### Readings
 - **Chapter 5** ==> (DBI) Databases Illuminated
 - **POWERPOINT SLIDES** ==> [[Chapter 5]]({{ site.baseurl }}assets/cs431/9781284079050_SLID_CH05.ppt)
-
+- [relationa_model_operations.py]({{ site.baseurl }}assets/cs431/relationa_model_operations.py)
 #### Topics
 - E-R to db tables
 - relational operators (theory)
