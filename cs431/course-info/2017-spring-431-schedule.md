@@ -20,10 +20,52 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 - **Chapter 5** ==> (DBI) Databases Illuminated
 - **POWERPOINT SLIDES** ==> [[Chapter 5]]({{ site.baseurl }}assets/cs431/9781284079050_SLID_CH05.ppt)
 - [relationa_model_operations.py]({{ site.baseurl }}assets/cs431/relationa_model_operations.py)
+
 #### Topics
 - E-R to db tables
 - relational operators (theory)
 - SQL as DDL and DML
+- **Case Study:** A simple cars database
+
+#### CARS: Super Simple Relational DB
+
+A. Use sqlite3 to create a db:
+
+``` sqlite3 car_db.db```
+
+B. Load the tables from external sql file [cars.sql]({{ site.baseurl }}assets/cs431/cars-demo/cars.sql)
+
+```sqlite3> .read cars.sql```
+
+C. Load data from csv *fixtures* [cars.csv]({{ site.baseurl }}assets/cs431/cars-demo/cars.csv) and [makes.csv]({{ site.baseurl }}assets/cs431/cars-demo/makes.csv)
+
+```sqlite3> .separator ","```
+
+```sqlite3> .import makes.csv makes```
+
+```sqlite3> .import cars.csv cars```
+
+#### Now you can try running these queries in the sqlite3 shell.
+
+{% highlight sql %}
+/* Sample sql statements for the cars demo db. Setup the DB before running these.*/
+
+/*SELECT (single table)*/
+select * from cars;
+
+/*SELECT THEN PROJECT (single table)*/
+select cars.year, cars.odom from cars;
+
+/*BINARY PRODUCT JOIN (cartesian product)*/
+select * from cars inner join makes;
+
+/*THETA JOIN (product then select)*/
+select makes.make, cars.year from cars inner join makes;
+
+/*EQUI JOIN or NATURAL JOIN (product then select predicate on col in A == col in B) */
+select cars.year, makes.make from cars inner join makes on makes.pk = cars.make;
+{% endhighlight sql %}
+
 
 ---
 
