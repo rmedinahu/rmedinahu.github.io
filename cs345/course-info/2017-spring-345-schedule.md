@@ -18,13 +18,13 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 
 #### Readings
 - **CHAPTER 4 and 7** ==> DSAP (Data Structures and Algorithms in Python)
-- **Chapter 2** ==> [Problem Solving with Algorithms...](({{ site.baseurl }}assets/cs345/ProblemSolvingwithAlgorithmsandDataStructures-chapter-2.pdf)
+- **Chapter 2** ==> [Problem Solving with Algorithms...]({{ site.baseurl }}assets/cs345/ProblemSolvingwithAlgorithmsandDataStructures-chapter-2.pdf)
 
 #### Topics
 - Recursion review
 - Stack as linked list
 - Queue as linked list
-- Algorithm analysis Read ==> [Problem Solving with Algorithms...](({{ site.baseurl }}assets/cs345/ProblemSolvingwithAlgorithmsandDataStructures-chapter-2.pdf)
+- Algorithm analysis Read ==> [Problem Solving with Algorithms...]({{ site.baseurl }}assets/cs345/ProblemSolvingwithAlgorithmsandDataStructures-chapter-2.pdf)
 - **terms**: 
 
 ---
