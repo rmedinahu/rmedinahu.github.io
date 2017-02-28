@@ -7,7 +7,7 @@ parent_course: 345
 
 [Homework 6: Recursion, Unit Testing, & Classes](/345/hw6)
 
-[Homework 5: Basic Recursion](/345/hw5)
+[Homework 5: Basic Recursion](/345/hw5) **has solution** 
 
 \*  [Homework 4: Python Primer 4: Objects, Files, and Data](/345/hw4) **has solution** 
 
