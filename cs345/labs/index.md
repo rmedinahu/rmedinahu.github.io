@@ -5,6 +5,8 @@ permalink: /345/labs/
 parent_course: 345
 ---
 
+[Lab 07 2017-03-01](/345/lab7/) ==> Recursion III
+
 [Lab 06 2017-02-22](/345/lab6/) ==> Recursion II
 
 [Lab 05 2017-02-15](/345/lab5/) ==> File Systems/Recursion
