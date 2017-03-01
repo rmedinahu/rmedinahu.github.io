@@ -7,7 +7,7 @@ parent_course: 345
 
 [Homework 7: Recursion (again), Unit Testing, & ArrayStack](/345/hw7)
 
-[Homework 6: Recursion, Unit Testing, & Classes](/345/hw6)
+[Homework 6: Recursion, Unit Testing, & Classes](/345/hw6) **has solution** 
 
 [Homework 5: Basic Recursion](/345/hw5) **has solution** 
 
