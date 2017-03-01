@@ -7,6 +7,8 @@ parent_course: 431
 
 
 
+[Homework 5 - Super Simple Database: Enrollment Analytics](/431/hw5) 
+
 [Homework 4 - EE-R Diagramming 2](/431/hw4) **has solution**
 
 \* [Homework 3 - E-R Diagramming 1](/431/hw3) **has solution**

@@ -14,6 +14,8 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 {:.green}
 ### 2017-02-27 Week 7 
 
+> [homework 5 assigned](/431/hw5/)
+
 ### Constructing and Using a Relational DB 
 
 #### Readings
@@ -23,9 +25,8 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 
 #### Topics
 - E-R to db tables
-- relational operators (theory)
-- SQL as DDL and DML
-- **Case Study:** A simple cars database
+- relational operators (theory) ```SET, PROJECT, JOIN (theta, equijoin, natural, left, right, outer)
+- SQL as DDL and DML- **Case Study:** A simple cars database
 
 #### CARS: Super Simple Relational DB
 
