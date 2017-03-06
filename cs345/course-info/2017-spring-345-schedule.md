@@ -7,11 +7,28 @@ parent_course: 345
 
 **Spring 2017 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8)
 
 ---
 
+
 {:.green}
+### 2017-03-06 Week 8 
+
+### Algorithm Analysis 101
+
+#### Readings
+- **Chapter 2** ==> [Problem Solving with Algorithms...]({{ site.baseurl }}assets/cs345/ProblemSolvingwithAlgorithmsandDataStructures-chapter-2.pdf)
+
+#### Topics
+- Algorithm analysis Read ==> [Problem Solving with Algorithms...]({{ site.baseurl }}assets/cs345/ProblemSolvingwithAlgorithmsandDataStructures-chapter-2.pdf)
+- **terms**: 
+
+
+---
+
+
+{:.gray}
 ### 2017-02-27 Week 7 
 
 ### Recursion Review, Linked Lists
