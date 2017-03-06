@@ -19,6 +19,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 
 #### Readings
 - **Chapter 2** ==> [Problem Solving with Algorithms...]({{ site.baseurl }}assets/cs345/ProblemSolvingwithAlgorithmsandDataStructures-chapter-2.pdf)
+- **Online Version** ==> [Problem Solving with Algorithms Online...](http://interactivepython.org/runestone/static/pythonds/index.html)
 
 #### Topics
 - Algorithm analysis Read ==> [Problem Solving with Algorithms...]({{ site.baseurl }}assets/cs345/ProblemSolvingwithAlgorithmsandDataStructures-chapter-2.pdf)
