@@ -21,12 +21,36 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 
 #### Topics
 - requirements gathering
+	- clear
+	- unambiguous
+	- consistent
+	- verifiable
+	- prioritized (must, should, could, won't = MOSCOW method)
 - types of requirements (lists and narratives)
 - FURPS+ (but see textbook template for requirements categories below.)
 - graduate students ==> project planning
 
 
-#### Requirements Document Template
+#### Bare Bones Requirements Template
+
+	TITLE:
+
+	OVERVIEW/DESCRIPTION
+
+	BUSINESS REQUIREMENTS
+
+	USER REQUIREMENTS
+
+	FUNCTIONAL REQUIREMENTS
+
+	NONFUNCTIONAL REQUIREMENTS
+
+	IMPLEMENTATION REQUIREMENTS
+
+	USE CASES:
+
+
+#### FURPS+ Requirements Template (functionality, usability, reliability, performance, scalability)
 
 	TITLE:
 
