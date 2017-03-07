@@ -7,11 +7,56 @@ parent_course: 451
 
 **Spring 2017 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8)
 
 ---
 
 {:.green}
+### 2017-03-07 Week 8 
+
+### Requirements
+
+#### Readings
+- **Chapter 4** ==> BSE
+
+#### Topics
+- requirements gathering
+- types of requirements (lists and narratives)
+- FURPS+ (but see textbook template for requirements categories below.)
+- graduate students ==> project planning
+
+
+#### Requirements Document Template
+
+	TITLE:
+
+	OVERVIEW/DESCRIPTION
+
+	FUNCTIONAL REQUIREMENTS (what the program should do?)
+
+	USABILITY REQUIREMENTS (what the program should look like?)
+
+	RELIABILITY REQUIREMENTS (how reliable the system should be?)
+
+	PERFORMANCE REQUIREMENTS (how efficient should the system be?)
+
+	SUPPORTABILITY REQUIREMENTS (how easy should the be to support?)
+
+	DESIGN REQUIREMENTS (design constraints?)
+
+	IMPLEMENTATION REQUIREMENTS (contraints on the way the software is built)
+
+	INTERFACE REQUIREMENTS (interfaces with other systems?)
+
+	PHYSICAL REQUIREMENTS (hardware requirements?)
+
+
+	USE CASES:
+
+
+---
+
+{:.gray}
 ### 2017-02-28 Week 7 
 
 ### Frameworks & Project Management
