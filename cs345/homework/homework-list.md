@@ -5,11 +5,15 @@ permalink: /345/hw/
 parent_course: 345
 ---
 
+
+
+[Homework 8: Circular Queue as Linked List](/345/hw8)
+
 [Homework 7: Recursion (again), Unit Testing, & ArrayStack](/345/hw7)
 
-[Homework 6: Recursion, Unit Testing, & Classes](/345/hw6) **has solution** 
+\*  [Homework 6: Recursion, Unit Testing, & Classes](/345/hw6) **has solution** 
 
-[Homework 5: Basic Recursion](/345/hw5) **has solution** 
+\*  [Homework 5: Basic Recursion](/345/hw5) **has solution** 
 
 \*  [Homework 4: Python Primer 4: Objects, Files, and Data](/345/hw4) **has solution** 
 

@@ -4,6 +4,9 @@ title: lab sheets
 permalink: /345/labs/
 parent_course: 345
 ---
+Circular Linked Lists
+
+[Lab 08 2017-03-08](/345/lab8/) ==> Circular Linked Lists
 
 [Lab 07 2017-03-01](/345/lab7/) ==> Recursion III
 

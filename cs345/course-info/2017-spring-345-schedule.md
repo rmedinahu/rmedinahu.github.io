@@ -13,7 +13,9 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 
 
 {:.green}
-### 2017-03-06 Week 8 
+### 2017-03-06 Week 8
+
+> [Homework 8 assigned](/345/hw8/)
 
 ### Algorithm Analysis 101
 
@@ -22,8 +24,10 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 - **Online Version** ==> [Problem Solving with Algorithms Online...](http://interactivepython.org/runestone/static/pythonds/index.html)
 
 #### Topics
-- Algorithm analysis Read ==> [Problem Solving with Algorithms...]({{ site.baseurl }}assets/cs345/ProblemSolvingwithAlgorithmsandDataStructures-chapter-2.pdf)
-- **terms**: 
+- Algorithm analysis
+- circular linked lists, circular arrays
+- measuring performance
+
 
 
 ---
@@ -31,6 +35,8 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 
 {:.gray}
 ### 2017-02-27 Week 7 
+
+> [Homework 7 assigned](/345/hw7/)
 
 ### Recursion Review, Linked Lists
 
