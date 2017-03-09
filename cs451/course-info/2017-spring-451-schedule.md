@@ -29,7 +29,30 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 - types of requirements (lists and narratives)
 - FURPS+ (but see textbook template for requirements categories below.)
 - graduate students ==> project planning
+- **case study**: Gathering Requirements in Teams
 
+*For this case study, each person listed under their respective assigned projects below will gather together and devise a list of requirements for the project. The project manager/grad student will lead these discussions. Once requirements are agreed upon, the PM will post these requirements to the requirements document on their respective GitHub repository site (the "wiki"). We will review these requirements as a class.*
+
+##### Team: Message in a Bottle [message-bottle-py](https://github.com/rmedinahu/message-bottle-py)
+*Project Manager*: Luis
+
+*Project Team*: MA, TH, NN, AM
+
+[requirements doc](https://github.com/rmedinahu/message-bottle-py/wiki/Requirements)
+       
+##### Team: Link Smark [link-smark-py](https://github.com/rmedinahu/link-smark-py)
+*Project Manager*: Rosie
+
+*Project Team*: FS, HC, JI
+
+[requirements doc](https://github.com/rmedinahu/link-smark-py/wiki/Requirements)
+
+##### Team: Book Flea [book-flea-py](https://github.com/rmedinahu/book-flea-py)
+*Project Manager*: Shane
+
+*Project Team*: JM, MR, SE, NH
+
+[requirements doc](https://github.com/rmedinahu/book-flea-py/wiki/Requirements)
 
 #### Bare Bones Requirements Template
 
@@ -76,7 +99,6 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 
 
 	USE CASES:
-
 
 ---
 
