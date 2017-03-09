@@ -87,7 +87,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 
 	PERFORMANCE REQUIREMENTS (how efficient should the system be?)
 
-	SUPPORTABILITY REQUIREMENTS (how easy should the be to support?)
+	SUPPORTABILITY REQUIREMENTS (how easy should the system be to support?)
 
 	DESIGN REQUIREMENTS (design constraints?)
 
