@@ -10,8 +10,49 @@ parent_course: 451
 Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8)
 
 ---
-
 {:.green}
+### 2017-03-13 Week 9
+
+> Midterm Exam Thursday 11 - 12:15
+
+### Midterm Review Guide:
+
+- HINT: review the weekly schedule for details and (mainly) chapter 3 and 4 of textbook
+
+#### Git
+- repository: working copy, remote copy
+- branches
+- forks
+- procedures for collaboration (pull and push)
+- conflict resolution (in code!)
+
+#### Testing
+- pytest vs. unittest vs. doctest
+
+#### Application Development
+- requirements files
+- project layouts
+- virtual environments
+- pip
+- understand philosophy of *release early release often*
+- why are prime directives critical to success of open source software?
+- the overarching message in Cathedral and the Bazaar?
+- bugs (finding them or fixing them. which is more difficult?)
+
+#### Documentation
+- pydoc
+
+#### Project Management (chapter 3)
+- pert (program evaluation and review technique) / gantt charts
+- CPM: critical path methods
+
+#### Requirements/Design (chapter 4)
+- purpose of requirements and categories
+- use cases 
+
+---
+
+{:.gray}
 ### 2017-03-07 Week 8 
 
 ### Requirements
@@ -34,21 +75,21 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 *For this case study, each person listed under their respective assigned projects below will gather together and devise a list of requirements for the project. The project manager/grad student will lead these discussions. Once requirements are agreed upon, the PM will post these requirements to the requirements document on their respective GitHub repository site (the "wiki"). We will review these requirements as a class.*
 
 ##### Team: Message in a Bottle [message-bottle-py](https://github.com/rmedinahu/message-bottle-py)
-*Project Manager*: Luis
+*Project Manager*: LG
 
 *Project Team*: MA, TH, NN, AM
 
 [requirements doc](https://github.com/rmedinahu/message-bottle-py/wiki/Requirements)
        
 ##### Team: Link Smark [link-smark-py](https://github.com/rmedinahu/link-smark-py)
-*Project Manager*: Rosie
+*Project Manager*: RV
 
 *Project Team*: FS, HC, JI
 
 [requirements doc](https://github.com/rmedinahu/link-smark-py/wiki/Requirements)
 
 ##### Team: Book Flea [book-flea-py](https://github.com/rmedinahu/book-flea-py)
-*Project Manager*: Shane
+*Project Manager*: SG
 
 *Project Team*: JM, MR, SE, NH
 
