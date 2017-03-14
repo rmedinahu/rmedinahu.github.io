@@ -22,6 +22,8 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 
 #### DSAP Chapter 1 basic python skills
 - loops
+- list comprehensions
+- range function
 - return statements
 - branching
 - exceptions
