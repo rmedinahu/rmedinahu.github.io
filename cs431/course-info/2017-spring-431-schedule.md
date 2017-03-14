@@ -10,8 +10,51 @@ parent_course: 431
 Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8)
 
 ---
-
 {:.green}
+### 2017-03-13 Week 9
+
+> Midterm Exam Wednesday 11:00-12:15
+
+### Midterm Review
+- HINT: *review the homework assignment solutions*
+- HINT: *below are links to the relevant ppt slides for each chapter, review*
+
+#### DBI Chapter 3
+- E-R diagrams
+- entities, attributes, primary keys **3.3**, **3.4**
+- relationships **3.5**
+	- cardinality
+	- attributes
+	- participation constraints.
+	- *(min, max)* ==> cardinality and participation
+- EE-R diagrams
+	- specialization/generalization
+	- why was E-R extended to EE-R?
+- strong vs. weak entities
+- *be able to read an E-R diagram and make interpretations about its structure*
+
+#### DBI Chapter 4
+- Relational Algebra Operators (and examples of applying these operators to sample relations):
+	- SELECT
+	- PROJECT
+	- BINARY PRODUCT
+	- THETA JOIN / EQUIJOIN / NATURAL JOIN
+
+#### DBI Chapter 5
+- choosing a primary key
+- SQL DDL (be able to recognize sql data definition commands from E-R diagrams)
+	- create table
+	- constraints (not null, primary key, foreign key)
+
+- SQL DML (be able to read sql statements and deduce results)
+	- select/project/predicate
+	- join two tables
+	- join three tables
+	- WHERE, ORDER BY statements
+
+---
+
+{:.gray}
 ### 2017-03-06 Week 8
 
 > [homework 6 assigned](/431/hw6/)

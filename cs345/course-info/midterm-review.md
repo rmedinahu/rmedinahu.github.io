@@ -7,64 +7,12 @@ parent_course: 345
 
 **Spring 2017 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8), [9](#week-9)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8)
 
 ---
+
 
 {:.green}
-### 2017-03-13 Week 9
-
-> Midterm Exam Wednesday 12:30-1:45
-
-### Midterm Review Guide:
-- HINT: review the homework assignment [(homework list)](/345/hw/) related to each topic below.
-- HINT: *do the interactive exercises in the online chapter on algorithm analysis*
-
-#### DSAP Chapter 1 basic python skills
-- loops
-- return statements
-- branching
-- exceptions
-- functions (formal arguments, actual parameters)
-- variable scope
-- mutable and immutable data types
-- pass by reference pass by value
-- unit tests in python
-
-#### DSAP Chapter 2 object oriented programming
-- classes
-	- definitions, 
-	- object instantiation, 
-	- class methods, 
-	- constructors,
-	- class attributes
-	- Abstract Data Types
-
-#### DSAP Chapter 4 recursion
-- types (linear, binary, multiple, tail recursion)
-	- **be able to recognize these types in code**
-- understand the trace on p. 170 fig. 4.10
-	- **be able to read and trace recursive code**
-
-#### DSAP Chapter 6 stacks, queues, and deques
-- understand the behavior of stacks and queues implemented as lists (arrays)
-- understand the algorithm efficiency of these ADT's implemented as lists.
-
-#### DSAP Chapter 7 linked lists
-- understand the behavior of stacks and queues implemented as linked lists.
-- understand the algorithm efficiency of stacks and queues implemented as linked lists.
-- understand circular queues and related operations: rotate, enqueue, dequeue
-
-#### Algorithm Analysis: Problem Solving with Algorithms... [pdf]({{ site.baseurl }}assets/cs345/ProblemSolvingwithAlgorithmsandDataStructures-chapter-2.pdf) [interactive](http://interactivepython.org/runestone/static/pythonds/index.html)
-- understand the reason for doing algorithm analysis
-- be able to perform algorithm analysis on short bits of code
-- understand *O()* notation and the difference between the three that we discussed at length (1), (n), (n*n)
-- pay attention to the discussion about efficiency of lists in python (e.g., pop() vs. pop(0))
-- **Do the exercises**
-
----
-
-{:.gray}
 ### 2017-03-06 Week 8
 
 > [Homework 8 assigned](/345/hw8/)
@@ -79,6 +27,8 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 - Algorithm analysis
 - circular linked lists, circular arrays
 - measuring performance
+
+
 
 ---
 
