@@ -17,7 +17,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 > Midterm Exam Wednesday 12:30-1:45
 
 ### Midterm Review Guide:
-- HINT: review the homework assignment [(homework list)](/345/hw/) related to each topic below.
+- HINT: review the homework assignment [homework list](/345/hw/) related to each topic below.
 - HINT: *do the interactive exercises in the online chapter on algorithm analysis*
 
 #### DSAP Chapter 1 basic python skills
