@@ -9,7 +9,7 @@ parent_course: 345
 
 [Homework 8: Circular Queue as Linked List](/345/hw8)
 
-[Homework 7: Recursion (again), Unit Testing, & ArrayStack](/345/hw7)
+[Homework 7: Recursion (again), Unit Testing, & ArrayStack](/345/hw7) **has solution** 
 
 \*  [Homework 6: Recursion, Unit Testing, & Classes](/345/hw6) **has solution** 
 
