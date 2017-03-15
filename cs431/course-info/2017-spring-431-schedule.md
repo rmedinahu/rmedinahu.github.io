@@ -12,7 +12,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 ---
 
 {:.green}
-### 2017-03-13 Week 9
+###2017-03-13 Week 9
 
 > Midterm Exam Wednesday 11:00-12:15
 
@@ -56,7 +56,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 ---
 
 {:.gray}
-### 2017-03-06 Week 8
+###2017-03-06 Week 8
 
 > [homework 6 assigned](/431/hw6/)
 
@@ -72,7 +72,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 ---
 
 {:.gray}
-### 2017-02-27 Week 7 
+###2017-02-27 Week 7 
 
 > [homework 5 assigned](/431/hw5/)
 
@@ -131,7 +131,7 @@ select cars.year, makes.make from cars inner join makes on makes.pk = cars.make;
 ---
 
 {:.gray}
-### 2017-02-20 Week 6 
+###2017-02-20 Week 6 
 
 ### Relational Model
 
@@ -187,7 +187,7 @@ rel = [i for i in sets if i[0] == 'ford' and i[2] == 2017]
 ---
 
 {:.gray}
-### 2017-02-13 Week 5 
+###2017-02-13 Week 5 
 
 ### Database Design/Relational Model: EE-R Modeling
 
@@ -212,7 +212,7 @@ rel = [i for i in sets if i[0] == 'ford' and i[2] == 2017]
 ---
 
 {:.gray}
-### 2017-02-06 Week 4 
+###2017-02-06 Week 4 
 
 ### Database Design: E-R and EE-R Diagrams
 
@@ -239,7 +239,7 @@ rel = [i for i in sets if i[0] == 'ford' and i[2] == 2017]
 ---
 
 {:.gray}
-### 2017-01-30 Week 3 
+###2017-01-30 Week 3 
 
 > [homework 3 assigned](/431/hw3/)
 
@@ -258,7 +258,7 @@ rel = [i for i in sets if i[0] == 'ford' and i[2] == 2017]
 ---
 
 {:.gray}
-### 2017-01-23 Week 2 
+###2017-01-23 Week 2 
 
 > [homework 2 assigned](/431/hw2/)
 
@@ -275,7 +275,7 @@ rel = [i for i in sets if i[0] == 'ford' and i[2] == 2017]
 ---
 
 {:.gray}
-### 2017-01-18 Week 1 
+###2017-01-18 Week 1 
 
 > [homework 1 assigned](/431/hw1/)
 

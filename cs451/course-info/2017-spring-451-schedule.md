@@ -12,7 +12,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 ---
 
 {:.green}
-### 2017-03-13 Week 9
+###2017-03-13 Week 9
 
 > Midterm Exam Thursday 11 - 12:15
 
@@ -54,7 +54,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 ---
 
 {:.gray}
-### 2017-03-07 Week 8 
+###2017-03-07 Week 8 
 
 ### Requirements
 
@@ -145,7 +145,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 ---
 
 {:.gray}
-### 2017-02-28 Week 7 
+###2017-02-28 Week 7 
 
 ### Frameworks & Project Management
 
@@ -162,7 +162,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 ---
 
 {:.gray}
-### 2017-02-21 Week 6 
+###2017-02-21 Week 6 
 
 ### Frameworks & Project Management
 
@@ -211,7 +211,7 @@ def get_random_nickname():
 ---
 
 {:.gray}
-### 2017-02-14 Week 5 
+###2017-02-14 Week 5 
 
 > [Homework 4 assigned](/451/hw4)
 
@@ -309,7 +309,7 @@ def get_random_nickname():
 ---
 
 {:.gray}
-### 2017-02-07 Week 4 
+###2017-02-07 Week 4 
 
 > [Homework 2 assigned](/451/hw2)
 
@@ -353,7 +353,7 @@ development of the system that enable an external developer to understand and en
 ---
 
 {:.gray}
-### 2017-01-31 Week 3 
+###2017-01-31 Week 3 
 
 ### Modern Software Development/Git Preliminaries
 
@@ -413,7 +413,7 @@ if __name__ == "__main__":
 ---
 
 {:.gray}
-### 2017-01-24 Week 2 
+###2017-01-24 Week 2 
 
 ### Philosophy of Open Source Software Development
 
@@ -451,7 +451,7 @@ if __name__ == "__main__":
 ---
 
 {:.gray}
-### 2017-01-19 Week 1 
+###2017-01-19 Week 1 
 
 ### Introduction
 
