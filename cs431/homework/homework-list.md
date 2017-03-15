@@ -5,9 +5,9 @@ permalink: /431/hw/
 parent_course: 431
 ---
 
-[Homework 6 - Super Simple Database: Enrollment Analytics II](/431/hw6) 
+[Homework 6 - Super Simple Database: Enrollment Analytics II](/431/hw6) **has solution**
 
-[Homework 5 - Super Simple Database: Enrollment Analytics](/431/hw5) 
+[Homework 5 - Super Simple Database: Enrollment Analytics](/431/hw5) **has solution**
 
 [Homework 4 - EE-R Diagramming 2](/431/hw4) **has solution**
 
