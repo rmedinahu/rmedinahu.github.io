@@ -7,11 +7,29 @@ parent_course: 451
 
 **Spring 2017 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8), [11](#week-11)
 
 ---
 
 {:.green}
+###2017-03-28 Week 11
+
+### High Level Design: System Architecture
+
+#### Readings
+- **Chapter 5** ==> BSE
+
+#### Topics
+- midterm exam results
+- user/internal/external interfaces
+- architecture(s):
+	- monolithic, client/server, component-based, service-oriented(SOA), data-centric, event-driven, rule-based, distributed
+	- see page 100 for nice summary of these.
+- UML (unified modeling language)
+
+---
+
+{:.gray}
 ###2017-03-13 Week 9
 
 > Midterm Exam Thursday 11 - 12:15
@@ -476,12 +494,12 @@ if __name__ == "__main__":
 ### 2017-03-07 Week 8 ### TBD
 ### 2017-03-14 Week 9 ### Midterm
 ### 2017-03-21 Week 10 ### Spring Break
-### 2017-03-28 Week 11 ### TBD
-### 2017-04-04 Week 12 ### TBD
-### 2017-04-11 Week 13 ### TBD
-### 2017-04-18 Week 14 ### TBD
-### 2017-04-25 Week 15 ### TBD
-### 2017-05-02 Week 16 ### TBD
+### 2017-03-28 Week 11 ### High Level Design/Architecture
+### 2017-04-04 Week 12 ### Low Level Design
+### 2017-04-11 Week 13 ### Implementation/Testing
+### 2017-04-18 Week 14 ### Metrics/maintenance
+### 2017-04-25 Week 15 ### Models
+### 2017-05-02 Week 16 ### Models
 ### 2017-05-09 Week 17 ### Final Exam Week
 
 {% endcomment %}
