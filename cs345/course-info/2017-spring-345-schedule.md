@@ -13,7 +13,6 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 
 {:.green}
 
-[preassess-20170310.py]({{ site.baseurl }}assets/cs345/preassess-20170310.py)
 
 {:.gray}
 ###2017-03-13 Week 9
