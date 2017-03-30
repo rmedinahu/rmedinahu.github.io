@@ -12,7 +12,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 ---
 
 {:.green}
-###2017-03-28 Week 11
+### 2017-03-28 Week 11
 
 ### High Level Design: System Architecture
 
@@ -22,15 +22,98 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 #### Topics
 - midterm exam results
 - user/internal/external interfaces
-- architecture(s):
-	- monolithic, client/server, component-based, service-oriented(SOA), data-centric, event-driven, rule-based, distributed
+- architecture(s): **modularity = concurrent development**
+	- monolithic, _(middleware - e.g., auth services)_,
+	- _component-based_, 
+	- service-oriented(SOA e.g., LDAP), 
+	- data-centric, 
+	- event-driven, 
+	- rule-based, 
+	- distributed
 	- see page 100 for nice summary of these.
-- UML (unified modeling language)
+- databases
+- data flow diagrams
+- UML (unified modeling language) Specifies **STRUCTURE AND BEHAVIOR**
+
+#### Case Study: GroceryGetter Design with Django Web Application Framework
+*A small mobile application that helps users create, read, update, and delete shopping lists. The application keeps track of a collection of items and their respective cost. A user assembles a shopping list by selecting items from the item collection. The application should display the items in a shopping list as well as the total cost of all its items. Users should be able to save shopping lists for reuse with the ability to slighty modify its items. Items can be created, read, updated and deleted from the item collection.* 
+
+##### Requirements
+FUNCTIONAL REQUIREMENTS (what the program should do?)
+
+- store a collection of items
+- create, read, update and delete items with a name and cost.
+- store shopping lists
+- assemble selected items into a shopping list
+- create, read, update and delete shopping lists
+
+USABILITY REQUIREMENTS (what the program should look like?)
+
+- display panel for viewing and selecting items
+- display panel for editing or creating an item
+- display panel for viewing and selecting shopping lists
+- display panel for adding to or removing items from a shopping list
+
+RELIABILITY REQUIREMENTS (how reliable the system should be?)
+
+- application should be available at all times
+
+PERFORMANCE REQUIREMENTS (how efficient should the system be?)
+
+- application should run with minimal delay
+- application should sync with cloud store with minimal delay depending network connection
+
+SUPPORTABILITY REQUIREMENTS (how easy should the system be to support?)
+
+- n/a 
+
+DESIGN REQUIREMENTS (design constraints?)
+
+- small footprint mobile app.
+- small storage system for data.
+
+IMPLEMENTATION REQUIREMENTS (constraints on the way the software is built)
+
+- object oriented implementation
+
+INTERFACE REQUIREMENTS (interfaces with other systems?)
+
+- interfaces with external online cloud storage
+
+PHYSICAL REQUIREMENTS (hardware requirements?)
+
+- deployment for iOS only
+
+
+#### High Level Design
+INTERFACES: External: Cloud storage services; User: iOS 
+
+ARCHITECTURE: Monolithic (w/classes), Component-Based, Event-Driven UI, SOA (cloud storage sync)
+
+DATABASE: barebones : SQLite
+
+CLASSES
+
+- ```item``` ```shopping_list``` ```user```
+
+USE CASES
+
+- *User adds an item*
+- *User creates a shopping list*
+
+ACTIVITY EXAMPLE *creating a shopping list*
+
+1. user creates new shopping list
+2a. user adds item to shopping list
+2b. user removes item from shopping list
+3. user saves shopping list
+4. user views list of shopping lists
+5. user selects/views a shopping list
 
 ---
 
 {:.gray}
-###2017-03-13 Week 9
+### 2017-03-13 Week 9
 
 > Midterm Exam Thursday 11 - 12:15
 
@@ -72,7 +155,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 ---
 
 {:.gray}
-###2017-03-07 Week 8 
+### 2017-03-07 Week 8 
 
 ### Requirements
 
@@ -163,7 +246,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 ---
 
 {:.gray}
-###2017-02-28 Week 7 
+### 2017-02-28 Week 7 
 
 ### Frameworks & Project Management
 
@@ -180,7 +263,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 ---
 
 {:.gray}
-###2017-02-21 Week 6 
+### 2017-02-21 Week 6 
 
 ### Frameworks & Project Management
 
@@ -229,7 +312,7 @@ def get_random_nickname():
 ---
 
 {:.gray}
-###2017-02-14 Week 5 
+### 2017-02-14 Week 5 
 
 > [Homework 4 assigned](/451/hw4)
 
@@ -327,7 +410,7 @@ def get_random_nickname():
 ---
 
 {:.gray}
-###2017-02-07 Week 4 
+### 2017-02-07 Week 4 
 
 > [Homework 2 assigned](/451/hw2)
 
@@ -371,7 +454,7 @@ development of the system that enable an external developer to understand and en
 ---
 
 {:.gray}
-###2017-01-31 Week 3 
+### 2017-01-31 Week 3 
 
 ### Modern Software Development/Git Preliminaries
 
@@ -431,7 +514,7 @@ if __name__ == "__main__":
 ---
 
 {:.gray}
-###2017-01-24 Week 2 
+### 2017-01-24 Week 2 
 
 ### Philosophy of Open Source Software Development
 
@@ -469,7 +552,7 @@ if __name__ == "__main__":
 ---
 
 {:.gray}
-###2017-01-19 Week 1 
+### 2017-01-19 Week 1 
 
 ### Introduction
 
