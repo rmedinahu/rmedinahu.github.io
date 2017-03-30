@@ -96,12 +96,12 @@ CLASSES
 
 - ```item``` ```shopping_list``` ```user```
 
-USE CASES
+USE CASES SKETCH
 
 - *User adds an item*
 - *User creates a shopping list*
 
-ACTIVITY EXAMPLE *creating a shopping list*
+ACTIVITY DIAGRAM SKETCH EXAMPLE *creating a shopping list*
 
 1. user creates new shopping list
 2a. user adds item to shopping list
