@@ -5,6 +5,8 @@ permalink: /451/hw/
 parent_course: 451
 ---
 
+[Exercise 5: Django Tutorial Exercise (no grade)](/451/hw5)
+
 [Homework 4: BabySet2 Testing - Using pytest](/451/hw4)
 
 [Homework 3: BabySet Testing](/451/hw3)
