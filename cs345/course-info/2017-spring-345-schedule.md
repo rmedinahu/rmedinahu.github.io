@@ -7,15 +7,35 @@ parent_course: 345
 
 **Spring 2017 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8), [9](#week-9)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8), [9](#week-9), [11](#week-11), [12](#week-12)
 
 ---
 
 {:.green}
+### 2017-04-03 Week 12
 
+### Trees
+
+#### Readings
+- **CHAPTER 8** ==> DSAP (Data Structures and Algorithms in Python)
+- **Online Resource** ==> [Trees](http://interactivepython.org/runestone/static/pythonds/Trees/toctree.html)
+
+#### Topics
+- tree data structure
+- binary trees
+- tree traversal
+
+---
 
 {:.gray}
-###2017-03-13 Week 9
+### 2017-03-27 Week 11
+
+### Midterm Results Review/Midterm Redux
+
+---
+
+{:.gray}
+### 2017-03-13 Week 9
 
 > Midterm Exam Wednesday 12:30-1:45
 
@@ -70,7 +90,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 ---
 
 {:.gray}
-###2017-03-06 Week 8
+### 2017-03-06 Week 8
 
 > [Homework 8 assigned](/345/hw8/)
 
@@ -89,7 +109,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 
 
 {:.gray}
-###2017-02-27 Week 7 
+### 2017-02-27 Week 7 
 
 > [Homework 7 assigned](/345/hw7/)
 
@@ -109,7 +129,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 ---
 
 {:.gray}
-###2017-02-20 Week 6 
+### 2017-02-20 Week 6 
 
 > [Homework 6 assigned](/345/hw6/)
 
@@ -130,7 +150,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 ---
 
 {:.gray}
-###2017-02-13 Week 5 
+### 2017-02-13 Week 5 
 
 > [Homework 5 assigned](/345/hw5/)
 
@@ -149,7 +169,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 ---
 
 {:.gray}
-###2017-02-06 Week 4 
+### 2017-02-06 Week 4 
 
 > [Homework 4 assigned](/345/hw4/)
 
@@ -166,7 +186,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 ---
 
 {:.gray}
-###2017-01-30 Week 3 
+### 2017-01-30 Week 3 
 
 > [Homework 3 assigned](/345/hw3/)
 
@@ -184,7 +204,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 ---
 
 {:.gray}
-###2017-01-23 Week 2 
+### 2017-01-23 Week 2 
 
 #### Readings
 - **CHAPTER 1** ==> DSAP (Data Structures and Algorithms in Python)
@@ -216,7 +236,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 ---
 
 {:.gray}
-###2017-01-18 Week 1 
+### 2017-01-18 Week 1 
 
 #### Readings
 - DSAP (Data Structures and Algorithms in Python) ==> CHAPTER 1
