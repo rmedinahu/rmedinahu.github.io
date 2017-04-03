@@ -23,7 +23,35 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 - Advanced queries: nested select, aggregation, views, left and right outer joins
 - MySQL
 
-[enroll-db-demo.zip]({{ site.baseurl }}assets/cs431/enroll-db-demo.zip)
+
+{% highlight sql %}
+drop view course_history_view;
+drop view enroll_avg_view;
+
+-- groups courses by semester then title, shows total enrollment of aggregation
+select sum(schedules.actual_enroll) as enroll_count, semesters.title, semesters.code as sem, courses.level, courses.title as crs_title
+from schedules, courses, semesters
+on schedules.course_pk = courses.pk and schedules.semester_pk = semesters.pk
+-- where courses.title like "%machine learning%"
+group by semesters.code, courses.title
+order by semesters.code;
+
+-- above query as a view
+create view if not exists course_history_view as
+    select sum(schedules.actual_enroll) as enroll_count, semesters.title, semesters.code as sem, courses.level, courses.title as crs_title
+    from schedules, courses, semesters
+    on schedules.course_pk = courses.pk and schedules.semester_pk = semesters.pk
+    -- where courses.title like "%machine learning%"
+    group by semesters.code, courses.title
+    order by semesters.code;
+
+-- calculates average enrollment by course in entire db
+create view if not exists enroll_avg_view as
+    select avg(enroll_count) as a, crs_title
+    from course_history_view
+    group by crs_title
+    order by a;
+{% endhighlight sql %}
 
 ---
 
