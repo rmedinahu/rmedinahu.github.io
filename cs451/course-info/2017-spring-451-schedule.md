@@ -20,7 +20,12 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 
 #### Topics
 - UML (unified modeling language) Specifies **STRUCTURE AND BEHAVIOR**
+- use case diagrams
+- class diagrams
+- web application framework (models, views, templates, controllers)
 
+#### Case Study: (Part 2) GroceryGetter Design with Django Web Application Framework
+- [grocery-dev-py project](https://github.com/rmedinahu/grocery-dev-py.git)
 
 {:.gray}
 ### 2017-03-28 Week 11
