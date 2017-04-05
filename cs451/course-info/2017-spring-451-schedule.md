@@ -7,11 +7,27 @@ parent_course: 451
 
 **Spring 2017 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8), [11](#week-11)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8), [9](#week-9), [11](#week-11), [12](#week-12)
 
 ---
-
 {:.green}
+### 2017-04-04 Week 12
+
+### High Level Design
+
+#### Readings
+- **Chapter 5** ==> BSE
+
+#### Topics
+- UML (unified modeling language) Specifies **STRUCTURE AND BEHAVIOR**
+- use case diagrams
+- class diagrams
+- web application framework (models, views, templates, controllers)
+
+#### Case Study: (Part 2) GroceryGetter Design with Django Web Application Framework
+- [grocery-dev-py project](https://github.com/rmedinahu/grocery-dev-py.git)
+
+{:.gray}
 ### 2017-03-28 Week 11
 
 ### High Level Design: System Architecture
