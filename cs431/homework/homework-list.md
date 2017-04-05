@@ -5,6 +5,8 @@ permalink: /431/hw/
 parent_course: 431
 ---
 
+[Homework 7 - MySQL Database: Activity Analytics I](/431/hw7)
+
 \* [Homework 6 - Super Simple Database: Enrollment Analytics II](/431/hw6) **has solution**
 
 \* [Homework 5 - Super Simple Database: Enrollment Analytics](/431/hw5) **has solution**

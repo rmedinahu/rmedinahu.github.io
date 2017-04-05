@@ -19,11 +19,19 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 #### Readings
 - **Chapter 5** ==> (DBI) Databases Illuminated
 
-#### Topics
-- Advanced queries: nested select, aggregation, views, left and right outer joins
-- MySQL
+- [MySQL Docs](https://dev.mysql.com/doc/refman/5.7/en/)
+- [MySQL sql functions](https://dev.mysql.com/doc/refman/5.7/en/functions.html)
+- [MySQL shell commands](https://dev.mysql.com/doc/refman/5.7/en/mysql-batch-commands.html)
+- [MySQL external import](https://dev.mysql.com/doc/refman/5.7/en/mysqlimport.html)
 
-[enroll-db-demo.zip]({{ site.baseurl }}assets/cs431/enroll-db-demo.zip)
+
+#### Topics
+- Advanced queries: nested select, aggregation, views, functions
+- MySQL 
+
+#### Case Study: MySQL Tracking User Logins
+
+[tracked_users_data.sql]({{ site.baseurl }}assets/cs431/tracked_users_data.sql)
 
 ---
 
