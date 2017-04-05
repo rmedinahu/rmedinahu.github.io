@@ -14,11 +14,16 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 {:.green}
 ### 2017-04-03 Week 12
 
+> [Homework 9 assigned](/345/hw9/)
+
 ### Trees
 
 #### Readings
 - **CHAPTER 8** ==> DSAP (Data Structures and Algorithms in Python)
 - **Online Resource** ==> [Trees](http://interactivepython.org/runestone/static/pythonds/Trees/toctree.html)
+
+- [generators? lazy evaluation?](http://intermediatepythonista.com/python-generators)
+- [more on generators](http://anandology.com/python-practice-book/iterators.html)
 
 #### Topics
 - tree data structure

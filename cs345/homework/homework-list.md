@@ -6,6 +6,7 @@ parent_course: 345
 ---
 
 
+[Homework 9: Benchmarking Iteration](/345/hw9)
 
 \*  [Homework 8: Circular Queue as Linked List](/345/hw8)
 
