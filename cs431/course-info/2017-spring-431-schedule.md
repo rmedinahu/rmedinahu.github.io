@@ -12,7 +12,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 ---
 
 {:.green}
-### 2017-04-03 Week 12
+## 2017-04-03 Week 12
 
 > [homework 7 assigned](/431/hw7/)
 
@@ -37,6 +37,8 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 
 [tracked_users_data.sql]({{ site.baseurl }}assets/cs431/tracked_users_data.sql)
 
+#### Sample SQL using nested queries and views:
+**using db in [enroll-db-demo.zip]({{ site.baseurl }}assets/cs431/enroll-db-demo.zip)**
 
 {% highlight sql %}
 drop view course_history_view;
@@ -71,7 +73,7 @@ create view if not exists enroll_avg_view as
 ---
 
 {:.gray}
-### 2017-03-27 Week 11
+## 2017-03-27 Week 11
 
 ### SQL
 
@@ -86,7 +88,7 @@ create view if not exists enroll_avg_view as
 ---
 
 {:.gray}
-### 2017-03-13 Week 9
+## 2017-03-13 Week 9
 
 > Midterm Exam Wednesday 11:00-12:15
 
@@ -130,7 +132,7 @@ create view if not exists enroll_avg_view as
 ---
 
 {:.gray}
-### 2017-03-06 Week 8
+## 2017-03-06 Week 8
 
 > [homework 6 assigned](/431/hw6/)
 
@@ -146,7 +148,7 @@ create view if not exists enroll_avg_view as
 ---
 
 {:.gray}
-### 2017-02-27 Week 7 
+## 2017-02-27 Week 7 
 
 > [homework 5 assigned](/431/hw5/)
 
@@ -205,7 +207,7 @@ select cars.year, makes.make from cars inner join makes on makes.pk = cars.make;
 ---
 
 {:.gray}
-### 2017-02-20 Week 6 
+## 2017-02-20 Week 6 
 
 ### Relational Model
 
@@ -261,7 +263,7 @@ rel = [i for i in sets if i[0] == 'ford' and i[2] == 2017]
 ---
 
 {:.gray}
-### 2017-02-13 Week 5 
+## 2017-02-13 Week 5 
 
 ### Database Design/Relational Model: EE-R Modeling
 
@@ -286,7 +288,7 @@ rel = [i for i in sets if i[0] == 'ford' and i[2] == 2017]
 ---
 
 {:.gray}
-### 2017-02-06 Week 4 
+## 2017-02-06 Week 4 
 
 ### Database Design: E-R and EE-R Diagrams
 
@@ -313,7 +315,7 @@ rel = [i for i in sets if i[0] == 'ford' and i[2] == 2017]
 ---
 
 {:.gray}
-### 2017-01-30 Week 3 
+## 2017-01-30 Week 3 
 
 > [homework 3 assigned](/431/hw3/)
 
@@ -332,7 +334,7 @@ rel = [i for i in sets if i[0] == 'ford' and i[2] == 2017]
 ---
 
 {:.gray}
-### 2017-01-23 Week 2 
+## 2017-01-23 Week 2 
 
 > [homework 2 assigned](/431/hw2/)
 
@@ -349,7 +351,7 @@ rel = [i for i in sets if i[0] == 'ford' and i[2] == 2017]
 ---
 
 {:.gray}
-### 2017-01-18 Week 1 
+## 2017-01-18 Week 1 
 
 > [homework 1 assigned](/431/hw1/)
 
@@ -365,23 +367,23 @@ rel = [i for i in sets if i[0] == 'ford' and i[2] == 2017]
 ---
 
 {% comment %}
-### 2017-01-18 Week 1 ### Introduction
-### 2017-01-23 Week 2 ### Relational DB/Applications
-### 2017-01-30 Week 3 ### Database Architecture Foundations and Design
-### 2017-02-06 Week 4 ### Database Design: E-R and EE-R Diagrams
-### 2017-02-13 Week 5 ### Database Design/Relational Model: EE-R Modeling
-### 2017-02-20 Week 6 ### Relational Model
-### 2017-02-27 Week 7 ### Relational Model
-### 2017-03-06 Week 8 ### TBD
-### 2017-03-13 Week 9 ### Midterm
-### 2017-03-20 Week 10 ### Spring Break
-### 2017-03-27 Week 11 ### TBD
-### 2017-04-03 Week 12 ### TBD
-### 2017-04-10 Week 13 ### TBD
-### 2017-04-17 Week 14 ### TBD
-### 2017-04-24 Week 15 ### TBD
-### 2017-05-01 Week 16 ### TBD
-### 2017-05-08 Week 17 ### Final Exam Week
+## 2017-01-18 Week 1 ### Introduction
+## 2017-01-23 Week 2 ### Relational DB/Applications
+## 2017-01-30 Week 3 ### Database Architecture Foundations and Design
+## 2017-02-06 Week 4 ### Database Design: E-R and EE-R Diagrams
+## 2017-02-13 Week 5 ### Database Design/Relational Model: EE-R Modeling
+## 2017-02-20 Week 6 ### Relational Model
+## 2017-02-27 Week 7 ### Relational Model
+## 2017-03-06 Week 8 ### TBD
+## 2017-03-13 Week 9 ### Midterm
+## 2017-03-20 Week 10 ### Spring Break
+## 2017-03-27 Week 11 ### TBD
+## 2017-04-03 Week 12 ### TBD
+## 2017-04-10 Week 13 ### TBD
+## 2017-04-17 Week 14 ### TBD
+## 2017-04-24 Week 15 ### TBD
+## 2017-05-01 Week 16 ### TBD
+## 2017-05-08 Week 17 ### Final Exam Week
 
 {% endcomment %}
 

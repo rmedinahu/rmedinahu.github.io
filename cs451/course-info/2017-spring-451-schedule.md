@@ -10,8 +10,9 @@ parent_course: 451
 Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8), [9](#week-9), [11](#week-11), [12](#week-12)
 
 ---
+
 {:.green}
-### 2017-04-04 Week 12
+## 2017-04-04 Week 12
 
 ### High Level Design
 
@@ -25,10 +26,13 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 - web application framework (models, views, templates, controllers)
 
 #### Case Study: (Part 2) GroceryGetter Design with Django Web Application Framework
-- [grocery-dev-py project](https://github.com/rmedinahu/grocery-dev-py.git)
+- **clone url:** [https://github.com/rmedinahu/grocery-dev-py.git](https://github.com/rmedinahu/grocery-dev-py.git)
+- querysets, template variables, urls
+
+---
 
 {:.gray}
-### 2017-03-28 Week 11
+## 2017-03-28 Week 11
 
 ### High Level Design: System Architecture
 
@@ -129,7 +133,7 @@ ACTIVITY DIAGRAM SKETCH EXAMPLE *creating a shopping list*
 ---
 
 {:.gray}
-### 2017-03-13 Week 9
+## 2017-03-13 Week 9
 
 > Midterm Exam Thursday 11 - 12:15
 
@@ -171,7 +175,7 @@ ACTIVITY DIAGRAM SKETCH EXAMPLE *creating a shopping list*
 ---
 
 {:.gray}
-### 2017-03-07 Week 8 
+## 2017-03-07 Week 8 
 
 ### Requirements
 
@@ -262,7 +266,7 @@ ACTIVITY DIAGRAM SKETCH EXAMPLE *creating a shopping list*
 ---
 
 {:.gray}
-### 2017-02-28 Week 7 
+## 2017-02-28 Week 7 
 
 ### Frameworks & Project Management
 
@@ -279,7 +283,7 @@ ACTIVITY DIAGRAM SKETCH EXAMPLE *creating a shopping list*
 ---
 
 {:.gray}
-### 2017-02-21 Week 6 
+## 2017-02-21 Week 6 
 
 ### Frameworks & Project Management
 
@@ -328,7 +332,7 @@ def get_random_nickname():
 ---
 
 {:.gray}
-### 2017-02-14 Week 5 
+## 2017-02-14 Week 5 
 
 > [Homework 4 assigned](/451/hw4)
 
@@ -426,7 +430,7 @@ def get_random_nickname():
 ---
 
 {:.gray}
-### 2017-02-07 Week 4 
+## 2017-02-07 Week 4 
 
 > [Homework 2 assigned](/451/hw2)
 
@@ -470,7 +474,7 @@ development of the system that enable an external developer to understand and en
 ---
 
 {:.gray}
-### 2017-01-31 Week 3 
+## 2017-01-31 Week 3 
 
 ### Modern Software Development/Git Preliminaries
 
@@ -530,7 +534,7 @@ if __name__ == "__main__":
 ---
 
 {:.gray}
-### 2017-01-24 Week 2 
+## 2017-01-24 Week 2 
 
 ### Philosophy of Open Source Software Development
 
@@ -568,7 +572,7 @@ if __name__ == "__main__":
 ---
 
 {:.gray}
-### 2017-01-19 Week 1 
+## 2017-01-19 Week 1 
 
 ### Introduction
 
@@ -583,23 +587,23 @@ if __name__ == "__main__":
 
 {% comment %}
 
-### 2017-01-19 Week 1 ### Introduction
-### 2017-01-24 Week 2 ### Philosophy of Open Source Software Development
-### 2017-01-31 Week 3 ### Modern Software Development/Git Preliminaries
-### 2017-02-07 Week 4 ### Overview of Modern Software Development Components
-### 2017-02-14 Week 5 ### Basic Documentation/Testing 
-### 2017-02-21 Week 6 ### Framework(ing) and Project Management
-### 2017-02-28 Week 7 ### Project Management
-### 2017-03-07 Week 8 ### TBD
-### 2017-03-14 Week 9 ### Midterm
-### 2017-03-21 Week 10 ### Spring Break
-### 2017-03-28 Week 11 ### High Level Design/Architecture
-### 2017-04-04 Week 12 ### Low Level Design
-### 2017-04-11 Week 13 ### Implementation/Testing
-### 2017-04-18 Week 14 ### Metrics/maintenance
-### 2017-04-25 Week 15 ### Models
-### 2017-05-02 Week 16 ### Models
-### 2017-05-09 Week 17 ### Final Exam Week
+## 2017-01-19 Week 1 ### Introduction
+## 2017-01-24 Week 2 ### Philosophy of Open Source Software Development
+## 2017-01-31 Week 3 ### Modern Software Development/Git Preliminaries
+## 2017-02-07 Week 4 ### Overview of Modern Software Development Components
+## 2017-02-14 Week 5 ### Basic Documentation/Testing 
+## 2017-02-21 Week 6 ### Framework(ing) and Project Management
+## 2017-02-28 Week 7 ### Project Management
+## 2017-03-07 Week 8 ### TBD
+## 2017-03-14 Week 9 ### Midterm
+## 2017-03-21 Week 10 ### Spring Break
+## 2017-03-28 Week 11 ### High Level Design/Architecture
+## 2017-04-04 Week 12 ### Low Level Design
+## 2017-04-11 Week 13 ### Implementation/Testing
+## 2017-04-18 Week 14 ### Metrics/maintenance
+## 2017-04-25 Week 15 ### Models
+## 2017-05-02 Week 16 ### Models
+## 2017-05-09 Week 17 ### Final Exam Week
 
 {% endcomment %}
 
