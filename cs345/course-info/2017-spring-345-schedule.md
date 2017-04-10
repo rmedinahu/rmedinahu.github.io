@@ -7,11 +7,108 @@ parent_course: 345
 
 **Spring 2017 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8), [9](#week-9), [11](#week-11), [12](#week-12)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8), [9](#week-9), [11](#week-11), [12](#week-12), [13](#week-13)
 
 ---
 
 {:.green}
+### 2017-04-10 Week 13
+
+### Trees
+
+#### Readings
+- **CHAPTER 8** ==> DSAP (Data Structures and Algorithms in Python)
+- **Online Resource** ==> [Trees](http://interactivepython.org/runestone/static/pythonds/Trees/toctree.html)
+
+
+#### Topics
+- binary trees
+- tree traversal
+
+{% highlight python %}
+class BinaryTree:
+    def __init__(self,rootObj):
+        self.key = rootObj
+        self.leftChild = None
+        self.rightChild = None
+
+    def insertLeft(self,newNode):
+        if self.leftChild == None:
+            self.leftChild = BinaryTree(newNode)
+        else:
+            t = BinaryTree(newNode)
+            t.leftChild = self.leftChild
+            self.leftChild = t
+
+    def insertRight(self,newNode):
+        if self.rightChild == None:
+            self.rightChild = BinaryTree(newNode)
+        else:
+            t = BinaryTree(newNode)
+            t.rightChild = self.rightChild
+            self.rightChild = t
+
+    def getRightChild(self):
+        return self.rightChild
+
+    def getLeftChild(self):
+        return self.leftChild
+
+    def setRootVal(self,obj):
+        self.key = obj
+
+    def getRootVal(self):
+        return self.key
+
+    def preorder(self):
+        print(self.key)
+        if self.leftChild:
+            self.leftChild.preorder()
+        if self.rightChild:
+            self.rightChild.preorder()
+
+    def inorder(self):
+        
+        if self.leftChild:
+            self.leftChild.inorder()
+        print(self.key)
+        if self.rightChild:
+            self.rightChild.inorder()
+
+    def postorder(self):
+        if self.leftChild:
+            self.leftChild.postorder()
+        if self.rightChild:
+            self.rightChild.postorder()
+        print(self.key)
+
+
+
+r = BinaryTree('a')
+r.insertLeft('b')
+r.insertRight('c')
+r1 = r.getLeftChild()
+r1.insertLeft('e')
+r1.insertRight('f')
+r1 = r.getRightChild()
+r1.insertLeft('g')
+r1.insertRight('h')
+
+
+r.preorder()
+print '**********'
+r.inorder()
+print '**********'
+r.postorder()
+
+
+{% endhighlight python %}
+
+
+
+---
+
+{:.gray}
 ### 2017-04-03 Week 12
 
 > [Homework 9 assigned](/345/hw9/)
