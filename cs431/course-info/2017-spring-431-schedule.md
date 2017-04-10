@@ -7,11 +7,25 @@ parent_course: 431
 
 **Spring 2017 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8), [9](#week-9), [11](#week-11), [12](#week-12)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8), [9](#week-9), [11](#week-11), [12](#week-12), [13](#week-13)
 
 ---
 
 {:.green}
+## 2017-04-10 Week 13
+
+### SQL w/MySQL
+
+#### Readings
+- **Chapter 5** ==> (DBI) Databases Illuminated
+
+#### Topics
+- Advanced queries: nested select, aggregation, views, functions
+- MySQL 
+
+---
+
+{:.gray}
 ## 2017-04-03 Week 12
 
 > [homework 7 assigned](/431/hw7/)
