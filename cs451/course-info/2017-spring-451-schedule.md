@@ -7,11 +7,49 @@ parent_course: 451
 
 **Spring 2017 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8), [9](#week-9), [11](#week-11), [12](#week-12)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8), [9](#week-9), [11](#week-11), [12](#week-12), [13](#week-13)
 
 ---
 
 {:.green}
+## 2017-04-11 Week 13
+
+### Low Level Design/Start Projects
+
+#### Readings
+- **Chapter 6** ==> BSE
+
+#### Topics
+- web application framework (models, views, templates, controllers)
+
+#### Case Study: (Part 3) GroceryGetter Programming with Django Web Application Framework
+- **clone url ==> ** [https://github.com/rmedinahu/grocery-dev-py.git](https://github.com/rmedinahu/grocery-dev-py.git)
+- Django concepts: ```querysets```, ```template variables```, ```urls```, ```forms```
+- Django generic views (class based views):
+	- ```TemplateView```, ```ListView```, ```DetailView```, ```CreateView```, ```UpdateView```
+	- SEE [Classy Based Views](https://ccbv.co.uk/) for very easy way to see what's inside class based views in django.
+- CreateView ==> Use to make new objects of some type. 
+- DetailView ==> Use to view properties of an object of some type. **requires a pk**
+- UpdateView ==> Use to modify properties of an object of some type. **requires a pk**
+- ListView ==> Use to show a list of objects of some type. 
+- TemplateView ==> Use to manage a page without a connection to model.
+
+#### Simple Sample Procedure for Adding Functionality to Web App:
+1. Determine functionality needed - think - "page"
+
+2. Create the view using one of the class based views noted above.
+
+3. Create html (template) for page.
+
+4. Devise url pattern for the page then point it to view.
+
+5. Test your url.
+
+6. Rinse and repeat.
+
+---
+
+{:.gray}
 ## 2017-04-04 Week 12
 
 ### High Level Design
