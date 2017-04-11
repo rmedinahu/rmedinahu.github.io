@@ -23,6 +23,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 - web application framework (models, views, templates, controllers)
 
 #### Case Study: (Part 3) GroceryGetter Programming with Django Web Application Framework
+-  the following project can be cloned and used as reference for many aspects of django development.
 - **clone url ==> ** [https://github.com/rmedinahu/grocery-dev-py.git](https://github.com/rmedinahu/grocery-dev-py.git)
 - Django concepts: ```querysets```, ```template variables```, ```urls```, ```forms```
 - Django generic views (class based views):
@@ -39,9 +40,9 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 
 2. Create the view using one of the class based views noted above.
 
-3. Create html (template) for page.
+3. Create html (template) for page then assign file name to view.
 
-4. Devise url pattern for the page then point it to view.
+4. Devise url pattern then point it to view.
 
 5. Test your url.
 
