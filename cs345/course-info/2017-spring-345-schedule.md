@@ -14,6 +14,8 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 {:.green}
 ### 2017-04-10 Week 13
 
+> [Homework 10 assigned](/345/hw10/)
+
 ### Trees
 
 #### Readings

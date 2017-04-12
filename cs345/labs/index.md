@@ -4,8 +4,9 @@ title: lab sheets
 permalink: /345/labs/
 parent_course: 345
 ---
+[Lab 10 2017-04-12](/345/lab10/) ==> Max Heap Priority Queue
 
-[Lab 09 2017-04-05](/345/hw9/) ==> Benchmarking Iteration
+[Lab 09 2017-04-05](/345/lab9/) ==> Benchmarking Iteration
 
 [Lab 08 2017-03-08](/345/lab8/) ==> Circular Linked Lists
 

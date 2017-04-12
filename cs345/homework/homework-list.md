@@ -5,6 +5,7 @@ permalink: /345/hw/
 parent_course: 345
 ---
 
+[Homework 10: Max Heap Priority Queue](/345/hw10)
 
 [Homework 9: Benchmarking Iteration](/345/hw9)
 
