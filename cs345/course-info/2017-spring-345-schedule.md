@@ -7,11 +7,27 @@ parent_course: 345
 
 **Spring 2017 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8), [9](#week-9), [11](#week-11), [12](#week-12), [13](#week-13)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8), [9](#week-9), [11](#week-11), [12](#week-12), [13](#week-13), [14](#week-14)
 
 ---
 
 {:.green}
+### 2017-04-17 Week 14
+
+### Trees
+
+#### Readings
+- **CHAPTER 8** ==> DSAP (Data Structures and Algorithms in Python)
+- **Online Resource** ==> [Trees](http://interactivepython.org/runestone/static/pythonds/Trees/toctree.html)
+
+
+#### Topics
+- binary trees
+- tree traversal
+
+---
+
+{:.gray}
 ### 2017-04-10 Week 13
 
 > [Homework 10 assigned](/345/hw10/)
