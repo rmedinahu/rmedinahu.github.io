@@ -19,10 +19,54 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 #### Readings
 - **Chapter 6** ==> (DBI) Databases Illuminated
 
+
 #### Topics
 - outer joins
 - database design - normalization
 - MySQL 
+
+#### Case Study: Outer Joins
+- SQL to build and populate a small database: [enroll-analytics-small.sql]({{ site.baseurl }}assets/cs431/enroll-analytics-small.sql)
+
+- Example queries using outer joins **(updated after corrections at 3:15pm apr 17)**:
+
+{% highlight sql %}
+-- enrollment analytics small 
+
+-- a simple natural join of schedules and courses
+create or replace view natural_join_view as
+    select schedules.semester_pk as semester_schedule, courses.title as course
+    from schedules left join courses
+    on schedules.course_pk = courses.pk;
+
+-- a left outer join (keep the left table rows and show unmatched rows in right table)
+-- shows all semesters that do not have scheduled classes...ever. Should NOT have nulls
+-- because there are no unmatched semester pks in the schedule table (all 10 schedule records
+-- are associated with a semester record).
+create or replace view left_outer_view as
+    select schedules.semester_pk as semester_schedule, semesters.title as semester
+    from schedules left outer join semesters
+    on schedules.semester_pk = semesters.pk;
+
+-- a right outer join (keep the right table rows and show unmatched rows in left table)
+-- shows all semesters that have AND do not have an association with schedule table. Should
+-- show those semesters that don't have a matching reference in the schedule table (they are null)
+-- as well as those that DO HAVE a matching reference.
+create or replace view right_outer_view as
+    select schedules.semester_pk as semester_schedule, semesters.title as semester
+    from schedules right outer join semesters
+    on schedules.semester_pk = semesters.pk
+    order by semester_schedule;
+
+
+-- a right outer join (keep the right table rows and show unmatched rows in left table)
+-- shows which courses that have and do not have a reference from the schedule table. 
+-- Indicates which courses that do not appear in the schedule table
+create or replace view untaught_courses_view as
+    select schedules.course_pk as scheduled_course, courses.title
+    from schedules right outer join courses
+    on schedules.course_pk = courses.pk;
+{% endhighlight sql %}
 
 ---
 
@@ -34,42 +78,10 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 #### Readings
 - **Chapter 5** ==> (DBI) Databases Illuminated
 
-[enroll-analytics-small.sql]({{ site.baseurl }}assets/cs431/enroll-analytics-small.sql)
 
 #### Topics
 - Advanced queries: nested select, aggregation, views, functions
 - MySQL 
-
-
-#### Outer Join Example:
-
-{% highlight sql %}
-create or replace view natural_join_view as
-    select schedules.semester_pk, courses.title
-    from schedules left join courses
-    on schedules.course_pk = courses.pk;
-
---  a right outer join (keep the right rows and show unmatched rows in left)
--- shows all semesters that do not have classes in them
-create or replace view right_outer_view as
-    select schedules.semester_pk, semesters.title
-    from schedules right outer join semesters
-    on schedules.course_pk = semesters.pk
-    where schedules.semester_pk is NULL;
-
--- a left outer join (keep the left rows and show unmatched rows in right)
-create or replace view left_outer_view as
-    select semesters.title, schedules.semester_pk
-    from semesters left outer join schedules
-    on schedules.course_pk = semesters.pk;
-
--- a right outer join (keep the right rows and show unmatched rows in left)
-create or replace view untaught_courses_view as
-    select schedules.semester_pk, courses.title
-    from schedules right outer join courses 
-    on schedules.course_pk = courses.pk
-
-{% endhighlight sql %}
 
 ---
 

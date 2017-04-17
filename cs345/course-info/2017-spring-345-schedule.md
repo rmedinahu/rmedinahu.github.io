@@ -22,15 +22,48 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 
 
 #### Topics
-- binary trees
-- tree traversal
+- binary trees review
+- binary tree traversal ```preorder``` ```inorder``` ```postorder```
 
-#### Binary Tree Sample Traversal
+#### Custome Iterator for a Class Example:
 
 
 {% highlight python %}
+
+class DataSet:
+    """A simple demonstration for adding an ITERATOR to a class."""
+
+    def __init__(self, data=[]):
+        self.data = data
+
+    def __iter__(self):  # Set up the iterator cursor
+        self.curr = 0
+        return self
+
+    def next(self):  # method called accessed in for loop.
+        if self.curr >= len(self.data):
+            raise StopIteration
+
+        i = self.curr
+        self.curr += 1
+        return self.data[i]
+
+if __name__ == '__main__':
+    d = DataSet([2, 3, 5, 7, 8])
+    for i in d:  # This is made possible because of __iter__ and next() functions in the DataSet class
+        print i
+
+{% endhighlight python %}
+
+
+
+#### Binary Tree Sample Traversal
+
+{% highlight python %}
 """
-A BinaryTree class implemented with node/reference technique
+A BinaryTree class implemented with node/reference technique.
+
+Illustrates 3 types of tree traversal.
 """
 
 class BinaryTree:
@@ -118,10 +151,6 @@ if __name__ == '__main__':
     root.inorder()
     print '\nPost Order ==>\t ',
     root.postorder()
-
-
-
-
 {% endhighlight python %}
 
 
@@ -140,89 +169,8 @@ if __name__ == '__main__':
 
 
 #### Topics
+- priority queues with min and max heaps
 - binary trees
-- tree traversal
-
-{% highlight python %}
-class BinaryTree:
-    def __init__(self,rootObj):
-        self.key = rootObj
-        self.leftChild = None
-        self.rightChild = None
-
-    def insertLeft(self,newNode):
-        if self.leftChild == None:
-            self.leftChild = BinaryTree(newNode)
-        else:
-            t = BinaryTree(newNode)
-            t.leftChild = self.leftChild
-            self.leftChild = t
-
-    def insertRight(self,newNode):
-        if self.rightChild == None:
-            self.rightChild = BinaryTree(newNode)
-        else:
-            t = BinaryTree(newNode)
-            t.rightChild = self.rightChild
-            self.rightChild = t
-
-    def getRightChild(self):
-        return self.rightChild
-
-    def getLeftChild(self):
-        return self.leftChild
-
-    def setRootVal(self,obj):
-        self.key = obj
-
-    def getRootVal(self):
-        return self.key
-
-    def preorder(self):
-        print(self.key)
-        if self.leftChild:
-            self.leftChild.preorder()
-        if self.rightChild:
-            self.rightChild.preorder()
-
-    def inorder(self):
-        
-        if self.leftChild:
-            self.leftChild.inorder()
-        print(self.key)
-        if self.rightChild:
-            self.rightChild.inorder()
-
-    def postorder(self):
-        if self.leftChild:
-            self.leftChild.postorder()
-        if self.rightChild:
-            self.rightChild.postorder()
-        print(self.key)
-
-
-
-r = BinaryTree('a')
-r.insertLeft('b')
-r.insertRight('c')
-r1 = r.getLeftChild()
-r1.insertLeft('e')
-r1.insertRight('f')
-r1 = r.getRightChild()
-r1.insertLeft('g')
-r1.insertRight('h')
-
-
-r.preorder()
-print '**********'
-r.inorder()
-print '**********'
-r.postorder()
-
-
-{% endhighlight python %}
-
-
 
 ---
 
