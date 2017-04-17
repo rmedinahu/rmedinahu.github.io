@@ -25,6 +25,106 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 - binary trees
 - tree traversal
 
+#### Binary Tree Sample Traversal
+
+
+{% highlight python %}
+"""
+A BinaryTree class implemented with node/reference technique
+"""
+
+class BinaryTree:
+    
+    def __init__(self,rootObj):
+        self.key = rootObj
+        self.leftChild = None
+        self.rightChild = None
+
+    def insertLeft(self,newNode):
+        if self.leftChild == None:
+            self.leftChild = BinaryTree(newNode)
+        else:
+            t = BinaryTree(newNode)
+            t.leftChild = self.leftChild
+            self.leftChild = t
+
+    def insertRight(self,newNode):
+        if self.rightChild == None:
+            self.rightChild = BinaryTree(newNode)
+        else:
+            t = BinaryTree(newNode)
+            t.rightChild = self.rightChild
+            self.rightChild = t
+
+    def getRightChild(self):
+        return self.rightChild
+
+    def getLeftChild(self):
+        return self.leftChild
+
+    def setRootVal(self,obj):
+        self.key = obj
+
+    def getRootVal(self):
+        return self.key
+
+    def preorder(self):
+        print(self.key),
+        if self.leftChild:
+            self.leftChild.preorder()
+        if self.rightChild:
+            self.rightChild.preorder()
+
+    def inorder(self):
+        if self.leftChild:
+            self.leftChild.inorder()
+        print(self.key),
+        if self.rightChild:
+            self.rightChild.inorder()
+
+    def postorder(self):
+        if self.leftChild:
+            self.leftChild.postorder()
+        if self.rightChild:
+            self.rightChild.postorder()
+        print(self.key),
+
+
+if __name__ == '__main__':
+    
+    root = BinaryTree('g')
+    root.insertLeft('u')
+    root.insertRight('o')
+    
+    subtree_left = root.getLeftChild()
+    subtree_left.insertLeft('i')
+    subtree_left.insertRight('d')
+    
+    subtree_right = root.getRightChild()
+    subtree_right.insertLeft('p')
+    subtree_right.insertRight('y')
+
+    #############################
+    #             g             #
+    #         ____|____         #
+    #         u       o         #
+    #       __|__   __|__       #
+    #       i   d   p   y       #
+    #############################
+
+    print '\n Pre Order ==>\t ',
+    root.preorder()
+    print '\n  In Order ==>\t ',
+    root.inorder()
+    print '\nPost Order ==>\t ',
+    root.postorder()
+
+
+
+
+{% endhighlight python %}
+
+
 ---
 
 {:.gray}
