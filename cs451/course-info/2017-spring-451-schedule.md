@@ -7,11 +7,42 @@ parent_course: 451
 
 **Spring 2017 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8), [9](#week-9), [11](#week-11), [12](#week-12), [13](#week-13)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8), [9](#week-9), [11](#week-11), [12](#week-12), [13](#week-13), [14](#week-14)
 
 ---
 
-{:.green}
+{:id="week-14" .green}
+## 2017-04-18 Week 14
+
+### Low Level Design/New Project Assignments
+
+#### Readings
+- **Chapter 6** ==> BSE
+
+#### Topics
+- web application framework (models, views, templates, controllers)
+- building on frameworks (inheritance, overriding superclasses)
+
+#### Case Study: (Part 4) GroceryGetter Programming with Django Web Application Framework
+- reclone or pull ==> [https://github.com/rmedinahu/grocery-dev-py.git](https://github.com/rmedinahu/grocery-dev-py.git)
+- more complex url parameters
+- regex examples ([see complete docs](https://docs.python.org/2/library/re.html#regular-expression-syntax){:target="_blank"})
+	
+> -\w+ (matches one or more alphanumerics including the dash)
+
+> \d+ (matches one or more digits)
+
+- reading url parameters in views
+- more on forms
+
+#### Projects:
+- review current status of projects
+- discuss next development phase
+- project managers make new assignments
+
+---
+
+{:id="week-13" .gray}
 ## 2017-04-11 Week 13
 
 ### Low Level Design/Start Projects
@@ -50,7 +81,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 
 ---
 
-{:.gray}
+{:id="week-12" .gray}
 ## 2017-04-04 Week 12
 
 ### High Level Design
@@ -70,7 +101,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 
 ---
 
-{:.gray}
+{:id="week-11" .gray}
 ## 2017-03-28 Week 11
 
 ### High Level Design: System Architecture
@@ -171,7 +202,7 @@ ACTIVITY DIAGRAM SKETCH EXAMPLE *creating a shopping list*
 
 ---
 
-{:.gray}
+{:id="week-9" .gray}
 ## 2017-03-13 Week 9
 
 > Midterm Exam Thursday 11 - 12:15
@@ -213,7 +244,7 @@ ACTIVITY DIAGRAM SKETCH EXAMPLE *creating a shopping list*
 
 ---
 
-{:.gray}
+{:id="week-8" .gray}
 ## 2017-03-07 Week 8 
 
 ### Requirements
@@ -304,7 +335,7 @@ ACTIVITY DIAGRAM SKETCH EXAMPLE *creating a shopping list*
 
 ---
 
-{:.gray}
+{:id="week-7" .gray}
 ## 2017-02-28 Week 7 
 
 ### Frameworks & Project Management
@@ -321,7 +352,7 @@ ACTIVITY DIAGRAM SKETCH EXAMPLE *creating a shopping list*
 
 ---
 
-{:.gray}
+{:id="week-6" .gray}
 ## 2017-02-21 Week 6 
 
 ### Frameworks & Project Management
@@ -370,7 +401,7 @@ def get_random_nickname():
 
 ---
 
-{:.gray}
+{:id="week-5" .gray}
 ## 2017-02-14 Week 5 
 
 > [Homework 4 assigned](/451/hw4)
@@ -468,7 +499,7 @@ def get_random_nickname():
 
 ---
 
-{:.gray}
+{:id="week-4" .gray}
 ## 2017-02-07 Week 4 
 
 > [Homework 2 assigned](/451/hw2)
@@ -512,7 +543,7 @@ development of the system that enable an external developer to understand and en
 
 ---
 
-{:.gray}
+{:id="week-3" .gray}
 ## 2017-01-31 Week 3 
 
 ### Modern Software Development/Git Preliminaries
@@ -572,7 +603,7 @@ if __name__ == "__main__":
 
 ---
 
-{:.gray}
+{:id="week-2" .gray}
 ## 2017-01-24 Week 2 
 
 ### Philosophy of Open Source Software Development
@@ -610,7 +641,7 @@ if __name__ == "__main__":
 
 ---
 
-{:.gray}
+{:id="week-1" .gray}
 ## 2017-01-19 Week 1 
 
 ### Introduction
