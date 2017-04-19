@@ -31,27 +31,19 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 {% highlight python %}
 
 class DataSet:
-    """A simple demonstration for adding an ITERATOR to a class."""
 
     def __init__(self, data=[]):
         self.data = data
 
-    def __iter__(self):  # Set up the iterator cursor
-        self.curr = 0
-        return self
+    def __iter__(self):
+        for i in self.data:
+            yield i
 
-    def next(self):  # method called accessed in for loop.
-        if self.curr >= len(self.data):
-            raise StopIteration
-
-        i = self.curr
-        self.curr += 1
-        return self.data[i]
 
 if __name__ == '__main__':
     d = DataSet([2, 3, 5, 7, 8])
-    for i in d:  # This is made possible because of __iter__ and next() functions in the DataSet class
-        print i
+    for i in d:
+        print i,
 
 {% endhighlight python %}
 
