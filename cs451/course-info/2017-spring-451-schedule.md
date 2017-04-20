@@ -18,6 +18,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 
 #### Readings
 - **Chapter 6** ==> BSE
+- [Explanation of django generics](https://ccbv.co.uk/)
 
 #### Topics
 - web application framework (models, views, templates, controllers)
@@ -34,7 +35,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 > \d+ (matches one or more digits)
 
 - reading url parameters in views
-- more on forms
+- more on forms and generics
 
 #### Projects:
 - review current status of projects
