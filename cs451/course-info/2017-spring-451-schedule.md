@@ -21,7 +21,8 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 
 #### Topics
 - web application framework (models, views, templates, controllers)
-- building on frameworks (inheritance, overriding superclasses)
+- building on frameworks
+- object oriented programming: ```polymorphism```, ```generics```, ```inheritance```, ```composition```, ```override```, ```overload```
 
 #### Case Study: (Part 4) GroceryGetter Programming with Django Web Application Framework
 - reclone or pull ==> [https://github.com/rmedinahu/grocery-dev-py.git](https://github.com/rmedinahu/grocery-dev-py.git)
