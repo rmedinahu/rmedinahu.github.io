@@ -7,11 +7,56 @@ parent_course: 431
 
 **Spring 2017 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8), [9](#week-9), [11](#week-11), [12](#week-12), [13](#week-13), [14](#week-14)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8), [9](#week-9), [11](#week-11), [12](#week-12), [13](#week-13), [14](#week-14), [15](#week-15)
 
 ---
 
-{:.green}
+{:id="week-15" .green}
+## 2017-04-24 Week 15
+
+### Application Programming Interfaces/Database Normalization
+
+#### Readings
+- **Chapter 6** ==> (DBI) Databases Illuminated
+- **POWERPOINT SLIDES** ==> [[Chapter 6]]({{ site.baseurl }}assets/cs431/9781284079050_SLID_CH06.ppt)
+- [Shorter Overview of DB Normalization]({{ site.baseurl }}assets/cs431/stephens-database-design-ch06-2015.pdf)
+- [db rankings](https://db-engines.com/en/ranking)
+
+#### Topics
+- application layer programming interfaces
+	- ```psycopg2``` (python api for ```postgresql```)
+	- ```mysql connector``` (python api for ```mysql```)
+	- Django programming api: ```querysets```
+- database design - normalization
+
+#### Case Study: API examples in Mysql and Postgresql
+- [mysql python connector](https://dev.mysql.com/doc/connector-python/en/connector-python-introduction.html)
+- [mysql connector example](https://dev.mysql.com/doc/connector-python/en/connector-python-example-cursor-select.html)
+
+{% highlight python %}
+import mysql.connector
+
+cnx = mysql.connector.connect(user='username', password='password', database='dbname')
+
+cursor = cnx.cursor()
+query = ("select * from users;")
+cursor.execute(query)
+
+# cursor contains an iterator of results
+for i in cursor:
+    print i
+{% endhighlight python %}
+
+- [psycopg2 connector](http://initd.org/psycopg/docs/)
+- [psycopg2 example](http://initd.org/psycopg/docs/usage.html)
+- [Django DB API](https://docs.djangoproject.com/en/1.11/ref/models/querysets/#queryset-api-reference)
+	- api is abstracted away from specific db
+	- api supports at least: sqlite, mysql, postgresql, oracle
+
+
+---
+
+{:id="week-14" .gray}
 ## 2017-04-17 Week 14
 
 ### SQL and Database Normalization
