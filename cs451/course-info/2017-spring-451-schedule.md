@@ -11,7 +11,18 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 
 ---
 
-{:id="week-14" .green}
+{:id="week-15" .green}
+## 2017-04-25 Week 15
+
+### Low Level Design/New Project Assignments
+
+#### Readings
+- **Chapter 6** ==> BSE
+- [design patterns - chapter 1]({{ site.baseurl }}assets/cs451/gamma-etal-ch-1.pdf)
+
+---
+
+{:id="week-14" .gray}
 ## 2017-04-18 Week 14
 
 ### Low Level Design/New Project Assignments
