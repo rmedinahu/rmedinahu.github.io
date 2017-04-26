@@ -14,6 +14,8 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 {:id="week-15" .green}
 ### 2017-04-24 Week 15
 
+> [Homework 12 assigned](/345/hw12)
+
 ### HashMaps
 
 #### Readings

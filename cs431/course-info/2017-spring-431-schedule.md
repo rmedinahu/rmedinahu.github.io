@@ -28,6 +28,14 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 	- ```mysql connector``` (python api for ```mysql```)
 	- Django programming api: ```querysets```
 - database design - normalization
+	- normalization: flexibility, extendibility, integrity constraints, reduce redundancy, storage and inconsistencies
+	- *anamolies* (insertion, update, deletion) lead to inconsistent databases
+	- *dependencies* (functional, multivalued, join)
+	- superkey -> candidate key -> primary key
+- 1NF - no multivalued attributes
+- 2NF - full functional dependency on primary key
+- 3NF - no transitive dependencies exist
+- BCNF - x --> a then x IS superkey (more strict)
 
 #### Case Study: API examples in Mysql and Postgresql
 - [mysql python connector](https://dev.mysql.com/doc/connector-python/en/connector-python-introduction.html)

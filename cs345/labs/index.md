@@ -5,6 +5,8 @@ permalink: /345/labs/
 parent_course: 345
 ---
 
+[Lab 12 2017-04-26](/345/lab12/) ==> Hash Set Table
+
 [Lab 11 2017-04-19](/345/lab11/) ==> Iterators and Breadth First Search 
 
 [Lab 10 2017-04-12](/345/lab10/) ==> Max Heap Priority Queue
