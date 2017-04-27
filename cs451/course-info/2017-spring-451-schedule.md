@@ -38,7 +38,7 @@ See: [Python C3](https://www.python.org/download/releases/2.3/mro/)
 
 ###### MRO for CreateView
 
-* ... from urls: *
+*... from urls*
 
 - ```as_view()```
 - ```dispatch()```
