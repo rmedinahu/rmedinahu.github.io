@@ -20,6 +20,38 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 - **Chapter 6** ==> BSE
 - [design patterns - chapter 1]({{ site.baseurl }}assets/cs451/gamma-etal-ch-1.pdf)
 
+#### Topics
+- Design Patterns
+	- Template (Generics), Adapter (Mixin)
+- Project Assignments
+
+#### Case Study: Django Generics (Template Design Pattern)
+- [Hierarchy of Django Generic Views](http://i.imgur.com/jMq2kkU.png)
+- [Django Generic Views](https://docs.djangoproject.com/en/1.11/ref/class-based-views/generic-editing/)
+- [CreateView Generic Inspector](https://ccbv.co.uk/projects/Django/1.10/django.views.generic.edit/CreateView/)
+
+##### CreateView: Sample MRO 
+
+> **Method Resolution Order (MRO)** *def. the order in which methods are overridden*
+
+See: [Python C3](https://www.python.org/download/releases/2.3/mro/)
+
+###### MRO for CreateView
+
+* ... from urls: *
+
+- ```as_view()```
+- ```dispatch()```
+- ```get()``` or```post()```
+	- ```get_context_data()```
+		- ```get_form()```
+			- ```get_form_class()```
+			- ```get_form_kwargs()```
+				- ```get_initial()```
+				- ```get_prefix()```
+- ```render_to_response()```
+
+
 ---
 
 {:id="week-14" .gray}
