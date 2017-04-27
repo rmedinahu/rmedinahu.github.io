@@ -29,11 +29,10 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 - [Hierarchy of Django Generic Views](http://i.imgur.com/jMq2kkU.png)
 - [Django Generic Views](https://docs.djangoproject.com/en/1.11/ref/class-based-views/generic-editing/)
 - [Django Class Based View Inspector](https://ccbv.co.uk/)
-
-###### MRO for CreateView
+ 
 **Method Resolution Order (MRO)** *def. the order in which methods are overridden.* See: [Python C3](https://www.python.org/download/releases/2.3/mro/)
 
-Follow along at the [CreateView class inspector](https://ccbv.co.uk/projects/Django/1.10/django.views.generic.edit/CreateView/)
+MRO for ```CreateView```: Follow along at the [CreateView class inspector](https://ccbv.co.uk/projects/Django/1.10/django.views.generic.edit/CreateView/)
 
 *... from urls*
 
@@ -47,7 +46,6 @@ Follow along at the [CreateView class inspector](https://ccbv.co.uk/projects/Dja
 				- ```get_initial()```
 				- ```get_prefix()```
 - ```render_to_response()```
-
 
 ---
 
