@@ -16,6 +16,8 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 
 ### Application Programming Interfaces/Database Normalization
 
+> ["Homework" 8 Normalization Self Study]({{ site.baseurl }}assets/cs431/normalization-study.pdf) (not to be turned in)
+
 #### Readings
 - **Chapter 6** ==> (DBI) Databases Illuminated
 - **POWERPOINT SLIDES** ==> [[Chapter 6]]({{ site.baseurl }}assets/cs431/9781284079050_SLID_CH06.ppt)
