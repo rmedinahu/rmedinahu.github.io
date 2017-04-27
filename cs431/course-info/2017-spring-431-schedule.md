@@ -125,7 +125,7 @@ create or replace view untaught_courses_view as
 
 ---
 
-{:.gray}
+{:id="week-13" .gray}
 ## 2017-04-10 Week 13
 
 ### SQL w/MySQL
@@ -140,7 +140,7 @@ create or replace view untaught_courses_view as
 
 ---
 
-{:.gray}
+{:id="week-12" .gray}
 ## 2017-04-03 Week 12
 
 > [homework 7 assigned](/431/hw7/)
@@ -201,7 +201,7 @@ create view if not exists enroll_avg_view as
 
 ---
 
-{:.gray}
+{:id="week-11" .gray}
 ## 2017-03-27 Week 11
 
 ### SQL
@@ -216,7 +216,7 @@ create view if not exists enroll_avg_view as
 
 ---
 
-{:.gray}
+{:id="week-9" .gray}
 ## 2017-03-13 Week 9
 
 > Midterm Exam Wednesday 11:00-12:15
@@ -260,7 +260,7 @@ create view if not exists enroll_avg_view as
 
 ---
 
-{:.gray}
+{:id="week-8" .gray}
 ## 2017-03-06 Week 8
 
 > [homework 6 assigned](/431/hw6/)
@@ -276,7 +276,7 @@ create view if not exists enroll_avg_view as
 
 ---
 
-{:.gray}
+{:id="week-7" .gray}
 ## 2017-02-27 Week 7 
 
 > [homework 5 assigned](/431/hw5/)
@@ -335,7 +335,7 @@ select cars.year, makes.make from cars inner join makes on makes.pk = cars.make;
 
 ---
 
-{:.gray}
+{:id="week-6" .gray}
 ## 2017-02-20 Week 6 
 
 ### Relational Model
@@ -391,7 +391,7 @@ rel = [i for i in sets if i[0] == 'ford' and i[2] == 2017]
 
 ---
 
-{:.gray}
+{:id="week-5" .gray}
 ## 2017-02-13 Week 5 
 
 ### Database Design/Relational Model: EE-R Modeling
@@ -416,7 +416,7 @@ rel = [i for i in sets if i[0] == 'ford' and i[2] == 2017]
 
 ---
 
-{:.gray}
+{:id="week-4" .gray}
 ## 2017-02-06 Week 4 
 
 ### Database Design: E-R and EE-R Diagrams
@@ -443,7 +443,7 @@ rel = [i for i in sets if i[0] == 'ford' and i[2] == 2017]
 
 ---
 
-{:.gray}
+{:id="week-3" .gray}
 ## 2017-01-30 Week 3 
 
 > [homework 3 assigned](/431/hw3/)
@@ -462,7 +462,7 @@ rel = [i for i in sets if i[0] == 'ford' and i[2] == 2017]
 
 ---
 
-{:.gray}
+{:id="week-2" .gray}
 ## 2017-01-23 Week 2 
 
 > [homework 2 assigned](/431/hw2/)
@@ -479,7 +479,7 @@ rel = [i for i in sets if i[0] == 'ford' and i[2] == 2017]
 
 ---
 
-{:.gray}
+{:id="week-1" .gray}
 ## 2017-01-18 Week 1 
 
 > [homework 1 assigned](/431/hw1/)
