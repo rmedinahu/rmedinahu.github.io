@@ -5,15 +5,15 @@ permalink: /345/hw/
 parent_course: 345
 ---
 
-[Homework 12: Hash Set Table ](/345/hw12)
+[Homework 12: Hash Set Table ](/345/hw12) 
 
-[Homework 11: Iterators and Breadth First Search ](/345/hw11)
+[Homework 11: Iterators and Breadth First Search ](/345/hw11) **has solution**
 
-[Homework 10: Max Heap Priority Queue](/345/hw10)
+[Homework 10: Max Heap Priority Queue](/345/hw10) **has solution**
 
-[Homework 9: Benchmarking Iteration](/345/hw9)
+[Homework 9: Benchmarking Iteration](/345/hw9) **has solution**
 
-\*  [Homework 8: Circular Queue as Linked List](/345/hw8)
+\*  [Homework 8: Circular Queue as Linked List](/345/hw8) **has solution**
 
 \*  [Homework 7: Recursion (again), Unit Testing, & ArrayStack](/345/hw7) **has solution** 
 
