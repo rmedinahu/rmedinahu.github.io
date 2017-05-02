@@ -7,11 +7,25 @@ parent_course: 451
 
 **Spring 2017 Schedule of Topics**
 
-Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8), [9](#week-9), [11](#week-11), [12](#week-12), [13](#week-13), [14](#week-14)
+Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](#week-5), [6](#week-6), [7](#week-7), [8](#week-8), [9](#week-9), [11](#week-11), [12](#week-12), [13](#week-13), [14](#week-14), [15](#week-15), [16](#week-16)
 
 ---
 
-{:id="week-15" .green}
+{:id="week-16" .green}
+## 2017-05-02 Week 16
+
+### Project Assignments/Management/Course Review
+
+#### Readings
+- **Chapter 6** ==> BSE
+
+#### Topics
+- Project Assignments/Work
+- Course review
+
+---
+
+{:id="week-15" .gray}
 ## 2017-04-25 Week 15
 
 ### Low Level Design/New Project Assignments
