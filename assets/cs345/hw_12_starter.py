@@ -11,7 +11,7 @@ class HashSetTbl:
         each bucket contains zero or more unique values.
         def. This class maintains a set property (all unique values)
         """
-        self.bucket_list = [ [] ] * 10 
+        self.bucket_list = [ [] for i in range(10)] 
 
     def __getitem__(self, v):
         """override retrieval to support syntax: tblobject['red'] 
