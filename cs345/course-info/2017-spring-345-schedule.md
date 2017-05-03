@@ -14,16 +14,17 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 {:id="week-16" .green}
 ### 2017-05-01 Week 16
 
+> [Final Exam Review](/345/final-review/)
+
 ### Course Review
 
 #### Readings
 
 #### Topics
-- 
 
 ---
 
-{:id="week-15" .gray}
+{:id="week-15"  .gray}
 ### 2017-04-24 Week 15
 
 > [Homework 12 assigned](/345/hw12)
@@ -40,7 +41,7 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 
 ---
 
-{:id="week-14" .gray}
+{:id="week-14"  .gray}
 ### 2017-04-17 Week 14
 
 ### Trees
@@ -177,7 +178,7 @@ if __name__ == '__main__':
 
 ---
 
-{:id="week-13".gray}
+{:id="week-13" .gray}
 ### 2017-04-10 Week 13
 
 > [Homework 10 assigned](/345/hw10/)
@@ -195,7 +196,7 @@ if __name__ == '__main__':
 
 ---
 
-{:id="week-12".gray}
+{:id="week-12" .gray}
 ### 2017-04-03 Week 12
 
 > [Homework 9 assigned](/345/hw9/)
@@ -216,14 +217,14 @@ if __name__ == '__main__':
 
 ---
 
-{:id="week-11".gray}
+{:id="week-11" .gray}
 ### 2017-03-27 Week 11
 
 ### Midterm Results Review/Midterm Redux
 
 ---
 
-{:id="week-9".gray}
+{:id="week-9" .gray}
 ### 2017-03-13 Week 9
 
 > Midterm Exam Wednesday 12:30-1:45
@@ -278,7 +279,7 @@ if __name__ == '__main__':
 
 ---
 
-{:id="week-8".gray}
+{:id="week-8" .gray}
 ### 2017-03-06 Week 8
 
 > [Homework 8 assigned](/345/hw8/)
@@ -297,7 +298,7 @@ if __name__ == '__main__':
 ---
 
 
-{:id="week-7".gray}
+{:id="week-7" .gray}
 ### 2017-02-27 Week 7 
 
 > [Homework 7 assigned](/345/hw7/)
@@ -317,7 +318,7 @@ if __name__ == '__main__':
 
 ---
 
-{:id="week-6".gray}
+{:id="week-6" .gray}
 ### 2017-02-20 Week 6 
 
 > [Homework 6 assigned](/345/hw6/)
@@ -338,7 +339,7 @@ if __name__ == '__main__':
 
 ---
 
-{:id="week-5".gray}
+{:id="week-5" .gray}
 ### 2017-02-13 Week 5 
 
 > [Homework 5 assigned](/345/hw5/)
@@ -357,7 +358,7 @@ if __name__ == '__main__':
 
 ---
 
-{:id="week-4".gray}
+{:id="week-4" .gray}
 ### 2017-02-06 Week 4 
 
 > [Homework 4 assigned](/345/hw4/)
@@ -374,7 +375,7 @@ if __name__ == '__main__':
 
 ---
 
-{:id="week-3".gray}
+{:id="week-3" .gray}
 ### 2017-01-30 Week 3 
 
 > [Homework 3 assigned](/345/hw3/)
@@ -392,7 +393,7 @@ if __name__ == '__main__':
 
 ---
 
-{:id="week-2".gray}
+{:id="week-2" .gray}
 ### 2017-01-23 Week 2 
 
 #### Readings
@@ -424,7 +425,7 @@ if __name__ == '__main__':
 
 ---
 
-{:id="week-1".gray}
+{:id="week-1" .gray}
 ### 2017-01-18 Week 1 
 
 #### Readings

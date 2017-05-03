@@ -9,9 +9,9 @@ description: Data & File Structures
 
 > [DSAP Student Resources (browse to relevant chapter)](http://bcs.wiley.com/he-bcs/Books?action=index&bcsId=8029&itemId=1118290275)
 
-> [Most Promising Jobs of 2017](https://blog.linkedin.com/2017/january/20/linkedin-data-reveals-the-most-promising-jobs-of-2017?trk=li_corpblog_namer_careers_bestjobs_content&utm_campaign=bestjobs&utm_source=email&utm_content=content)
 
-## Midterm review on schedule page.
+> [Final Exam Review](/345/final-review/)
+
 
 [Schedule](/345/schedule/) (weekly topics, assigned reading, lecture notes)
 
