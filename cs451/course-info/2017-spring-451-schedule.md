@@ -14,6 +14,8 @@ Jump to week[n] ==> [1](#week-1), [2](#week-2), [3](#week-3), [4](#week-4), [5](
 {:id="week-16" .green}
 ## 2017-05-02 Week 16
 
+> [Final Review](/451/final-review/)
+
 ### Project Assignments/Management/Course Review
 
 #### Readings
