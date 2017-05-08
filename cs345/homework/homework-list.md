@@ -5,7 +5,7 @@ permalink: /345/hw/
 parent_course: 345
 ---
 
-[Homework 12: Hash Set Table ](/345/hw12) 
+\*  [Homework 12: Hash Set Table ](/345/hw12) **has solution**
 
 \*  [Homework 11: Iterators and Breadth First Search ](/345/hw11) **has solution**
 

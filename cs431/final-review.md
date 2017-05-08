@@ -64,8 +64,8 @@ parent_course: 431
 	- [Stephens' normalization example]({{ site.baseurl }}assets/cs431/stephens-database-design-ch06-2015.pdf)
 	- [normalization example]({{ site.baseurl }}assets/cs431/normalization-study.pdf)
 - DB Normalization:
-	- why and when? (to eliminate anamolies, normalization conducted during design)
-	- be able to recognize and provide examples of ```insert```, ```update```, and ```delete``` anamolies
+	- why and when? (to eliminate anomalies, normalization conducted during design)
+	- be able to recognize and provide examples of ```insert```, ```update```, and ```delete``` anomalies
 - Normal Forms
 	- be able to assess whether a table is in ```1NF```, ```2NF```, or ```3NF```
 	- be able to identify actions to put a table in ```1NF```, ```2NF```, or ```3NF``` 
